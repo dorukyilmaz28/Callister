@@ -6,7 +6,7 @@ import projectsData from '@/data/projects.json'
 
 export default function ProjectsPage() {
   const [selectedCategory, setSelectedCategory] = useState('Tümü')
-  const [modalProject, setModalProject] = useState(null)
+  const [modalProject, setModalProject] = useState<any>(null)
 
   const filteredProjects = selectedCategory === 'Tümü' 
     ? projectsData.projects 
