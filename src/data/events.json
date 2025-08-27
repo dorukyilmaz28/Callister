@@ -1,0 +1,53 @@
+{
+  "upcoming": [
+    {
+      "id": 1,
+      "title": "FRC 2026 AGE/REBUILT Sezonu Duyurusu",
+      "date": "2026-03-03",
+      "location": "İstanbul & Ankara",
+      "description": "Türkiye'deki FIRST®️ AGE/REBUILT yarışma sezonu! İstanbul'da 6, Ankara'da 2 etkinlik. Başakşehir Spor Salonu ve Türkiye Atletizm Federasyonu Atletizm Salonu'nda gerçekleşecek.",
+      "type": "Competition",
+      "status": "Upcoming",
+      "details": "İstanbul Regional (3-5 Mart), Bosphorus Regional (6-8 Mart), Yeditepe Regional (9-11 Mart), Haliç Regional (25-27 Mart), Marmara Regional (28-30 Mart), Avrasya Regional (31 Mart-2 Nisan), Ankara Regional (7-9 Nisan), Başkent Regional (10-12 Nisan)"
+    }
+  ],
+  "past": [
+    {
+      "id": 2,
+      "title": "Takım Kuruluşu",
+      "date": "2022-05-19",
+      "location": "İstanbul",
+      "description": "Callister #9024 FRC takımı kuruldu.",
+      "type": "Foundation",
+      "status": "Completed",
+      "result": "Kuruluş"
+    }
+  ],
+  "types": [
+    {
+      "name": "Competition",
+      "color": "bg-red-500",
+      "icon": "🏆"
+    },
+    {
+      "name": "Festival",
+      "color": "bg-blue-500",
+      "icon": "🎪"
+    },
+    {
+      "name": "Project",
+      "color": "bg-green-500",
+      "icon": "📋"
+    },
+    {
+      "name": "Webinar",
+      "color": "bg-purple-500",
+      "icon": "💻"
+    },
+    {
+      "name": "Foundation",
+      "color": "bg-yellow-500",
+      "icon": "🏗️"
+    }
+  ]
+} 

@@ -1,0 +1,163 @@
+﻿{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Pencere",
+      "description": "Köy okullarında EV3 eğitimi projesi. Öğrencilere robotik ve kodlama becerileri kazandırıyoruz.",
+      "image": "/images/projects/pencere.jpg",
+      "category": "Eğitim",
+      "year": "2023",
+      "status": "Devam Ediyor",
+      "details": "Pencere projesi kapsamında 2 köy okulunu ziyaret edip öğrencilere STEAM ve EV3 eğitimi verdik. Amacımız; çocuklara yeni deneyimlerle buluşma fırsatı tanıyarak yaratıcılıklarını, problem çözme becerilerini ve teknoloji ile ilişkilerini geliştirmekti. Eğitimlerimizin ardından düzenlediğimiz yarışmada çocukları, legolardan oluşturdukları robotları \"resim çizme\" ve \"müzik çalma\" özelliklerine göre programlamalarına yardım ettik. Böylece, teknik alanların yanı sıra sanatsal yönlerini keşfetmelerine olanak sağlayarak çocukların çok yönlü gelişimine katkıda bulunmayı hedefledik.",
+      "images": ["/images/projects/pencere1.png", "/images/projects/pencere2.png"]
+    },
+    {
+      "id": 2,
+      "title": "Sanatın Kadın Ruhu",
+      "description": "Kadın sanatçıların eserlerini tanıtan webinar serisi. Sanat ve teknolojiyi birleştiren etkinlikler.",
+      "image": "/images/projects/sanat-kadin.jpg",
+      "category": "Kültür",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Sanatın Kadın Ruhu isimli webinar serimizde amacımız: Kadının sanattaki rolüne ve icraatlarına değinmek, sanattaki kadın erkek eşitsizliğine dikkat çekmek ve bunların yanında katılan konuklarımızı daha yakından tanıyarak onlara sorular sorarak bir söyleşi yapmaktır. FRC'nin robot yapmaktan daha fazlası olduğunu, sanatın da hayatın bir parçası olduğunun altını çiziyor ve kadının sanattaki başarısına yakından şahit olacağımız bu projeyi \"Kadınsız toplum, yarınsız toplumdur.\" diyerek başlatıyoruz.",
+      "images": ["/images/projects/sanat-kadin1.png", "/images/projects/sanat-kadin2.png"]
+    },
+    {
+      "id": 3,
+      "title": "Güçlü Kadınlar, Güçlü Yarınlar",
+      "description": "KEV işbirliği ile kadınların güçlendirilmesi projesi. STEM alanlarında kadın katılımını artırıyoruz.",
+      "image": "/images/projects/guclu-kadinlar.jpg",
+      "category": "Sosyal",
+      "year": "2023",
+      "status": "Devam Ediyor",
+      "details": "KEV ile işbirliği yaparak kadınların STEM alanlarında daha aktif rol almasını sağlayan projeler geliştiriyoruz.",
+      "images": []
+    },
+    {
+      "id": 4,
+      "title": "Kaplumbağa Müzesi",
+      "description": "Deniz kaplumbağalarının korunması için farkındalık yaratan dijital müze projesi.",
+      "image": "/images/projects/kaplumbaga.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Bu proje kapsamında okulumuzu ziyarete gelen 8. sınıf öğrencilerini ağırladık. Geçtiğimiz aylarda İztuzu Plajı'na giderek DEKAMER'i ziyaret etmemiz, bizde farkındalık yaratmak için başka neler yapabiliriz diye düşünmemizi sağladı ve okulumuzda \"Kaplumbağa Müzesi\" ismini verdiğimiz bir sergi oluşturarak Caretta Caretta'ların yumurtadan çıkıp erişkin safhaya ulaşıncaya dek olan hayat serüvenlerini sergiledik. Bu müzenin de temel amacı olan nesli tükenme tehlikesi altındaki Deniz Kaplumbağası türüne dikkat çekmek ve bilinç oluşturmak maksadıyla giriştiğimiz bu projemizde alınması gereken önlemler, izlenmesi gereken yol haritalarını sunumumuzda detaylıca anlattık ve bu proje sonucunda okulumuza gelen öğrencilere farkındalık yarattık.",
+      "images": ["/images/projects/kaplumbaga1.png", "/images/projects/kaplumbaga2.png"]
+    },
+    {
+      "id": 5,
+      "title": "İztuzu Projesi",
+      "description": "WWF korumasında olan Deniz Kaplumbağaları Araştırma Kurtarma ve Rehabilitasyon Merkezi ziyaret projesi.",
+      "image": "/images/projects/iztuzu.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "WWF korumasında olan Deniz Kaplumbağaları Araştırma Kurtarma ve Rehabilitasyon Merkezi'ni ziyaret ettik. Burada deniz kaplumbağaları hakkında yeni bilgiler öğrendik ve yaralanmış kaplumbağaların tedavisine yardımcı olduk. Ayrıca hediyelik eşyalar alarak maddi açıdan da destek verdik. Önümüzdeki sezon içerisinde birlikte gerçekleştireceğimiz projelerde bizim ufkumuzu açan ve çevre hakkında bilincimizi arttıran bir gezi oldu.",
+      "images": ["/images/projects/iztuzu1.png", "/images/projects/iztuzu2.png"]
+    },
+    {
+      "id": 6,
+      "title": "Eco Footprint",
+      "description": "Karbon ayak izini azaltmaya yönelik sürdürülebilir yaşam projesi.",
+      "image": "/images/projects/eco-footprint.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Takım olarak sezon boyu sürdürmeyi hedeflediğimiz \"Eco Footprint\" isminde karbon ayak izini azaltmaya yönelik bu proje kapsamında Süreyya Plajı'na giderek yerlere atılmış büyükten küçüğe tüm çöpleri toplamaya çalıştık, toplumun karbon ayak izi hakkında ne kadar bilgili olduğunu öğrenmek ve farkındalık yaratmak için öğretici röportajlar gerçekleştirdik. Bir seri haline getirdiğimiz çöp toplama etkinliklerimizin bir yenisini İztuzu Plajı'nda gerçekleştirdik. Kıyıya vurmuş çoğu çöpü topladık. Bunların yanında Kocaeli Kongre Merkezi'nde düzenlenen Karbon Ayak İzi ve Biz Konferansına katıldık. Bu konferansta sosyal sorumluluk projelerimizi, robotumuzu ve FRC'yi tanıtma fırsatı bulduk. Ayrıca karbon ayak izi hakkında yeni bilgiler öğrendik.",
+      "images": ["/images/projects/eco-footprint1.png", "/images/projects/eco-footprint2.png"]
+    },
+    {
+      "id": 7,
+      "title": "Mini Brick Symphony",
+      "description": "LEGO ile müzik yapma projesi. Teknoloji ve sanatı birleştiren yenilikçi yaklaşım.",
+      "image": "/images/projects/mini-brick.jpg",
+      "category": "Teknoloji",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Pencere projemiz kapsamında kardeş takımımız Archers ile düzenlediğimiz Mini Brick Symphony yarışmamızda EV3 eğitimi verdiğimiz 5 köy ilkokullarındaki 200 öğrenciyi bir araya getirerek yarışma deneyimini tatmalarını sağladık.",
+      "images": ["/images/projects/mini-brick1.png", "/images/projects/mini-brick2.png"]
+    },
+    {
+      "id": 8,
+      "title": "İklim Müzesi",
+      "description": "İklim değişikliği konusunda farkındalık yaratan dijital müze projesi.",
+      "image": "/images/projects/iklim-muzesi.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Devam Ediyor",
+      "details": "İklim müzesi, okulumuzu gezmeye gelen 8. sınıf öğrencilerine iklim krizinin önemini ve bu konuda yapılması gerekenleri anlattığımız ayrıca orada geçirdikleri süre boyunca eğlenirken öğrenmelerini hedeflediğimiz bir projedir. Müze, resim öğretmenlerimiz eşliğinde takım üyelerimiz tarafından yapılmıştır. Bunun yanı sıra müze içerisinde yaptığımız sunumlar ve çocuklara oynattığımız Kahoot da bizler tarafından hazırlanmıştır.",
+      "images": ["/images/projects/iklim-muzesi1.png", "/images/projects/iklim-muzesi2.png"]
+    },
+    {
+      "id": 9,
+      "title": "Yeni Erişim Simgesi",
+      "description": "Engelli bireyler için erişilebilir teknoloji çözümleri geliştiren proje.",
+      "image": "/images/projects/erisim-simgesi.jpg",
+      "category": "Sosyal",
+      "year": "2023",
+      "status": "Devam Ediyor",
+      "details": "Engelli bireyler için kullanılan durağan erişim simgesi, bireyin aktif olarak hayata katkı sağladığı yeni erişim simgesi ile yer değiştirmiştir. Bu değişimin amacı, engelli hakları konusunda sürdürülebilir bir dönüşüm başlatmaktır. Bizim amacımız ise Türkiye'deki farkındalığı bu erişim simgesi ile arttırarak engelli bireylerin hayattaki aktif rolüne dikkat çekmektir.",
+      "images": ["/images/projects/erisim-simgesi1.png", "/images/projects/erisim-simgesi2.png"]
+    },
+    {
+      "id": 10,
+      "title": "Ecoquake",
+      "description": "Deprem erken uyarı sistemi geliştiren çevre teknolojisi projesi.",
+      "image": "/images/projects/ecoquake.jpg",
+      "category": "Teknoloji",
+      "year": "2023",
+      "status": "Geliştirme Aşamasında",
+      "details": "Deprem, günümüzün büyük bir sorunudur. Öyle ki birçok can ve mal kaybına sebebiyet vermekte aynı zamanda ülke ekonomisini de kötü etkilemektir. Ecoquake'in amacı sürdürülebilir kalkınma hedeflerinden bazılarını 9 hedefi, 9 video ve 9 postta ele alarak toplumdaki deprem bilincini arttırmayı amaçlamaktadır.",
+      "images": ["/images/projects/ecoquake1.png"]
+    },
+    {
+      "id": 11,
+      "title": "Balçık Köy Okulu 19 Mayıs Kütüphanesi",
+      "description": "Köy okulunda kütüphane inşa etme ve öğrencilere eğitim verme projesi.",
+      "image": "/images/projects/balcik-kutuphane.jpg",
+      "category": "Eğitim",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Okulumuzda düzenlediğimiz kermesler sonucunda toplanan paralar ve okul aile birliğinin destekleri ile Gebze Balçık Köyü okulunda erken yaşta kitaplarla tanışmış, okuyan ve hayal gücü geniş bireylerin topluma kazandırılması için imkanı olmayan köy okuluna sıfırdan kütüphane inşa ettik. Takımızdaki öğrencilerin ve diğer takımların desteği ile oluşturduğumuz kütüphanenin içerisinde okunmayı bekleyen 1000 kitap mevcut. 19 Mayıs günü kütüphane açılışı ile beraber köy okulundaki öğrencilere FRC'yi tanıtıp, maçlarını seyrettirdik. Aynı zamanda ortaokul öğrencilere EV3, ilkokul öğrencilere de WeDo 2.0 eğitimleri vererek onları daha önce hiç tatmadıkları deneyimlerde bulundurduk.",
+      "images": ["/images/projects/balcik-kutuphane1.png", "/images/projects/balcik-kutuphane2.png"]
+    },
+    {
+      "id": 12,
+      "title": "Save The Blue",
+      "description": "Okyanus kirliliği ile mücadele eden çevre koruma projesi. Deniz yaşamını koruyoruz.",
+      "image": "/images/projects/save-blue.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Devam Ediyor",
+      "details": "Okyanus kirliliği konusunda farkındalık yaratan ve çözüm önerileri sunan bir proje geliştirdik.",
+      "images": []
+    }
+  ],
+  "categories": [
+    {
+      "name": "Eğitim",
+      "color": "bg-blue-500",
+      "count": 2
+    },
+    {
+      "name": "Çevre",
+      "color": "bg-green-500",
+      "count": 5
+    },
+    {
+      "name": "Sosyal",
+      "color": "bg-purple-500",
+      "count": 2
+    },
+    {
+      "name": "Teknoloji",
+      "color": "bg-yellow-500",
+      "count": 2
+    },
+    {
+      "name": "Kültür",
+      "color": "bg-red-500",
+      "count": 1
+    }
+  ]
+}

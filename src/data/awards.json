@@ -1,0 +1,55 @@
+{
+  "awards": [
+    {
+      "id": 1,
+      "name": "Highest Rookie Seed Award",
+      "description": "Rookie takımlar arasında en yüksek sıralama ödülü",
+      "year": "2023",
+      "competition": "FRC 2023",
+      "icon": "🥇",
+      "color": "bg-yellow-500"
+    },
+    {
+      "id": 2,
+      "name": "Judges' Award",
+      "description": "Jüri tarafından verilen özel ödül",
+      "year": "2023",
+      "competition": "FRC 2023",
+      "icon": "🏆",
+      "color": "bg-purple-500"
+    },
+    {
+      "id": 3,
+      "name": "Rookie Inspiration Award",
+      "description": "Rookie takımlar için ilham verici ödül",
+      "year": "2023",
+      "competition": "FRC 2023",
+      "icon": "💡",
+      "color": "bg-blue-500"
+    },
+    {
+      "id": 4,
+      "name": "Rookie All-Star Award",
+      "description": "Rookie takımlar için en prestijli ödül",
+      "year": "2023",
+      "competition": "FRC 2023",
+      "icon": "⭐",
+      "color": "bg-red-500"
+    },
+    {
+      "id": 5,
+      "name": "Gracious Professionalism Award",
+      "description": "Profesyonel davranış ve işbirliği ödülü",
+      "year": "2023",
+      "competition": "FRC 2023",
+      "icon": "🤝",
+      "color": "bg-green-500"
+    }
+  ],
+  "statistics": {
+    "totalAwards": 5,
+    "firstYear": 2023,
+    "competitions": 1,
+    "rookieYear": true
+  }
+} 

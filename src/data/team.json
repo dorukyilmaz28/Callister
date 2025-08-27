@@ -1,0 +1,207 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Cem Durak",
+      "role": "Mentor",
+      "department": "Mentor",
+      "image": "/images/team/mentor.jpg",
+      "description": "Takım mentoru ve teknik danışman."
+    },
+    {
+      "id": 2,
+      "name": "Doruk Yılmaz",
+      "role": "Yazılım Geliştirici ve Takım Kaptanı",
+      "department": "Yazılım",
+      "image": "/images/team/doruk.jpg",
+      "description": "Takım kaptanı ve yazılım geliştirme ekibinin lideri."
+    },
+    {
+      "id": 3,
+      "name": "Batuhan Melik Gültekin",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/batuhan.jpg",
+      "description": "Robot mekanik tasarımı ve üretim süreçlerinden sorumlu."
+    },
+    {
+      "id": 4,
+      "name": "Benan Beltir",
+      "role": "Takım Kaptanı ve Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/benan.jpg",
+      "description": "Takım kaptanı ve mekanik sistemlerden sorumlu."
+    },
+    {
+      "id": 5,
+      "name": "Beril Çetin",
+      "role": "Sosyal Medya Sorumlusu",
+      "department": "Medya",
+      "image": "/images/team/beril.jpg",
+      "description": "Sosyal medya yönetimi ve içerik üretimi."
+    },
+    {
+      "id": 6,
+      "name": "Demir Sanğu",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/demir-san.jpg",
+      "description": "Robot montajı ve mekanik sistemler."
+    },
+    {
+      "id": 7,
+      "name": "Demir Bostancı",
+      "role": "Takım Kaptanı ve Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/demir-bos.jpg",
+      "description": "Takım kaptanı ve mekanik sistemlerden sorumlu."
+    },
+    {
+      "id": 8,
+      "name": "Dora Revna Adlı",
+      "role": "Sosyal Medya Sorumlusu",
+      "department": "Medya",
+      "image": "/images/team/dora.jpg",
+      "description": "Sosyal medya yönetimi ve içerik üretimi."
+    },
+    {
+      "id": 9,
+      "name": "Zeynep Kabapelit",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/zeynep-kaba.jpg",
+      "description": "Robot mekanik tasarımı ve üretim süreçlerinden sorumlu."
+    },
+    {
+      "id": 10,
+      "name": "Yusuf Mete",
+      "role": "Yazılım Geliştirici",
+      "department": "Yazılım",
+      "image": "/images/team/yusuf.jpg",
+      "description": "Robot kontrol sistemleri ve yazılım geliştirme."
+    },
+    {
+      "id": 11,
+      "name": "Naz Bağrıaçık",
+      "role": "Tasarım ve Yazılım Geliştirici",
+      "department": "Tasarım",
+      "image": "/images/team/naz.jpg",
+      "description": "Robot tasarımı ve yazılım geliştirme."
+    },
+    {
+      "id": 12,
+      "name": "Nil Bağrıaçık",
+      "role": "Yazılım Geliştirici",
+      "department": "Yazılım",
+      "image": "/images/team/nil.jpg",
+      "description": "Robot programlama ve yazılım geliştirme."
+    },
+    {
+      "id": 13,
+      "name": "Oğuzhan Nazlı",
+      "role": "Tasarımcı",
+      "department": "Tasarım",
+      "image": "/images/team/oguzhan.jpg",
+      "description": "Robot ve grafik tasarımı."
+    },
+    {
+      "id": 14,
+      "name": "Zeynep Sare Yıldırım",
+      "role": "Yazılım Geliştirici",
+      "department": "Yazılım",
+      "image": "/images/team/zeynep-sare.jpg",
+      "description": "Robot kontrol sistemleri ve yazılım geliştirme."
+    },
+    {
+      "id": 15,
+      "name": "Selin Arabacı",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/selin.jpg",
+      "description": "Robot mekanik tasarımı ve üretim süreçlerinden sorumlu."
+    },
+    {
+      "id": 16,
+      "name": "Doruk Şahin",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/doruk-sahin.jpg",
+      "description": "Robot montajı ve mekanik sistemler."
+    },
+    {
+      "id": 17,
+      "name": "Toprak Kütük",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/toprak.jpg",
+      "description": "Robot mekanik tasarımı ve üretim süreçlerinden sorumlu."
+    },
+    {
+      "id": 18,
+      "name": "Çağan Eymen Genç",
+      "role": "Yazılım Geliştirici",
+      "department": "Yazılım",
+      "image": "/images/team/cagan.jpg",
+      "description": "Robot kontrol sistemleri ve yazılım geliştirme."
+    },
+    {
+      "id": 19,
+      "name": "Mina Tuncel",
+      "role": "Tasarım",
+      "department": "Tasarım",
+      "image": "/images/team/mina.jpg",
+      "description": "Robot ve grafik tasarımı."
+    },
+    {
+      "id": 20,
+      "name": "Rüya Tandoğan",
+      "role": "Mekanik",
+      "department": "Mekanik",
+      "image": "/images/team/ruya.jpg",
+      "description": "Robot mekanik tasarımı ve üretim süreçlerinden sorumlu."
+    },
+    {
+      "id": 21,
+      "name": "Ilgın",
+      "role": "Sosyal Medya Sorumlusu",
+      "department": "Medya",
+      "image": "/images/team/ilgin.jpg",
+      "description": "Sosyal medya yönetimi ve içerik üretimi."
+    },
+    {
+      "id": 22,
+      "name": "Ilgaz Öztürk",
+      "role": "Tasarım",
+      "department": "Tasarım",
+      "image": "/images/team/ilgaz.jpg",
+      "description": "Robot ve grafik tasarımı."
+    }
+  ],
+  "departments": [
+    {
+      "name": "Mentor",
+      "description": "Takım mentoru",
+      "color": "bg-red-500"
+    },
+    {
+      "name": "Mekanik",
+      "description": "Robot tasarımı ve mekanik sistemler",
+      "color": "bg-blue-500"
+    },
+    {
+      "name": "Yazılım",
+      "description": "Robot programlama ve yazılım geliştirme",
+      "color": "bg-green-500"
+    },
+    {
+      "name": "Tasarım",
+      "description": "Robot ve grafik tasarımı",
+      "color": "bg-purple-500"
+    },
+    {
+      "name": "Medya",
+      "description": "Sosyal medya ve içerik üretimi",
+      "color": "bg-yellow-500"
+    }
+  ]
+} 
