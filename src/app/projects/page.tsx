@@ -85,7 +85,7 @@ export default function ProjectsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               {/* Fotoğraf alanları */}
               {modalProject.images && modalProject.images.length > 0 ? (
-                modalProject.images.slice(0,2).map((img, idx) => (
+                modalProject.images.slice(0,2).map((img: string, idx: number) => (
                   <div key={idx} className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20 overflow-hidden">
                     <img src={img} alt="Proje görseli" className="object-cover w-full h-full rounded" />
                   </div>
