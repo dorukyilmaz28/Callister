@@ -5,7 +5,7 @@ import eventsData from '@/data/events.json'
 import { Calendar, MapPin, X } from 'lucide-react'
 
 export default function EventsPage() {
-  const [modalEvent, setModalEvent] = useState(null)
+  const [modalEvent, setModalEvent] = useState<any>(null)
 
   return (
     <div className="min-h-screen py-20 relative overflow-hidden">
