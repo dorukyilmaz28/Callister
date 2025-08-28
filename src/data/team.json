@@ -2,7 +2,7 @@
   "members": [
     {
       "id": 1,
-      "name": "Cem Durak",
+      "name": "Cem D.",
       "role": "Mentor",
       "department": "Mentor",
       "image": "/images/team/mentor.jpg",
@@ -10,15 +10,15 @@
     },
     {
       "id": 2,
-      "name": "Doruk Yılmaz",
+      "name": "Doruk Y.",
       "role": "Yazılım Geliştirici ve Takım Kaptanı",
       "department": "Yazılım",
       "image": "/images/team/doruk.jpg",
-      "description": "Takım kaptanı ve yazılım geliştirme ekibinin lideri."
+      "description": "Takım kaptanı ve yazılım geliştirmede sorumlu."
     },
     {
       "id": 3,
-      "name": "Batuhan Melik Gültekin",
+      "name": "Batuhan Melik G.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/batuhan.jpg",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "name": "Benan Beltir",
+      "name": "Benan B.",
       "role": "Takım Kaptanı ve Mekanik",
       "department": "Mekanik",
       "image": "/images/team/benan.jpg",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "name": "Beril Çetin",
+      "name": "Beril Ç.",
       "role": "Sosyal Medya Sorumlusu",
       "department": "Medya",
       "image": "/images/team/beril.jpg",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "name": "Demir Sanğu",
+      "name": "Demir S.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/demir-san.jpg",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "name": "Demir Bostancı",
+      "name": "Demir B.",
       "role": "Takım Kaptanı ve Mekanik",
       "department": "Mekanik",
       "image": "/images/team/demir-bos.jpg",
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "name": "Dora Revna Adlı",
+      "name": "Dora Revna A.",
       "role": "Sosyal Medya Sorumlusu",
       "department": "Medya",
       "image": "/images/team/dora.jpg",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "name": "Zeynep Kabapelit",
+      "name": "Zeynep K.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/zeynep-kaba.jpg",
@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "name": "Yusuf Mete",
+      "name": "Yusuf M.",
       "role": "Yazılım Geliştirici",
       "department": "Yazılım",
       "image": "/images/team/yusuf.jpg",
@@ -82,7 +82,7 @@
     },
     {
       "id": 11,
-      "name": "Naz Bağrıaçık",
+      "name": "Naz B.",
       "role": "Tasarım ve Yazılım Geliştirici",
       "department": "Tasarım",
       "image": "/images/team/naz.jpg",
@@ -90,15 +90,15 @@
     },
     {
       "id": 12,
-      "name": "Nil Bağrıaçık",
+      "name": "Nil B.",
       "role": "Yazılım Geliştirici",
       "department": "Yazılım",
       "image": "/images/team/nil.jpg",
-      "description": "Robot programlama ve yazılım geliştirme."
+      "description": "Takım Kaptanı ve yazılım geliştirme."
     },
     {
       "id": 13,
-      "name": "Oğuzhan Nazlı",
+      "name": "Oğuzhan N.",
       "role": "Tasarımcı",
       "department": "Tasarım",
       "image": "/images/team/oguzhan.jpg",
@@ -106,7 +106,7 @@
     },
     {
       "id": 14,
-      "name": "Zeynep Sare Yıldırım",
+      "name": "Zeynep Y.",
       "role": "Yazılım Geliştirici",
       "department": "Yazılım",
       "image": "/images/team/zeynep-sare.jpg",
@@ -114,7 +114,7 @@
     },
     {
       "id": 15,
-      "name": "Selin Arabacı",
+      "name": "Selin A.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/selin.jpg",
@@ -122,7 +122,7 @@
     },
     {
       "id": 16,
-      "name": "Doruk Şahin",
+      "name": "Doruk Ş.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/doruk-sahin.jpg",
@@ -130,7 +130,7 @@
     },
     {
       "id": 17,
-      "name": "Toprak Kütük",
+      "name": "Toprak K.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/toprak.jpg",
@@ -138,7 +138,7 @@
     },
     {
       "id": 18,
-      "name": "Çağan Eymen Genç",
+      "name": "Çağan Eymen G.",
       "role": "Yazılım Geliştirici",
       "department": "Yazılım",
       "image": "/images/team/cagan.jpg",
@@ -146,7 +146,7 @@
     },
     {
       "id": 19,
-      "name": "Mina Tuncel",
+      "name": "Mina T.",
       "role": "Tasarım",
       "department": "Tasarım",
       "image": "/images/team/mina.jpg",
@@ -154,7 +154,7 @@
     },
     {
       "id": 20,
-      "name": "Rüya Tandoğan",
+      "name": "Rüya T.",
       "role": "Mekanik",
       "department": "Mekanik",
       "image": "/images/team/ruya.jpg",
@@ -162,7 +162,7 @@
     },
     {
       "id": 21,
-      "name": "Ilgın",
+      "name": "Ilgın Ceren A.",
       "role": "Sosyal Medya Sorumlusu",
       "department": "Medya",
       "image": "/images/team/ilgin.jpg",
@@ -170,7 +170,7 @@
     },
     {
       "id": 22,
-      "name": "Ilgaz Öztürk",
+      "name": "Ilgaz Ö.",
       "role": "Tasarım",
       "department": "Tasarım",
       "image": "/images/team/ilgaz.jpg",

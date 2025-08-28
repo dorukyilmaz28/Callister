@@ -4,7 +4,7 @@
       "version": "1.0",
       "last_updated": "2024-08-24",
       "team": "Callister #9024",
-      "note": "AI removed — using static FRC FAQ JSON"
+      "note": "using static FRC FAQ JSON"
     },
     "responses": {
       "merhaba": "Merhaba! Ben Callister FRC Asistanıyım. Nasıl yardımcı olabilirim?",

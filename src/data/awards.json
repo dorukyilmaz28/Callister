@@ -2,54 +2,99 @@
   "awards": [
     {
       "id": 1,
-      "name": "Highest Rookie Seed Award",
-      "description": "Rookie takımlar arasında en yüksek sıralama ödülü",
-      "year": "2023",
-      "competition": "FRC 2023",
-      "icon": "🥇",
-      "color": "bg-yellow-500"
+      "name": "Regional Finalists",
+      "description": "Bir bölgesel turnuvada final maçlarına kadar yükselip ikinci olan ittifakı onurlandırmak için verilir. Takımın stratejik oyun gücü, sahadaki uyumu ve turnuva boyunca gösterdiği performansı simgeler.",
+      "year": "2025",
+      "competition": "Ankara Regional",
+      "icon": "🏅",
+      "color": "bg-silver-500"
     },
     {
       "id": 2,
-      "name": "Judges' Award",
-      "description": "Jüri tarafından verilen özel ödül",
-      "year": "2023",
-      "competition": "FRC 2023",
+      "name": "Innovation in Control Award",
+      "description": "Robotun kontrol sistemleri alanında yenilikçi ve etkili çözümler geliştiren takıma verilir. Sensör kullanımı, yazılım algoritmaları, sürücü arayüzü veya kontrol mimarisindeki yaratıcılığı ödüllendirir.",
+      "year": "2025",
+      "competition": "Ankara Regional",
       "icon": "🏆",
       "color": "bg-purple-500"
     },
     {
       "id": 3,
-      "name": "Rookie Inspiration Award",
-      "description": "Rookie takımlar için ilham verici ödül",
-      "year": "2023",
-      "competition": "FRC 2023",
-      "icon": "💡",
-      "color": "bg-blue-500"
+      "name": "Gracious Professionalism Award",
+      "description": "Takımın yarışma boyunca nazik, saygılı, yardımsever ve işbirliğine açık bir tutum sergilemesini onurlandırır. FIRST'ün temel değerlerinden biri olan \"Gracious Professionalism®\"i en iyi yansıtan takıma verilir.",
+      "year": "2024",
+      "competition": "İstanbul Regional",
+      "icon": "🤝",
+      "color": "bg-green-500"
     },
     {
       "id": 4,
-      "name": "Rookie All-Star Award",
-      "description": "Rookie takımlar için en prestijli ödül",
+      "name": "Highest Rookie Seed",
+      "description": "Çaylak takımlar arasında eleme maçlarını en yüksek sıralamada tamamlayan ekibe verilir. Bir takımın ilk yılında sahadaki güçlü performansını ve stratejik başarısını gösterir.",
       "year": "2023",
-      "competition": "FRC 2023",
-      "icon": "⭐",
-      "color": "bg-red-500"
+      "competition": "Halic Regional",
+      "icon": "🥇",
+      "color": "bg-yellow-500"
     },
     {
       "id": 5,
-      "name": "Gracious Professionalism Award",
-      "description": "Profesyonel davranış ve işbirliği ödülü",
+      "name": "Judges' Award",
+      "description": "Resmî kategorilerden hiçbirine tam olarak uymasa da jüriyi özgün başarısı, özel hikâyesi veya dikkat çekici yaklaşımıyla etkileyen takıma verilir.",
       "year": "2023",
-      "competition": "FRC 2023",
-      "icon": "🤝",
-      "color": "bg-green-500"
+      "competition": "Halic Regional",
+      "icon": "🏆",
+      "color": "bg-purple-500"
     }
   ],
   "statistics": {
     "totalAwards": 5,
     "firstYear": 2023,
-    "competitions": 1,
+    "competitions": 5,
     "rookieYear": true
-  }
+  },
+  "events": [
+    {
+      "year": "2025",
+      "events": [
+        {
+          "name": "Milstein Division",
+          "awards": []
+        },
+        {
+          "name": "Ankara Regional",
+          "awards": ["Regional Finalists", "Innovation in Control Award sponsored by nVent"]
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "events": [
+        {
+          "name": "Cezeri Robot Ligi Ümraniye Robotik Yarışları",
+          "awards": []
+        },
+        {
+          "name": "Bosphorus Regional",
+          "awards": []
+        },
+        {
+          "name": "İstanbul Regional",
+          "awards": ["Gracious Professionalism Award"]
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "events": [
+        {
+          "name": "Halic Regional",
+          "awards": ["Highest Rookie Seed", "Judges' Award"]
+        },
+        {
+          "name": "Bosphorus Regional",
+          "awards": []
+        }
+      ]
+    }
+  ]
 } 

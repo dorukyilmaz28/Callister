@@ -41,11 +41,15 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="bg-gradient-to-br from-white/20 via-white/15 to-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 shadow-2xl">
-                <div className="aspect-video bg-gradient-to-br from-white/30 to-white/10 rounded-lg flex items-center justify-center border border-white/20">
-                  <div className="text-center">
-                    <div className="text-6xl mb-4">🤖</div>
-                    <p className="text-[#F5F5F5] font-semibold text-lg">FRC Maç Görüntüsü</p>
-                  </div>
+                <div className="aspect-video bg-gradient-to-br from-white/30 to-white/10 rounded-lg overflow-hidden border border-white/20">
+                  <Image
+                    src="/images/frc-match.png"
+                    alt="FRC Maç Görüntüsü"
+                    width={600}
+                    height={400}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </div>
