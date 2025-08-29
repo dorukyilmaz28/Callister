@@ -111,7 +111,7 @@ export default function SponsorsPage() {
                     <div className="text-3xl font-bold text-purple-300 mb-4">{t('sponsors.packagesList.callister.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    {t('sponsors.packagesList.callister.features').map((feature: string, index: number) => (
+                    {(t('sponsors.packagesList.callister.features') as string[]).map((feature: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <span className="text-purple-300 mr-2">•</span>
                         {feature}
@@ -130,7 +130,7 @@ export default function SponsorsPage() {
                     <div className="text-3xl font-bold text-blue-300 mb-4">{t('sponsors.packagesList.diamond.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    {t('sponsors.packagesList.diamond.features').map((feature: string, index: number) => (
+                    {(t('sponsors.packagesList.diamond.features') as string[]).map((feature: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <span className="text-blue-300 mr-2">•</span>
                         {feature}
@@ -149,7 +149,7 @@ export default function SponsorsPage() {
                     <div className="text-3xl font-bold text-yellow-300 mb-4">{t('sponsors.packagesList.gold.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    {t('sponsors.packagesList.gold.features').map((feature: string, index: number) => (
+                    {(t('sponsors.packagesList.gold.features') as string[]).map((feature: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <span className="text-yellow-300 mr-2">•</span>
                         {feature}
@@ -168,7 +168,7 @@ export default function SponsorsPage() {
                     <div className="text-3xl font-bold text-gray-300 mb-4">{t('sponsors.packagesList.silver.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    {t('sponsors.packagesList.silver.features').map((feature: string, index: number) => (
+                    {(t('sponsors.packagesList.silver.features') as string[]).map((feature: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <span className="text-gray-300 mr-2">•</span>
                         {feature}
@@ -187,7 +187,7 @@ export default function SponsorsPage() {
                     <div className="text-3xl font-bold text-amber-300 mb-4">{t('sponsors.packagesList.bronze.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    {t('sponsors.packagesList.bronze.features').map((feature: string, index: number) => (
+                    {(t('sponsors.packagesList.bronze.features') as string[]).map((feature: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <span className="text-amber-300 mr-2">•</span>
                         {feature}
