@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Mail, Instagram, Linkedin, MapPin, MessageCircle, Send, Youtube } from 'lucide-react'
 import emailjs from '@emailjs/browser'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -13,6 +14,7 @@ export default function ContactPage() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  const { t } = useLanguage()
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -71,10 +73,10 @@ export default function ContactPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            İletişim
+            {t('contact.title')}
           </h1>
           <p className="text-xl md:text-2xl text-gray-200">
-            Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -87,15 +89,15 @@ export default function ContactPage() {
                 <Mail className="text-purple-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">E-posta</h3>
-                <p className="text-gray-300 text-sm">Direkt mesaj gönderin</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.info.email')}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.directMessage')}</p>
               </div>
             </div>
             <a 
-              href="mailto:callister9024@gmail.com" 
+              href="mailto:callisterfrc@gmail.com" 
               className="text-purple-200 hover:text-purple-100 transition-colors duration-200 break-all"
             >
-              callister9024@gmail.com
+              callisterfrc@gmail.com
             </a>
           </div>
 
@@ -106,8 +108,8 @@ export default function ContactPage() {
                 <MapPin className="text-blue-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Konum</h3>
-                <p className="text-gray-300 text-sm">Okul adresi</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.info.address')}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.visitLocation')}</p>
               </div>
             </div>
             <div className="space-y-2">
@@ -127,8 +129,8 @@ export default function ContactPage() {
                 <MessageCircle className="text-pink-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Sosyal Medya</h3>
-                <p className="text-gray-300 text-sm">Takip edin</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.info.social')}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.followUs')}</p>
               </div>
             </div>
             <div className="space-y-3">
@@ -169,8 +171,8 @@ export default function ContactPage() {
                 <Send className="text-green-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Hızlı İletişim</h3>
-                <p className="text-gray-300 text-sm">Form ile mesaj gönderin</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.quickContact')}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.quickContactDesc')}</p>
               </div>
             </div>
             <p className="text-green-200 text-sm">
@@ -182,15 +184,15 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-white mb-2">Mesaj Gönderin</h2>
-            <p className="text-gray-300">Sorularınız için bize yazın</p>
+            <h2 className="text-3xl font-bold text-white mb-2">{t('contact.quickContact')}</h2>
+            <p className="text-gray-300">{t('contact.quickContactDesc')}</p>
           </div>
           
           {/* Status Messages */}
           {submitStatus === 'success' && (
             <div className="mb-6 p-4 bg-green-500/20 border border-green-500/30 rounded-xl">
               <p className="text-green-200 text-center">
-                ✅ Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.
+                ✅ {t('contact.form.sent')}
               </p>
             </div>
           )}
@@ -198,16 +200,16 @@ export default function ContactPage() {
           {submitStatus === 'error' && (
             <div className="mb-6 p-4 bg-red-500/20 border border-red-500/30 rounded-xl">
               <p className="text-red-200 text-center">
-                ❌ Mesaj gönderimi başarısız oldu. Lütfen tekrar deneyin veya e-posta adresimizi kullanın.
-          </p>
-        </div>
+                ❌ {t('contact.form.error')}
+              </p>
+            </div>
           )}
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-200 mb-2">
-                  Ad Soyad *
+                  {t('contact.form.name')} *
                 </label>
                 <input
                   type="text"
@@ -223,7 +225,7 @@ export default function ContactPage() {
               
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-200 mb-2">
-                  E-posta *
+                  {t('contact.form.email')} *
                 </label>
                 <input
                   type="email"
@@ -240,7 +242,7 @@ export default function ContactPage() {
             
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-gray-200 mb-2">
-                Konu *
+                {t('contact.form.subject')} *
               </label>
               <input
                 type="text"
@@ -256,7 +258,7 @@ export default function ContactPage() {
             
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-200 mb-2">
-                Mesaj *
+                {t('contact.form.message')} *
               </label>
               <textarea
                 id="message"
@@ -281,12 +283,12 @@ export default function ContactPage() {
                 {isSubmitting ? (
                   <>
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                    Gönderiliyor...
+                    {t('contact.form.sending')}
                   </>
                 ) : (
                   <>
                     <Send size={20} className="mr-2" />
-                    Mesaj Gönder
+                    {t('contact.form.send')}
                   </>
                 )}
               </button>
@@ -297,11 +299,10 @@ export default function ContactPage() {
         {/* Additional Info */}
         <div className="text-center mt-12">
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-            <h3 className="text-xl font-semibold text-white mb-2">Hızlı Yanıt</h3>
-            <p className="text-gray-300">
-              Mesajlarınızı en kısa sürede yanıtlamaya çalışıyoruz. 
-              E-posta adresimiz üzerinden de direkt iletişime geçebilirsiniz.
-            </p>
+                            <h3 className="text-xl font-semibold text-white mb-2">{t('contact.quickContact')}</h3>
+                <p className="text-gray-300">
+                  {t('contact.quickContactDesc')}
+                </p>
           </div>
         </div>
       </div>

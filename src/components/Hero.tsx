@@ -6,8 +6,11 @@ import Link from 'next/link';
 import { Rocket, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import sponsorsData from '@/data/sponsors.json';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Hero = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -21,7 +24,7 @@ const Hero = () => {
           initial={{ y: -60, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="mb-12 flex justify-center items-center"
+          className="mb-8 sm:mb-12 flex justify-center items-center"
         >
           {/* Animated Logo Video */}
           <div className="relative flex justify-center items-center">
@@ -31,7 +34,7 @@ const Hero = () => {
               alt="Callister Logo" 
               width={280} 
               height={280} 
-              className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-4 border-soft bg-white shadow-2xl" 
+              className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-4 border-soft bg-white shadow-2xl" 
               priority
             />
             
@@ -41,7 +44,7 @@ const Hero = () => {
               loop
               muted
               playsInline
-              className="absolute inset-0 w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-4 border-soft bg-white shadow-2xl object-cover"
+              className="absolute inset-0 w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-4 border-soft bg-white shadow-2xl object-cover"
               style={{ objectFit: 'cover' }}
               onError={(e) => {
                 console.error('Video yüklenemedi:', e);
@@ -63,9 +66,9 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-5xl md:text-7xl font-bold text-[#F5F5F5] mb-6 drop-shadow-2xl font-['Poppins']"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-[#F5F5F5] mb-4 sm:mb-6 drop-shadow-2xl font-['Poppins'] px-2"
         >
-          Callister <span className="text-gradient">#9024</span>
+          {t('hero.title')} <span className="text-gradient">#9024</span>
         </motion.h1>
 
         {/* Slogan */}
@@ -73,9 +76,9 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-2xl md:text-3xl text-[#F5F5F5] font-semibold mb-6 drop-shadow-lg font-['Poppins']"
+          className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#F5F5F5] font-semibold mb-4 sm:mb-6 drop-shadow-lg font-['Poppins'] px-4"
         >
-          Hayal Et, Tasarla, Üret, Paylaş!
+          {t('hero.subtitle')}
         </motion.p>
 
         {/* Description */}
@@ -83,9 +86,9 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-lg text-[#F5F5F5]/95 mb-12 max-w-2xl mx-auto font-medium leading-relaxed font-['Poppins']"
+          className="text-base sm:text-lg text-[#F5F5F5]/95 mb-8 sm:mb-12 max-w-2xl mx-auto font-medium leading-relaxed font-['Poppins'] px-4"
         >
-          Teknoloji, inovasyon ve sürdürülebilirlikte öncü bir FRC takımı.
+          {t('hero.description')}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -93,25 +96,25 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4"
         >
-          <Link href="/about">
+          <Link href="/about" className="w-full sm:w-auto">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="btn-primary flex items-center space-x-2 shadow-2xl text-[#F5F5F5]"
+              className="btn-primary flex items-center justify-center space-x-2 shadow-2xl text-[#F5F5F5] w-full sm:w-auto"
             >
-              <span>Takımı Tanı</span>
+              <span>{t('hero.aboutTeam')}</span>
               <ArrowRight size={20} />
             </motion.button>
           </Link>
-          <Link href="/projects">
+          <Link href="/projects" className="w-full sm:w-auto">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="btn-secondary flex items-center space-x-2 shadow-2xl text-[#F5F5F5]"
+              className="btn-secondary flex items-center justify-center space-x-2 shadow-2xl text-[#F5F5F5] w-full sm:w-auto"
             >
-              <span>Projelerimiz</span>
+              <span>{t('hero.viewProjects')}</span>
               <ArrowRight size={20} />
             </motion.button>
           </Link>
@@ -122,19 +125,19 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto"
+          className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 sm:mt-16 max-w-4xl mx-auto px-4"
         >
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#F5F5F5] mb-2 drop-shadow-lg font-['Poppins']">22</div>
-            <div className="text-[#F5F5F5]/90 font-medium font-['Poppins']">Takım Üyesi</div>
+            <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">22</div>
+            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.teamMembers')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#F5F5F5] mb-2 drop-shadow-lg font-['Poppins']">11</div>
-            <div className="text-[#F5F5F5]/90 font-medium font-['Poppins']">Proje</div>
+            <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">11</div>
+            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.projects')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#F5F5F5] mb-2 drop-shadow-lg font-['Poppins']">5</div>
-            <div className="text-[#F5F5F5]/90 font-medium font-['Poppins']">Ödül</div>
+            <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">5</div>
+            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.awards')}</div>
           </div>
         </motion.div>
       </div>
@@ -144,17 +147,17 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-[#F5F5F5]/30 rounded-full flex justify-center backdrop-blur-sm"
+          className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-[#F5F5F5]/30 rounded-full flex justify-center backdrop-blur-sm"
         >
           <motion.div
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
-            className="w-1 h-3 bg-[#F5F5F5] rounded-full mt-2"
+            className="w-0.5 h-2 sm:h-3 bg-[#F5F5F5] rounded-full mt-2"
           />
         </motion.div>
       </motion.div>

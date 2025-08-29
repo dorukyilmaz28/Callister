@@ -3,10 +3,90 @@
 import { useState } from 'react'
 import { Calendar, Tag, ArrowRight, X } from 'lucide-react'
 import projectsData from '@/data/projects.json'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function ProjectsPage() {
   const [selectedCategory, setSelectedCategory] = useState('Tümü')
   const [modalProject, setModalProject] = useState<any>(null)
+  const { t } = useLanguage()
+
+  // Kategori çevirileri
+  const categoryTranslations: { [key: string]: string } = {
+    'Tümü': t('projects.all'),
+    'Eğitim': t('projects.education'),
+    'Çevre': t('projects.environment'),
+    'Sosyal': t('projects.social'),
+    'Teknoloji': t('projects.technology'),
+    'Kültür': t('projects.culture')
+  }
+
+  // Proje çevirileri - basit eşleştirme
+  const getProjectTranslation = (projectTitle: string) => {
+    const translations: { [key: string]: any } = {
+      'Pencere': {
+        title: t('projects.projectDetails.pencere.title'),
+        description: t('projects.projectDetails.pencere.description'),
+        details: t('projects.projectDetails.pencere.details')
+      },
+      'Sanatın Kadın Ruhu': {
+        title: t('projects.projectDetails.sanatKadin.title'),
+        description: t('projects.projectDetails.sanatKadin.description'),
+        details: t('projects.projectDetails.sanatKadin.details')
+      },
+      'Güçlü Kadınlar, Güçlü Yarınlar': {
+        title: t('projects.projectDetails.gucluKadinlar.title'),
+        description: t('projects.projectDetails.gucluKadinlar.description'),
+        details: t('projects.projectDetails.gucluKadinlar.details')
+      },
+      'Kaplumbağa Müzesi': {
+        title: t('projects.projectDetails.kaplumbaga.title'),
+        description: t('projects.projectDetails.kaplumbaga.description'),
+        details: t('projects.projectDetails.kaplumbaga.details')
+      },
+      'İztuzu Projesi': {
+        title: t('projects.projectDetails.iztuzu.title'),
+        description: t('projects.projectDetails.iztuzu.description'),
+        details: t('projects.projectDetails.iztuzu.details')
+      },
+      'Eco Footprint': {
+        title: t('projects.projectDetails.ecoFootprint.title'),
+        description: t('projects.projectDetails.ecoFootprint.description'),
+        details: t('projects.projectDetails.ecoFootprint.details')
+      },
+      'Mini Brick Symphony': {
+        title: t('projects.projectDetails.miniBrick.title'),
+        description: t('projects.projectDetails.miniBrick.description'),
+        details: t('projects.projectDetails.miniBrick.details')
+      },
+      'İklim Müzesi': {
+        title: t('projects.projectDetails.iklimMuzesi.title'),
+        description: t('projects.projectDetails.iklimMuzesi.description'),
+        details: t('projects.projectDetails.iklimMuzesi.details')
+      },
+      'Yeni Erişim Simgesi': {
+        title: t('projects.projectDetails.erisimSimgesi.title'),
+        description: t('projects.projectDetails.erisimSimgesi.description'),
+        details: t('projects.projectDetails.erisimSimgesi.details')
+      },
+      'Ecoquake': {
+        title: t('projects.projectDetails.ecoquake.title'),
+        description: t('projects.projectDetails.ecoquake.description'),
+        details: t('projects.projectDetails.ecoquake.details')
+      },
+      'Balçık Köy Okulu 19 Mayıs Kütüphanesi': {
+        title: t('projects.projectDetails.balcikKutuphane.title'),
+        description: t('projects.projectDetails.balcikKutuphane.description'),
+        details: t('projects.projectDetails.balcikKutuphane.details')
+      },
+      'Save The Blue': {
+        title: t('projects.projectDetails.saveBlue.title'),
+        description: t('projects.projectDetails.saveBlue.description'),
+        details: t('projects.projectDetails.saveBlue.details')
+      }
+    }
+    
+    return translations[projectTitle] || { title: projectTitle, description: '', details: '' }
+  }
 
   const filteredProjects = selectedCategory === 'Tümü' 
     ? projectsData.projects 
@@ -25,10 +105,10 @@ export default function ProjectsPage() {
             {/* Header */}
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-                Projelerimiz
+                {t('projects.title')}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                Callister #9024 FRC Takımı'nın geliştirdiği projeler ve toplumsal etkileri
+                {t('projects.subtitle')}
               </p>
             </div>
 
@@ -45,26 +125,33 @@ export default function ProjectsPage() {
                     }`}
                     onClick={() => setSelectedCategory(category)}
                   >
-                    {category}
+                    {categoryTranslations[category] || category}
                   </button>
                 ))}
             </div>
 
             {/* Projects Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredProjects.map((project, index) => (
-                <div 
-                  key={project.title} 
-                  className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 cursor-pointer transform hover:scale-105" 
-                  onClick={() => setModalProject(project)}
-                >
-                  <div className="flex items-center mb-4">
-                    <Tag className="text-purple-300 mr-2" />
-                    <span className="text-xl font-bold text-white">{project.title}</span>
+              {filteredProjects.map((project, index) => {
+                const translation = getProjectTranslation(project.title)
+                return (
+                  <div 
+                    key={project.title} 
+                    className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 cursor-pointer transform hover:scale-105" 
+                    onClick={() => setModalProject(project)}
+                  >
+                    <div className="flex items-center mb-4">
+                      <Tag className="text-purple-300 mr-2" />
+                      <span className="text-xl font-bold text-white">
+                        {translation.title}
+                      </span>
+                    </div>
+                    <p className="text-gray-200 mb-4 leading-relaxed">
+                      {translation.description}
+                    </p>
                   </div>
-                  <p className="text-gray-200 mb-4 leading-relaxed">{project.description}</p>
-                </div>
-              ))}
+                )
+              })}
             </div>
           </div>
         </div>
@@ -80,8 +167,12 @@ export default function ProjectsPage() {
             >
               <X size={28} />
             </button>
-            <h2 className="text-3xl font-bold text-white mb-6">{modalProject.title}</h2>
-            <p className="text-gray-200 mb-6 leading-relaxed">{modalProject.details}</p>
+            <h2 className="text-3xl font-bold text-white mb-6">
+              {getProjectTranslation(modalProject.title).title}
+            </h2>
+            <p className="text-gray-200 mb-6 leading-relaxed">
+              {getProjectTranslation(modalProject.title).details}
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               {/* Fotoğraf alanları */}
               {modalProject.images && modalProject.images.length > 0 ? (

@@ -1,0 +1,401 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "backToHome": "Back to Home",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "contact": "Contact",
+    "about": "About",
+    "team": "Team",
+    "projects": "Projects",
+    "events": "Events",
+    "awards": "Awards",
+    "sponsors": "Sponsors"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "projects": "Projects",
+    "events": "Events",
+    "awards": "Awards",
+    "sponsors": "Sponsors",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Callister",
+    "subtitle": "Imagine, Design, Build, Share!",
+    "description": "A leading FRC team in technology, innovation, and sustainability.",
+    "aboutTeam": "Meet the Team",
+    "viewProjects": "Our Projects",
+    "stats": {
+      "teamMembers": "Team Members",
+      "projects": "Projects",
+      "awards": "Awards"
+    }
+  },
+  "frc": {
+    "title": "FIRST Robotics Competition",
+    "subtitle": "International robotics competition for high school students",
+    "whatIs": "What is FRC?",
+    "description1": "FIRST Robotics Competition (FRC) is an international robotics competition for high school students. Students develop engineering, programming, and teamwork skills while solving real-world problems.",
+    "description2": "Each season, teams design and build robots for a specific task within 6 weeks. During competition, teams collaborate (Coopertition) to achieve the best results.",
+    "description3": "FRC's core values are Gracious Professionalism and Coopertition. These values prioritize cooperation and respect even during competition.",
+    "matchImage": "FRC Match Image"
+  },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "We work in line with FRC's core values",
+    "graciousProfessionalism": {
+      "title": "Gracious Professionalism",
+      "description": "We demonstrate respectful and professional behavior"
+    },
+    "coopertition": {
+      "title": "Coopertition",
+      "description": "We collaborate even during competition"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "We develop creative solutions"
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "We work to the highest standards"
+    }
+  },
+  "news": {
+    "title": "Latest News",
+    "subtitle": "Latest updates from our team",
+    "viewAllNews": "View All News",
+    "newsImage": "News Image",
+    "latest": {
+      "title": "FRC 2026 AGE/REBUILT Season Announcement",
+      "date": "March 3, 2026",
+      "excerpt": "FIRST®️ AGE/REBUILT competition season in Turkey! 6 events in Istanbul, 2 in Ankara."
+    }
+  },
+  "sponsors": {
+    "title": "Our Sponsors",
+    "subtitle": "Valuable sponsors supporting Callister #9024 FRC Team",
+    "categories": "Sponsor Categories",
+    "logos": "Sponsor Logos",
+    "packages": "Sponsorship Packages",
+    "sponsorLogo": "Sponsor Logo",
+    "waiting": "Waiting",
+    "descriptions": {
+      "arm": "World leader in microprocessor and software technologies"
+    },
+    "packagesList": {
+      "callister": {
+        "name": "Callister Package",
+        "price": "$15.000+",
+        "features": [
+          "Company logo in largest size on the back of the uniform",
+          "Team name is determined according to the company's request",
+          "Right to display promotional materials of the sponsor company in the pit area",
+          "Company name and logo of the sponsor company in first place on all our social media accounts",
+          "Use of company logo in largest size in brochures and presentations",
+          "4 weeks of design, programming, mechanical and STEAM training for children of sponsor company employees",
+          "Company promotion in all social responsibility activities carried out by our team",
+          "Right to shape event names",
+          "Right to make posts using the team name if the sponsor wishes",
+          "Right to speak and advertise at events organized by our team"
+        ]
+      },
+      "diamond": {
+        "name": "Diamond Package",
+        "price": "$9.000+",
+        "features": [
+          "Company logo in large size on the back of the uniform",
+          "Company name and logo of the sponsor company on all our social media accounts",
+          "Use of company logo in brochures and presentations",
+          "Right to display promotional materials of the sponsor company in the pit area",
+          "Basic company promotion in all social responsibility activities carried out by our team",
+          "4 weeks of free design and programming training for children of sponsor company employees",
+          "Right to make posts using the team name if the sponsor wishes",
+          "Right to participate voluntarily in social responsibility projects of the sponsor company",
+          "Right to speak and advertise at events organized by our team"
+        ]
+      },
+      "gold": {
+        "name": "Gold Package",
+        "price": "$7.000+",
+        "features": [
+          "Company logo in medium size on the back of the uniform",
+          "Company name and logo of the sponsor company on all our social media accounts",
+          "Use of company logo in brochures and presentations",
+          "Right to display promotional materials of the sponsor company in the pit area",
+          "Basic company promotion in all social responsibility activities carried out by our team",
+          "Right to make posts using the team name if the sponsor wishes",
+          "Right to participate voluntarily in social responsibility projects of the sponsor company",
+          "Right to speak and advertise at events organized by our team"
+        ]
+      },
+      "silver": {
+        "name": "Silver Package",
+        "price": "$5.000+",
+        "features": [
+          "Company logo in small size on the back of the uniform",
+          "Use of company logo in brochures and presentations",
+          "Special thanks on social media and our website",
+          "Right to make posts using the team name if the sponsor wishes"
+        ]
+      },
+      "bronze": {
+        "name": "Bronze Package",
+        "price": "$3.000+",
+        "features": [
+          "Company logo in small size on the back of the uniform",
+          "Use of company logo in brochures and presentations",
+          "Special thanks on social media and our website"
+        ]
+      }
+    }
+  },
+  "awards": {
+    "title": "Our Awards",
+    "subtitle": "Awards and achievements won by Callister #9024 FRC Team",
+    "competitionList": "Competition List:",
+    "table": {
+      "year": "Year",
+      "event": "Event",
+      "awards": "Awards"
+    },
+    "awardDetails": {
+      "regionalFinalists": {
+        "name": "Regional Finalists",
+        "description": "Awarded to honor the alliance that reaches the final matches in a regional tournament and comes in second place. It symbolizes the team's strategic gameplay, field coordination, and performance throughout the tournament."
+      },
+      "innovationInControl": {
+        "name": "Innovation in Control Award",
+        "description": "Awarded to teams that develop innovative and effective solutions in robot control systems. It rewards creativity in sensor usage, software algorithms, driver interface, or control architecture."
+      },
+      "graciousProfessionalism": {
+        "name": "Gracious Professionalism Award",
+        "description": "Honors teams that demonstrate kind, respectful, helpful, and collaborative attitudes throughout the competition. It is given to teams that best reflect one of FIRST's core values: \"Gracious Professionalism®\"."
+      },
+      "highestRookieSeed": {
+        "name": "Highest Rookie Seed",
+        "description": "Awarded to teams that complete elimination matches with the highest ranking among rookie teams. It shows a team's strong field performance and strategic success in their first year."
+      },
+      "judgesAward": {
+        "name": "Judges' Award",
+        "description": "Awarded to teams that impress the jury with their unique achievements, special stories, or remarkable approaches, even if they don't fully fit into official categories."
+      }
+    }
+  },
+  "about": {
+    "title": "Who Are We?",
+    "subtitle": "The story, vision, and social impact of Callister #9024 FRC Team",
+    "stats": {
+      "foundedDate": "Founded Date",
+      "teamMembers": "Team Members",
+      "awards": "Awards",
+      "projects": "Projects"
+    },
+    "content": {
+      "whoWeAre": "Who Are We?",
+      "foundedDate": "May 19, 2022",
+      "teamSize": "22 students and 1 mentor",
+      "signature": "Best regards, Callister #9024 FRC Team",
+      "paragraph1": "As the Callister #9024 FRC team, founded on May 19, 2022, we set out with the goal of training future leaders in science, technology, engineering, art, and mathematics (STEAM) fields. With our strong team of 22 students and 1 mentor, we have made it our mission not only to build robots but also to contribute to society through social responsibility and awareness-focused projects. Each member of our team stands out not only with their technical competencies but also with their sensitivity, team spirit, entrepreneurship, and visionary approach.",
+      "paragraph2": "Our mission is to inspire all segments of society as individuals who have internalized FIRST principles, to spread STEAM culture, and to lead others on this path. Our vision is to represent our country in the best way possible on national and international platforms, to contribute to both individual and social development, and to work for a sustainable world with projects that make a difference. In this direction, every work we carry out as a team is not just competition-focused but strategic steps aimed at creating a broader impact area.",
+      "paragraph3": "With the projects we have implemented so far, we have inspired both children and adults. For example, within the scope of our \"Window\" project, we went to village schools and provided EV3 training. We enabled children to showcase not only their technical skills but also their creativity.",
+      "paragraph4": "While highlighting the role of women in the art world with the \"Spirit of Women in Art\" webinar series, we also started a project this year to inspire girls. Within the scope of our collaboration with KEV, we held a seminar on May 13th with our \"Strong Women, Strong Tomorrows\" project; we brought young girls together with successful women in the business world. Thanks to this event, young girls had the opportunity to learn about different career fields and gained the opportunity to develop themselves and increase their motivation.",
+      "paragraph5": "With our \"Turtle Museum\" project, we aimed to increase environmental awareness; we also opened an exhibition where we created works from recycled materials to raise awareness about the problems that turtles and other marine creatures face in their habitats in various schools. The purpose of our exhibition was to show what kind of waste exists in our seas, to create awareness against global warming, and to educate people.",
+      "paragraph6": "As Callister, with our \"Save The Blue\" project, our team removed a ghost net from the sea in the Gulf of İzmit to reduce the damage that ghost nets cause to marine life and carried out underwater waste collection activities. Ghost nets cause marine creatures to get entangled and injured or die, damage underwater structures such as coral reefs, and cause microplastic pollution. With our work, we took a step towards protecting marine life and aimed to create environmental awareness. With this project, we contributed to the \"Ghost Nets\" project organized by the Ministry of Agriculture and Forestry and Kocaeli Metropolitan Municipality.",
+      "paragraph7": "With our project called \"Eco Footprint\", we drew attention to carbon footprint, strengthened both environmental awareness and social participation with beach cleaning events. Additionally, with projects such as the \"Mini Brick Symphony\" competition, \"Climate Museum\" project, \"New Access Icon\", we showed that we are active world citizens by addressing universal issues such as social justice, equality, environment, and sustainability. Our \"Ecoquake\" project, which we started to create earthquake awareness, is also one of the important steps we took to raise awareness in society.",
+      "paragraph8": "We have always believed that the biggest impact we can create is to pass on what we know and our experiences to others correctly and powerfully. As Callister, we created an innovative website project to support young engineers and software developers. Our project \"FRC Academy\", which emerged from this thought, is actually a platform where all the knowledge and experiences our team has gained since May 19, 2022, come together. Within the scope of this project, we provided teams and students who are taking their first steps into the FRC world with the opportunity to develop their skills in design, software, mechanics, and electronics. As Callister, our goal is to pass on our experiences and draw the right path for those who come after us.",
+      "paragraph9": "Many awards we have won:",
+      "awardsList": [
+        "Highest Rookie Seed Award",
+        "Judges' Award",
+        "Rookie Inspiration Award",
+        "Rookie All-Star Award",
+        "Gracious Professionalism Award"
+      ],
+      "paragraph10": "These awards show that we are not just a competitive team but an ecosystem that learns, teaches, and shares. As Callister, we aim to go beyond competition to solidarity, beyond learning to teaching, beyond success to creating impact.",
+      "paragraph11": "While writing this letter, our desire was to explain that we are not just a competition team but also a transformation movement. With your company's support, we can reach bigger dreams together. Because we are a team that wants to design the future, questions boundaries, and works to change them."
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Valuable members of Callister #9024 FRC Team",
+    "modal": {
+      "role": "Role:",
+      "department": "Department:",
+      "description": "Description:"
+    },
+    "roles": {
+      "mentor": "Mentor",
+      "softwareDeveloper": "Software Developer",
+      "teamCaptain": "Team Captain",
+      "mechanical": "Mechanical",
+      "socialMediaManager": "Social Media Manager",
+      "designer": "Designer",
+      "softwareDeveloperAndTeamCaptain": "Software Developer and Team Captain",
+      "teamCaptainAndMechanical": "Team Captain and Mechanical",
+      "designAndSoftwareDeveloper": "Design and Software Developer"
+    },
+    "departments": {
+      "mentor": "Mentor",
+      "mechanical": "Mechanical",
+      "software": "Software",
+      "design": "Design",
+      "media": "Media"
+    },
+    "descriptions": {
+      "mentor": "Team mentor and technical advisor.",
+      "softwareDeveloper": "Robot control systems and software development.",
+      "teamCaptain": "Team captain and responsible for software development.",
+      "mechanical": "Responsible for robot mechanical design and production processes.",
+      "socialMediaManager": "Social media management and content production.",
+      "designer": "Robot and graphic design.",
+      "softwareDeveloperAndTeamCaptain": "Team captain and responsible for software development.",
+      "teamCaptainAndMechanical": "Team captain and responsible for mechanical systems.",
+      "designAndSoftwareDeveloper": "Robot design and software development.",
+      "robotAssembly": "Robot assembly and mechanical systems."
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Projects implemented by Callister #9024 FRC Team",
+    "viewProject": "View Project",
+    "category": "Category",
+    "status": "Status",
+    "completed": "Completed",
+    "ongoing": "Ongoing",
+    "planned": "Planned",
+    "all": "All",
+    "education": "Education",
+    "environment": "Environment",
+    "social": "Social",
+    "technology": "Technology",
+    "culture": "Culture",
+    "projectDetails": {
+      "pencere": {
+        "title": "Window",
+        "description": "EV3 training project in village schools. We provide students with robotics and coding skills.",
+        "details": "Within the scope of the Window project, we visited 2 village schools and provided STEAM and EV3 training to students. Our aim was to give children the opportunity to meet new experiences, develop their creativity, problem-solving skills, and relationship with technology. After our training, in the competition we organized, we helped children program the robots they created from legos according to the \"drawing pictures\" and \"playing music\" features. Thus, we aimed to contribute to the multifaceted development of children by enabling them to discover their artistic aspects in addition to technical areas."
+      },
+      "sanatKadin": {
+        "title": "Spirit of Women in Art",
+        "description": "Webinar series introducing works of women artists. Events combining art and technology.",
+        "details": "In our webinar series called \"Spirit of Women in Art\", our aim is: To address the role and achievements of women in art, to draw attention to gender inequality in art, and to get to know our participating guests more closely and have a conversation by asking them questions. We emphasize that FRC is more than building robots, that art is also a part of life, and we start this project where we will witness women's success in art up close by saying \"A society without women is a society without tomorrow.\""
+      },
+      "gucluKadinlar": {
+        "title": "Strong Women, Strong Tomorrows",
+        "description": "Women's empowerment project in collaboration with KEV. We increase women's participation in STEM fields.",
+        "details": "We develop projects that enable women to take a more active role in STEM fields through collaboration with KEV."
+      },
+      "kaplumbaga": {
+        "title": "Turtle Museum",
+        "description": "Digital museum project creating awareness for the protection of sea turtles.",
+        "details": "Within the scope of this project, we hosted 8th grade students who visited our school. Our visit to DEKAMER at İztuzu Beach in recent months made us think about what else we could do to create awareness, and we created an exhibition called \"Turtle Museum\" at our school, displaying the life journey of Caretta Carettas from hatching to adulthood. In this project, which we undertook with the basic purpose of drawing attention to the sea turtle species under the threat of extinction and creating awareness, we explained in detail the measures to be taken and the road maps to be followed in our presentation, and as a result of this project, we created awareness among the students who came to our school."
+      },
+      "iztuzu": {
+        "title": "İztuzu Project",
+        "description": "Visit project to the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection.",
+        "details": "We visited the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection. Here we learned new information about sea turtles and helped treat injured turtles. We also provided financial support by purchasing souvenirs. It was a trip that opened our horizons and increased our awareness about the environment in the projects we will implement together in the upcoming season."
+      },
+      "ecoFootprint": {
+        "title": "Eco Footprint",
+        "description": "Sustainable living project aimed at reducing carbon footprint.",
+        "details": "Within the scope of the \"Eco Footprint\" project, which we aimed to sustain throughout the season as a team, we went to Süreyya Beach and tried to collect all the garbage thrown on the ground from large to small, conducted educational interviews to learn how knowledgeable the society is about carbon footprint and to create awareness. We carried out a new one of our garbage collection events, which we made into a series, at İztuzu Beach. We collected most of the garbage that washed ashore. In addition, we attended the Carbon Footprint and Us Conference held at Kocaeli Congress Center. At this conference, we had the opportunity to introduce our social responsibility projects, our robot, and FRC. We also learned new information about carbon footprint."
+      },
+      "miniBrick": {
+        "title": "Mini Brick Symphony",
+        "description": "LEGO music making project. Innovative approach combining technology and art.",
+        "details": "In our Mini Brick Symphony competition organized with our sister team Archers within the scope of our Window project, we brought together 200 students from 5 village primary schools where we provided EV3 training, allowing them to experience the competition experience."
+      },
+      "iklimMuzesi": {
+        "title": "Climate Museum",
+        "description": "Digital museum project creating awareness about climate change.",
+        "details": "Climate Museum is a project where we explain the importance of the climate crisis and what needs to be done about it to 8th grade students who visit our school, and we aim for them to learn while having fun during the time they spend there. The museum was made by our team members with the accompaniment of our art teachers. In addition, the presentations we made in the museum and the Kahoot we played with the children were prepared by us."
+      },
+      "erisimSimgesi": {
+        "title": "New Access Icon",
+        "description": "Project developing accessible technology solutions for disabled individuals.",
+        "details": "The static access icon used for disabled individuals has been replaced by the new access icon where the individual actively contributes to life. The purpose of this change is to initiate a sustainable transformation in disabled rights. Our aim is to increase awareness in Turkey with this access icon and draw attention to the active role of disabled individuals in life."
+      },
+      "ecoquake": {
+        "title": "Ecoquake",
+        "description": "Environmental technology project developing earthquake early warning system.",
+        "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
+      },
+      "balcikKutuphane": {
+        "title": "Balçık Village School 19 May Library",
+        "description": "Project to build a library in a village school and provide education to students.",
+        "details": "With the money collected as a result of the fairs we organized at our school and the support of the school family association, we built a library from scratch in Gebze Balçık Village school for the purpose of bringing individuals who meet books at an early age, read, and have a wide imagination to society. There are 1000 books waiting to be read in the library we created with the support of students in our team and other teams. On May 19, along with the library opening, we introduced FRC to the students at the village school and showed them the matches. At the same time, we provided EV3 training to middle school students and WeDo 2.0 training to primary school students, putting them in experiences they had never had before."
+      },
+      "saveBlue": {
+        "title": "Save The Blue",
+        "description": "Environmental protection project fighting ocean pollution. We protect marine life.",
+        "details": "We developed a project that creates awareness about ocean pollution and offers solution suggestions."
+      }
+    }
+  },
+  "events": {
+    "title": "Our Events",
+    "subtitle": "Events attended by Callister #9024 FRC Team",
+    "upcoming": "Upcoming Events",
+    "past": "Past Events",
+    "register": "Register",
+    "viewDetails": "View Details",
+    "details": "Details:",
+    "result": "Result:",
+    "eventDetails": {
+      "frc2026": {
+        "title": "FRC 2026 AGE/REBUILT Season Announcement",
+        "description": "FIRST®️ AGE/REBUILT competition season in Turkey! 6 events in Istanbul, 2 events in Ankara. Will be held at Başakşehir Sports Hall and Turkish Athletics Federation Athletics Hall.",
+        "details": "Istanbul Regional (March 3-5), Bosphorus Regional (March 6-8), Yeditepe Regional (March 9-11), Haliç Regional (March 25-27), Marmara Regional (March 28-30), Avrasya Regional (March 31-April 2), Ankara Regional (April 7-9), Başkent Regional (April 10-12)"
+      },
+      "teamFoundation": {
+        "title": "Team Foundation",
+        "description": "Callister #9024 FRC team was established.",
+        "result": "Foundation"
+      }
+    },
+    "types": {
+      "competition": "Competition",
+      "festival": "Festival",
+      "project": "Project",
+      "webinar": "Webinar",
+      "foundation": "Foundation"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with Callister #9024 FRC Team",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "sent": "Message sent!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "social": "Social Media"
+    },
+    "address": "Kocaeli, Turkey",
+    "phone": "+90 (262) XXX XX XX",
+    "email": "info@callisterfrc.com",
+    "directMessage": "Send direct message",
+    "visitLocation": "Visit location",
+    "followUs": "Follow us",
+    "quickContact": "Quick Contact",
+    "quickContactDesc": "Fill out the form to get in touch with us"
+  },
+  "footer": {
+    "description": "We work together for science, technology, and social impact.",
+    "copyright": "© {year} Callister #9024 FRC Team"
+  }
+}

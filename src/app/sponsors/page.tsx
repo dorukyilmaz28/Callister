@@ -1,7 +1,12 @@
+'use client'
+
 import { ExternalLink, Star, Crown, Award } from 'lucide-react'
 import sponsorsData from '@/data/sponsors.json'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function SponsorsPage() {
+  const { t } = useLanguage()
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#3A006F] via-[#5A008F] to-[#8A00FF] relative overflow-hidden">
       {/* Background glow effects */}
@@ -15,17 +20,17 @@ export default function SponsorsPage() {
             {/* Header */}
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-                Sponsorlarımız
+                {t('sponsors.title')}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                Başarılarımızda büyük katkıları olan değerli sponsorlarımız
+                {t('sponsors.subtitle')}
               </p>
             </div>
 
             {/* Sponsor Categories */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-white mb-8 text-center">
-                Sponsor Kategorileri
+                {t('sponsors.categories')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {sponsorsData.categories.map((cat) => (
@@ -51,6 +56,7 @@ export default function SponsorsPage() {
                         </li>
                       ))}
                     </ul>
+
                   </div>
                 ))}
               </div>
@@ -59,7 +65,7 @@ export default function SponsorsPage() {
             {/* Sponsor Logos Grid */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-white mb-8 text-center">
-                Sponsor Logoları
+                {t('sponsors.logos')}
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 {sponsorsData.sponsors.map((sponsor) => (
@@ -80,7 +86,7 @@ export default function SponsorsPage() {
                       </div>
                     </div>
                     <h3 className="text-lg font-semibold text-white mb-2">{sponsor.name}</h3>
-                    <p className="text-sm text-gray-300 mb-3">{sponsor.description}</p>
+                    <p className="text-sm text-gray-300 mb-3">{t(`sponsors.descriptions.${sponsor.name.toLowerCase()}`)}</p>
                     <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-purple-500/20 text-purple-200 border border-purple-400/30">
                       {sponsor.category}
                     </div>
@@ -92,59 +98,25 @@ export default function SponsorsPage() {
             {/* Sponsorship Packages */}
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-white mb-8 text-center">
-                Sponsorluk Paketleri
+                {t('sponsors.packages')}
               </h2>
               <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-                {/* Platinum Package */}
+                {/* Callister Package */}
                 <div className="bg-gradient-to-br from-gray-100/20 via-gray-200/15 to-gray-300/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300">
                   <div className="text-center mb-6">
                     <div className="w-16 h-16 bg-gradient-to-br from-gray-300 to-gray-400 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Crown className="text-gray-700 w-8 h-8" />
                     </div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Callister Paket</h3>
-                    <div className="text-3xl font-bold text-purple-300 mb-4">$15.000+</div>
+                    <h3 className="text-2xl font-bold text-white mb-2">{t('sponsors.packagesList.callister.name')}</h3>
+                    <div className="text-3xl font-bold text-purple-300 mb-4">{t('sponsors.packagesList.callister.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Üniforma arkasında en büyük boyutta şirket logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Takım adı şirketin isteğine göre belirlenir
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Pit alanında sponsor şirketinin tanıtım materyali sergileme hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Tüm sosyal medya hesaplarımızda sponsor şirketinin adı ve logosu birinci sırada
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Broşür ve sunumlarda en büyük boyutta şirket logosu kullanımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Sponsor şirketinin çalışanlarının çocuklarına 4 hafta tasarım, programlama, mekanik ve STEAM eğitimi
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Takımımızın yürüttüğü tüm sosyal sorumluluk faaliyetlerinde şirketin tanıtımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Etkinlik isimlerini şekillendirme hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Sponsor isterse takım adını kullanarak paylaşım yapma hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-300 mr-2">•</span>
-                      Takımımızın düzenlediği etkinliklerde konuşma ve reklam yapma hakkı
-                    </li>
+                    {t('sponsors.packagesList.callister.features').map((feature: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-purple-300 mr-2">•</span>
+                        {feature}
+                      </li>
+                    ))}
                   </ul>
                 </div>
 
@@ -154,46 +126,16 @@ export default function SponsorsPage() {
                     <div className="w-16 h-16 bg-gradient-to-br from-blue-300 to-blue-400 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Star className="text-blue-700 w-8 h-8" />
                     </div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Elmas Paket</h3>
-                    <div className="text-3xl font-bold text-blue-300 mb-4">$9.000+</div>
+                    <h3 className="text-2xl font-bold text-white mb-2">{t('sponsors.packagesList.diamond.name')}</h3>
+                    <div className="text-3xl font-bold text-blue-300 mb-4">{t('sponsors.packagesList.diamond.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Üniforma arkasında büyük boyutta şirket logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Tüm sosyal medya hesaplarımızda sponsor şirketinin adı ve logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Broşür ve sunumlarda şirket logosu kullanımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Pit alanında sponsor şirketinin tanıtım materyali sergileme hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Takımımızın yürüttüğü tüm sosyal sorumluluk faaliyetlerinde şirketin temel tanıtımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Sponsor şirketinin çalışanlarının çocuklarına 4 hafta ücretsiz tasarım ve programlama eğitimi
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Sponsor isterse takım adını kullanarak paylaşım yapma hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Sponsor şirketinin sosyal sorumluluk projelerinde gönüllü olarak yer alma hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-300 mr-2">•</span>
-                      Takımımızın düzenlediği etkinliklerde konuşma ve reklam yapma hakkı
-                    </li>
+                    {t('sponsors.packagesList.diamond.features').map((feature: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-blue-300 mr-2">•</span>
+                        {feature}
+                      </li>
+                    ))}
                   </ul>
                 </div>
 
@@ -203,42 +145,16 @@ export default function SponsorsPage() {
                     <div className="w-16 h-16 bg-gradient-to-br from-yellow-300 to-yellow-400 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Award className="text-yellow-700 w-8 h-8" />
                     </div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Altın Paket</h3>
-                    <div className="text-3xl font-bold text-yellow-300 mb-4">$7.000+</div>
+                    <h3 className="text-2xl font-bold text-white mb-2">{t('sponsors.packagesList.gold.name')}</h3>
+                    <div className="text-3xl font-bold text-yellow-300 mb-4">{t('sponsors.packagesList.gold.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Üniforma arkasında orta boyutta şirket logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Tüm sosyal medya hesaplarımızda sponsor şirketinin adı ve logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Broşür ve sunumlarda şirket logosu kullanımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Pit alanında sponsor şirketinin tanıtım materyali sergileme hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Takımımızın yürüttüğü tüm sosyal sorumluluk faaliyetlerinde şirketin temel tanıtımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Sponsor isterse takım adını kullanarak paylaşım yapma hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Sponsor şirketinin sosyal sorumluluk projelerinde gönüllü olarak yer alma hakkı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-yellow-300 mr-2">•</span>
-                      Takımımızın düzenlediği etkinliklerde konuşma ve reklam yapma hakkı
-                    </li>
+                    {t('sponsors.packagesList.gold.features').map((feature: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-yellow-300 mr-2">•</span>
+                        {feature}
+                      </li>
+                    ))}
                   </ul>
                 </div>
 
@@ -248,26 +164,16 @@ export default function SponsorsPage() {
                     <div className="w-16 h-16 bg-gradient-to-br from-gray-400 to-gray-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Award className="text-gray-600 w-8 h-8" />
                     </div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Gümüş Paket</h3>
-                    <div className="text-3xl font-bold text-gray-300 mb-4">$5.000+</div>
+                    <h3 className="text-2xl font-bold text-white mb-2">{t('sponsors.packagesList.silver.name')}</h3>
+                    <div className="text-3xl font-bold text-gray-300 mb-4">{t('sponsors.packagesList.silver.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    <li className="flex items-start">
-                      <span className="text-gray-300 mr-2">•</span>
-                      Üniforma arkasında küçük boyutta şirket logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-gray-300 mr-2">•</span>
-                      Broşür ve sunumlarda şirket logosu kullanımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-gray-300 mr-2">•</span>
-                      Sosyal medya ve web sitemizde özel teşekkür
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-gray-300 mr-2">•</span>
-                      Sponsor isterse takım adını kullanarak paylaşım yapma hakkı
-                    </li>
+                    {t('sponsors.packagesList.silver.features').map((feature: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-gray-300 mr-2">•</span>
+                        {feature}
+                      </li>
+                    ))}
                   </ul>
                 </div>
 
@@ -277,22 +183,16 @@ export default function SponsorsPage() {
                     <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Award className="text-amber-700 w-8 h-8" />
                     </div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Bronz Paket</h3>
-                    <div className="text-3xl font-bold text-amber-300 mb-4">$3.000+</div>
+                    <h3 className="text-2xl font-bold text-white mb-2">{t('sponsors.packagesList.bronze.name')}</h3>
+                    <div className="text-3xl font-bold text-amber-300 mb-4">{t('sponsors.packagesList.bronze.price')}</div>
                   </div>
                   <ul className="space-y-3 text-sm text-gray-200 mb-6">
-                    <li className="flex items-start">
-                      <span className="text-amber-300 mr-2">•</span>
-                      Üniforma arkasında küçük boyutta şirket logosu
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-amber-300 mr-2">•</span>
-                      Broşür ve sunumlarda şirket logosu kullanımı
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-amber-300 mr-2">•</span>
-                      Sosyal medya ve web sitemizde özel teşekkür
-                    </li>
+                    {t('sponsors.packagesList.bronze.features').map((feature: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-amber-300 mr-2">•</span>
+                        {feature}
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>

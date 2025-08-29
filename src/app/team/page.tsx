@@ -3,9 +3,45 @@
 import { useState } from 'react'
 import { X } from 'lucide-react'
 import teamData from '@/data/team.json'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function TeamPage() {
   const [selectedMember, setSelectedMember] = useState<any>(null)
+  const { t } = useLanguage()
+
+  // Rol çevirileri
+  const roleTranslations: { [key: string]: string } = {
+    'Mentor': t('team.roles.mentor'),
+    'Yazılım Geliştirici': t('team.roles.softwareDeveloper'),
+    'Takım Kaptanı': t('team.roles.teamCaptain'),
+    'Mekanik': t('team.roles.mechanical'),
+    'Sosyal Medya Sorumlusu': t('team.roles.socialMediaManager'),
+    'Tasarımcı': t('team.roles.designer'),
+    'Yazılım Geliştirici ve Takım Kaptanı': t('team.roles.softwareDeveloperAndTeamCaptain'),
+    'Takım Kaptanı ve Mekanik': t('team.roles.teamCaptainAndMechanical'),
+    'Tasarım ve Yazılım Geliştirici': t('team.roles.designAndSoftwareDeveloper')
+  }
+
+  // Departman çevirileri
+  const departmentTranslations: { [key: string]: string } = {
+    'Mentor': t('team.departments.mentor'),
+    'Mekanik': t('team.departments.mechanical'),
+    'Yazılım': t('team.departments.software'),
+    'Tasarım': t('team.departments.design'),
+    'Medya': t('team.departments.media')
+  }
+
+  // Açıklama çevirileri
+  const descriptionTranslations: { [key: string]: string } = {
+    'Takım mentoru ve teknik danışman.': t('team.descriptions.mentor'),
+    'Robot kontrol sistemleri ve yazılım geliştirme.': t('team.descriptions.softwareDeveloper'),
+    'Takım kaptanı ve yazılım geliştirmede sorumlu.': t('team.descriptions.teamCaptain'),
+    'Robot mekanik tasarımı ve üretim süreçlerinden sorumlu.': t('team.descriptions.mechanical'),
+    'Sosyal medya yönetimi ve içerik üretimi.': t('team.descriptions.socialMediaManager'),
+    'Robot ve grafik tasarımı.': t('team.descriptions.designer'),
+    'Robot tasarımı ve yazılım geliştirme.': t('team.descriptions.designAndSoftwareDeveloper'),
+    'Robot montajı ve mekanik sistemler.': t('team.descriptions.robotAssembly')
+  }
 
   const openModal = (member: any) => {
     setSelectedMember(member)
@@ -28,10 +64,10 @@ export default function TeamPage() {
             {/* Header */}
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-                Takımımız
+                {t('team.title')}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                Callister #9024 FRC Takımı'nın değerli üyeleri
+                {t('team.subtitle')}
               </p>
             </div>
 
@@ -63,17 +99,17 @@ export default function TeamPage() {
                       
                       {/* Role */}
                       <div className="text-sm text-purple-200 mb-3 px-3 py-1 bg-white/10 rounded-full border border-white/20">
-                        {member.role}
+                        {roleTranslations[member.role] || member.role}
                       </div>
                       
                       {/* Department */}
                       <div className="text-xs text-gray-300 mb-4">
-                        {member.department}
+                        {departmentTranslations[member.department] || member.department}
                       </div>
                       
                       {/* Description */}
                       <div className="text-sm text-gray-200 leading-relaxed">
-                        {member.description}
+                        {descriptionTranslations[member.description] || member.description}
                       </div>
                     </div>
                   </div>
@@ -100,16 +136,16 @@ export default function TeamPage() {
             
             <div className="space-y-4">
               <div>
-                <span className="text-purple-200 font-semibold">Rol:</span>
-                <span className="text-white ml-2">{selectedMember.role}</span>
+                <span className="text-purple-200 font-semibold">{t('team.modal.role')}</span>
+                <span className="text-white ml-2">{roleTranslations[selectedMember.role] || selectedMember.role}</span>
               </div>
               <div>
-                <span className="text-purple-200 font-semibold">Departman:</span>
-                <span className="text-white ml-2">{selectedMember.department}</span>
+                <span className="text-purple-200 font-semibold">{t('team.modal.department')}</span>
+                <span className="text-white ml-2">{departmentTranslations[selectedMember.department] || selectedMember.department}</span>
               </div>
               <div>
-                <span className="text-purple-200 font-semibold">Açıklama:</span>
-                <p className="text-gray-200 mt-2 leading-relaxed">{selectedMember.description}</p>
+                <span className="text-purple-200 font-semibold">{t('team.modal.description')}</span>
+                <p className="text-gray-200 mt-2 leading-relaxed">{descriptionTranslations[selectedMember.description] || selectedMember.description}</p>
               </div>
             </div>
           </div>
