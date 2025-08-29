@@ -13,14 +13,14 @@ export default function EventsPage() {
   const getEventTranslation = (eventId: number) => {
     const translations: { [key: number]: any } = {
       1: {
-        title: t('events.eventDetails.frc2026.title'),
-        description: t('events.eventDetails.frc2026.description'),
-        details: t('events.eventDetails.frc2026.details')
+        title: t('events.eventDetails.frc2026.title') as string,
+        description: t('events.eventDetails.frc2026.description') as string,
+        details: t('events.eventDetails.frc2026.details') as string
       },
       2: {
-        title: t('events.eventDetails.teamFoundation.title'),
-        description: t('events.eventDetails.teamFoundation.description'),
-        result: t('events.eventDetails.teamFoundation.result')
+        title: t('events.eventDetails.teamFoundation.title') as string,
+        description: t('events.eventDetails.teamFoundation.description') as string,
+        result: t('events.eventDetails.teamFoundation.result') as string
       }
     }
 
@@ -33,10 +33,10 @@ export default function EventsPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            {t('events.title')}
+            {t('events.title') as string}
           </h1>
           <p className="text-xl md:text-2xl text-gray-200">
-            {t('events.subtitle')}
+            {t('events.subtitle') as string}
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function EventsPage() {
                   
                   {translation.details && (
                     <div className="mb-6">
-                      <h3 className="text-xl font-semibold text-white mb-3">{t('events.details')}</h3>
+                      <h3 className="text-xl font-semibold text-white mb-3">{t('events.details') as string}</h3>
                       <p className="text-gray-200 leading-relaxed">{translation.details}</p>
                     </div>
                   )}
@@ -103,7 +103,7 @@ export default function EventsPage() {
                   
                   {translation.result && (
                     <div className="mt-4 p-3 bg-green-500/20 rounded-lg border border-green-500/30">
-                      <span className="text-green-300 font-semibold">{t('events.result')} {translation.result}</span>
+                      <span className="text-green-300 font-semibold">{t('events.result') as string} {translation.result}</span>
                     </div>
                   )}
                 </>

@@ -19,8 +19,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-8">
         <div className="text-center md:text-left">
           <div className="text-xl sm:text-2xl font-extrabold text-gradient mb-2 select-none">Callister #9024</div>
-          <div className="text-secondary text-sm mb-2">{t('footer.copyright', { year: currentYear })}</div>
-          <div className="text-secondary/80 text-xs px-4 sm:px-0">{t('footer.description')}</div>
+                      <div className="text-secondary text-sm mb-2">{t('footer.copyright', { year: currentYear }) as string}</div>
+            <div className="text-secondary/80 text-xs px-4 sm:px-0">{t('footer.description') as string}</div>
         </div>
         <div className="flex gap-4 items-center justify-center">
           {socialLinks.map((social) => (

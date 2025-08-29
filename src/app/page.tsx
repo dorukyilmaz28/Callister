@@ -17,27 +17,27 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#F5F5F5] drop-shadow-lg mb-4">{t('frc.title')}</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#F5F5F5] drop-shadow-lg mb-4">{t('frc.title') as string}</h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#F5F5F5]/90 font-medium px-4">
-              {t('frc.subtitle')}
+              {t('frc.subtitle') as string}
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="px-2 sm:px-4">
-              <h3 className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-4 sm:mb-6 drop-shadow-md">
-                {t('frc.whatIs')}
-              </h3>
-              <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-[#F5F5F5]/95 font-medium leading-relaxed font-['Poppins']">
-                <p>
-                  {t('frc.description1')}
-                </p>
-                <p>
-                  {t('frc.description2')}
-                </p>
-                <p>
-                  {t('frc.description3')}
-                </p>
-              </div>
+                              <h3 className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-4 sm:mb-6 drop-shadow-md">
+                  {t('frc.whatIs') as string}
+                </h3>
+                <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-[#F5F5F5]/95 font-medium leading-relaxed font-['Poppins']">
+                  <p>
+                    {t('frc.description1') as string}
+                  </p>
+                  <p>
+                    {t('frc.description2') as string}
+                  </p>
+                  <p>
+                    {t('frc.description3') as string}
+                  </p>
+                </div>
             </div>
             <div className="relative px-2 sm:px-4">
               <div className="bg-gradient-to-br from-white/20 via-white/15 to-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 border border-white/20 shadow-2xl">
@@ -60,9 +60,9 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('values.title')}</h2>
+            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('values.title') as string}</h2>
             <p className="section-subtitle text-[#F5F5F5]/90 font-medium">
-              {t('values.subtitle')}
+              {t('values.subtitle') as string}
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
@@ -91,10 +91,10 @@ export default function Home() {
               <div key={index} className="card text-center">
                 <value.icon size={40} className="text-accent mx-auto mb-3 sm:mb-4" />
                 <h3 className="card-title text-lg sm:text-xl">
-                  {t(value.titleKey)}
+                  {t(value.titleKey) as string}
                 </h3>
                 <p className="card-description text-sm sm:text-base">
-                  {t(value.descriptionKey)}
+                  {t(value.descriptionKey) as string}
                 </p>
               </div>
             ))}
@@ -105,9 +105,9 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('news.title')}</h2>
+            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('news.title') as string}</h2>
             <p className="section-subtitle text-[#F5F5F5]/90 font-medium">
-              {t('news.subtitle')}
+              {t('news.subtitle') as string}
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 sm:gap-8 max-w-2xl mx-auto">
@@ -123,17 +123,17 @@ export default function Home() {
                 <div className="aspect-video bg-gradient-to-br from-white/30 to-white/10 rounded-lg mb-4 flex items-center justify-center border border-white/20">
                   <div className="text-center">
                     <div className="text-3xl sm:text-4xl mb-2">📰</div>
-                    <p className="text-[#F5F5F5] font-medium text-xs sm:text-sm">{t('news.newsImage')}</p>
+                    <p className="text-[#F5F5F5] font-medium text-xs sm:text-sm">{t('news.newsImage') as string}</p>
                   </div>
                 </div>
                 <h3 className="card-title text-lg sm:text-xl">
-                  {t(news.titleKey)}
+                  {t(news.titleKey) as string}
                 </h3>
                 <p className="card-tag mb-3 text-sm">
-                  {t(news.dateKey)}
+                  {t(news.dateKey) as string}
                 </p>
                 <p className="card-description text-sm sm:text-base">
-                  {t(news.excerptKey)}
+                  {t(news.excerptKey) as string}
                 </p>
               </div>
             ))}
@@ -141,7 +141,7 @@ export default function Home() {
           <div className="text-center mt-8 sm:mt-12">
             <Link href="/events">
               <button className="btn-primary">
-                {t('news.viewAllNews')}
+                {t('news.viewAllNews') as string}
               </button>
             </Link>
           </div>
@@ -151,9 +151,9 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('sponsors.title')}</h2>
+            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('sponsors.title') as string}</h2>
             <p className="section-subtitle text-[#F5F5F5]/90 font-medium">
-              {t('sponsors.subtitle')}
+              {t('sponsors.subtitle') as string}
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
@@ -170,7 +170,7 @@ export default function Home() {
                   ) : null}
                   <div className={`text-center ${sponsor.logo ? 'hidden' : ''}`}>
                     <div className="text-xl sm:text-2xl mb-2">🏢</div>
-                    <p className="text-[#F5F5F5] font-medium text-xs">{t('sponsors.sponsorLogo')}</p>
+                    <p className="text-[#F5F5F5] font-medium text-xs">{t('sponsors.sponsorLogo') as string}</p>
                   </div>
                 </div>
                 <div className="mt-2 sm:mt-3">
@@ -188,13 +188,13 @@ export default function Home() {
                 <div className="aspect-square bg-gradient-to-br from-white/30 to-white/10 rounded-lg flex items-center justify-center border border-white/20">
                   <div className="text-center">
                     <div className="text-xl sm:text-2xl mb-2">🏢</div>
-                    <p className="text-[#F5F5F5] font-medium text-xs">{t('sponsors.sponsorLogo')}</p>
+                    <p className="text-[#F5F5F5] font-medium text-xs">{t('sponsors.sponsorLogo') as string}</p>
                   </div>
                 </div>
                 <div className="mt-2 sm:mt-3">
                   <h4 className="text-xs sm:text-sm font-semibold text-[#F5F5F5] mb-1">Sponsor</h4>
                   <span className="inline-block px-2 py-1 rounded-full text-xs font-medium bg-purple-500/20 text-purple-200 border border-purple-400/30">
-                    {t('sponsors.waiting')}
+                    {t('sponsors.waiting') as string}
                   </span>
                 </div>
               </div>

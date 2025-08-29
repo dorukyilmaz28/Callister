@@ -68,7 +68,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-[#F5F5F5] mb-4 sm:mb-6 drop-shadow-2xl font-['Poppins'] px-2"
         >
-          {t('hero.title')} <span className="text-gradient">#9024</span>
+          {t('hero.title') as string} <span className="text-gradient">#9024</span>
         </motion.h1>
 
         {/* Slogan */}
@@ -78,7 +78,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#F5F5F5] font-semibold mb-4 sm:mb-6 drop-shadow-lg font-['Poppins'] px-4"
         >
-          {t('hero.subtitle')}
+          {t('hero.subtitle') as string}
         </motion.p>
 
         {/* Description */}
@@ -88,7 +88,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-base sm:text-lg text-[#F5F5F5]/95 mb-8 sm:mb-12 max-w-2xl mx-auto font-medium leading-relaxed font-['Poppins'] px-4"
         >
-          {t('hero.description')}
+          {t('hero.description') as string}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -104,7 +104,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="btn-primary flex items-center justify-center space-x-2 shadow-2xl text-[#F5F5F5] w-full sm:w-auto"
             >
-              <span>{t('hero.aboutTeam')}</span>
+              <span>{t('hero.aboutTeam') as string}</span>
               <ArrowRight size={20} />
             </motion.button>
           </Link>
@@ -114,7 +114,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="btn-secondary flex items-center justify-center space-x-2 shadow-2xl text-[#F5F5F5] w-full sm:w-auto"
             >
-              <span>{t('hero.viewProjects')}</span>
+              <span>{t('hero.viewProjects') as string}</span>
               <ArrowRight size={20} />
             </motion.button>
           </Link>
@@ -129,15 +129,15 @@ const Hero = () => {
         >
           <div className="text-center">
             <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">22</div>
-            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.teamMembers')}</div>
+            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.teamMembers') as string}</div>
           </div>
           <div className="text-center">
             <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">11</div>
-            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.projects')}</div>
+            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.projects') as string}</div>
           </div>
           <div className="text-center">
             <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">5</div>
-            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.awards')}</div>
+            <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.awards') as string}</div>
           </div>
         </motion.div>
       </div>

@@ -13,24 +13,24 @@ export default function AwardsPage() {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 px-2">
-            {t('awards.title')}
+            {t('awards.title') as string}
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 px-4">
-            {t('awards.subtitle')}
+            {t('awards.subtitle') as string}
           </p>
         </div>
 
         {/* Competition List Table */}
         <div className="mb-12 sm:mb-16">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 px-2">{t('awards.competitionList')}</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 px-2">{t('awards.competitionList') as string}</h2>
           <div className="overflow-x-auto">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl">
               <table className="min-w-full">
                 <thead>
                   <tr className="border-b-2 border-white/20">
-                    <th className="text-left px-3 sm:px-6 py-3 sm:py-4 font-semibold text-white text-sm sm:text-base">{t('awards.table.year')}</th>
-                    <th className="text-left px-3 sm:px-6 py-3 sm:py-4 font-semibold text-white text-sm sm:text-base">{t('awards.table.event')}</th>
-                    <th className="text-left px-3 sm:px-6 py-3 sm:py-4 font-semibold text-white text-sm sm:text-base">{t('awards.table.awards')}</th>
+                    <th className="text-left px-3 sm:px-6 py-3 sm:py-4 font-semibold text-white text-sm sm:text-base">{t('awards.table.year') as string}</th>
+                    <th className="text-left px-3 sm:px-6 py-3 sm:py-4 font-semibold text-white text-sm sm:text-base">{t('awards.table.event') as string}</th>
+                    <th className="text-left px-3 sm:px-6 py-3 sm:py-4 font-semibold text-white text-sm sm:text-base">{t('awards.table.awards') as string}</th>
                   </tr>
                 </thead>
                 <tbody>

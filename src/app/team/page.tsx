@@ -11,36 +11,36 @@ export default function TeamPage() {
 
   // Rol çevirileri
   const roleTranslations: { [key: string]: string } = {
-    'Mentor': t('team.roles.mentor'),
-    'Yazılım Geliştirici': t('team.roles.softwareDeveloper'),
-    'Takım Kaptanı': t('team.roles.teamCaptain'),
-    'Mekanik': t('team.roles.mechanical'),
-    'Sosyal Medya Sorumlusu': t('team.roles.socialMediaManager'),
-    'Tasarımcı': t('team.roles.designer'),
-    'Yazılım Geliştirici ve Takım Kaptanı': t('team.roles.softwareDeveloperAndTeamCaptain'),
-    'Takım Kaptanı ve Mekanik': t('team.roles.teamCaptainAndMechanical'),
-    'Tasarım ve Yazılım Geliştirici': t('team.roles.designAndSoftwareDeveloper')
+    'Mentor': t('team.roles.mentor') as string,
+    'Yazılım Geliştirici': t('team.roles.softwareDeveloper') as string,
+    'Takım Kaptanı': t('team.roles.teamCaptain') as string,
+    'Mekanik': t('team.roles.mechanical') as string,
+    'Sosyal Medya Sorumlusu': t('team.roles.socialMediaManager') as string,
+    'Tasarımcı': t('team.roles.designer') as string,
+    'Yazılım Geliştirici ve Takım Kaptanı': t('team.roles.softwareDeveloperAndTeamCaptain') as string,
+    'Takım Kaptanı ve Mekanik': t('team.roles.teamCaptainAndMechanical') as string,
+    'Tasarım ve Yazılım Geliştirici': t('team.roles.designAndSoftwareDeveloper') as string
   }
 
   // Departman çevirileri
   const departmentTranslations: { [key: string]: string } = {
-    'Mentor': t('team.departments.mentor'),
-    'Mekanik': t('team.departments.mechanical'),
-    'Yazılım': t('team.departments.software'),
-    'Tasarım': t('team.departments.design'),
-    'Medya': t('team.departments.media')
+    'Mentor': t('team.departments.mentor') as string,
+    'Mekanik': t('team.departments.mechanical') as string,
+    'Yazılım': t('team.departments.software') as string,
+    'Tasarım': t('team.departments.design') as string,
+    'Medya': t('team.departments.media') as string
   }
 
   // Açıklama çevirileri
   const descriptionTranslations: { [key: string]: string } = {
-    'Takım mentoru ve teknik danışman.': t('team.descriptions.mentor'),
-    'Robot kontrol sistemleri ve yazılım geliştirme.': t('team.descriptions.softwareDeveloper'),
-    'Takım kaptanı ve yazılım geliştirmede sorumlu.': t('team.descriptions.teamCaptain'),
-    'Robot mekanik tasarımı ve üretim süreçlerinden sorumlu.': t('team.descriptions.mechanical'),
-    'Sosyal medya yönetimi ve içerik üretimi.': t('team.descriptions.socialMediaManager'),
-    'Robot ve grafik tasarımı.': t('team.descriptions.designer'),
-    'Robot tasarımı ve yazılım geliştirme.': t('team.descriptions.designAndSoftwareDeveloper'),
-    'Robot montajı ve mekanik sistemler.': t('team.descriptions.robotAssembly')
+    'Takım mentoru ve teknik danışman.': t('team.descriptions.mentor') as string,
+    'Robot kontrol sistemleri ve yazılım geliştirme.': t('team.descriptions.softwareDeveloper') as string,
+    'Takım kaptanı ve yazılım geliştirmede sorumlu.': t('team.descriptions.teamCaptain') as string,
+    'Robot mekanik tasarımı ve üretim süreçlerinden sorumlu.': t('team.descriptions.mechanical') as string,
+    'Sosyal medya yönetimi ve içerik üretimi.': t('team.descriptions.socialMediaManager') as string,
+    'Robot ve grafik tasarımı.': t('team.descriptions.designer') as string,
+    'Robot tasarımı ve yazılım geliştirme.': t('team.descriptions.designAndSoftwareDeveloper') as string,
+    'Robot montajı ve mekanik sistemler.': t('team.descriptions.robotAssembly') as string
   }
 
   const openModal = (member: any) => {
@@ -64,10 +64,10 @@ export default function TeamPage() {
             {/* Header */}
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-                {t('team.title')}
+                {t('team.title') as string}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                {t('team.subtitle')}
+                {t('team.subtitle') as string}
               </p>
             </div>
 
@@ -135,18 +135,18 @@ export default function TeamPage() {
             </div>
             
             <div className="space-y-4">
-              <div>
-                <span className="text-purple-200 font-semibold">{t('team.modal.role')}</span>
-                <span className="text-white ml-2">{roleTranslations[selectedMember.role] || selectedMember.role}</span>
-              </div>
-              <div>
-                <span className="text-purple-200 font-semibold">{t('team.modal.department')}</span>
-                <span className="text-white ml-2">{departmentTranslations[selectedMember.department] || selectedMember.department}</span>
-              </div>
-              <div>
-                <span className="text-purple-200 font-semibold">{t('team.modal.description')}</span>
-                <p className="text-gray-200 mt-2 leading-relaxed">{descriptionTranslations[selectedMember.description] || selectedMember.description}</p>
-              </div>
+                             <div>
+                 <span className="text-purple-200 font-semibold">{t('team.modal.role') as string}</span>
+                 <span className="text-white ml-2">{roleTranslations[selectedMember.role] || selectedMember.role}</span>
+               </div>
+               <div>
+                 <span className="text-purple-200 font-semibold">{t('team.modal.department') as string}</span>
+                 <span className="text-white ml-2">{departmentTranslations[selectedMember.department] || selectedMember.department}</span>
+               </div>
+               <div>
+                 <span className="text-purple-200 font-semibold">{t('team.modal.description') as string}</span>
+                 <p className="text-gray-200 mt-2 leading-relaxed">{descriptionTranslations[selectedMember.description] || selectedMember.description}</p>
+               </div>
             </div>
           </div>
         </div>

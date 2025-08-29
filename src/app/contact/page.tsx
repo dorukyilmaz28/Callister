@@ -73,10 +73,10 @@ export default function ContactPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            {t('contact.title')}
+            {t('contact.title') as string}
           </h1>
           <p className="text-xl md:text-2xl text-gray-200">
-            {t('contact.subtitle')}
+            {t('contact.subtitle') as string}
           </p>
         </div>
 
@@ -89,8 +89,8 @@ export default function ContactPage() {
                 <Mail className="text-purple-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">{t('contact.info.email')}</h3>
-                <p className="text-gray-300 text-sm">{t('contact.directMessage')}</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.info.email') as string}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.directMessage') as string}</p>
               </div>
             </div>
             <a 
@@ -108,8 +108,8 @@ export default function ContactPage() {
                 <MapPin className="text-blue-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">{t('contact.info.address')}</h3>
-                <p className="text-gray-300 text-sm">{t('contact.visitLocation')}</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.info.address') as string}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.visitLocation') as string}</p>
               </div>
             </div>
             <div className="space-y-2">
@@ -129,8 +129,8 @@ export default function ContactPage() {
                 <MessageCircle className="text-pink-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">{t('contact.info.social')}</h3>
-                <p className="text-gray-300 text-sm">{t('contact.followUs')}</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.info.social') as string}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.followUs') as string}</p>
               </div>
             </div>
             <div className="space-y-3">
@@ -171,8 +171,8 @@ export default function ContactPage() {
                 <Send className="text-green-300" size={24} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">{t('contact.quickContact')}</h3>
-                <p className="text-gray-300 text-sm">{t('contact.quickContactDesc')}</p>
+                <h3 className="text-xl font-bold text-white">{t('contact.quickContact') as string}</h3>
+                <p className="text-gray-300 text-sm">{t('contact.quickContactDesc') as string}</p>
               </div>
             </div>
             <p className="text-green-200 text-sm">
@@ -184,32 +184,32 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-white mb-2">{t('contact.quickContact')}</h2>
-            <p className="text-gray-300">{t('contact.quickContactDesc')}</p>
+            <h2 className="text-3xl font-bold text-white mb-2">{t('contact.quickContact') as string}</h2>
+            <p className="text-gray-300">{t('contact.quickContactDesc') as string}</p>
           </div>
           
           {/* Status Messages */}
           {submitStatus === 'success' && (
             <div className="mb-6 p-4 bg-green-500/20 border border-green-500/30 rounded-xl">
-              <p className="text-green-200 text-center">
-                ✅ {t('contact.form.sent')}
-              </p>
-            </div>
-          )}
-          
-          {submitStatus === 'error' && (
-            <div className="mb-6 p-4 bg-red-500/20 border border-red-500/30 rounded-xl">
-              <p className="text-red-200 text-center">
-                ❌ {t('contact.form.error')}
-              </p>
-            </div>
-          )}
+                              <p className="text-green-200 text-center">
+                  ✅ {t('contact.form.sent') as string}
+                </p>
+              </div>
+            )}
+            
+            {submitStatus === 'error' && (
+              <div className="mb-6 p-4 bg-red-500/20 border border-red-500/30 rounded-xl">
+                <p className="text-red-200 text-center">
+                  ❌ {t('contact.form.error') as string}
+                </p>
+              </div>
+            )}
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-200 mb-2">
-                  {t('contact.form.name')} *
+                  {t('contact.form.name') as string} *
                 </label>
                 <input
                   type="text"
@@ -225,7 +225,7 @@ export default function ContactPage() {
               
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-200 mb-2">
-                  {t('contact.form.email')} *
+                  {t('contact.form.email') as string} *
                 </label>
                 <input
                   type="email"
@@ -242,7 +242,7 @@ export default function ContactPage() {
             
             <div>
               <label htmlFor="subject" className="block text-sm font-medium text-gray-200 mb-2">
-                {t('contact.form.subject')} *
+                {t('contact.form.subject') as string} *
               </label>
               <input
                 type="text"
@@ -258,7 +258,7 @@ export default function ContactPage() {
             
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-200 mb-2">
-                {t('contact.form.message')} *
+                {t('contact.form.message') as string} *
               </label>
               <textarea
                 id="message"
@@ -283,12 +283,12 @@ export default function ContactPage() {
                 {isSubmitting ? (
                   <>
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                    {t('contact.form.sending')}
+                    {t('contact.form.sending') as string}
                   </>
                 ) : (
                   <>
                     <Send size={20} className="mr-2" />
-                    {t('contact.form.send')}
+                    {t('contact.form.send') as string}
                   </>
                 )}
               </button>
@@ -299,9 +299,9 @@ export default function ContactPage() {
         {/* Additional Info */}
         <div className="text-center mt-12">
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-                            <h3 className="text-xl font-semibold text-white mb-2">{t('contact.quickContact')}</h3>
+                            <h3 className="text-xl font-semibold text-white mb-2">{t('contact.quickContact') as string}</h3>
                 <p className="text-gray-300">
-                  {t('contact.quickContactDesc')}
+                  {t('contact.quickContactDesc') as string}
                 </p>
           </div>
         </div>
