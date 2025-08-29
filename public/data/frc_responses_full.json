@@ -7,23 +7,126 @@
       "note": "using static FRC FAQ JSON"
     },
     "responses": {
-      "merhaba": "Merhaba! Ben Callister FRC Asistanıyım. Nasıl yardımcı olabilirim?",
-      "selam": "Selam! Sorunu yazabilirsin.",
-      "naber": "İyiyim, teşekkürler — sen nasılsın?",
-      "nasılsın": "İyiyim, teşekkürler! Hangi konuda bilgi istersin? (ör: kayıt, kod, mekanik)",
-      "iyiyim": "Harika! Ne hakkında yardım istersin?",
-      "teşekkürler": "Rica ederim!",
-      "görüşürüz": "Görüşürüz! Başarılar.",
-      "bye": "Hoşça kal!",
-      "yardım": "Hangi konuda yardım istersin? Ör: 'kickoff', 'kayıt', 'wpilib', 'motor ısınma'.",
-      "yazılım nedir": "Yazılım robotun davranışını kontrol eden kodlar ve algoritmalardır (FRC'de WPILib sık kullanılır).",
-      "mekanik nedir": "Mekanik robotun fiziksel parçalarıdır: şasi, aktüatör, dişliler, makaralar, bağlantılar vb.",
-      "elektrik nedir": "Elektrik robotun güç dağılımı, motor controller'ları, sensörler ve kablolamayı kapsar.",
-      "frc nedir": "FRC (FIRST Robotics Competition) lise öğrencilerinin mentörlerle birlikte robot tasarlayıp yarıştığı uluslararası bir programdır. Kesin kurallar Game Manual'dedir.",
-      "first nedir": "FIRST, gençleri STEM'e teşvik eden kar amacı gütmeyen organizasyondur (FRC, FTC vb. programları yürütür).",
-      "kickoff nedir": "Kickoff, sezonun oyun duyurusunun yapıldığı etkinliktir. Takımlar burada oyunun hedeflerini ve saha elemanlarını öğrenirler.",
-      "sezon ne zaman": "Sezon tarihleri her yıl değişir; resmi duyurular için FIRST web sayfasını takip edin.",
-      "nasıl kayıt olunur": "Takımlar FIRST Dashboard üzerinden kaydolur. Okul/kurum ve lead mentor onayı gerekir.",
+      "merhaba": {
+        "tr": "Merhaba! Ben Callister FRC Asistanıyım. Nasıl yardımcı olabilirim?",
+        "en": "Hello! I am the Callister FRC Assistant. How can I help you?"
+      },
+      "hello": {
+        "tr": "Merhaba! Ben Callister FRC Asistanıyım. Nasıl yardımcı olabilirim?",
+        "en": "Hello! I am the Callister FRC Assistant. How can I help you?"
+      },
+      "selam": {
+        "tr": "Selam! Sorunu yazabilirsin.",
+        "en": "Hi! You can write your question."
+      },
+      "hi": {
+        "tr": "Selam! Sorunu yazabilirsin.",
+        "en": "Hi! You can write your question."
+      },
+      "naber": {
+        "tr": "İyiyim, teşekkürler — sen nasılsın?",
+        "en": "I'm good, thanks — how are you?"
+      },
+      "nasılsın": {
+        "tr": "İyiyim, teşekkürler! Hangi konuda bilgi istersin? (ör: kayıt, kod, mekanik)",
+        "en": "I'm good, thanks! What information do you need? (e.g., registration, code, mechanical)"
+      },
+      "iyiyim": {
+        "tr": "Harika! Ne hakkında yardım istersin?",
+        "en": "Great! What help do you need?"
+      },
+      "teşekkürler": {
+        "tr": "Rica ederim!",
+        "en": "You're welcome!"
+      },
+      "görüşürüz": {
+        "tr": "Görüşürüz! Başarılar.",
+        "en": "See you! Good luck."
+      },
+      "bye": {
+        "tr": "Hoşça kal!",
+        "en": "Goodbye!"
+      },
+      "yardım": {
+        "tr": "Hangi konuda yardım istersin? Ör: 'kickoff', 'kayıt', 'wpilib', 'motor ısınma'.",
+        "en": "What help do you need? Examples: 'kickoff', 'registration', 'wpilib', 'motor overheating'."
+      },
+      "help": {
+        "tr": "Hangi konuda yardım istersin? Ör: 'kickoff', 'kayıt', 'wpilib', 'motor ısınma'.",
+        "en": "What help do you need? Examples: 'kickoff', 'registration', 'wpilib', 'motor overheating'."
+      },
+      "yazılım nedir": {
+        "tr": "Yazılım robotun davranışını kontrol eden kodlar ve algoritmalardır (FRC'de WPILib sık kullanılır).",
+        "en": "Software consists of codes and algorithms that control the robot's behavior (WPILib is commonly used in FRC)."
+      },
+      "software": {
+        "tr": "Yazılım robotun davranışını kontrol eden kodlar ve algoritmalardır (FRC'de WPILib sık kullanılır).",
+        "en": "Software consists of codes and algorithms that control the robot's behavior (WPILib is commonly used in FRC)."
+      },
+      "mekanik nedir": {
+        "tr": "Mekanik robotun fiziksel parçalarıdır: şasi, aktüatör, dişliler, makaralar, bağlantılar vb.",
+        "en": "Mechanical refers to the robot's physical parts: chassis, actuators, gears, pulleys, connections, etc."
+      },
+      "mechanical": {
+        "tr": "Mekanik robotun fiziksel parçalarıdır: şasi, aktüatör, dişliler, makaralar, bağlantılar vb.",
+        "en": "Mechanical refers to the robot's physical parts: chassis, actuators, gears, pulleys, connections, etc."
+      },
+      "what is mechanical": {
+        "tr": "Mekanik robotun fiziksel parçalarıdır: şasi, aktüatör, dişliler, makaralar, bağlantılar vb.",
+        "en": "Mechanical refers to the robot's physical parts: chassis, actuators, gears, pulleys, connections, etc."
+      },
+      "elektrik nedir": {
+        "tr": "Elektrik robotun güç dağılımı, motor controller'ları, sensörler ve kablolamayı kapsar.",
+        "en": "Electrical covers the robot's power distribution, motor controllers, sensors, and wiring."
+      },
+      "electrical": {
+        "tr": "Elektrik robotun güç dağılımı, motor controller'ları, sensörler ve kablolamayı kapsar.",
+        "en": "Electrical covers the robot's power distribution, motor controllers, sensors, and wiring."
+      },
+      "what is electrical": {
+        "tr": "Elektrik robotun güç dağılımı, motor controller'ları, sensörler ve kablolamayı kapsar.",
+        "en": "Electrical covers the robot's power distribution, motor controllers, sensors, and wiring."
+      },
+      "frc nedir": {
+        "tr": "FRC (FIRST Robotics Competition) lise öğrencilerinin mentörlerle birlikte robot tasarlayıp yarıştığı uluslararası bir programdır. Kesin kurallar Game Manual'dedir.",
+        "en": "FRC (FIRST Robotics Competition) is an international program where high school students design and compete with robots alongside mentors. Exact rules are in the Game Manual."
+      },
+      "what is frc": {
+        "tr": "FRC (FIRST Robotics Competition) lise öğrencilerinin mentörlerle birlikte robot tasarlayıp yarıştığı uluslararası bir programdır. Kesin kurallar Game Manual'dedir.",
+        "en": "FRC (FIRST Robotics Competition) is an international program where high school students design and compete with robots alongside mentors. Exact rules are in the Game Manual."
+      },
+      "first nedir": {
+        "tr": "FIRST, gençleri STEM'e teşvik eden kar amacı gütmeyen organizasyondur (FRC, FTC vb. programları yürütür).",
+        "en": "FIRST is a non-profit organization that encourages youth in STEM (runs FRC, FTC, and other programs)."
+      },
+      "what is first": {
+        "tr": "FIRST, gençleri STEM'e teşvik eden kar amacı gütmeyen organizasyondur (FRC, FTC vb. programları yürütür).",
+        "en": "FIRST is a non-profit organization that encourages youth in STEM (runs FRC, FTC, and other programs)."
+      },
+      "kickoff nedir": {
+        "tr": "Kickoff, sezonun oyun duyurusunun yapıldığı etkinliktir. Takımlar burada oyunun hedeflerini ve saha elemanlarını öğrenirler.",
+        "en": "Kickoff is the event where the season's game announcement is made. Teams learn the game objectives and field elements here."
+      },
+      "what is kickoff": {
+        "tr": "Kickoff, sezonun oyun duyurusunun yapıldığı etkinliktir. Takımlar burada oyunun hedeflerini ve saha elemanlarını öğrenirler.",
+        "en": "Kickoff is the event where the season's game announcement is made. Teams learn the game objectives and field elements here."
+      },
+      "sezon ne zaman": {
+        "tr": "Sezon tarihleri her yıl değişir; resmi duyurular için FIRST web sayfasını takip edin.",
+        "en": "Season dates change every year; follow the official FIRST website for announcements."
+      },
+      "when is season": {
+        "tr": "Sezon tarihleri her yıl değişir; resmi duyurular için FIRST web sayfasını takip edin.",
+        "en": "Season dates change every year; follow the official FIRST website for announcements."
+      },
+      "nasıl kayıt olunur": {
+        "tr": "Takımlar FIRST Dashboard üzerinden kaydolur. Okul/kurum ve lead mentor onayı gerekir.",
+        "en": "Teams register through the FIRST Dashboard. School/institution and lead mentor approval is required."
+      },
+      "how to register": {
+        "tr": "Takımlar FIRST Dashboard üzerinden kaydolur. Okul/kurum ve lead mentor onayı gerekir.",
+        "en": "Teams register through the FIRST Dashboard. School/institution and lead mentor approval is required."
+      },
       "kayıt ücreti ne kadar": "Kayıt ücretleri bölge ve sezona göre değişir. Güncel rakam FIRST'in resmi sayfasında bulunur.",
       "yeni takım nasıl kurulur": "Lead mentor bulun, okul/kurum onayı alın, FIRST Dashboard'tan takım oluşturun, finansman planı yapın.",
       "kop nedir": "Kit of Parts (KoP), FIRST tarafından sağlanan başlangıç malzeme paketidir. İçerik sezon bazlı değişir.",
@@ -39,7 +142,14 @@
       "inspection nedir": "Robotun Game Manual kurallarına uygunluğunu kontrol eden resmi muayenedir.",
       "robot ağırlığı ne kadar": "Ağırlık limitleri sezon-özgü; lütfen Game Manual'e bakın.",
       "boyut limitleri": "Boyut limitleri oyun ve sezon bazlıdır; Game Manual referans verin.",
-      "pid nedir": "PID (Proportional-Integral-Derivative), kontrol döngülerinde kullanılan yaygın bir algoritmadır.",
+      "pid nedir": {
+        "tr": "PID (Proportional-Integral-Derivative), kontrol döngülerinde kullanılan yaygın bir algoritmadır.",
+        "en": "PID (Proportional-Integral-Derivative) is a common algorithm used in control loops."
+      },
+      "what is pid": {
+        "tr": "PID (Proportional-Integral-Derivative), kontrol döngülerinde kullanılan yaygın bir algoritmadır.",
+        "en": "PID (Proportional-Integral-Derivative) is a common algorithm used in control loops."
+      },
       "pid nasıl ayarlanır": "Kp, Ki, Kd parametrelerini deneyerek tune edin; önce Kp, sonra Ki ve Kd ekleyin; saha testleri şart.",
       "odometry nedir": "Odometry enkoder ve gyro/IMU verilerini kullanarak robotun pozisyonunu tahmin eder.",
       "gyro nedir": "Gyro/IMU robotun açısal hareketini ölçen bir sensördür.",
@@ -47,8 +157,22 @@
       "networktables nedir": "NetworkTables robot ve ek yazılım/cihazlar arasında veri paylaşımı sağlar.",
       "limelight nedir": "Limelight, vision işlemleri için kullanılan bir kamera cihazıdır; NetworkTables kullanır.",
       "vision nasıl çalışır": "Kamera görüntüsünü işleyip hedef tespiti yapar; target offset ile PID kontrollere bağlanır.",
-      "autonomous nedir": "Autonomous, sürücüsüz maç evresidir (genelde maçın başındaki belirli süre).",
-      "teleop nedir": "Teleop, sürücülerin robotu kontrol ettiği maç periyodudur.",
+      "autonomous nedir": {
+        "tr": "Autonomous, sürücüsüz maç evresidir (genelde maçın başındaki belirli süre).",
+        "en": "Autonomous is the driverless match phase (usually a specific time at the beginning of the match)."
+      },
+      "what is autonomous": {
+        "tr": "Autonomous, sürücüsüz maç evresidir (genelde maçın başındaki belirli süre).",
+        "en": "Autonomous is the driverless match phase (usually a specific time at the beginning of the match)."
+      },
+      "teleop nedir": {
+        "tr": "Teleop, sürücülerin robotu kontrol ettiği maç periyodudur.",
+        "en": "Teleop is the match period when drivers control the robot."
+      },
+      "what is teleop": {
+        "tr": "Teleop, sürücülerin robotu kontrol ettiği maç periyodudur.",
+        "en": "Teleop is the match period when drivers control the robot."
+      },
       "scouting nedir": "Scouting maç içi verileri toplayıp analiz ederek strateji oluşturma işlemidir.",
       "alliance pick nedir": "Elemeler sırasında takımların diğer takımları seçip alliance kurmasıdır; kurallar etkinliğe göre farklılık gösterir.",
       "chairman's award nedir": "Chairman's Award takımın toplumsal etkisini ve sürdürülebilir çalışmasını takdir eden prestijli bir ödüldür.",
@@ -133,25 +257,158 @@
       "çok küçük bir ipucu": "Günlük küçük ilerlemeleri not et; bunlar büyük ilerlemeye dönüşür.",
       "daha fazla yardım": "Spesifik konu ver (mekanik parça, kod snippet, wiring şeması), detaylı yardımcı olayım.",
       
-      "takım kaç kişi": "Callister #9024 takımında 22 öğrenci ve 1 mentor bulunuyor. Takımlar genellikle 10-30 kişi arasında olur ve farklı alanlarda uzmanlaşmış öğrencilerden oluşur.",
-      "robot nasıl yapılır": "Robot yapımı 6 haftalık süreçtir: 1) Oyun analizi ve strateji, 2) Mekanik tasarım (CAD), 3) Elektrik ve elektronik, 4) Programlama, 5) Test ve optimizasyon, 6) Yarışma hazırlığı.",
-      "wpilib nedir": "WPILib (WPILibrary), FRC robotları için Java ve C++ programlama kütüphanesidir. Motor kontrolü, sensör okuma, otonom programlama gibi temel robotik işlevleri sağlar. FIRST tarafından resmi olarak desteklenir.",
-      "java programlama": "FRC robotları için Java programlama öğrenmek önemlidir. WPILib ile motor kontrolü, sensör okuma, PID kontrolü gibi konuları öğrenin. Command-based programming yapısını kullanın.",
-      "motor kontrolü": "Motor kontrolü için SparkMax, TalonFX gibi motor controller'lar kullanılır. WPILib'deki MotorController sınıfları ile hız, pozisyon ve akım kontrolü yapabilirsiniz.",
-      "vision nedir": "Vision, kamera ile hedef tespiti ve robot konumlandırması yapar. Limelight gibi özel kameralar veya USB kameralar kullanılır. OpenCV veya özel vision processing yazılımları ile çalışır.",
-      "pneumatics nedir": "Pneumatics, basınçlı hava ile çalışan sistemlerdir. Silindirler, solenoid valfler ve kompresörler kullanılır. Robot'ta kıskaç, lift, shooter gibi mekanizmalarda kullanılır.",
-      "can nedir": "CAN (Controller Area Network), robot üzerindeki elektronik cihazlar arasında iletişim sağlayan protokoldür. Motor controller'lar, sensörler ve diğer cihazlar CAN bus üzerinden haberleşir.",
-      "pit nedir": "Pit, yarışma alanında takımların robot bakımı ve onarımı yaptığı alandır. Her takımın kendine ait pit alanı vardır ve güvenlik kurallarına uygun çalışmalıdır.",
-      "alliance nedir": "Alliance, yarışma sırasında 3 takımın bir araya gelerek oluşturduğu işbirliği grubudur. Kırmızı ve mavi alliance'lar karşı karşıya yarışır.",
-      "endgame nedir": "Endgame, yarışmanın son 30 saniyesinde yapılan özel görevlerdir. Genellikle robotun saha üzerinde belirli pozisyonlara yerleştirilmesi veya ekstra puan kazanma aktiviteleri içerir.",
-      "coopertition": "Coopertition, FIRST'in 'cooperation' ve 'competition' kelimelerini birleştiren özel terimidir. Yarışırken bile işbirliği yapmayı ve birbirine yardım etmeyi teşvik eder.",
-      "steam nedir": "STEAM, Bilim (Science), Teknoloji (Technology), Mühendislik (Engineering), Sanat (Arts) ve Matematik (Mathematics) alanlarının birleşimidir. FRC bu alanlarda beceri geliştirmeyi hedefler.",
-      "mentor nedir": "Mentor, takıma teknik bilgi ve deneyim sağlayan yetişkin danışmandır. Mühendislik, programlama, mekanik gibi alanlarda takıma rehberlik eder.",
-      "build season": "Build Season, kickoff'tan yarışmaya kadar olan 6 haftalık robot yapım sürecidir. Takımlar bu sürede robot tasarlar, inşa eder ve test eder.",
-      "competition season": "Competition Season, yarışmaların yapıldığı dönemdir. Genellikle Şubat-Nisan ayları arasında bölgesel, ulusal ve uluslararası yarışmalar düzenlenir.",
-      "off season": "Off Season, yarışma sezonu dışında kalan süredir. Takımlar bu dönemde yeni üyeler eğitir, robot geliştirir ve gelecek sezon için hazırlanır.",
-      "rookie team": "Rookie Team, ilk kez FRC'ye katılan takımdır. İlk yıl özel ödüller ve destek programları ile karşılaşır.",
-      "veteran team": "Veteran Team, birden fazla sezon FRC'ye katılmış deneyimli takımdır. Genellikle daha gelişmiş robotlar ve stratejiler geliştirir."
+      "takım kaç kişi": {
+        "tr": "Callister #9024 takımında 22 öğrenci ve 1 mentor bulunuyor. Takımlar genellikle 10-30 kişi arasında olur ve farklı alanlarda uzmanlaşmış öğrencilerden oluşur.",
+        "en": "Callister #9024 team has 22 students and 1 mentor. Teams usually consist of 10-30 people with students specialized in different areas."
+      },
+      "team size": {
+        "tr": "Callister #9024 takımında 22 öğrenci ve 1 mentor bulunuyor. Takımlar genellikle 10-30 kişi arasında olur ve farklı alanlarda uzmanlaşmış öğrencilerden oluşur.",
+        "en": "Callister #9024 team has 22 students and 1 mentor. Teams usually consist of 10-30 people with students specialized in different areas."
+      },
+      "robot nasıl yapılır": {
+        "tr": "Robot yapımı 6 haftalık süreçtir: 1) Oyun analizi ve strateji, 2) Mekanik tasarım (CAD), 3) Elektrik ve elektronik, 4) Programlama, 5) Test ve optimizasyon, 6) Yarışma hazırlığı.",
+        "en": "Robot building is a 6-week process: 1) Game analysis and strategy, 2) Mechanical design (CAD), 3) Electrical and electronics, 4) Programming, 5) Testing and optimization, 6) Competition preparation."
+      },
+      "how to build robot": {
+        "tr": "Robot yapımı 6 haftalık süreçtir: 1) Oyun analizi ve strateji, 2) Mekanik tasarım (CAD), 3) Elektrik ve elektronik, 4) Programlama, 5) Test ve optimizasyon, 6) Yarışma hazırlığı.",
+        "en": "Robot building is a 6-week process: 1) Game analysis and strategy, 2) Mechanical design (CAD), 3) Electrical and electronics, 4) Programming, 5) Testing and optimization, 6) Competition preparation."
+      },
+      "wpilib nedir": {
+        "tr": "WPILib (WPILibrary), FRC robotları için Java ve C++ programlama kütüphanesidir. Motor kontrolü, sensör okuma, otonom programlama gibi temel robotik işlevleri sağlar. FIRST tarafından resmi olarak desteklenir.",
+        "en": "WPILib (WPILibrary) is a programming library for FRC robots in Java and C++. It provides basic robotic functions like motor control, sensor reading, autonomous programming. It's officially supported by FIRST."
+      },
+      "what is wpilib": {
+        "tr": "WPILib (WPILibrary), FRC robotları için Java ve C++ programlama kütüphanesidir. Motor kontrolü, sensör okuma, otonom programlama gibi temel robotik işlevleri sağlar. FIRST tarafından resmi olarak desteklenir.",
+        "en": "WPILib (WPILibrary) is a programming library for FRC robots in Java and C++. It provides basic robotic functions like motor control, sensor reading, autonomous programming. It's officially supported by FIRST."
+      },
+      "java programlama": {
+        "tr": "FRC robotları için Java programlama öğrenmek önemlidir. WPILib ile motor kontrolü, sensör okuma, PID kontrolü gibi konuları öğrenin. Command-based programming yapısını kullanın.",
+        "en": "Learning Java programming for FRC robots is important. Learn motor control, sensor reading, PID control with WPILib. Use the command-based programming structure."
+      },
+      "java programming": {
+        "tr": "FRC robotları için Java programlama öğrenmek önemlidir. WPILib ile motor kontrolü, sensör okuma, PID kontrolü gibi konuları öğrenin. Command-based programming yapısını kullanın.",
+        "en": "Learning Java programming for FRC robots is important. Learn motor control, sensor reading, PID control with WPILib. Use the command-based programming structure."
+      },
+      "motor kontrolü": {
+        "tr": "Motor kontrolü için SparkMax, TalonFX gibi motor controller'lar kullanılır. WPILib'deki MotorController sınıfları ile hız, pozisyon ve akım kontrolü yapabilirsiniz.",
+        "en": "For motor control, motor controllers like SparkMax, TalonFX are used. You can control speed, position, and current with MotorController classes in WPILib."
+      },
+      "motor control": {
+        "tr": "Motor kontrolü için SparkMax, TalonFX gibi motor controller'lar kullanılır. WPILib'deki MotorController sınıfları ile hız, pozisyon ve akım kontrolü yapabilirsiniz.",
+        "en": "For motor control, motor controllers like SparkMax, TalonFX are used. You can control speed, position, and current with MotorController classes in WPILib."
+      },
+      "vision nedir": {
+        "tr": "Vision, kamera ile hedef tespiti ve robot konumlandırması yapar. Limelight gibi özel kameralar veya USB kameralar kullanılır. OpenCV veya özel vision processing yazılımları ile çalışır.",
+        "en": "Vision performs target detection and robot positioning using cameras. Special cameras like Limelight or USB cameras are used. It works with OpenCV or special vision processing software."
+      },
+      "what is vision": {
+        "tr": "Vision, kamera ile hedef tespiti ve robot konumlandırması yapar. Limelight gibi özel kameralar veya USB kameralar kullanılır. OpenCV veya özel vision processing yazılımları ile çalışır.",
+        "en": "Vision performs target detection and robot positioning using cameras. Special cameras like Limelight or USB cameras are used. It works with OpenCV or special vision processing software."
+      },
+      "pneumatics nedir": {
+        "tr": "Pneumatics, basınçlı hava ile çalışan sistemlerdir. Silindirler, solenoid valfler ve kompresörler kullanılır. Robot'ta kıskaç, lift, shooter gibi mekanizmalarda kullanılır.",
+        "en": "Pneumatics are systems that work with compressed air. Cylinders, solenoid valves, and compressors are used. In robots, they're used in mechanisms like grippers, lifts, shooters."
+      },
+      "what is pneumatics": {
+        "tr": "Pneumatics, basınçlı hava ile çalışan sistemlerdir. Silindirler, solenoid valfler ve kompresörler kullanılır. Robot'ta kıskaç, lift, shooter gibi mekanizmalarda kullanılır.",
+        "en": "Pneumatics are systems that work with compressed air. Cylinders, solenoid valves, and compressors are used. In robots, they're used in mechanisms like grippers, lifts, shooters."
+      },
+      "can nedir": {
+        "tr": "CAN (Controller Area Network), robot üzerindeki elektronik cihazlar arasında iletişim sağlayan protokoldür. Motor controller'lar, sensörler ve diğer cihazlar CAN bus üzerinden haberleşir.",
+        "en": "CAN (Controller Area Network) is a protocol that provides communication between electronic devices on the robot. Motor controllers, sensors, and other devices communicate through the CAN bus."
+      },
+      "what is can": {
+        "tr": "CAN (Controller Area Network), robot üzerindeki elektronik cihazlar arasında iletişim sağlayan protokoldür. Motor controller'lar, sensörler ve diğer cihazlar CAN bus üzerinden haberleşir.",
+        "en": "CAN (Controller Area Network) is a protocol that provides communication between electronic devices on the robot. Motor controllers, sensors, and other devices communicate through the CAN bus."
+      },
+      "pit nedir": {
+        "tr": "Pit, yarışma alanında takımların robot bakımı ve onarımı yaptığı alandır. Her takımın kendine ait pit alanı vardır ve güvenlik kurallarına uygun çalışmalıdır.",
+        "en": "Pit is the area in the competition venue where teams perform robot maintenance and repairs. Each team has their own pit area and must work according to safety rules."
+      },
+      "what is pit": {
+        "tr": "Pit, yarışma alanında takımların robot bakımı ve onarımı yaptığı alandır. Her takımın kendine ait pit alanı vardır ve güvenlik kurallarına uygun çalışmalıdır.",
+        "en": "Pit is the area in the competition venue where teams perform robot maintenance and repairs. Each team has their own pit area and must work according to safety rules."
+      },
+      "alliance nedir": {
+        "tr": "Alliance, yarışma sırasında 3 takımın bir araya gelerek oluşturduğu işbirliği grubudur. Kırmızı ve mavi alliance'lar karşı karşıya yarışır.",
+        "en": "Alliance is a cooperation group formed by 3 teams coming together during competition. Red and blue alliances compete against each other."
+      },
+      "what is alliance": {
+        "tr": "Alliance, yarışma sırasında 3 takımın bir araya gelerek oluşturduğu işbirliği grubudur. Kırmızı ve mavi alliance'lar karşı karşıya yarışır.",
+        "en": "Alliance is a cooperation group formed by 3 teams coming together during competition. Red and blue alliances compete against each other."
+      },
+      "endgame nedir": {
+        "tr": "Endgame, yarışmanın son 30 saniyesinde yapılan özel görevlerdir. Genellikle robotun saha üzerinde belirli pozisyonlara yerleştirilmesi veya ekstra puan kazanma aktiviteleri içerir.",
+        "en": "Endgame are special tasks performed in the last 30 seconds of the match. Usually involves placing the robot in specific positions on the field or extra point activities."
+      },
+      "what is endgame": {
+        "tr": "Endgame, yarışmanın son 30 saniyesinde yapılan özel görevlerdir. Genellikle robotun saha üzerinde belirli pozisyonlara yerleştirilmesi veya ekstra puan kazanma aktiviteleri içerir.",
+        "en": "Endgame are special tasks performed in the last 30 seconds of the match. Usually involves placing the robot in specific positions on the field or extra point activities."
+      },
+      "coopertition": {
+        "tr": "Coopertition, FIRST'in 'cooperation' ve 'competition' kelimelerini birleştiren özel terimidir. Yarışırken bile işbirliği yapmayı ve birbirine yardım etmeyi teşvik eder.",
+        "en": "Coopertition is FIRST's special term combining 'cooperation' and 'competition'. It encourages collaboration and helping each other even while competing."
+      },
+      "what is coopertition": {
+        "tr": "Coopertition, FIRST'in 'cooperation' ve 'competition' kelimelerini birleştiren özel terimidir. Yarışırken bile işbirliği yapmayı ve birbirine yardım etmeyi teşvik eder.",
+        "en": "Coopertition is FIRST's special term combining 'cooperation' and 'competition'. It encourages collaboration and helping each other even while competing."
+      },
+      "steam nedir": {
+        "tr": "STEAM, Bilim (Science), Teknoloji (Technology), Mühendislik (Engineering), Sanat (Arts) ve Matematik (Mathematics) alanlarının birleşimidir. FRC bu alanlarda beceri geliştirmeyi hedefler.",
+        "en": "STEAM is the combination of Science, Technology, Engineering, Arts, and Mathematics. FRC aims to develop skills in these areas."
+      },
+      "what is steam": {
+        "tr": "STEAM, Bilim (Science), Teknoloji (Technology), Mühendislik (Engineering), Sanat (Arts) ve Matematik (Mathematics) alanlarının birleşimidir. FRC bu alanlarda beceri geliştirmeyi hedefler.",
+        "en": "STEAM is the combination of Science, Technology, Engineering, Arts, and Mathematics. FRC aims to develop skills in these areas."
+      },
+      "mentor nedir": {
+        "tr": "Mentor, takıma teknik bilgi ve deneyim sağlayan yetişkin danışmandır. Mühendislik, programlama, mekanik gibi alanlarda takıma rehberlik eder.",
+        "en": "Mentor is an adult advisor who provides technical knowledge and experience to the team. They guide the team in areas like engineering, programming, mechanical."
+      },
+      "what is mentor": {
+        "tr": "Mentor, takıma teknik bilgi ve deneyim sağlayan yetişkin danışmandır. Mühendislik, programlama, mekanik gibi alanlarda takıma rehberlik eder.",
+        "en": "Mentor is an adult advisor who provides technical knowledge and experience to the team. They guide the team in areas like engineering, programming, mechanical."
+      },
+      "build season": {
+        "tr": "Build Season, kickoff'tan yarışmaya kadar olan 6 haftalık robot yapım sürecidir. Takımlar bu sürede robot tasarlar, inşa eder ve test eder.",
+        "en": "Build Season is the 6-week robot building process from kickoff to competition. Teams design, build, and test robots during this time."
+      },
+      "what is build season": {
+        "tr": "Build Season, kickoff'tan yarışmaya kadar olan 6 haftalık robot yapım sürecidir. Takımlar bu sürede robot tasarlar, inşa eder ve test eder.",
+        "en": "Build Season is the 6-week robot building process from kickoff to competition. Teams design, build, and test robots during this time."
+      },
+      "competition season": {
+        "tr": "Competition Season, yarışmaların yapıldığı dönemdir. Genellikle Şubat-Nisan ayları arasında bölgesel, ulusal ve uluslararası yarışmalar düzenlenir.",
+        "en": "Competition Season is the period when competitions are held. Usually regional, national, and international competitions are organized between February-April."
+      },
+      "what is competition season": {
+        "tr": "Competition Season, yarışmaların yapıldığı dönemdir. Genellikle Şubat-Nisan ayları arasında bölgesel, ulusal ve uluslararası yarışmalar düzenlenir.",
+        "en": "Competition Season is the period when competitions are held. Usually regional, national, and international competitions are organized between February-April."
+      },
+      "off season": {
+        "tr": "Off Season, yarışma sezonu dışında kalan süredir. Takımlar bu dönemde yeni üyeler eğitir, robot geliştirir ve gelecek sezon için hazırlanır.",
+        "en": "Off Season is the time remaining outside the competition season. Teams train new members, develop robots, and prepare for the next season during this period."
+      },
+      "what is off season": {
+        "tr": "Off Season, yarışma sezonu dışında kalan süredir. Takımlar bu dönemde yeni üyeler eğitir, robot geliştirir ve gelecek sezon için hazırlanır.",
+        "en": "Off Season is the time remaining outside the competition season. Teams train new members, develop robots, and prepare for the next season during this period."
+      },
+      "rookie team": {
+        "tr": "Rookie Team, ilk kez FRC'ye katılan takımdır. İlk yıl özel ödüller ve destek programları ile karşılaşır.",
+        "en": "Rookie Team is a team participating in FRC for the first time. They encounter special awards and support programs in their first year."
+      },
+      "what is rookie team": {
+        "tr": "Rookie Team, ilk kez FRC'ye katılan takımdır. İlk yıl özel ödüller ve destek programları ile karşılaşır.",
+        "en": "Rookie Team is a team participating in FRC for the first time. They encounter special awards and support programs in their first year."
+      },
+      "veteran team": {
+        "tr": "Veteran Team, birden fazla sezon FRC'ye katılmış deneyimli takımdır. Genellikle daha gelişmiş robotlar ve stratejiler geliştirir.",
+        "en": "Veteran Team is an experienced team that has participated in FRC for multiple seasons. They usually develop more advanced robots and strategies."
+      },
+      "what is veteran team": {
+        "tr": "Veteran Team, birden fazla sezon FRC'ye katılmış deneyimli takımdır. Genellikle daha gelişmiş robotlar ve stratejiler geliştirir.",
+        "en": "Veteran Team is an experienced team that has participated in FRC for multiple seasons. They usually develop more advanced robots and strategies."
+      }
     }
   }
 }

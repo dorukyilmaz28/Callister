@@ -1,7 +1,7 @@
 import Fuse from "fuse.js";
 
 export function createMatcher(responsesObj) {
-  // responsesObj: { "frc_responses": { "responses": { "frc nedir": "...", ... } } }
+  // responsesObj: { "frc_responses": { "responses": { "frc nedir": { "tr": "...", "en": "..." }, ... } } }
   // Extract the actual responses from the nested structure
   const actualResponses = responsesObj.frc_responses?.responses || responsesObj;
   
@@ -15,19 +15,32 @@ export function createMatcher(responsesObj) {
     minMatchCharLength: 2
   });
 
-  function getResponse(text) {
+  function getResponse(text, language = 'tr') {
     const t = text.trim().toLowerCase();
-    if (!t) return "Lütfen bir soru yazın.";
+    if (!t) return language === 'tr' ? "Lütfen bir soru yazın." : "Please write a question.";
     
     // Direkt eşleşme
-    if (actualResponses[t]) return actualResponses[t];
+    if (actualResponses[t]) {
+      // Check if response has language support
+      if (typeof actualResponses[t] === 'object' && actualResponses[t][language]) {
+        return actualResponses[t][language];
+      }
+      // Fallback to string response (for backward compatibility)
+      return actualResponses[t];
+    }
 
     // Fuse arama
     const result = fuse.search(t);
     if (result.length > 0) {
       const best = result[0];
       if (best.score < 0.45) { // güven eşiği
-        return best.item.value;
+        const value = best.item.value;
+        // Check if response has language support
+        if (typeof value === 'object' && value[language]) {
+          return value[language];
+        }
+        // Fallback to string response (for backward compatibility)
+        return value;
       }
     }
 
@@ -526,7 +539,13 @@ export function createMatcher(responsesObj) {
     }
 
     // Hiçbir eşleşme yoksa fallback
-    return actualResponses["bilinmeyen"] || "Bunu şu an cevaplayamıyorum. Lütfen Game Manual veya Team Q&A'ya başvurun.";
+    const fallbackResponse = actualResponses["bilinmeyen"];
+    if (fallbackResponse && typeof fallbackResponse === 'object' && fallbackResponse[language]) {
+      return fallbackResponse[language];
+    }
+    return language === 'tr' 
+      ? "Bunu şu an cevaplayamıyorum. Lütfen Game Manual veya Team Q&A'ya başvurun."
+      : "I cannot answer this right now. Please refer to Game Manual or Team Q&A.";
   }
 
   return { getResponse, fuse, entries };

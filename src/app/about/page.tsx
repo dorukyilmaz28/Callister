@@ -29,8 +29,8 @@ export default function AboutPage() {
                 { icon: Users, value: '22', label: t('about.stats.teamMembers') },
                 { icon: Award, value: '5+', label: t('about.stats.awards') },
                 { icon: Target, value: '11+', label: t('about.stats.projects') }
-              ].map((stat) => (
-                <div key={stat.label} className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 text-center">
+              ].map((stat, index) => (
+                <div key={index} className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 text-center">
                   <stat.icon size={48} className="text-purple-300 mx-auto mb-4" />
                   <div className="text-2xl font-bold text-white mb-2 font-['Poppins']">{stat.value}</div>
                   <div className="text-gray-200 font-medium font-['Poppins']">{stat.label}</div>

@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { MessageCircle, Send, X, Bot, User } from "lucide-react";
 import { createMatcher } from "@/utils/frcMatcher";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface Message {
   role: 'user' | 'assistant';
@@ -11,14 +12,9 @@ interface Message {
 }
 
 export default function Chatbot() {
+  const { t, currentLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      role: 'assistant',
-      content: 'Merhaba! Ben Callister #9024 FRC takımının FAQ asistanıyım. FRC, robotik, takım projeleri veya Callister hakkında herhangi bir sorunuz varsa yardımcı olmaktan mutluluk duyarım! 🤖✨ (AI removed — using static FRC FAQ JSON)',
-      timestamp: new Date()
-    }
-  ]);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [matcher, setMatcher] = useState<any>(null);
@@ -45,11 +41,26 @@ export default function Chatbot() {
         console.error('Failed to load FRC responses:', err);
         setMessages(prev => [...prev, {
           role: 'assistant',
-          content: '⚠️ FRC yanıtları yüklenemedi. Lütfen sayfayı yenileyin.',
+          content: currentLanguage === 'tr' 
+            ? '⚠️ FRC yanıtları yüklenemedi. Lütfen sayfayı yenileyin.'
+            : '⚠️ Failed to load FRC responses. Please refresh the page.',
           timestamp: new Date()
         }]);
       });
-  }, []);
+  }, [currentLanguage]);
+
+  // Add welcome message when language changes
+  useEffect(() => {
+    const welcomeMessage = {
+      role: 'assistant' as const,
+      content: currentLanguage === 'tr'
+        ? 'Merhaba! Ben Callister #9024 FRC takımının FAQ asistanıyım. FRC, robotik, takım projeleri veya Callister hakkında herhangi bir sorunuz varsa yardımcı olmaktan mutluluk duyarım! 🤖✨'
+        : 'Hello! I am the FAQ assistant of Callister #9024 FRC team. I would be happy to help you with any questions about FRC, robotics, team projects or Callister! 🤖✨',
+      timestamp: new Date()
+    };
+    
+    setMessages([welcomeMessage]);
+  }, [currentLanguage]);
 
   const sendMessage = async () => {
     if (!input.trim() || isLoading) return;
@@ -68,8 +79,8 @@ export default function Chatbot() {
       let reply: string;
       
       if (matcher) {
-        // Use local Fuse.js matcher
-        reply = matcher.getResponse(input.trim());
+        // Use local Fuse.js matcher with language support
+        reply = matcher.getResponse(input.trim(), currentLanguage);
       } else {
         // Fallback to backend API
         const response = await fetch('/api/chat', {
@@ -97,7 +108,9 @@ export default function Chatbot() {
       console.error('Chat error:', error);
       const errorMessage: Message = {
         role: 'assistant',
-        content: 'Üzgünüm, bir hata oluştu. Lütfen daha sonra tekrar deneyin.',
+        content: currentLanguage === 'tr'
+          ? 'Üzgünüm, bir hata oluştu. Lütfen daha sonra tekrar deneyin.'
+          : 'Sorry, an error occurred. Please try again later.',
         timestamp: new Date()
       };
       setMessages(prev => [...prev, errorMessage]);
@@ -114,7 +127,7 @@ export default function Chatbot() {
   };
 
   const formatTime = (date: Date) => {
-    return date.toLocaleTimeString('tr-TR', { 
+    return date.toLocaleTimeString(currentLanguage === 'tr' ? 'tr-TR' : 'en-US', { 
       hour: '2-digit', 
       minute: '2-digit' 
     });
@@ -126,7 +139,7 @@ export default function Chatbot() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="fixed bottom-5 right-5 w-16 h-16 bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 z-50 flex items-center justify-center text-white"
-        aria-label="Chat'i aç/kapat"
+        aria-label={currentLanguage === 'tr' ? "Chat'i aç/kapat" : "Open/close chat"}
       >
         {isOpen ? <X size={24} /> : <MessageCircle size={24} />}
       </button>
@@ -142,7 +155,9 @@ export default function Chatbot() {
               </div>
               <div>
                 <h3 className="text-[#F5F5F5] font-semibold font-['Poppins']">Callister FAQ</h3>
-                <p className="text-[#D9D9D9] text-xs font-['Poppins']">FRC Takım Asistanı (Static JSON)</p>
+                <p className="text-[#D9D9D9] text-xs font-['Poppins']">
+                  {currentLanguage === 'tr' ? 'FRC Takım Asistanı (Static JSON)' : 'FRC Team Assistant (Static JSON)'}
+                </p>
               </div>
             </div>
           </div>
@@ -213,16 +228,16 @@ export default function Chatbot() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="FRC hakkında soru sorun..."
+                                 placeholder={currentLanguage === 'tr' ? "FRC hakkında soru sorun..." : "Ask a question about FRC..."}
                 className="flex-1 bg-white/10 border border-white/20 rounded-xl px-3 py-2 text-[#F5F5F5] placeholder-[#D9D9D9]/50 font-['Poppins'] text-sm focus:outline-none focus:border-purple-400/40 transition-colors"
                 disabled={isLoading}
-                aria-label="Mesaj yazın"
+                                 aria-label={currentLanguage === 'tr' ? "Mesaj yazın" : "Type your message"}
               />
               <button
                 onClick={sendMessage}
                 disabled={!input.trim() || isLoading}
                 className="px-4 py-2 bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl text-white font-['Poppins'] font-medium hover:from-purple-700 hover:to-purple-900 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-                aria-label="Mesaj gönder"
+                                 aria-label={currentLanguage === 'tr' ? "Mesaj gönder" : "Send message"}
               >
                 <Send size={16} />
               </button>

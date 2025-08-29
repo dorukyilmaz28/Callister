@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="aspect-video bg-gradient-to-br from-white/30 to-white/10 rounded-lg overflow-hidden border border-white/20">
                   <Image
                     src="/images/frc-match.png"
-                    alt={t('frc.matchImage')}
+                    alt={t('frc.matchImage') as string}
                     width={600}
                     height={400}
                     className="w-full h-full object-cover"
@@ -88,7 +88,7 @@ export default function Home() {
                 descriptionKey: 'values.excellence.description'
               }
             ].map((value, index) => (
-              <div key={value.titleKey} className="card text-center">
+              <div key={index} className="card text-center">
                 <value.icon size={40} className="text-accent mx-auto mb-3 sm:mb-4" />
                 <h3 className="card-title text-lg sm:text-xl">
                   {t(value.titleKey)}
@@ -119,7 +119,7 @@ export default function Home() {
                 image: '/images/news/news1.jpg'
               }
             ].map((news, index) => (
-              <div key={t(news.titleKey)} className="card">
+              <div key={index} className="card">
                 <div className="aspect-video bg-gradient-to-br from-white/30 to-white/10 rounded-lg mb-4 flex items-center justify-center border border-white/20">
                   <div className="text-center">
                     <div className="text-3xl sm:text-4xl mb-2">📰</div>
