@@ -12,76 +12,76 @@ export default function ProjectsPage() {
 
   // Kategori çevirileri
   const categoryTranslations: { [key: string]: string } = {
-    'Tümü': t('projects.all'),
-    'Eğitim': t('projects.education'),
-    'Çevre': t('projects.environment'),
-    'Sosyal': t('projects.social'),
-    'Teknoloji': t('projects.technology'),
-    'Kültür': t('projects.culture')
+    'Tümü': t('projects.all') as string,
+    'Eğitim': t('projects.education') as string,
+    'Çevre': t('projects.environment') as string,
+    'Sosyal': t('projects.social') as string,
+    'Teknoloji': t('projects.technology') as string,
+    'Kültür': t('projects.culture') as string
   }
 
   // Proje çevirileri - basit eşleştirme
   const getProjectTranslation = (projectTitle: string) => {
     const translations: { [key: string]: any } = {
       'Pencere': {
-        title: t('projects.projectDetails.pencere.title'),
-        description: t('projects.projectDetails.pencere.description'),
-        details: t('projects.projectDetails.pencere.details')
+        title: t('projects.projectDetails.pencere.title') as string,
+        description: t('projects.projectDetails.pencere.description') as string,
+        details: t('projects.projectDetails.pencere.details') as string
       },
       'Sanatın Kadın Ruhu': {
-        title: t('projects.projectDetails.sanatKadin.title'),
-        description: t('projects.projectDetails.sanatKadin.description'),
-        details: t('projects.projectDetails.sanatKadin.details')
+        title: t('projects.projectDetails.sanatKadin.title') as string,
+        description: t('projects.projectDetails.sanatKadin.description') as string,
+        details: t('projects.projectDetails.sanatKadin.details') as string
       },
       'Güçlü Kadınlar, Güçlü Yarınlar': {
-        title: t('projects.projectDetails.gucluKadinlar.title'),
-        description: t('projects.projectDetails.gucluKadinlar.description'),
-        details: t('projects.projectDetails.gucluKadinlar.details')
+        title: t('projects.projectDetails.gucluKadinlar.title') as string,
+        description: t('projects.projectDetails.gucluKadinlar.description') as string,
+        details: t('projects.projectDetails.gucluKadinlar.details') as string
       },
       'Kaplumbağa Müzesi': {
-        title: t('projects.projectDetails.kaplumbaga.title'),
-        description: t('projects.projectDetails.kaplumbaga.description'),
-        details: t('projects.projectDetails.kaplumbaga.details')
+        title: t('projects.projectDetails.kaplumbaga.title') as string,
+        description: t('projects.projectDetails.kaplumbaga.description') as string,
+        details: t('projects.projectDetails.kaplumbaga.details') as string
       },
       'İztuzu Projesi': {
-        title: t('projects.projectDetails.iztuzu.title'),
-        description: t('projects.projectDetails.iztuzu.description'),
-        details: t('projects.projectDetails.iztuzu.details')
+        title: t('projects.projectDetails.iztuzu.title') as string,
+        description: t('projects.projectDetails.iztuzu.description') as string,
+        details: t('projects.projectDetails.iztuzu.details') as string
       },
       'Eco Footprint': {
-        title: t('projects.projectDetails.ecoFootprint.title'),
-        description: t('projects.projectDetails.ecoFootprint.description'),
-        details: t('projects.projectDetails.ecoFootprint.details')
+        title: t('projects.projectDetails.ecoFootprint.title') as string,
+        description: t('projects.projectDetails.ecoFootprint.description') as string,
+        details: t('projects.projectDetails.ecoFootprint.details') as string
       },
       'Mini Brick Symphony': {
-        title: t('projects.projectDetails.miniBrick.title'),
-        description: t('projects.projectDetails.miniBrick.description'),
-        details: t('projects.projectDetails.miniBrick.details')
+        title: t('projects.projectDetails.miniBrick.title') as string,
+        description: t('projects.projectDetails.miniBrick.description') as string,
+        details: t('projects.projectDetails.miniBrick.details') as string
       },
       'İklim Müzesi': {
-        title: t('projects.projectDetails.iklimMuzesi.title'),
-        description: t('projects.projectDetails.iklimMuzesi.description'),
-        details: t('projects.projectDetails.iklimMuzesi.details')
+        title: t('projects.projectDetails.iklimMuzesi.title') as string,
+        description: t('projects.projectDetails.iklimMuzesi.description') as string,
+        details: t('projects.projectDetails.iklimMuzesi.details') as string
       },
       'Yeni Erişim Simgesi': {
-        title: t('projects.projectDetails.erisimSimgesi.title'),
-        description: t('projects.projectDetails.erisimSimgesi.description'),
-        details: t('projects.projectDetails.erisimSimgesi.details')
+        title: t('projects.projectDetails.erisimSimgesi.title') as string,
+        description: t('projects.projectDetails.erisimSimgesi.description') as string,
+        details: t('projects.projectDetails.erisimSimgesi.details') as string
       },
       'Ecoquake': {
-        title: t('projects.projectDetails.ecoquake.title'),
-        description: t('projects.projectDetails.ecoquake.description'),
-        details: t('projects.projectDetails.ecoquake.details')
+        title: t('projects.projectDetails.ecoquake.title') as string,
+        description: t('projects.projectDetails.ecoquake.description') as string,
+        details: t('projects.projectDetails.ecoquake.details') as string
       },
       'Balçık Köy Okulu 19 Mayıs Kütüphanesi': {
-        title: t('projects.projectDetails.balcikKutuphane.title'),
-        description: t('projects.projectDetails.balcikKutuphane.description'),
-        details: t('projects.projectDetails.balcikKutuphane.details')
+        title: t('projects.projectDetails.balcikKutuphane.title') as string,
+        description: t('projects.projectDetails.balcikKutuphane.description') as string,
+        details: t('projects.projectDetails.balcikKutuphane.details') as string
       },
       'Save The Blue': {
-        title: t('projects.projectDetails.saveBlue.title'),
-        description: t('projects.projectDetails.saveBlue.description'),
-        details: t('projects.projectDetails.saveBlue.details')
+        title: t('projects.projectDetails.saveBlue.title') as string,
+        description: t('projects.projectDetails.saveBlue.description') as string,
+        details: t('projects.projectDetails.saveBlue.details') as string
       }
     }
     
@@ -105,10 +105,10 @@ export default function ProjectsPage() {
             {/* Header */}
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-                {t('projects.title')}
+                {t('projects.title') as string}
               </h1>
               <p className="text-xl md:text-2xl text-gray-200">
-                {t('projects.subtitle')}
+                {t('projects.subtitle') as string}
               </p>
             </div>
 
