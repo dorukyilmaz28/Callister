@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Chatbot from '@/components/Chatbot'
 import { LanguageProvider } from '@/contexts/LanguageContext'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'Callister #9024 - FRC Takımı',
@@ -25,6 +26,7 @@ export default function RootLayout({
           </main>
           <Footer />
           <Chatbot />
+          <Analytics />
         </LanguageProvider>
       </body>
     </html>
