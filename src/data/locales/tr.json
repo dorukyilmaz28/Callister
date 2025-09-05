@@ -159,9 +159,9 @@
     "subtitle": "Callister #9024 FRC Takımı'nın kazandığı ödüller ve başarıları",
     "competitionList": "Yarışma Listesi:",
     "table": {
-      "year": "Year",
-      "event": "Event",
-      "awards": "Awards"
+      "year": "Yıl",
+      "event": "Etkinlik",
+      "awards": "Ödüller"
     },
     "awardDetails": {
       "regionalFinalists": {
@@ -184,6 +184,14 @@
         "name": "Judges' Award",
         "description": "Resmî kategorilerden hiçbirine tam olarak uymasa da jüriyi özgün başarısı, özel hikâyesi veya dikkat çekici yaklaşımıyla etkileyen takıma verilir."
       }
+    },
+    "eventNames": {
+      "milsteinDivision": "Milstein Division",
+      "ankaraRegional": "Ankara Regional",
+      "cezeriRobotLigi": "Cezeri Robot Ligi Ümraniye Robotik Yarışları",
+      "bosphorusRegional": "Bosphorus Regional",
+      "istanbulRegional": "İstanbul Regional",
+      "halicRegional": "Halic Regional"
     }
   },
   "about": {
@@ -397,5 +405,60 @@
   "footer": {
     "description": "Bilim, teknoloji ve toplumsal etki için birlikte çalışıyoruz.",
     "copyright": "© {year} Callister #9024 FRC Takımı"
+  },
+  "ai": {
+    "title": "Callister AI",
+    "subtitle": "AI-Powered FRC Assistant",
+    "description": "Robot tasarımından stratejiye, mekanikten simülasyona kadar FRC'nin her alanında uzman desteği",
+    "heading": "Geleceğin Robotik Asistanı",
+    "subheading": "FRC'nin geleceğini bugünden yaşayın!",
+    "paragraph1": "Callister AI, FRC takımları için özel geliştirilmiş yapay zekâ destekli asistandır. Robot tasarımından stratejiye, mekanikten simülasyona kadar her alanda anında uzman desteği sunar.",
+    "feature1": "7/24 yanınızda, sorularınıza anında yanıt verir.",
+    "feature2": "FRC kurallarını analiz eder, en etkili stratejileri önerir.",
+    "feature3": "Takımınızın performansını sürekli optimize eder.",
+    "conclusion": "Callister AI, yalnızca bir asistan değil; şampiyonluğa giden yolda en güçlü takım arkadaşınız!",
+    "button": "AI Asistanı ile Sohbet Et",
+    "features": {
+      "general": {
+        "title": "Genel FRC",
+        "description": "Robot tasarımı, yarışma kuralları ve genel FRC konularında kapsamlı rehberlik"
+      },
+      "strategy": {
+        "title": "Strateji",
+        "description": "Oyun analizi, takım koordinasyonu ve rekabet stratejileri konularında uzmanlık"
+      },
+      "mechanical": {
+        "title": "Mekanik",
+        "description": "Motor seçimi, güç aktarımı ve mekanik tasarım konularında teknik destek"
+      },
+      "simulation": {
+        "title": "Simülasyon",
+        "description": "Robot simülasyonu, fizik motorları ve test ortamları konularında rehberlik"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin Paneli",
+    "subtitle": "FRC yanıtlarını düzenleyin ve yönetin",
+    "warning": "⚠️ Bu sayfa sadece admin kullanıcılar içindir. Değişiklikler otomatik kaydedilmez.",
+    "keyLabel": "Anahtar (Soru)",
+    "valueLabel": "Değer (Yanıt)",
+    "placeholder": "Detaylı yanıt yazın...",
+    "addUpdate": "Ekle / Güncelle",
+    "download": "JSON İndir",
+    "reset": "Sıfırla",
+    "currentResponses": "Mevcut Yanıtlar",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "messages": {
+      "loadError": "FRC yanıtları yüklenemedi.",
+      "keyEmpty": "Anahtar boş olamaz.",
+      "keySpaces": "Anahtar içinde fazla boşluk var.",
+      "keyShort": "Anahtar en az 3 karakter olmalı.",
+      "keyProtected": "'bilinmeyen' anahtarı silinemez.",
+      "success": "başarıyla eklendi/güncellendi.",
+      "deleted": "silindi.",
+      "resetSuccess": "Veriler varsayılan değerlere sıfırlandı."
+    }
   }
 }

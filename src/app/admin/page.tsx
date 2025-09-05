@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface FRCResponse {
   [key: string]: string;
@@ -12,6 +13,7 @@ export default function AdminPage() {
   const [valInput, setValInput] = useState("");
   const [message, setMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     loadFRCResponses();
@@ -23,7 +25,7 @@ export default function AdminPage() {
       const jsonData = await response.json();
       setData(jsonData.frc_responses.responses);
     } catch (error) {
-      setMessage("FRC yanıtları yüklenemedi.");
+      setMessage(t('admin.messages.loadError') as string);
       console.error(error);
     }
   };
@@ -31,33 +33,33 @@ export default function AdminPage() {
   const addOrUpdate = () => {
     const key = keyInput.trim().toLowerCase();
     if (!key) {
-      setMessage("Anahtar boş olamaz.");
+      setMessage(t('admin.messages.keyEmpty') as string);
       return;
     }
     if (/\s{2,}/.test(key)) {
-      setMessage("Anahtar içinde fazla boşluk var.");
+      setMessage(t('admin.messages.keySpaces') as string);
       return;
     }
     if (key.length < 3) {
-      setMessage("Anahtar en az 3 karakter olmalı.");
+      setMessage(t('admin.messages.keyShort') as string);
       return;
     }
 
     setData(prev => ({ ...prev, [key]: valInput }));
     setKeyInput("");
     setValInput("");
-    setMessage(`"${key}" başarıyla eklendi/güncellendi.`);
+    setMessage(`"${key}" ${t('admin.messages.success') as string}`);
   };
 
   const removeKey = (key: string) => {
     if (key === "bilinmeyen") {
-      setMessage("'bilinmeyen' anahtarı silinemez.");
+      setMessage(t('admin.messages.keyProtected') as string);
       return;
     }
     const copy = { ...data };
     delete copy[key];
     setData(copy);
-    setMessage(`"${key}" silindi.`);
+    setMessage(`"${key}" ${t('admin.messages.deleted') as string}`);
   };
 
   const downloadJSON = () => {
@@ -86,7 +88,7 @@ export default function AdminPage() {
   const resetToDefault = () => {
     if (confirm("Tüm değişiklikler kaybolacak. Emin misiniz?")) {
       loadFRCResponses();
-      setMessage("Varsayılan yanıtlara sıfırlandı.");
+      setMessage(t('admin.messages.resetSuccess') as string);
     }
   };
 
@@ -95,14 +97,14 @@ export default function AdminPage() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold font-['Poppins'] mb-4">
-            Callister FRC FAQ Admin Panel
+            {t('admin.title') as string}
           </h1>
           <p className="text-lg text-gray-300">
-            FRC yanıtlarını düzenleyin ve yönetin
+            {t('admin.subtitle') as string}
           </p>
           <div className="mt-4 p-3 bg-yellow-600/20 border border-yellow-500/30 rounded-lg">
             <p className="text-yellow-200 text-sm">
-              ⚠️ Bu sayfa sadece admin kullanıcılar içindir. Değişiklikler otomatik kaydedilmez.
+              {t('admin.warning') as string}
             </p>
           </div>
         </div>
@@ -130,7 +132,7 @@ export default function AdminPage() {
           <h2 className="text-2xl font-bold mb-4">Yanıt Ekle/Düzenle</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
-              <label className="block text-sm font-medium mb-2">Anahtar (Soru)</label>
+              <label className="block text-sm font-medium mb-2">{t('admin.keyLabel') as string}</label>
               <input
                 type="text"
                 value={keyInput}
@@ -140,11 +142,11 @@ export default function AdminPage() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-2">Yanıt</label>
+              <label className="block text-sm font-medium mb-2">{t('admin.valueLabel') as string}</label>
               <textarea
                 value={valInput}
                 onChange={(e) => setValInput(e.target.value)}
-                placeholder="Detaylı yanıt yazın..."
+                placeholder={t('admin.placeholder') as string}
                 rows={3}
                 className="w-full bg-white/10 border border-white/20 rounded-lg px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 resize-none"
               />
@@ -155,19 +157,19 @@ export default function AdminPage() {
               onClick={addOrUpdate}
               className="px-6 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition-colors"
             >
-              Ekle / Güncelle
+              {t('admin.addUpdate') as string}
             </button>
             <button
               onClick={downloadJSON}
               className="px-6 py-2 bg-green-600 hover:bg-green-700 rounded-lg font-medium transition-colors"
             >
-              JSON İndir
+              {t('admin.download') as string}
             </button>
             <button
               onClick={resetToDefault}
               className="px-6 py-2 bg-red-600 hover:bg-red-700 rounded-lg font-medium transition-colors"
             >
-              Sıfırla
+              {t('admin.reset') as string}
             </button>
           </div>
           {message && (
@@ -179,7 +181,7 @@ export default function AdminPage() {
 
         {/* Responses List */}
         <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6">
-          <h2 className="text-2xl font-bold mb-4">Mevcut Yanıtlar</h2>
+          <h2 className="text-2xl font-bold mb-4">{t('admin.currentResponses') as string}</h2>
           <div className="space-y-3 max-h-96 overflow-y-auto">
             {Object.entries(data).map(([key, value]) => (
               <div
@@ -196,14 +198,14 @@ export default function AdminPage() {
                       }}
                       className="px-3 py-1 bg-blue-600 hover:bg-blue-700 rounded text-sm transition-colors"
                     >
-                      Düzenle
+                      {t('admin.edit') as string}
                     </button>
                     {key !== "bilinmeyen" && (
                       <button
                         onClick={() => removeKey(key)}
                         className="px-3 py-1 bg-red-600 hover:bg-red-700 rounded text-sm transition-colors"
                       >
-                        Sil
+                        {t('admin.delete') as string}
                       </button>
                     )}
                   </div>

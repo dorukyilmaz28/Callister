@@ -68,11 +68,9 @@ export default function AboutPage() {
                 <p className="text-gray-200 font-['Poppins'] leading-relaxed">
                   {t('about.content.paragraph9') as string}
                   <ul className="list-disc list-inside mt-2 text-gray-200 font-['Poppins']">
-                    <li>Highest Rookie Seed Award</li>
-                    <li>Judges' Award</li>
-                    <li>Rookie Inspiration Award</li>
-                    <li>Rookie All-Star Award</li>
-                    <li>Gracious Professionalism Award</li>
+                    {(t('about.content.awardsList') as string[]).map((award, index) => (
+                      <li key={index}>{award}</li>
+                    ))}
                   </ul>
                 </p>
                 <p className="text-gray-200 font-['Poppins'] leading-relaxed">

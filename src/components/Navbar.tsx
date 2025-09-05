@@ -83,7 +83,7 @@ export default function Navbar() {
               loop
               muted
               playsInline
-              className="w-10 h-10 sm:w-14 sm:h-14 rounded-full shadow object-cover"
+              className="w-12 h-12 sm:w-16 sm:h-16 md:w-18 md:h-18 rounded-full shadow object-cover"
               style={{ objectFit: 'cover' }}
             >
               <source src="/videos/logo.mp4" type="video/mp4" />

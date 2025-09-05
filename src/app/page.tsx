@@ -3,7 +3,7 @@
 import Hero from '@/components/Hero'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Award, Users, Lightbulb, Heart } from 'lucide-react'
+import { Award, Users, Lightbulb, Heart, Brain, Zap, Target, Code } from 'lucide-react'
 import sponsorsData from '@/data/sponsors.json'
 import { useLanguage } from '@/contexts/LanguageContext'
 
@@ -147,6 +147,97 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Callister AI Section */}
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="section-title text-[#F5F5F5] drop-shadow-lg">{t('ai.title') as string}</h2>
+            <p className="section-subtitle text-[#F5F5F5]/90 font-medium">
+              {t('ai.subtitle') as string}
+            </p>
+          </div>
+          
+          <div className="text-center mb-12 sm:mb-16">
+            <h3 className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-4 sm:mb-6 drop-shadow-md">
+              {t('ai.heading') as string}
+            </h3>
+            <p className="text-lg sm:text-xl text-[#F5F5F5]/90 mb-6 sm:mb-8 font-medium">
+              {t('ai.subheading') as string}
+            </p>
+            
+            <div className="max-w-4xl mx-auto space-y-6 text-sm sm:text-base text-[#F5F5F5]/95 font-medium leading-relaxed font-['Poppins']">
+              <p className="text-base sm:text-lg">
+                {t('ai.paragraph1') as string}
+              </p>
+              
+              <div className="space-y-3 sm:space-y-4">
+                <div className="flex items-center justify-center space-x-3">
+                  <span className="text-2xl">🔹</span>
+                  <p className="text-sm sm:text-base">{t('ai.feature1') as string}</p>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <span className="text-2xl">🔹</span>
+                  <p className="text-sm sm:text-base">{t('ai.feature2') as string}</p>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <span className="text-2xl">🔹</span>
+                  <p className="text-sm sm:text-base">{t('ai.feature3') as string}</p>
+                </div>
+              </div>
+              
+              <p className="text-base sm:text-lg font-semibold mt-6">
+                {t('ai.conclusion') as string}
+              </p>
+            </div>
+            
+            <div className="mt-8 sm:mt-10 flex justify-center">
+              <Link href="https://callister-ai.vercel.app" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <button className="btn-primary flex items-center justify-center space-x-2">
+                  <Brain size={20} />
+                  <span>{t('ai.button') as string}</span>
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          {/* AI Features Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+            {[
+              {
+                icon: Brain,
+                titleKey: "ai.features.general.title",
+                descriptionKey: "ai.features.general.description"
+              },
+              {
+                icon: Target,
+                titleKey: "ai.features.strategy.title",
+                descriptionKey: "ai.features.strategy.description"
+              },
+              {
+                icon: Zap,
+                titleKey: "ai.features.mechanical.title",
+                descriptionKey: "ai.features.mechanical.description"
+              },
+              {
+                icon: Code,
+                titleKey: "ai.features.simulation.title",
+                descriptionKey: "ai.features.simulation.description"
+              }
+            ].map((feature, index) => (
+              <div key={index} className="card text-center">
+                <feature.icon size={40} className="text-accent mx-auto mb-3 sm:mb-4" />
+                <h3 className="card-title text-lg sm:text-xl">
+                  {t(feature.titleKey) as string}
+                </h3>
+                <p className="card-description text-sm sm:text-base">
+                  {t(feature.descriptionKey) as string}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Sponsor Carousel */}
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

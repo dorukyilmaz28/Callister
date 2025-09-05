@@ -184,6 +184,14 @@
         "name": "Judges' Award",
         "description": "Awarded to teams that impress the jury with their unique achievements, special stories, or remarkable approaches, even if they don't fully fit into official categories."
       }
+    },
+    "eventNames": {
+      "milsteinDivision": "Milstein Division",
+      "ankaraRegional": "Ankara Regional",
+      "cezeriRobotLigi": "Cezeri Robot League Ümraniye Robotics Competition",
+      "bosphorusRegional": "Bosphorus Regional",
+      "istanbulRegional": "Istanbul Regional",
+      "halicRegional": "Halic Regional"
     }
   },
   "about": {
@@ -397,5 +405,60 @@
   "footer": {
     "description": "We work together for science, technology, and social impact.",
     "copyright": "© {year} Callister #9024 FRC Team"
+  },
+  "ai": {
+    "title": "Callister AI",
+    "subtitle": "AI-Powered FRC Assistant",
+    "description": "Expert support in every field of FRC from robot design to strategy, from mechanics to simulation",
+    "heading": "Future Robotics Assistant",
+    "subheading": "Experience the future of FRC today!",
+    "paragraph1": "Callister AI is a specially developed AI-powered assistant for FRC teams. It provides instant expert support in every field from robot design to strategy, from mechanics to simulation.",
+    "feature1": "24/7 by your side, providing instant answers to your questions.",
+    "feature2": "Analyzes FRC rules and suggests the most effective strategies.",
+    "feature3": "Continuously optimizes your team's performance.",
+    "conclusion": "Callister AI is not just an assistant; it's your strongest teammate on the road to championship!",
+    "button": "Chat with AI Assistant",
+    "features": {
+      "general": {
+        "title": "General FRC",
+        "description": "Comprehensive guidance on robot design, competition rules and general FRC topics"
+      },
+      "strategy": {
+        "title": "Strategy",
+        "description": "Expertise in game analysis, team coordination and competitive strategies"
+      },
+      "mechanical": {
+        "title": "Mechanical",
+        "description": "Technical support in motor selection, power transmission and mechanical design"
+      },
+      "simulation": {
+        "title": "Simulation",
+        "description": "Guidance on robot simulation, physics engines and test environments"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "subtitle": "Edit and manage FRC responses",
+    "warning": "⚠️ This page is for admin users only. Changes are not automatically saved.",
+    "keyLabel": "Key (Question)",
+    "valueLabel": "Value (Answer)",
+    "placeholder": "Write detailed answer...",
+    "addUpdate": "Add / Update",
+    "download": "Download JSON",
+    "reset": "Reset",
+    "currentResponses": "Current Responses",
+    "edit": "Edit",
+    "delete": "Delete",
+    "messages": {
+      "loadError": "Failed to load FRC responses.",
+      "keyEmpty": "Key cannot be empty.",
+      "keySpaces": "Key contains too many spaces.",
+      "keyShort": "Key must be at least 3 characters.",
+      "keyProtected": "'bilinmeyen' key cannot be deleted.",
+      "success": "successfully added/updated.",
+      "deleted": "deleted.",
+      "resetSuccess": "Data reset to default values."
+    }
   }
 }
