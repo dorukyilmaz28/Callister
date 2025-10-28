@@ -191,7 +191,7 @@ export default function Home() {
             </div>
             
             <div className="mt-8 sm:mt-10 flex justify-center">
-              <Link href="https://callister-ai.vercel.app" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Link href="https://www.callisterai.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 <button className="btn-primary flex items-center justify-center space-x-2">
                   <Brain size={20} />
                   <span>{t('ai.button') as string}</span>
