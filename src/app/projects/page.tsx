@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Calendar, Tag, ArrowRight, X } from 'lucide-react'
 import projectsData from '@/data/projects.json'
 import { useLanguage } from '@/contexts/LanguageContext'
@@ -9,6 +9,19 @@ export default function ProjectsPage() {
   const [selectedCategory, setSelectedCategory] = useState('Tümü')
   const [modalProject, setModalProject] = useState<any>(null)
   const { t } = useLanguage()
+
+  // Modal açıldığında body scroll'unu engelle
+  useEffect(() => {
+    if (modalProject) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+    
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [modalProject])
 
   // Kategori çevirileri
   const categoryTranslations: { [key: string]: string } = {
@@ -42,11 +55,6 @@ export default function ProjectsPage() {
         title: t('projects.projectDetails.kaplumbaga.title') as string,
         description: t('projects.projectDetails.kaplumbaga.description') as string,
         details: t('projects.projectDetails.kaplumbaga.details') as string
-      },
-      'İztuzu Projesi': {
-        title: t('projects.projectDetails.iztuzu.title') as string,
-        description: t('projects.projectDetails.iztuzu.description') as string,
-        details: t('projects.projectDetails.iztuzu.details') as string
       },
       'Eco Footprint': {
         title: t('projects.projectDetails.ecoFootprint.title') as string,
@@ -82,6 +90,26 @@ export default function ProjectsPage() {
         title: t('projects.projectDetails.saveBlue.title') as string,
         description: t('projects.projectDetails.saveBlue.description') as string,
         details: t('projects.projectDetails.saveBlue.details') as string
+      },
+      'Gümüşhane STEM Eğitimi': {
+        title: t('projects.projectDetails.gumushaneStem.title') as string,
+        description: t('projects.projectDetails.gumushaneStem.description') as string,
+        details: t('projects.projectDetails.gumushaneStem.details') as string
+      },
+      'FRC Academy': {
+        title: t('projects.projectDetails.frcAcademy.title') as string,
+        description: t('projects.projectDetails.frcAcademy.description') as string,
+        details: t('projects.projectDetails.frcAcademy.details') as string
+      },
+      'DIVE in Iztuzu': {
+        title: t('projects.projectDetails.diveIztuzu.title') as string,
+        description: t('projects.projectDetails.diveIztuzu.description') as string,
+        details: t('projects.projectDetails.diveIztuzu.details') as string
+      },
+      'Towards Underwater': {
+        title: t('projects.projectDetails.towardsUnderwater.title') as string,
+        description: t('projects.projectDetails.towardsUnderwater.description') as string,
+        details: t('projects.projectDetails.towardsUnderwater.details') as string
       }
     }
     
@@ -159,38 +187,48 @@ export default function ProjectsPage() {
 
       {/* Modal */}
       {modalProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 max-w-2xl w-full relative border border-white/20 shadow-2xl">
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 sm:p-6 overflow-y-auto"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setModalProject(null)
+            }
+          }}
+        >
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-6 md:p-8 max-w-2xl w-full relative border border-white/20 shadow-2xl my-auto">
             <button 
-              className="absolute top-4 right-4 text-white/70 hover:text-white transition-colors" 
+              className="absolute top-3 right-3 sm:top-4 sm:right-4 z-50 bg-black/50 hover:bg-black/70 backdrop-blur-sm rounded-full p-2 text-white hover:text-white transition-all duration-200 flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 shadow-lg border border-white/20 min-w-[40px] min-h-[40px]" 
               onClick={() => setModalProject(null)}
+              aria-label="Kapat"
             >
-              <X size={28} />
+              <X className="w-6 h-6 sm:w-7 sm:h-7" />
             </button>
-            <h2 className="text-3xl font-bold text-white mb-6">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6 pr-10 sm:pr-12">
               {getProjectTranslation(modalProject.title).title}
             </h2>
-            <p className="text-gray-200 mb-6 leading-relaxed">
-              {getProjectTranslation(modalProject.title).details}
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-              {/* Fotoğraf alanları */}
-              {modalProject.images && modalProject.images.length > 0 ? (
-                modalProject.images.slice(0,2).map((img: string, idx: number) => (
-                  <div key={idx} className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20 overflow-hidden">
-                    <img src={img} alt="Proje görseli" className="object-cover w-full h-full rounded" />
-                  </div>
-                ))
-              ) : (
-                <>
-                  <div className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20">
-                    <span className="text-gray-400">Fotoğraf 1</span>
-                  </div>
-                  <div className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20">
-                    <span className="text-gray-400">Fotoğraf 2</span>
-                  </div>
-                </>
-              )}
+            <div className="overflow-y-auto max-h-[calc(100vh-200px)]">
+              <p className="text-sm sm:text-base text-gray-200 mb-4 sm:mb-6 leading-relaxed">
+                {getProjectTranslation(modalProject.title).details}
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                {/* Fotoğraf alanları */}
+                {modalProject.images && modalProject.images.length > 0 ? (
+                  modalProject.images.slice(0,2).map((img: string, idx: number) => (
+                    <div key={idx} className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20 overflow-hidden">
+                      <img src={img} alt="Proje görseli" className="object-cover w-full h-full rounded" />
+                    </div>
+                  ))
+                ) : (
+                  <>
+                    <div className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20">
+                      <span className="text-gray-400 text-sm">Fotoğraf 1</span>
+                    </div>
+                    <div className="w-full h-48 bg-white/10 rounded-lg flex items-center justify-center border border-white/20">
+                      <span className="text-gray-400 text-sm">Fotoğraf 2</span>
+                    </div>
+                  </>
+                )}
+              </div>
             </div>
           </div>
         </div>

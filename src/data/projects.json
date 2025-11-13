@@ -8,7 +8,7 @@
       "category": "Eğitim",
       "year": "2023",
       "status": "Devam Ediyor",
-      "details": "Pencere projesi kapsamında 2 köy okulunu ziyaret edip öğrencilere STEAM ve EV3 eğitimi verdik. Amacımız; çocuklara yeni deneyimlerle buluşma fırsatı tanıyarak yaratıcılıklarını, problem çözme becerilerini ve teknoloji ile ilişkilerini geliştirmekti. Eğitimlerimizin ardından düzenlediğimiz yarışmada çocukları, legolardan oluşturdukları robotları \"resim çizme\" ve \"müzik çalma\" özelliklerine göre programlamalarına yardım ettik. Böylece, teknik alanların yanı sıra sanatsal yönlerini keşfetmelerine olanak sağlayarak çocukların çok yönlü gelişimine katkıda bulunmayı hedefledik.",
+      "details": "Pencere projesi kapsamında 3 yıldır köy okullarına giderek öğrencilere STEM ve EV3 eğitimi veriyoruz. Amacımız; çocuklara yeni deneyimlerle buluşma fırsatı tanıyarak yaratıcılıklarını, problem çözme becerilerini ve teknoloji ile ilişkilerini geliştirmektir. Eğitimlerimizde çocukların legolardan oluşturdukları robotları programlamalarına yardımcı oluyoruz. Robotlar \"resim çizme\" ve \"müzik çalma\" gibi özelliklere göre programlanarak, teknik alanların yanı sıra sanatsal yönlerini keşfetmelerine olanak sağlıyoruz. Böylece çocukların çok yönlü gelişimine katkıda bulunmayı hedefliyoruz.",
       "images": ["/images/projects/pencere1.png", "/images/projects/pencere2.png"]
     },
     {
@@ -30,7 +30,7 @@
       "category": "Sosyal",
       "year": "2023",
       "status": "Devam Ediyor",
-      "details": "KEV ile işbirliği yaparak kadınların STEM alanlarında daha aktif rol almasını sağlayan projeler geliştiriyoruz.",
+      "details": "Kocaeli Eğitim Vakfı desteğiyle gerçekleştirdiğimiz seminerde, 500'den fazla lise kız öğrencisini (14-16 yaş) hukuk, sağlık, mühendislik, turizm ve insan kaynakları gibi farklı alanlardan başarılı kadınlarla bir araya getirdik. Amacımız, genç kızlara kariyer yolculuklarında rehberlik etmek, onlara olumlu rol modelleri tanıtmak ve kolektif güçlenme duygusunu güçlendirmekti.",
       "images": []
     },
     {
@@ -46,17 +46,6 @@
     },
     {
       "id": 5,
-      "title": "İztuzu Projesi",
-      "description": "WWF korumasında olan Deniz Kaplumbağaları Araştırma Kurtarma ve Rehabilitasyon Merkezi ziyaret projesi.",
-      "image": "/images/projects/iztuzu.jpg",
-      "category": "Çevre",
-      "year": "2023",
-      "status": "Tamamlandı",
-      "details": "WWF korumasında olan Deniz Kaplumbağaları Araştırma Kurtarma ve Rehabilitasyon Merkezi'ni ziyaret ettik. Burada deniz kaplumbağaları hakkında yeni bilgiler öğrendik ve yaralanmış kaplumbağaların tedavisine yardımcı olduk. Ayrıca hediyelik eşyalar alarak maddi açıdan da destek verdik. Önümüzdeki sezon içerisinde birlikte gerçekleştireceğimiz projelerde bizim ufkumuzu açan ve çevre hakkında bilincimizi arttıran bir gezi oldu.",
-      "images": ["/images/projects/iztuzu1.png", "/images/projects/iztuzu2.png"]
-    },
-    {
-      "id": 6,
       "title": "Eco Footprint",
       "description": "Karbon ayak izini azaltmaya yönelik sürdürülebilir yaşam projesi.",
       "image": "/images/projects/eco-footprint.jpg",
@@ -67,18 +56,18 @@
       "images": ["/images/projects/eco-footprint1.png", "/images/projects/eco-footprint2.png"]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Mini Brick Symphony",
       "description": "LEGO ile müzik yapma projesi. Teknoloji ve sanatı birleştiren yenilikçi yaklaşım.",
       "image": "/images/projects/mini-brick.jpg",
-      "category": "Teknoloji",
+      "category": "Eğitim",
       "year": "2023",
       "status": "Tamamlandı",
-      "details": "Pencere projemiz kapsamında kardeş takımımız Archers ile düzenlediğimiz Mini Brick Symphony yarışmamızda EV3 eğitimi verdiğimiz 5 köy ilkokullarındaki 200 öğrenciyi bir araya getirerek yarışma deneyimini tatmalarını sağladık.",
+      "details": "Pencere projemiz kapsamında kardeş takımımız Archers ile ikinci kez düzenlediğimiz Mini Brick Symphony yarışmamızda, EV3 eğitimi verdiğimiz 5 köy ilkokulundan 200 öğrenciyi bir araya getirerek onlara yarışma deneyimi kazandırdık. Bu yarışma sayesinde öğrenciler hem takım çalışması ruhunu geliştirdiler hem de edindikleri teknik becerileri pratiğe dökme fırsatı buldular.",
       "images": ["/images/projects/mini-brick1.png", "/images/projects/mini-brick2.png"]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "İklim Müzesi",
       "description": "İklim değişikliği konusunda farkındalık yaratan dijital müze projesi.",
       "image": "/images/projects/iklim-muzesi.jpg",
@@ -89,7 +78,7 @@
       "images": ["/images/projects/iklim-muzesi1.png", "/images/projects/iklim-muzesi2.png"]
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Yeni Erişim Simgesi",
       "description": "Engelli bireyler için erişilebilir teknoloji çözümleri geliştiren proje.",
       "image": "/images/projects/erisim-simgesi.jpg",
@@ -100,7 +89,7 @@
       "images": ["/images/projects/erisim-simgesi1.png", "/images/projects/erisim-simgesi2.png"]
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Ecoquake",
       "description": "Deprem erken uyarı sistemi geliştiren çevre teknolojisi projesi.",
       "image": "/images/projects/ecoquake.jpg",
@@ -111,7 +100,7 @@
       "images": ["/images/projects/ecoquake1.png"]
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Balçık Köy Okulu 19 Mayıs Kütüphanesi",
       "description": "Köy okulunda kütüphane inşa etme ve öğrencilere eğitim verme projesi.",
       "image": "/images/projects/balcik-kutuphane.jpg",
@@ -122,14 +111,58 @@
       "images": ["/images/projects/balcik-kutuphane1.png", "/images/projects/balcik-kutuphane2.png"]
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Save The Blue",
       "description": "Okyanus kirliliği ile mücadele eden çevre koruma projesi. Deniz yaşamını koruyoruz.",
       "image": "/images/projects/save-blue.jpg",
       "category": "Çevre",
       "year": "2023",
       "status": "Devam Ediyor",
-      "details": "Okyanus kirliliği konusunda farkındalık yaratan ve çözüm önerileri sunan bir proje geliştirdik.",
+      "details": "Callister ve Archers takımı olarak İzmit Körfezi'nde hayalet ağ çıkarma ve su altı atık toplama çalışmaları gerçekleştirdik. Hayalet ağlar, deniz canlılarının dolanarak yaralanmasına veya ölümüne neden olurken, mercan resifleri gibi su altı yapılarına zarar vermekte ve mikroplastik kirliliğine sebep olmaktadır. Bu proje ile deniz yaşamını koruma yolunda bir adım attık ve çevre bilinci oluşturmayı hedefledik. Tarım ve Orman Bakanlığı ve Kocaeli Büyükşehir Belediyesi'nin düzenlediği \"Hayalet Ağlar\" projesine katkıda bulunduk.",
+      "images": []
+    },
+    {
+      "id": 12,
+      "title": "Gümüşhane STEM Eğitimi",
+      "description": "Gümüşhane İl Milli Eğitim Müdürlüğü ile ortaklaşa düzenlenen 5 günlük dönem eğitim kampı.",
+      "image": "/images/projects/gumushane-stem.jpg",
+      "category": "Eğitim",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Gümüşhane İl Milli Eğitim Müdürlüğü ile ortaklaşa 593 5. sınıf öğrencisi için 5 günlük dönem eğitim kampı düzenledik. Kamp kapsamında STEM, TinkerCAD ve Scratch eğitimleri vererek öğrencileri bu alanlarla tanıştırdık ve ilgili becerilerini geliştirmelerine yardımcı olduk.",
+      "images": []
+    },
+    {
+      "id": 13,
+      "title": "FRC Academy",
+      "description": "Archers ve Callister tarafından kurulan, FRC dünyasına yeni adım atan takımlar için eğitim platformu.",
+      "image": "/images/projects/frc-academy.jpg",
+      "category": "Eğitim",
+      "year": "2023",
+      "status": "Devam Ediyor",
+      "details": "Archers ve Callister tarafından kurulan FRC Academy, özellikle rookie takımlar için yazılım, tasarım, mekanik ve elektronik gibi çeşitli FRC alanlarında bilgi sağlamayı amaçlayan bir eğitim platformudur. Projenin amacı, başlangıcından bu yana edinilen deneyimleri diğer takımlarla paylaşmak ve sezon boyunca teknik bir rol model olarak hizmet etmektir. Proje yaklaşık 450 üye ve 7 rookie takıma ulaşmıştır.",
+      "images": []
+    },
+    {
+      "id": 14,
+      "title": "DIVE in Iztuzu",
+      "description": "Archers kardeş takımı ile birlikte düzenlenen, deniz yaşamını koruma ve çevre bilinci oluşturma projesi.",
+      "image": "/images/projects/dive-iztuzu.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Kardeş takımımız Archers ile birlikte düzenlediğimiz \"DIVE in Iztuzu\" projesi kapsamında Dalyan'da su altı dünyasını keşfettik. Deniz yaşamını koruma ve çevre bilinci oluşturma amacıyla İztuzu'ndaki DEKAMER Caretta Caretta Hastanesi'ni ziyaret ettik. Deniz kaplumbağaları ve onların tehditleri hakkında bilgi edindik, bağış yaparak maddi destek sağladık. Bu ziyaret, çevre bilincimizi artırdı, gelecekteki projelerimize ilham verdi ve takım bağlarımızı güçlendirdi.",
+      "images": []
+    },
+    {
+      "id": 15,
+      "title": "Towards Underwater",
+      "description": "Deniz yaşamı ve plastik kirliliği arasındaki ilişkiyi gösteren sergi projesi.",
+      "image": "/images/projects/towards-underwater.jpg",
+      "category": "Çevre",
+      "year": "2023",
+      "status": "Tamamlandı",
+      "details": "Son dönemde yapılan araştırmalar, deniz yaşamı ile plastik kirliliği arasındaki ilişkiyi netleştirdi. Takım olarak GOSB yönetim binası içerisinde düzenlediğimiz sergi ile plastiklerin deniz ekosistemlerine etkilerini gösterdik. Geri dönüşüm malzemelerinden yapılan eserlerle deniz çöpleri ve plastiklere odaklanan, çözüm arayan bir sergi oluşturduk. Sergi açılışına GOSB Bölge Müdürü, Yardımcı Müdürler, Kurumsal İletişim Müdürü, şirket yöneticileri, okul müdürü, müdür yardımcısı ve Petfor, Torun metal, Pimtaş plastik gibi şirket temsilcileri katıldı.",
       "images": []
     }
   ],
@@ -137,12 +170,12 @@
     {
       "name": "Eğitim",
       "color": "bg-blue-500",
-      "count": 2
+      "count": 5
     },
     {
       "name": "Çevre",
       "color": "bg-green-500",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Sosyal",
@@ -152,7 +185,7 @@
     {
       "name": "Teknoloji",
       "color": "bg-yellow-500",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Kültür",

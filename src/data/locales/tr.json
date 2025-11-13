@@ -22,7 +22,8 @@
     "events": "Etkinlikler",
     "awards": "Ödüller",
     "sponsors": "Sponsorlar",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "frcAcademy": "FRC Academy"
   },
   "hero": {
     "title": "Callister",
@@ -286,7 +287,7 @@
       "pencere": {
         "title": "Pencere",
         "description": "Köy okullarında EV3 eğitimi projesi. Öğrencilere robotik ve kodlama becerileri kazandırıyoruz.",
-        "details": "Pencere projesi kapsamında 2 köy okulunu ziyaret edip öğrencilere STEAM ve EV3 eğitimi verdik. Amacımız; çocuklara yeni deneyimlerle buluşma fırsatı tanıyarak yaratıcılıklarını, problem çözme becerilerini ve teknoloji ile ilişkilerini geliştirmekti. Eğitimlerimizin ardından düzenlediğimiz yarışmada çocukları, legolardan oluşturdukları robotları \"resim çizme\" ve \"müzik çalma\" özelliklerine göre programlamalarına yardım ettik. Böylece, teknik alanların yanı sıra sanatsal yönlerini keşfetmelerine olanak sağlayarak çocukların çok yönlü gelişimine katkıda bulunmayı hedefledik."
+        "details": "Pencere projesi kapsamında 3 yıldır köy okullarına giderek öğrencilere STEM ve EV3 eğitimi veriyoruz. Amacımız; çocuklara yeni deneyimlerle buluşma fırsatı tanıyarak yaratıcılıklarını, problem çözme becerilerini ve teknoloji ile ilişkilerini geliştirmektir. Eğitimlerimizde çocukların legolardan oluşturdukları robotları programlamalarına yardımcı oluyoruz. Robotlar \"resim çizme\" ve \"müzik çalma\" gibi özelliklere göre programlanarak, teknik alanların yanı sıra sanatsal yönlerini keşfetmelerine olanak sağlıyoruz. Böylece çocukların çok yönlü gelişimine katkıda bulunmayı hedefliyoruz."
       },
       "sanatKadin": {
         "title": "Sanatın Kadın Ruhu",
@@ -296,17 +297,12 @@
       "gucluKadinlar": {
         "title": "Güçlü Kadınlar, Güçlü Yarınlar",
         "description": "KEV işbirliği ile kadınların güçlendirilmesi projesi. STEM alanlarında kadın katılımını artırıyoruz.",
-        "details": "KEV ile işbirliği yaparak kadınların STEM alanlarında daha aktif rol almasını sağlayan projeler geliştiriyoruz."
+        "details": "Kocaeli Eğitim Vakfı desteğiyle gerçekleştirdiğimiz seminerde, 500'den fazla lise kız öğrencisini (14-16 yaş) hukuk, sağlık, mühendislik, turizm ve insan kaynakları gibi farklı alanlardan başarılı kadınlarla bir araya getirdik. Amacımız, genç kızlara kariyer yolculuklarında rehberlik etmek, onlara olumlu rol modelleri tanıtmak ve kolektif güçlenme duygusunu güçlendirmekti."
       },
       "kaplumbaga": {
         "title": "Kaplumbağa Müzesi",
         "description": "Deniz kaplumbağalarının korunması için farkındalık yaratan dijital müze projesi.",
         "details": "Bu proje kapsamında okulumuzu ziyarete gelen 8. sınıf öğrencilerini ağırladık. Geçtiğimiz aylarda İztuzu Plajı'na giderek DEKAMER'i ziyaret etmemiz, bizde farkındalık yaratmak için başka neler yapabiliriz diye düşünmemizi sağladı ve okulumuzda \"Kaplumbağa Müzesi\" ismini verdiğimiz bir sergi oluşturarak Caretta Caretta'ların yumurtadan çıkıp erişkin safhaya ulaşıncaya dek olan hayat serüvenlerini sergiledik. Bu müzenin de temel amacı olan nesli tükenme tehlikesi altındaki Deniz Kaplumbağası türüne dikkat çekmek ve bilinç oluşturmak maksadıyla giriştiğimiz bu projemizde alınması gereken önlemler, izlenmesi gereken yol haritalarını sunumumuzda detaylıca anlattık ve bu proje sonucunda okulumuza gelen öğrencilere farkındalık yarattık."
-      },
-      "iztuzu": {
-        "title": "İztuzu Projesi",
-        "description": "WWF korumasında olan Deniz Kaplumbağaları Araştırma Kurtarma ve Rehabilitasyon Merkezi ziyaret projesi.",
-        "details": "WWF korumasında olan Deniz Kaplumbağaları Araştırma Kurtarma ve Rehabilitasyon Merkezi'ni ziyaret ettik. Burada deniz kaplumbağaları hakkında yeni bilgiler öğrendik ve yaralanmış kaplumbağaların tedavisine yardımcı olduk. Ayrıca hediyelik eşyalar alarak maddi açıdan da destek verdik. Önümüzdeki sezon içerisinde birlikte gerçekleştireceğimiz projelerde bizim ufkumuzu açan ve çevre hakkında bilincimizi arttıran bir gezi oldu."
       },
       "ecoFootprint": {
         "title": "Eco Footprint",
@@ -316,7 +312,7 @@
       "miniBrick": {
         "title": "Mini Brick Symphony",
         "description": "LEGO ile müzik yapma projesi. Teknoloji ve sanatı birleştiren yenilikçi yaklaşım.",
-        "details": "Pencere projemiz kapsamında kardeş takımımız Archers ile düzenlediğimiz Mini Brick Symphony yarışmamızda EV3 eğitimi verdiğimiz 5 köy ilkokullarındaki 200 öğrenciyi bir araya getirerek yarışma deneyimini tatmalarını sağladık."
+        "details": "Pencere projemiz kapsamında kardeş takımımız Archers ile ikinci kez düzenlediğimiz Mini Brick Symphony yarışmamızda, EV3 eğitimi verdiğimiz 5 köy ilkokulundan 200 öğrenciyi bir araya getirerek onlara yarışma deneyimi kazandırdık. Bu yarışma sayesinde öğrenciler hem takım çalışması ruhunu geliştirdiler hem de edindikleri teknik becerileri pratiğe dökme fırsatı buldular."
       },
       "iklimMuzesi": {
         "title": "İklim Müzesi",
@@ -341,7 +337,27 @@
       "saveBlue": {
         "title": "Save The Blue",
         "description": "Okyanus kirliliği ile mücadele eden çevre koruma projesi. Deniz yaşamını koruyoruz.",
-        "details": "Okyanus kirliliği konusunda farkındalık yaratan ve çözüm önerileri sunan bir proje geliştirdik."
+        "details": "Callister ve Archers takımı olarak İzmit Körfezi'nde hayalet ağ çıkarma ve su altı atık toplama çalışmaları gerçekleştirdik. Hayalet ağlar, deniz canlılarının dolanarak yaralanmasına veya ölümüne neden olurken, mercan resifleri gibi su altı yapılarına zarar vermekte ve mikroplastik kirliliğine sebep olmaktadır. Bu proje ile deniz yaşamını koruma yolunda bir adım attık ve çevre bilinci oluşturmayı hedefledik. Tarım ve Orman Bakanlığı ve Kocaeli Büyükşehir Belediyesi'nin düzenlediği \"Hayalet Ağlar\" projesine katkıda bulunduk."
+      },
+      "gumushaneStem": {
+        "title": "Gümüşhane STEM Eğitimi",
+        "description": "Gümüşhane İl Milli Eğitim Müdürlüğü ile ortaklaşa düzenlenen 5 günlük dönem eğitim kampı.",
+        "details": "Gümüşhane İl Milli Eğitim Müdürlüğü ile ortaklaşa 593 5. sınıf öğrencisi için 5 günlük dönem eğitim kampı düzenledik. Kamp kapsamında STEM, TinkerCAD ve Scratch eğitimleri vererek öğrencileri bu alanlarla tanıştırdık ve ilgili becerilerini geliştirmelerine yardımcı olduk."
+      },
+      "frcAcademy": {
+        "title": "FRC Academy",
+        "description": "Archers ve Callister tarafından kurulan, FRC dünyasına yeni adım atan takımlar için eğitim platformu.",
+        "details": "Archers ve Callister tarafından kurulan FRC Academy, özellikle rookie takımlar için yazılım, tasarım, mekanik ve elektronik gibi çeşitli FRC alanlarında bilgi sağlamayı amaçlayan bir eğitim platformudur. Projenin amacı, başlangıcından bu yana edinilen deneyimleri diğer takımlarla paylaşmak ve sezon boyunca teknik bir rol model olarak hizmet etmektir. Proje yaklaşık 450 üye ve 7 rookie takıma ulaşmıştır."
+      },
+      "diveIztuzu": {
+        "title": "DIVE in Iztuzu",
+        "description": "Archers kardeş takımı ile birlikte düzenlenen, deniz yaşamını koruma ve çevre bilinci oluşturma projesi.",
+        "details": "Kardeş takımımız Archers ile birlikte düzenlediğimiz \"DIVE in Iztuzu\" projesi kapsamında Dalyan'da su altı dünyasını keşfettik. Deniz yaşamını koruma ve çevre bilinci oluşturma amacıyla İztuzu'ndaki DEKAMER Caretta Caretta Hastanesi'ni ziyaret ettik. Deniz kaplumbağaları ve onların tehditleri hakkında bilgi edindik, bağış yaparak maddi destek sağladık. Bu ziyaret, çevre bilincimizi artırdı, gelecekteki projelerimize ilham verdi ve takım bağlarımızı güçlendirdi."
+      },
+      "towardsUnderwater": {
+        "title": "Towards Underwater",
+        "description": "Deniz yaşamı ve plastik kirliliği arasındaki ilişkiyi gösteren sergi projesi.",
+        "details": "Son dönemde yapılan araştırmalar, deniz yaşamı ile plastik kirliliği arasındaki ilişkiyi netleştirdi. Takım olarak GOSB yönetim binası içerisinde düzenlediğimiz sergi ile plastiklerin deniz ekosistemlerine etkilerini gösterdik. Geri dönüşüm malzemelerinden yapılan eserlerle deniz çöpleri ve plastiklere odaklanan, çözüm arayan bir sergi oluşturduk. Sergi açılışına GOSB Bölge Müdürü, Yardımcı Müdürler, Kurumsal İletişim Müdürü, şirket yöneticileri, okul müdürü, müdür yardımcısı ve Petfor, Torun metal, Pimtaş plastik gibi şirket temsilcileri katıldı."
       }
     }
   },

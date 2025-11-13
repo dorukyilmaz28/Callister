@@ -16,6 +16,7 @@ const navLinks = [
   { nameKey: 'nav.awards', href: '/awards' },
   { nameKey: 'nav.sponsors', href: '/sponsors' },
   { nameKey: 'nav.contact', href: '/contact' },
+  { nameKey: 'nav.frcAcademy', href: 'https://frcacademy.com/html/main.html', external: true },
 ]
 
 export default function Navbar() {
@@ -99,12 +100,23 @@ export default function Navbar() {
           <ul className="flex gap-6 items-center">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="text-base lg:text-lg font-medium text-white px-2 py-1 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
-                >
-                  {t(link.nameKey)}
-                </Link>
+                {link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base lg:text-lg font-medium text-white px-2 py-1 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
+                  >
+                    {t(link.nameKey)}
+                  </a>
+                ) : (
+                  <Link
+                    href={link.href}
+                    className="text-base lg:text-lg font-medium text-white px-2 py-1 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
+                  >
+                    {t(link.nameKey)}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
@@ -133,13 +145,25 @@ export default function Navbar() {
             <ul className="flex flex-col gap-6 items-center">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    onClick={closeMobileMenu}
-                    className="text-2xl font-medium text-white px-4 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10"
-                  >
-                    {t(link.nameKey)}
-                  </Link>
+                  {link.external ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={closeMobileMenu}
+                      className="text-2xl font-medium text-white px-4 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10"
+                    >
+                      {t(link.nameKey)}
+                    </a>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      onClick={closeMobileMenu}
+                      className="text-2xl font-medium text-white px-4 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10"
+                    >
+                      {t(link.nameKey)}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
