@@ -334,6 +334,26 @@
         "description": "Environmental technology project developing earthquake early warning system.",
         "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
       },
+      "gumushaneStem": {
+        "title": "Gümüşhane STEM Education",
+        "description": "A 5-day term education camp organized with Gümüşhane Provincial Directorate of National Education.",
+        "details": "We organized a 5-day term education camp for 593 5th grade students in cooperation with the Gümüşhane Provincial Directorate of National Education. Within the camp we delivered STEM, TinkerCAD and Scratch trainings, introducing students to these domains and helping them improve their related skills."
+      },
+      "frcAcademy": {
+        "title": "FRC Academy",
+        "description": "A training platform founded by Archers and Callister for teams new to FRC.",
+        "details": "Founded by Archers and Callister, FRC Academy aims to provide knowledge across various FRC domains—software, design, mechanical and electronics—especially for rookie teams. Our goal is to share the experience we have gained since our establishment with other teams and serve as a technical role model throughout the season. The project has reached approximately 450 members and 7 rookie teams."
+      },
+      "diveIztuzu": {
+        "title": "DIVE in Iztuzu",
+        "description": "A project organized with our sister team Archers to protect marine life and raise environmental awareness.",
+        "details": "Within the scope of our \"DIVE in Iztuzu\" project organized with our sister team Archers, we explored the underwater world in Dalyan. To protect marine life and build environmental awareness, we visited the DEKAMER Caretta Caretta Hospital in Iztuzu. We learned about sea turtles and the threats they face, and provided financial support through donations. This visit increased our environmental awareness, inspired our future projects, and strengthened our team bonds."
+      },
+      "towardsUnderwater": {
+        "title": "Towards Underwater",
+        "description": "An exhibition project demonstrating the relationship between marine life and plastic pollution.",
+        "details": "Recent research has made the relationship between marine life and plastic pollution clearer. As a team, we organized an exhibition inside the GOSB administration building to demonstrate the effects of plastics on marine ecosystems. Using recycled materials, we focused on marine debris and plastics, showcasing artworks that seek solutions. The opening was attended by GOSB Regional Director, Deputy Directors, Corporate Communications Director, company executives, our school principal and vice principal, as well as company representatives from Petfor, Torun Metal and Pimtaş Plastik."
+      },
       "balcikKutuphane": {
         "title": "Balçık Village School 19 May Library",
         "description": "Project to build a library in a village school and provide education to students.",
