@@ -7,6 +7,22 @@
       "logo": "/images/sponsors/arm.png",
       "website": "https://arm.com",
       "description": "World leader in microprocessor and software technologies"
+    },
+    {
+      "id": 2,
+      "name": "Boeing",
+      "category": "Gold",
+      "logo": "/images/sponsors/Boeing-Logo.png",
+      "website": "https://www.boeing.com",
+      "description": "World's largest aerospace company and leading manufacturer of commercial airplanes"
+    },
+    {
+      "id": 3,
+      "name": "Fikret Yüksel",
+      "category": "Silver",
+      "logo": "/images/sponsors/fikretyuksel.png",
+      "website": "https://www.fikretyukselfoundation.org/",
+      "description": "FIRST programlarını Türkiye'de destekleyen, öğrencilerin STEAM becerilerini geliştirmelerine yardımcı olan vakıf"
     }
   ],
      "categories": [

@@ -86,7 +86,9 @@
     "sponsorLogo": "Sponsor Logo",
     "waiting": "Waiting",
     "descriptions": {
-      "arm": "World leader in microprocessor and software technologies"
+      "arm": "World leader in microprocessor and software technologies",
+      "boeing": "World's largest aerospace company and leading manufacturer of commercial airplanes",
+      "fikret yüksel": "Foundation supporting FIRST programs in Turkey, helping students develop STEAM skills"
     },
     "packagesList": {
       "callister": {

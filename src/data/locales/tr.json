@@ -86,7 +86,9 @@
     "sponsorLogo": "Sponsor Logosu",
     "waiting": "Bekliyor",
     "descriptions": {
-      "arm": "Dünya lideri mikroişlemci ve yazılım teknolojileri şirketi"
+      "arm": "Dünya lideri mikroişlemci ve yazılım teknolojileri şirketi",
+      "boeing": "Dünyanın en büyük havacılık şirketi ve ticari uçak üreticisi",
+      "fikret yüksel": "FIRST programlarını Türkiye'de destekleyen, öğrencilerin STEAM becerilerini geliştirmelerine yardımcı olan vakıf"
     },
     "packagesList": {
       "callister": {
