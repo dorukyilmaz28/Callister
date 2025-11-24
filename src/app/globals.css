@@ -309,10 +309,11 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(to right, #6A0DAD, #D500F9, #CBA0FF);
+    background: linear-gradient(to right, #E9D5FF, #D8B4FE, #C084FC, #A855F7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 16px rgba(255, 255, 255, 0.5)) drop-shadow(0 0 24px rgba(168, 85, 247, 0.4));
   }
   
   .bg-gradient-purple {
