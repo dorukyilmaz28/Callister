@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { Calendar, Tag, ArrowRight, X } from 'lucide-react'
 import projectsData from '@/data/projects.json'
 import { useLanguage } from '@/contexts/LanguageContext'
@@ -205,23 +206,16 @@ export default function ProjectsPage() {
                 ].map((item, num) => (
                   <div
                     key={num}
-                    className="aspect-[4/3] bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden flex items-center justify-center relative"
+                    className="aspect-[4/3] bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden relative"
                   >
-                    <img
+                    <Image
                       src={item.src}
                       alt={item.fallback}
-                      className="w-full h-full object-cover absolute inset-0"
-                      loading="eager"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement
-                        target.style.display = 'none'
-                        const placeholder = target.parentElement?.querySelector('.donation-img-placeholder')
-                        if (placeholder) placeholder.classList.remove('hidden')
-                      }}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 33vw"
+                      className="object-cover"
+                      priority={num < 2}
                     />
-                    <span className="donation-img-placeholder hidden text-gray-400 text-sm p-2 text-center absolute inset-0 flex items-center justify-center">
-                      {item.fallback}
-                    </span>
                   </div>
                 ))}
               </div>
@@ -253,23 +247,16 @@ export default function ProjectsPage() {
                 ].map((item, num) => (
                   <div
                     key={num}
-                    className="aspect-[4/3] bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden flex items-center justify-center relative"
+                    className="aspect-[4/3] bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden relative"
                   >
-                    <img
+                    <Image
                       src={item.src}
                       alt={item.fallback}
-                      className="w-full h-full object-cover absolute inset-0"
-                      loading="eager"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement
-                        target.style.display = 'none'
-                        const placeholder = target.parentElement?.querySelector('.kermes-img-placeholder')
-                        if (placeholder) placeholder.classList.remove('hidden')
-                      }}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                      className="object-cover"
+                      priority
                     />
-                    <span className="kermes-img-placeholder hidden text-gray-400 text-sm p-2 text-center absolute inset-0 flex items-center justify-center">
-                      {item.fallback}
-                    </span>
                   </div>
                 ))}
               </div>
@@ -337,11 +324,13 @@ export default function ProjectsPage() {
               {modalProject.images && modalProject.images.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                   {modalProject.images.map((img: string, idx: number) => (
-                    <div key={idx} className="w-full rounded-lg border border-white/20 overflow-hidden bg-white/5">
-                      <img
+                    <div key={idx} className="relative w-full aspect-[4/3] rounded-lg border border-white/20 overflow-hidden bg-white/5">
+                      <Image
                         src={img}
                         alt=""
-                        className="w-full h-auto block"
+                        fill
+                        sizes="(max-width: 640px) 100vw, 50vw"
+                        className="object-cover"
                       />
                     </div>
                   ))}

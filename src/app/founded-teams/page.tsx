@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 const IMAGE_PLACEHOLDERS = [
@@ -36,22 +37,16 @@ export default function FoundedTeamsPage() {
               {IMAGE_PLACEHOLDERS.map((src, index) => (
                 <div
                   key={index}
-                  className="aspect-[4/3] bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden flex items-center justify-center relative"
+                  className="aspect-[4/3] bg-white/10 backdrop-blur-md rounded-xl border border-white/20 overflow-hidden relative"
                 >
-                  <img
+                  <Image
                     src={src}
                     alt=""
-                    className="w-full h-full object-cover absolute inset-0"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.style.display = 'none'
-                      const placeholder = target.parentElement?.querySelector('.img-placeholder')
-                      placeholder?.classList.remove('hidden')
-                    }}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover"
+                    priority={index < 3}
                   />
-                  <span className="img-placeholder hidden text-gray-400 text-sm p-2 text-center">
-                    Görsel {index + 1}
-                  </span>
                 </div>
               ))}
             </div>
