@@ -1,0 +1,584 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "notFound": "页面未找到",
+    "backToHome": "返回首页",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "contact": "联系我们",
+    "about": "关于我们",
+    "team": "团队",
+    "projects": "项目",
+    "events": "活动",
+    "awards": "奖项",
+    "sponsors": "赞助商"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "team": "团队",
+    "projects": "项目",
+    "foundedTeams": "我们创立的队伍",
+    "events": "活动",
+    "awards": "奖项",
+    "sponsors": "赞助商",
+    "contact": "联系我们",
+    "frcAcademy": "FRC Academy"
+  },
+  "foundedTeams": {
+    "title": "我们创立的队伍",
+    "subtitle": "我们以 Callister #9024 身份创立并支持的队伍",
+    "paragraph1": "2023-2024 赛季我们创立了 Archers 9523 队伍。在他们的新秀年我们分享了经验与知识，并在竞赛过程中给予支持。本季我们继续支持他们。",
+    "paragraph2": "上一季我们在马尔丁创立了由 14 名学生组成的 RoboCreators 10549 队伍。我们每周为队员提供在线设计与软件培训，并通过 Zoom 举行公关与文档会议。我们还前往马尔丁在机器人制作阶段提供机械培训与支持。",
+    "paragraph3": "2024-2025 赛季我们又在卡尔塔尔创立了 34 人的 EagleWarriors 10542 队伍。我们从筹备阶段起为卡尔塔尔准备演示材料，并以 Fusion 360、Java 与机械培训支持竞赛。我们用季前现有材料打造底盘机器人以支持该队。",
+    "paragraph4": "本季我们还在科贾埃利埃尔特鲁尔加齐安纳多卢高中带领一支新队伍。我们通过 FRC 流程的定期说明与全程必要培训，支持这支 20 人的队伍。",
+    "paragraph5": "在 YGA 基金会支持下，我们创立了 Con-Science FTC 队伍，成员主要来自地震与东部地区学生。我们为这支来自土耳其 6 个不同地区的 12 人队伍在整个赛季提供指导。",
+    "paragraph6": "本季我们在于姆拉尼耶带领另一支新的 FTC 队伍。我们通过线下与在线培训向这些学生传递 FIRST 精神与必要的 FTC 知识，并继续支持这支 7 人队伍的成长与发展。",
+    "paragraph7": "今年我们在达勒贾校区指导两支新的 FLL 队伍。其中一支参加小学年龄的 FLL Explore，另一支参加初中年龄的 FLL Challenge。我们通过分享过去的 FLL 经验、帮助他们培养解决问题能力与团队精神，为共 10 名成员的这两支队伍做出贡献。"
+  },
+  "hero": {
+    "title": "Callister",
+    "subtitle": "想象、设计、建造、分享！",
+    "description": "在技术、创新与可持续发展方面领先的FRC队伍。",
+    "aboutTeam": "认识团队",
+    "viewProjects": "我们的项目",
+    "stats": {
+      "teamMembers": "队员",
+      "projects": "项目",
+      "awards": "奖项"
+    }
+  },
+  "frc": {
+    "title": "FIRST 机器人竞赛",
+    "subtitle": "面向高中生的国际机器人竞赛",
+    "whatIs": "什么是 FRC？",
+    "description1": "FIRST 机器人竞赛（FRC）是一项面向高中生的国际机器人竞赛。学生在解决实际问题的同时，培养工程、编程和团队合作能力。",
+    "description2": "每个赛季，队伍在六周内为特定任务设计和建造机器人。在比赛中，队伍通过合作（Coopertition）争取最佳成绩。",
+    "description3": "FRC 的核心价值观是 Gracious Professionalism 和 Coopertition。这些价值观强调即使在竞赛中也注重合作与尊重。",
+    "matchImage": "FRC 比赛画面"
+  },
+  "values": {
+    "title": "我们的价值观",
+    "subtitle": "我们遵循 FRC 的核心价值观",
+    "graciousProfessionalism": {
+      "title": "Gracious Professionalism",
+      "description": "我们展现尊重与专业的态度"
+    },
+    "coopertition": {
+      "title": "Coopertition",
+      "description": "我们在竞赛中同样注重合作"
+    },
+    "innovation": {
+      "title": "创新",
+      "description": "我们创造富有创意的解决方案"
+    },
+    "excellence": {
+      "title": "卓越",
+      "description": "我们以最高标准要求自己"
+    }
+  },
+  "news": {
+    "title": "最新动态",
+    "subtitle": "来自我们团队的最新消息",
+    "viewAllNews": "查看全部动态",
+    "newsImage": "新闻图片",
+    "latest": {
+      "title": "FRC 2026 AGE/REBUILT 赛季公告",
+      "date": "2026年3月3日",
+      "excerpt": "土耳其 FIRST®️ AGE/REBUILT 竞赛季！伊斯坦布尔 6 场、安卡拉 2 场赛事。"
+    }
+  },
+  "frcAcademySection": {
+    "title": "FRC Academy",
+    "subtitle": "面向 FRC 新队伍的训练平台",
+    "badge": "训练平台",
+    "heading": "新秀队伍训练平台",
+    "subheading": "用我们的经验陪伴你的 FRC 之旅！",
+    "paragraph1": "由 Archers 和 Callister 创立的 FRC Academy，是一个教育平台，旨在为 rookie 队伍提供软件、设计、机械与电子等 FRC 各领域知识。",
+    "feature1": "我们与各队分享自成立以来积累的经验。",
+    "feature2": "我们整个赛季作为技术榜样与你同行。",
+    "feature3": "已汇聚约 450 名成员和 7 支 rookie 队伍的社区。",
+    "conclusion": "与 FRC Academy 一起迈出进入 FRC 世界的第一步！",
+    "button": "访问 FRC Academy",
+    "features": {
+      "software": {
+        "title": "软件",
+        "description": "机器人控制、编程与软件架构培训"
+      },
+      "design": {
+        "title": "设计",
+        "description": "CAD、机械设计与制造流程指导"
+      },
+      "mechanical": {
+        "title": "机械",
+        "description": "机器人组装、传动与机械系统支持"
+      },
+      "electronics": {
+        "title": "电子",
+        "description": "传感器、布线及电子基础设施知识"
+      }
+    }
+  },
+  "sponsors": {
+    "title": "我们的赞助商",
+    "subtitle": "支持 Callister #9024 FRC 队伍的宝贵赞助商",
+    "categories": "赞助商类别",
+    "logos": "赞助商标识",
+    "packages": "赞助方案",
+    "sponsorLogo": "赞助商标识",
+    "waiting": "招募中",
+    "descriptions": {
+      "arm": "微处理器与软件技术领域的世界领先企业",
+      "boeing": "全球最大航空航天公司及商用飞机主要制造商",
+      "fikret yüksel": "支持土耳其 FIRST 项目、帮助学生发展 STEAM 技能的基金会"
+    },
+    "packagesList": {
+      "callister": {
+        "name": "Callister 方案",
+        "price": "$15.000+",
+        "features": [
+          "队服背面最大尺寸公司标识",
+          "根据公司要求确定队伍名称",
+          "在维修区展示赞助商宣传资料的权利",
+          "在所有社交媒体账号中赞助商名称与标识置于首位",
+          "在宣传册与演示中使用最大尺寸公司标识",
+          "为赞助商员工子女提供 4 周设计、编程、机械与 STEAM 培训",
+          "在本队所有社会责任活动中进行公司宣传",
+          "参与活动命名的权利",
+          "赞助商同意时使用队名发布内容的权利",
+          "在本队组织的活动中发言与宣传的权利"
+        ]
+      },
+      "diamond": {
+        "name": "钻石方案",
+        "price": "$9.000+",
+        "features": [
+          "队服背面大尺寸公司标识",
+          "在所有社交媒体账号展示赞助商名称与标识",
+          "在宣传册与演示中使用公司标识",
+          "在维修区展示赞助商宣传资料的权利",
+          "在本队所有社会责任活动中进行基础公司宣传",
+          "为赞助商员工子女提供 4 周免费设计与编程培训",
+          "赞助商同意时使用队名发布内容的权利",
+          "自愿参与赞助商社会责任项目的权利",
+          "在本队组织的活动中发言与宣传的权利"
+        ]
+      },
+      "gold": {
+        "name": "黄金方案",
+        "price": "$7.000+",
+        "features": [
+          "队服背面中等尺寸公司标识",
+          "在所有社交媒体账号展示赞助商名称与标识",
+          "在宣传册与演示中使用公司标识",
+          "在维修区展示赞助商宣传资料的权利",
+          "在本队所有社会责任活动中进行基础公司宣传",
+          "赞助商同意时使用队名发布内容的权利",
+          "自愿参与赞助商社会责任项目的权利",
+          "在本队组织的活动中发言与宣传的权利"
+        ]
+      },
+      "silver": {
+        "name": "白银方案",
+        "price": "$5.000+",
+        "features": [
+          "队服背面小尺寸公司标识",
+          "在宣传册与演示中使用公司标识",
+          "在社交媒体与官网上特别致谢",
+          "赞助商同意时使用队名发布内容的权利"
+        ]
+      },
+      "bronze": {
+        "name": "青铜方案",
+        "price": "$3.000+",
+        "features": [
+          "队服背面小尺寸公司标识",
+          "在宣传册与演示中使用公司标识",
+          "在社交媒体与官网上特别致谢"
+        ]
+      }
+    }
+  },
+  "awards": {
+    "title": "我们的奖项",
+    "subtitle": "Callister #9024 FRC 队伍获得的奖项与成就",
+    "competitionList": "竞赛列表：",
+    "table": {
+      "year": "年份",
+      "event": "赛事",
+      "awards": "奖项"
+    },
+    "awardDetails": {
+      "regionalFinalists": {
+        "name": "赛区决赛入围",
+        "description": "授予在赛区锦标赛中进入决赛并获亚军的联盟，象征队伍在赛事中的策略、场上协调与整体表现。"
+      },
+      "innovationInControl": {
+        "name": "控制创新奖",
+        "description": "授予在机器人控制系统上提出创新且有效方案的队伍，表彰在传感器使用、软件算法、操作界面或控制架构上的创意。"
+      },
+      "graciousProfessionalism": {
+        "name": "Gracious Professionalism 奖",
+        "description": "表彰在竞赛中展现友善、尊重、互助与合作态度的队伍，授予最能体现 FIRST 核心价值「Gracious Professionalism®」的队伍。"
+      },
+      "highestRookieSeed": {
+        "name": "最高新秀种子",
+        "description": "授予在新秀队伍中淘汰赛排名最高的队伍，体现队伍首年的强劲场上表现与策略成功。"
+      },
+      "judgesAward": {
+        "name": "评委奖",
+        "description": "授予以独特成就、特别故事或突出方式打动评委的队伍，即使不完全符合官方类别。"
+      }
+    },
+    "eventNames": {
+      "milsteinDivision": "Milstein 赛区",
+      "ankaraRegional": "安卡拉赛区",
+      "cezeriRobotLigi": "Cezeri 机器人联盟于姆拉尼耶机器人竞赛",
+      "bosphorusRegional": "博斯普鲁斯赛区",
+      "istanbulRegional": "伊斯坦布尔赛区",
+      "halicRegional": "金角赛区"
+    }
+  },
+  "about": {
+    "title": "我们是谁？",
+    "subtitle": "Callister #9024 FRC 队伍的故事、愿景与社会影响",
+    "stats": {
+      "foundedDate": "成立日期",
+      "teamMembers": "队员",
+      "awards": "奖项",
+      "projects": "项目"
+    },
+    "content": {
+      "whoWeAre": "我们是谁？",
+      "foundedDate": "2022年5月19日",
+      "teamSize": "22 名学生与 1 名导师",
+      "signature": "此致，Callister #9024 FRC 队伍",
+      "paragraph1": "Callister #9024 FRC 队伍于 2022 年 5 月 19 日成立，以在科学、技术、工程、艺术与数学（STEAM）领域培养未来领袖为目标。我们由 22 名学生与 1 名导师组成，使命不仅是建造机器人，更通过社会责任与意识类项目回馈社会。每位成员不仅以技术能力，更以同理心、团队精神、创业精神与远见脱颖而出。",
+      "paragraph2": "我们的使命是作为内化 FIRST 原则的个体激励社会各阶层，传播 STEAM 文化并引领他人。我们的愿景是在国内与国际平台上最好地代表国家，促进个人与社会发展，并以有影响力的项目为可持续世界努力。因此，我们的每项工作不仅是竞赛导向，更是创造更广影响的战略步骤。",
+      "paragraph3": "通过迄今实施的项目，我们激励了儿童与成人。例如在「窗口」项目中，我们前往乡村学校提供 EV3 培训，让儿童展现技术能力与创造力。",
+      "paragraph4": "我们以「艺术中的女性精神」系列网络研讨会突出女性在艺术中的角色，今年还启动了激励女孩的项目。在与 KEV 的合作下，我们于 5 月 13 日举办了「强女·强明天」研讨会，将年轻女孩与商界成功女性聚在一起，让她们了解不同职业并提升自我与动力。",
+      "paragraph5": "通过「海龟博物馆」项目我们旨在提升环保意识，并在多所校园用回收材料创作作品办展，唤起对海龟等海洋生物栖息地问题的关注，展示海洋废弃物、提升对全球变暖的意识并教育公众。",
+      "paragraph6": "在「拯救蔚蓝」项目中，我们在伊兹米特湾清除鬼网并开展水下垃圾收集，以减少鬼网对海洋生物的伤害。鬼网会导致海洋生物缠绕受伤或死亡、破坏珊瑚礁等水下结构并造成微塑料污染。我们借此迈出保护海洋与提升环保意识的一步，并参与了农林部和科贾埃利都会市组织的「鬼网」项目。",
+      "paragraph7": "通过「生态足迹」项目我们关注碳足迹，并以海滩清洁等活动强化环保意识与社会参与。此外，通过「迷你砖交响乐」竞赛、「气候博物馆」、「新无障碍图标」等项目，我们在社会正义、平等、环境与可持续性等议题上展现积极世界公民身份。「生态震」项目则旨在提升地震意识，是我们在社会中提高认知的重要一步。",
+      "paragraph8": "我们始终相信，我们能创造的最大影响是将所知与经验正确而有力地传递给他人。因此我们创建了支持年轻工程师与开发者的创新网站项目。「FRC Academy」正是自 2022 年 5 月 19 日起我们队伍所有知识与经验的汇聚平台。在该项目中，我们为初入 FRC 的队伍与学生提供在设计、软件、机械与电子方面发展的机会。我们的目标是传承经验并为后来者指明道路。",
+      "paragraph9": "我们获得的众多奖项：",
+      "awardsList": [
+        "Highest Rookie Seed Award",
+        "Judges' Award",
+        "Rookie Inspiration Award",
+        "Rookie All-Star Award",
+        "Gracious Professionalism Award"
+      ],
+      "paragraph10": "这些奖项表明我们不仅是竞技队伍，更是学习、传授与分享的生态系统。作为 Callister，我们追求超越竞赛的团结、超越学习的传授、超越成功的影响。",
+      "paragraph11": "写此信时，我们希望能说明我们不仅是竞赛队伍，也是一场变革运动。在贵公司的支持下，我们可以一起实现更大的梦想。因为我们是一支渴望设计未来、质疑边界并努力改变它的队伍。"
+    }
+  },
+  "team": {
+    "title": "我们的团队",
+    "subtitle": "Callister #9024 FRC 队伍的优秀成员",
+    "modal": {
+      "role": "角色：",
+      "department": "部门：",
+      "description": "简介："
+    },
+    "roles": {
+      "mentor": "导师",
+      "softwareDeveloper": "软件开发",
+      "teamCaptain": "队长",
+      "mechanical": "机械",
+      "socialMediaManager": "社交媒体负责人",
+      "designer": "设计",
+      "softwareDeveloperAndTeamCaptain": "软件开发与队长",
+      "teamCaptainAndMechanical": "队长与机械",
+      "softwareCaptain": "软件队长",
+      "mechanicalCaptain": "机械队长",
+      "designCaptain": "设计队长",
+      "designAndSoftwareDeveloper": "设计与软件开发"
+    },
+    "departments": {
+      "mentor": "导师",
+      "mechanical": "机械",
+      "software": "软件",
+      "design": "设计",
+      "media": "媒体"
+    },
+    "descriptions": {
+      "mentor": "队伍导师与技术顾问。",
+      "softwareDeveloper": "机器人控制系统与软件开发。",
+      "teamCaptain": "队长，负责软件开发。",
+      "mechanical": "负责机器人机械设计与制造流程。",
+      "socialMediaManager": "社交媒体管理与内容制作。",
+      "designer": "机器人与平面设计。",
+      "softwareDeveloperAndTeamCaptain": "队长，负责软件开发。",
+      "teamCaptainAndMechanical": "队长，负责机械系统。",
+      "designAndSoftwareDeveloper": "机器人设计与软件开发。",
+      "robotAssembly": "机器人组装与机械系统。",
+      "teamCaptainShort": "队长。",
+      "softwareCaptainDesc": "软件队长，负责软件开发。",
+      "mechanicalCaptainDesc": "机械队长，负责机械系统。",
+      "teamCaptainAndSoftware": "队长；同时担任软件开发团队成员。",
+      "designCaptainDesc": "设计队长；负责机器人与平面设计。"
+    }
+  },
+  "projects": {
+    "title": "我们的项目",
+    "subtitle": "Callister #9024 FRC 队伍实施的项目",
+    "viewProject": "查看项目",
+    "siteButton": "访问网站",
+    "category": "类别",
+    "status": "状态",
+    "completed": "已完成",
+    "ongoing": "进行中",
+    "planned": "计划中",
+    "all": "全部",
+    "education": "教育",
+    "environment": "环境",
+    "social": "社会",
+    "technology": "技术",
+    "culture": "文化",
+    "donations": {
+      "title": "我们的捐赠",
+      "paragraph1": "在 2025–2026 学年寒假期间，我们 Callister 队伍为哈卡里、舍尔纳克与哈塔伊 11 所乡村学校的学生开展了社会责任项目。为避免冬季严寒影响学生的日常生活与教育，我们募集了外套、靴子与习题册并送达相关省份。",
+      "paragraph2": "1 月 2 日我们向埃拉泽的 Şehit Raşit Ercan 中小学提供了 50 双靴子与 50 件外套，旨在满足经济困难儿童的需求并给予支持。1 月 19 日我们在同一所学校建立了配备 10 台电脑的计算机教室。",
+      "paragraph3": "我们在科贾埃利卡拉泰佩地区的 İstasyon 小学开设了图书馆并开展社会责任项目，为学生创造了更易获取信息、支持学习的持久学习环境。",
+      "paragraph4": "2026 年 2 月 14 日，我们在非洲乍得干旱地区的 Encemine 孤儿院援建了一口水井，以支持当地儿童获得清洁水这一基本需求，并引起对粮食短缺与干旱的关注。该井可使约 150 人定期获得清洁安全用水，按长期使用设计，可在大约 60 年内提供安全用水。我们继续以社会责任意识为人们的生活质量与认知提升做出贡献。"
+    },
+    "kermes": {
+      "title": "我们举办的义卖",
+      "paragraph1": "我们用 Callister 队伍举办义卖所得，支付了校犬 Beethoven 的手术与治疗费用，并借此强化团队互助、责任与社会关怀的价值观。",
+      "paragraph2": "我们与 Kurtköy Bahçeşehir 学校家庭协会合作举办义卖，销售文具、玩具等产品，既强化团结精神也支持社会责任项目。义卖所得 12 万土耳其里拉捐赠给 AÇEV 以支持儿童教育。我们旨在通过此类项目持续回馈社会、支持教育。",
+      "paragraph3": "在与 FTC 队伍 TECHMASTERS 共同举办的于姆拉尼耶 Bahçeşehir 学院曲奇日活动中，我们旨在向儿童传递团结、分享与互助的价值观，并将活动销售所得购买的文具捐赠给阿尔达汉的一所乡村学校，以支持团结文化并唤起对社会价值的重视。"
+    },
+    "projectDetails": {
+      "pencere": {
+        "title": "Window",
+        "description": "EV3 training project in village schools. We provide students with robotics and coding skills.",
+        "details": "Within the scope of the Window project, we visited 2 village schools and provided STEAM and EV3 training to students. Our aim was to give children the opportunity to meet new experiences, develop their creativity, problem-solving skills, and relationship with technology. After our training, in the competition we organized, we helped children program the robots they created from legos according to the \"drawing pictures\" and \"playing music\" features. Thus, we aimed to contribute to the multifaceted development of children by enabling them to discover their artistic aspects in addition to technical areas."
+      },
+      "sanatKadin": {
+        "title": "Spirit of Women in Art",
+        "description": "Webinar series introducing works of women artists. Events combining art and technology.",
+        "details": "In our webinar series called \"Spirit of Women in Art\", our aim is: To address the role and achievements of women in art, to draw attention to gender inequality in art, and to get to know our participating guests more closely and have a conversation by asking them questions. We emphasize that FRC is more than building robots, that art is also a part of life, and we start this project where we will witness women's success in art up close by saying \"A society without women is a society without tomorrow.\""
+      },
+      "gucluKadinlar": {
+        "title": "Strong Women, Strong Tomorrows",
+        "description": "Women's empowerment project in collaboration with KEV. We increase women's participation in STEM fields.",
+        "details": "We develop projects that enable women to take a more active role in STEM fields through collaboration with KEV."
+      },
+      "kaplumbaga": {
+        "title": "Turtle Museum",
+        "description": "Digital museum project creating awareness for the protection of sea turtles.",
+        "details": "Within the scope of this project, we hosted 8th grade students who visited our school. Our visit to DEKAMER at İztuzu Beach in recent months made us think about what else we could do to create awareness, and we created an exhibition called \"Turtle Museum\" at our school, displaying the life journey of Caretta Carettas from hatching to adulthood. In this project, which we undertook with the basic purpose of drawing attention to the sea turtle species under the threat of extinction and creating awareness, we explained in detail the measures to be taken and the road maps to be followed in our presentation, and as a result of this project, we created awareness among the students who came to our school."
+      },
+      "iztuzu": {
+        "title": "İztuzu Project",
+        "description": "Visit project to the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection.",
+        "details": "We visited the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection. Here we learned new information about sea turtles and helped treat injured turtles. We also provided financial support by purchasing souvenirs. It was a trip that opened our horizons and increased our awareness about the environment in the projects we will implement together in the upcoming season."
+      },
+      "ecoFootprint": {
+        "title": "Eco Footprint",
+        "description": "Sustainable living project aimed at reducing carbon footprint.",
+        "details": "Within the scope of the \"Eco Footprint\" project, which we aimed to sustain throughout the season as a team, we went to Süreyya Beach and tried to collect all the garbage thrown on the ground from large to small, conducted educational interviews to learn how knowledgeable the society is about carbon footprint and to create awareness. We carried out a new one of our garbage collection events, which we made into a series, at İztuzu Beach. We collected most of the garbage that washed ashore. In addition, we attended the Carbon Footprint and Us Conference held at Kocaeli Congress Center. At this conference, we had the opportunity to introduce our social responsibility projects, our robot, and FRC. We also learned new information about carbon footprint."
+      },
+      "miniBrick": {
+        "title": "Mini Brick Symphony",
+        "description": "LEGO music making project. Innovative approach combining technology and art.",
+        "details": "In our Mini Brick Symphony competition organized with our sister team Archers within the scope of our Window project, we brought together 200 students from 5 village primary schools where we provided EV3 training, allowing them to experience the competition experience."
+      },
+      "iklimMuzesi": {
+        "title": "Climate Museum",
+        "description": "Digital museum project creating awareness about climate change.",
+        "details": "Climate Museum is a project where we explain the importance of the climate crisis and what needs to be done about it to 8th grade students who visit our school, and we aim for them to learn while having fun during the time they spend there. The museum was made by our team members with the accompaniment of our art teachers. In addition, the presentations we made in the museum and the Kahoot we played with the children were prepared by us."
+      },
+      "erisimSimgesi": {
+        "title": "New Access Icon",
+        "description": "Project developing accessible technology solutions for disabled individuals.",
+        "details": "The static access icon used for disabled individuals has been replaced by the new access icon where the individual actively contributes to life. The purpose of this change is to initiate a sustainable transformation in disabled rights. Our aim is to increase awareness in Turkey with this access icon and draw attention to the active role of disabled individuals in life."
+      },
+      "ecoquake": {
+        "title": "Ecoquake",
+        "description": "Environmental technology project developing earthquake early warning system.",
+        "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
+      },
+      "gumushaneStem": {
+        "title": "Gümüşhane STEM Education",
+        "description": "A 5-day term education camp organized with Gümüşhane Provincial Directorate of National Education.",
+        "details": "We organized a 5-day term education camp for 593 5th grade students in cooperation with the Gümüşhane Provincial Directorate of National Education. Within the camp we delivered STEM, TinkerCAD and Scratch trainings, introducing students to these domains and helping them improve their related skills."
+      },
+      "frcAcademy": {
+        "title": "FRC Academy",
+        "description": "A training platform founded by Archers and Callister for teams new to FRC.",
+        "details": "Founded by Archers and Callister, FRC Academy aims to provide knowledge across various FRC domains—software, design, mechanical and electronics—especially for rookie teams. Our goal is to share the experience we have gained since our establishment with other teams and serve as a technical role model throughout the season. The project has reached approximately 450 members and 7 rookie teams."
+      },
+      "diveIztuzu": {
+        "title": "DIVE in Iztuzu",
+        "description": "A project organized with our sister team Archers to protect marine life and raise environmental awareness.",
+        "details": "Within the scope of our \"DIVE in Iztuzu\" project organized with our sister team Archers, we explored the underwater world in Dalyan. To protect marine life and build environmental awareness, we visited the DEKAMER Caretta Caretta Hospital in Iztuzu. We learned about sea turtles and the threats they face, and provided financial support through donations. This visit increased our environmental awareness, inspired our future projects, and strengthened our team bonds."
+      },
+      "towardsUnderwater": {
+        "title": "Su Altına Doğru",
+        "description": "An exhibition project demonstrating the relationship between marine life and plastic pollution.",
+        "details": "Recent research has made the relationship between marine life and plastic pollution clearer. As a team, we organized an exhibition inside the GOSB administration building to demonstrate the effects of plastics on marine ecosystems. Using recycled materials, we focused on marine debris and plastics, showcasing artworks that seek solutions. The opening was attended by GOSB Regional Director, Deputy Directors, Corporate Communications Director, company executives, our school principal and vice principal, as well as company representatives from Petfor, Torun Metal and Pimtaş Plastik."
+      },
+      "balcikKutuphane": {
+        "title": "Balçık Village School 19 May Library",
+        "description": "Project to build a library in a village school and provide education to students.",
+        "details": "With the money collected as a result of the fairs we organized at our school and the support of the school family association, we built a library from scratch in Gebze Balçık Village school for the purpose of bringing individuals who meet books at an early age, read, and have a wide imagination to society. There are 1000 books waiting to be read in the library we created with the support of students in our team and other teams. On May 19, along with the library opening, we introduced FRC to the students at the village school and showed them the matches. At the same time, we provided EV3 training to middle school students and WeDo 2.0 training to primary school students, putting them in experiences they had never had before."
+      },
+      "saveBlue": {
+        "title": "Save The Blue",
+        "description": "Environmental protection project fighting ocean pollution. We protect marine life.",
+        "details": "We developed a project that creates awareness about ocean pollution and offers solution suggestions."
+      },
+      "sanalKutuphane": {
+        "title": "Virtual Library",
+        "description": "Accessible library of audio MEB textbooks for visually impaired middle school students.",
+        "details": "In this project, we set up a virtual library of audio MEB books at middle school level to ease the learning process for visually impaired students and support them in their academic lives. This year we first voiced the 5th grade textbooks."
+      },
+      "hayatiTasarla": {
+        "title": "Design Your Life",
+        "description": "TinkerCAD training for 6th and 7th graders and an Atatürk–Republic themed design competition.",
+        "details": "When we started this project, our aim was not only to introduce students to areas like STEAM and design but to give them hands-on experience and help them discover their interests in these fields. To that end, after a 3-day TinkerCAD training for 6th and 7th graders, we organized a design competition. During the competition they created TinkerCAD designs themed around Atatürk and the Republic. Thus we provided an environment where they could reinforce what they learned and put it into practice."
+      },
+      "reefspeech": {
+        "title": "Reefspeech",
+        "description": "Environmental presentations and experiments for 5th graders to build environmental awareness at an early age.",
+        "details": "We organized environmental presentations so that environmental awareness is gained early. We delivered our Reefspeech presentations to 5th grade students, prepared experiments for them to make the sessions more effective, and enabled them to learn while having fun. Through this activity we instilled environmental awareness in students from an early age."
+      },
+      "callisterAi": {
+        "title": "Callister AI",
+        "description": "AI assistant that brings FRC teams’ information, documents and code together on one platform.",
+        "details": "Callister AI is an AI solution that brings together the knowledge, documents and code FRC teams produce throughout the season on a single platform. Thanks to the in-team chat space, software, mechanical and strategy teams can communicate regularly and quickly, strengthening coordination. The code snippet library allows tested code to be stored and reused both during the season and in later years. With its RAG infrastructure, the system produces consistent answers based on official documentation and reliable technical sources. Through The Blue Alliance integration, match and team data can be viewed on the platform. Callister AI is not a general-purpose tool but a sustainable, practical in-team assistant that fits the daily workflow of FRC teams. The platform is available at www.callisterai.com, and the Callister AI app is also on Google Play Store for mobile use."
+      },
+      "yagsl": {
+        "title": "YAGSL",
+        "description": "Turkish translation of YAGSL documentation in collaboration with YASS; swerve drive infrastructure.",
+        "details": "As team Callister, we took an important step so that FRC teams in Turkey can have a stronger technical foundation in swerve drive software. As part of our collaboration with YASS, we brought the widely used YAGSL documentation into Turkish. With this work we aimed to create an accessible, clear resource especially for teams new to swerve or who have difficulty following technical documentation in English. YAGSL provides detailed information on critical topics such as module configuration, calibration processes, software architecture and drive control. With the documentation translated into Turkish, teams can adapt to this technical content more quickly and reduce time loss in software development. We aim for our project to contribute to the FRC ecosystem in Turkey by increasing knowledge sharing and supporting teams in building more sustainable, robust software foundations. The YAGSL documentation is accessible via the Callister AI platform."
+      }
+    }
+  },
+  "events": {
+    "title": "我们的活动",
+    "subtitle": "Callister #9024 FRC 队伍参与的活动",
+    "upcoming": "即将举行",
+    "past": "往期活动",
+    "register": "报名",
+    "viewDetails": "查看详情",
+    "details": "详情：",
+    "result": "结果：",
+    "eventDetails": {
+      "frc2026": {
+        "title": "FRC 2026 AGE/REBUILT 赛季公告",
+        "description": "土耳其 FIRST®️ AGE/REBUILT 竞赛季！伊斯坦布尔 6 场、安卡拉 2 场，将于巴萨克赛希尔体育馆与土耳其田径联合会田径馆举行。",
+        "details": "伊斯坦布尔赛区（3月3-5日）、博斯普鲁斯赛区（3月6-8日）、耶迪泰佩赛区（3月9-11日）、金角赛区（3月25-27日）、马尔马拉赛区（3月28-30日）、欧亚赛区（3月31日-4月2日）、安卡拉赛区（4月7-9日）、首都赛区（4月10-12日）"
+      },
+      "teamFoundation": {
+        "title": "队伍成立",
+        "description": "Callister #9024 FRC 队伍成立。",
+        "result": "成立"
+      }
+    },
+    "types": {
+      "competition": "竞赛",
+      "festival": "节日",
+      "project": "项目",
+      "webinar": "网络研讨会",
+      "foundation": "成立"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "与 Callister #9024 FRC 队伍取得联系",
+"form": {
+      "name": "姓名",
+      "email": "电子邮箱",
+      "subject": "主题",
+      "message": "留言",
+      "namePlaceholder": "您的姓名",
+      "emailPlaceholder": "example@email.com",
+      "subjectPlaceholder": "留言主题",
+      "messagePlaceholder": "在此输入您的留言...",
+      "send": "发送",
+      "sending": "发送中...",
+      "sent": "发送成功！",
+      "error": "发生错误，请重试。"
+    },
+    "info": {
+      "address": "地址",
+      "phone": "电话",
+      "email": "电子邮箱",
+      "social": "社交媒体"
+    },
+    "address": "土耳其科贾埃利",
+    "addressLine1": "格布泽巴切谢希尔科学与技术高中",
+    "addressLine2": "科贾埃利，格布泽",
+    "phone": "+90 (262) XXX XX XX",
+    "email": "info@callisterfrc.com",
+    "directMessage": "直接留言",
+    "visitLocation": "访问位置",
+    "followUs": "关注我们",
+    "quickContact": "快速联系",
+    "quickContactDesc": "填写表单与我们取得联系",
+    "formCardDesc": "您可以通过下方表单向我们发送消息。"
+  },
+  "footer": {
+    "description": "我们为科学、技术和社会影响而共同努力。",
+    "copyright": "© {year} Callister #9024 FRC 队伍"
+  },
+  "ai": {
+    "title": "Callister AI",
+    "subtitle": "AI 驱动的 FRC 助手",
+    "description": "从机器人设计到策略、从机械到仿真的 FRC 全领域专家支持",
+    "heading": "未来机器人助手",
+    "subheading": "今天就能体验 FRC 的未来！",
+    "paragraph1": "Callister AI 是专为 FRC 队伍开发的 AI 助手，在机器人设计、策略、机械与仿真等各领域提供即时专家支持。",
+    "feature1": "全天候陪伴，即时解答你的问题。",
+    "feature2": "分析 FRC 规则并推荐最有效的策略。",
+    "feature3": "持续优化你队伍的表现。",
+    "conclusion": "Callister AI 不仅是助手，更是你通往冠军之路的最强队友！",
+    "button": "与 AI 助手对话",
+    "features": {
+      "general": {
+        "title": "FRC 综合",
+        "description": "机器人设计、竞赛规则与 FRC 通识的全面指导"
+      },
+      "strategy": {
+        "title": "策略",
+        "description": "比赛分析、队伍协调与竞技策略专长"
+      },
+      "mechanical": {
+        "title": "机械",
+        "description": "电机选型、传动与机械设计的技术支持"
+      },
+      "simulation": {
+        "title": "仿真",
+        "description": "机器人仿真、物理引擎与测试环境指导"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "subtitle": "Edit and manage FRC responses",
+    "warning": "⚠️ This page is for admin users only. Changes are not automatically saved.",
+    "keyLabel": "Key (Question)",
+    "valueLabel": "Value (Answer)",
+    "placeholder": "Write detailed answer...",
+    "addUpdate": "Add / Update",
+    "download": "Download JSON",
+    "reset": "Reset",
+    "currentResponses": "Current Responses",
+    "edit": "Edit",
+    "delete": "Delete",
+    "messages": {
+      "loadError": "Failed to load FRC responses.",
+      "keyEmpty": "Key cannot be empty.",
+      "keySpaces": "Key contains too many spaces.",
+      "keyShort": "Key must be at least 3 characters.",
+      "keyProtected": "'bilinmeyen' key cannot be deleted.",
+      "success": "successfully added/updated.",
+      "deleted": "deleted.",
+      "resetSuccess": "Data reset to default values."
+    }
+  }
+}
