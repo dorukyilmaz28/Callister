@@ -7,7 +7,9 @@ import { Menu, X } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import LanguageSwitcher from './LanguageSwitcher'
 
-const navLinks = [
+type NavLink = { nameKey: string; href: string; external?: boolean }
+
+const navLinks: NavLink[] = [
   { nameKey: 'nav.home', href: '/' },
   { nameKey: 'nav.about', href: '/about' },
   { nameKey: 'nav.team', href: '/team' },
