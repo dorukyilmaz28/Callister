@@ -62,16 +62,10 @@ export default function FoundedTeamsPage() {
                 {t('foundedTeams.paragraph3') as string}
               </p>
               <p className="text-gray-200 leading-relaxed">
-                {t('foundedTeams.paragraph4') as string}
-              </p>
-              <p className="text-gray-200 leading-relaxed">
                 {t('foundedTeams.paragraph5') as string}
               </p>
               <p className="text-gray-200 leading-relaxed">
                 {t('foundedTeams.paragraph6') as string}
-              </p>
-              <p className="text-gray-200 leading-relaxed">
-                {t('foundedTeams.paragraph7') as string}
               </p>
             </div>
           </div>
