@@ -381,8 +381,8 @@
       },
       "miniBrick": {
         "title": "Mini Brick Symphony",
-        "description": "LEGO music making project. Innovative approach combining technology and art.",
-        "details": "In our Mini Brick Symphony competition organized with our sister team Archers within the scope of our Window project, we brought together 200 students from 5 village primary schools where we provided EV3 training, allowing them to experience the competition experience."
+        "description": "FLL-जैसी गतिविधि के जरिए तकनीक तक सीमित पहुंच वाले बच्चों को FIRST और टीम भावना का अनुभव कराने वाला प्रोजेक्ट।",
+        "details": "विंडो प्रोजेक्ट को विकसित करके बनाए गए इस प्रोजेक्ट में हमने तकनीक तक सीमित पहुंच वाले बच्चों को FLL-जैसी गतिविधि आयोजित कर FIRST और टीम भावना का अनुभव कराने का लक्ष्य रखा। गतिविधि में भाग लेने वाले बच्चे हमारे टीम सदस्यों को मेंटर के रूप में सिर पर रखकर समूहों में बंटे और विभिन्न कार्य कर सकने वाला EV3 रोबोट बनाने का अनुभव किया। 2024 में पहली बार आयोजित और हर साल जारी इस प्रोजेक्ट में हमने 2k+ बच्चों में FIRST और टीम भावना पैदा की।"
       },
       "iklimMuzesi": {
         "title": "Climate Museum",
@@ -400,9 +400,9 @@
         "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
       },
       "gumushaneStem": {
-        "title": "Gümüşhane STEM Education",
-        "description": "A 5-day term education camp organized with Gümüşhane Provincial Directorate of National Education.",
-        "details": "We organized a 5-day term education camp for 593 5th grade students in cooperation with the Gümüşhane Provincial Directorate of National Education. Within the camp we delivered STEM, TinkerCAD and Scratch trainings, introducing students to these domains and helping them improve their related skills."
+        "title": "Gümüşhane और Bayburt STEM शिक्षा",
+        "description": "Gümüşhane और Bayburt प्रांतीय शिक्षा निदेशालय के साथ 2 साल से चल रहा सेमेस्टर STEM शिक्षा शिविर।",
+        "details": "Gümüşhane और Bayburt प्रांतीय शिक्षा निदेशालय के साथ 2 साल से जारी इस परियोजना में दो साल में कुल 3k+ पाँचवीं कक्षा के छात्रों को एकत्र कर 5 दिनों तक STEM, TinkerCAD और Scratch पर सेमेस्टर शिक्षा शिविर आयोजित किया। इन छात्रों को STEM और रोबोटिक्स पर दिए गए प्रशिक्षण से उन्हें इन क्षेत्रों से परिचित कराया और इन क्षेत्रों में खुद को विकसित करने में मदद की।"
       },
       "frcAcademy": {
         "title": "FRC Academy",

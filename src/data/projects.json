@@ -58,12 +58,12 @@
     {
       "id": 6,
       "title": "Mini Brick Symphony",
-      "description": "LEGO ile müzik yapma projesi. Teknoloji ve sanatı birleştiren yenilikçi yaklaşım.",
+      "description": "FLL-benzeri etkinlikle teknolojiye kısıtlı erişimi olan çocuklara FIRST ve takım ruhunu deneyimletme projesi.",
       "image": "/images/projects/mini-brick.jpg",
       "category": "Eğitim",
       "year": "2023",
       "status": "Tamamlandı",
-      "details": "Pencere projemiz kapsamında kardeş takımımız Archers ile ikinci kez düzenlediğimiz Mini Brick Symphony yarışmamızda, EV3 eğitimi verdiğimiz 5 köy ilkokulundan 200 öğrenciyi bir araya getirerek onlara yarışma deneyimi kazandırdık. Bu yarışma sayesinde öğrenciler hem takım çalışması ruhunu geliştirdiler hem de edindikleri teknik becerileri pratiğe dökme fırsatı buldular.",
+      "details": "Pencere projemizi geliştirerek tasarladığımız bu projede teknolojiye kısıtlı erişimi olan çocukların FIRST ve takım ruhunu FLL-benzeri bir etkinlik düzenleyerek deneyimlemelerini hedefledik. Etkinliğe katılım sağlayan çocuklar, başlarında takım üyelerimiz mentör olarak görev almak üzere gruplara ayrılarak çeşitli görevleri yerine getirebilen bir EV3 robotu inşa etmeyi deneyimlediler. İlk olarak 2024'de düzenlediğimiz ve her sene devam ettirdiğimiz bu projede 2k+ çocuklara FIRST ve takım ruhunu aşıladık.",
       "images": ["/images/projects/mini-brick1.png", "/images/projects/mini-brick2.png"]
     },
     {
@@ -123,13 +123,13 @@
     },
     {
       "id": 12,
-      "title": "Gümüşhane STEM Eğitimi",
-      "description": "Gümüşhane İl Milli Eğitim Müdürlüğü ile ortaklaşa düzenlenen 5 günlük dönem eğitim kampı.",
+      "title": "Gümüşhane ve Bayburt STEM Eğitimleri",
+      "description": "Gümüşhane ve Bayburt İl Milli Eğitim Müdürlüğü ile 2 senedir sürdürülen sömestr STEM eğitim kampı.",
       "image": "/images/projects/gumushane-stem.jpg",
       "category": "Eğitim",
       "year": "2023",
       "status": "Tamamlandı",
-      "details": "Gümüşhane İl Milli Eğitim Müdürlüğü ile ortaklaşa 593 5. sınıf öğrencisi için 5 günlük dönem eğitim kampı düzenledik. Kamp kapsamında STEM, TinkerCAD ve Scratch eğitimleri vererek öğrencileri bu alanlarla tanıştırdık ve ilgili becerilerini geliştirmelerine yardımcı olduk.",
+      "details": "Gümüşhane ve Bayburt İl Milli Eğitim Müdürlüğü ile 2 senedir devam ettiğimiz bu projede, iki yılda toplam 3k+ 5. sınıf öğrencisini bir araya getirerek 5 gün boyunca STEM, TinkerCAD ve Scratch konuları üzerine sömestr eğitim kampı düzenledik. Buradaki öğrencilere STEM ve robotik konusundaki verdiğimiz eğitimler ile onların bu alanları tanımasını ve kendilerini bu alanlarda geliştirmelerini sağladık.",
       "images": []
     },
     {

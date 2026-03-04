@@ -97,6 +97,11 @@ export default function ProjectsPage() {
         description: t('projects.projectDetails.gumushaneStem.description') as string,
         details: t('projects.projectDetails.gumushaneStem.details') as string
       },
+      'Gümüşhane ve Bayburt STEM Eğitimleri': {
+        title: t('projects.projectDetails.gumushaneStem.title') as string,
+        description: t('projects.projectDetails.gumushaneStem.description') as string,
+        details: t('projects.projectDetails.gumushaneStem.details') as string
+      },
       'FRC Academy': {
         title: t('projects.projectDetails.frcAcademy.title') as string,
         description: t('projects.projectDetails.frcAcademy.description') as string,
