@@ -237,6 +237,9 @@ export default function ProjectsPage() {
                 <p className="text-gray-200 leading-relaxed">
                   {t('projects.donations.paragraph4') as string}
                 </p>
+                <p className="text-gray-200 leading-relaxed">
+                  {t('projects.donations.paragraph5') as string}
+                </p>
               </div>
             </section>
 
