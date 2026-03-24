@@ -128,7 +128,7 @@ const Hero = () => {
           className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 sm:mt-16 max-w-4xl mx-auto px-4"
         >
           <div className="text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">21</div>
+            <div className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-1 sm:mb-2 drop-shadow-lg font-['Poppins']">26</div>
             <div className="text-sm sm:text-base text-[#F5F5F5]/90 font-medium font-['Poppins']">{t('hero.stats.teamMembers') as string}</div>
           </div>
           <div className="text-center">

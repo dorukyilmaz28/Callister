@@ -26,7 +26,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
               {[
                 { icon: Calendar, value: t('about.content.foundedDate') as string, label: t('about.stats.foundedDate') as string },
-                { icon: Users, value: '21', label: t('about.stats.teamMembers') as string },
+                { icon: Users, value: '26', label: t('about.stats.teamMembers') as string },
                 { icon: Award, value: '5', label: t('about.stats.awards') as string },
                 { icon: Target, value: '17', label: t('about.stats.projects') as string }
               ].map((stat, index) => (
