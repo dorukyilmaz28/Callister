@@ -5,8 +5,10 @@ import tr from '@/data/locales/tr.json'
 import en from '@/data/locales/en.json'
 import zh from '@/data/locales/zh.json'
 import hi from '@/data/locales/hi.json'
+import mk from '@/data/locales/mk.json'
+import vi from '@/data/locales/vi.json'
 
-export type Language = 'tr' | 'en' | 'zh' | 'hi'
+export type Language = 'tr' | 'en' | 'zh' | 'hi' | 'mk' | 'vi'
 
 interface LanguageContextType {
   currentLanguage: Language
@@ -22,7 +24,9 @@ const locales = {
   tr,
   en,
   zh,
-  hi
+  hi,
+  mk,
+  vi
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
@@ -32,7 +36,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     // Local storage'dan dil tercihini al
     const savedLanguage = localStorage.getItem('language') as Language
-    if (savedLanguage && (savedLanguage === 'tr' || savedLanguage === 'en' || savedLanguage === 'zh' || savedLanguage === 'hi')) {
+    if (savedLanguage && (savedLanguage === 'tr' || savedLanguage === 'en' || savedLanguage === 'zh' || savedLanguage === 'hi' || savedLanguage === 'mk' || savedLanguage === 'vi')) {
       setCurrentLanguage(savedLanguage)
       setTranslations(locales[savedLanguage])
     } else {

@@ -8,7 +8,9 @@ const languages = [
   { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'zh', name: '中文', flag: '🇨🇳' },
-  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' }
+  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'mk', name: 'Македонски', flag: '🇲🇰' },
+  { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' }
 ]
 
 export default function LanguageSwitcher() {

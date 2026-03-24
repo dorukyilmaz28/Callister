@@ -9,6 +9,7 @@ const IMAGE_PLACEHOLDERS = [
   '/images/projects/kurulan-takim3.png',
   '/images/projects/kurulan-takim4.png',
   '/images/projects/kurulan-takim5.png',
+  '/images/projects/kurulan-takim6.png',
 ]
 
 export default function FoundedTeamsPage() {
