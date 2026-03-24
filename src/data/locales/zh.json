@@ -454,6 +454,11 @@
         "title": "YAGSL",
         "description": "Turkish translation of YAGSL documentation in collaboration with YASS; swerve drive infrastructure.",
         "details": "As team Callister, we took an important step so that FRC teams in Turkey can have a stronger technical foundation in swerve drive software. As part of our collaboration with YASS, we brought the widely used YAGSL documentation into Turkish. With this work we aimed to create an accessible, clear resource especially for teams new to swerve or who have difficulty following technical documentation in English. YAGSL provides detailed information on critical topics such as module configuration, calibration processes, software architecture and drive control. With the documentation translated into Turkish, teams can adapt to this technical content more quickly and reduce time loss in software development. We aim for our project to contribute to the FRC ecosystem in Turkey by increasing knowledge sharing and supporting teams in building more sustainable, robust software foundations. The YAGSL documentation is accessible via the Callister AI platform."
+      },
+      "callisterScoutingApp": {
+        "title": "Callister Scouting App",
+        "description": "为 FRC 队伍将 pit scouting、match scouting 与分析流程整合到同一平台的应用。",
+        "details": "作为 Callister 队伍，我们开发了 Callister Scouting App 平台，以让 FRC 队伍的 scouting 流程更加有序、实用。许多 FRC 队伍在比赛中仍使用纸笔记录，这会导致时间浪费并降低流程效率。此外，这种方式收集的 scout 数据在赛后也很难高效查看与解读。要在 Regional 阶段制定强有力的策略，所获得的信息必须被准确且有条理地使用。因此，我们的目标是让 scouting 流程更快速、更易访问且更可持续。该应用将 pit scouting、match scouting 与分析流程统一到一个平台中。在 pit scouting 模块中，可便捷记录各队机器人技术参数；在 match scouting 模块中，可快速录入比赛表现与自动路径等信息。收集的数据会在应用内通过图表与统计可视化，便于理解。借助 Callister AI 支持，队伍的优势与短板可被更清晰识别，并可辅助策略制定过程。通过 The Blue Alliance 与 FRC Event API 集成，队伍列表、赛程、实时比分与排名都可在应用内实时追踪。我们希望通过该项目让 FRC 队伍的 scouting 更加系统化，并帮助其制定更有依据的策略。平台可通过 www.callisterscout.com 访问，也可通过 Callister AI 与 Callister 官网进入。"
       }
     }
   },

@@ -126,6 +126,11 @@ export default function ProjectsPage() {
         title: t('projects.projectDetails.yagsl.title') as string,
         description: t('projects.projectDetails.yagsl.description') as string,
         details: t('projects.projectDetails.yagsl.details') as string
+      },
+      'Callister Scouting App': {
+        title: t('projects.projectDetails.callisterScoutingApp.title') as string,
+        description: t('projects.projectDetails.callisterScoutingApp.description') as string,
+        details: t('projects.projectDetails.callisterScoutingApp.details') as string
       }
     }
     
@@ -309,7 +314,7 @@ export default function ProjectsPage() {
               <p className="text-sm sm:text-base text-gray-200 mb-4 sm:mb-6 leading-relaxed">
                 {getProjectTranslation(modalProject.title).details}
               </p>
-              {(modalProject.title === 'FRC Academy' || modalProject.title === 'Callister AI' || modalProject.title === 'YAGSL') && (
+              {(modalProject.title === 'FRC Academy' || modalProject.title === 'Callister AI' || modalProject.title === 'YAGSL' || modalProject.title === 'Callister Scouting App') && (
                 <p className="mb-4">
                   <a
                     href={
@@ -317,7 +322,9 @@ export default function ProjectsPage() {
                         ? 'https://frcacademy.com'
                         : modalProject.title === 'Callister AI'
                           ? 'https://www.callisterai.com'
-                          : 'https://callister.gitbook.io/yagsl-turkish'
+                          : modalProject.title === 'YAGSL'
+                            ? 'https://callister.gitbook.io/yagsl-turkish'
+                            : 'https://www.callisterscout.com'
                     }
                     target="_blank"
                     rel="noopener noreferrer"
