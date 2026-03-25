@@ -1,588 +1,588 @@
 {
   "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "notFound": "Page not found",
-    "backToHome": "Back to Home",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "contact": "Contact",
-    "about": "About",
-    "team": "Team",
-    "projects": "Projects",
-    "events": "Events",
-    "awards": "Awards",
-    "sponsors": "Sponsors"
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "notFound": "Không tìm thấy trang",
+    "backToHome": "Quay lại trang chủ",
+    "readMore": "Đọc thêm",
+    "viewAll": "Xem tất cả",
+    "contact": "Liên hệ",
+    "about": "Về",
+    "team": "Đội",
+    "projects": "Dự án",
+    "events": "Sự kiện",
+    "awards": "Giải thưởng",
+    "sponsors": "Nhà tài trợ"
   },
   "nav": {
-    "home": "Home",
-    "about": "About",
-    "team": "Team",
-    "projects": "Projects",
-    "foundedTeams": "Teams We Founded",
-    "events": "Events",
-    "awards": "Awards",
-    "sponsors": "Sponsors",
-    "contact": "Contact",
-    "frcAcademy": "FRC Academy"
+    "home": "Trang chủ",
+    "about": "Về",
+    "team": "Đội",
+    "projects": "Dự án",
+    "foundedTeams": "Đội chúng tôi thành lập",
+    "events": "Sự kiện",
+    "awards": "Giải thưởng",
+    "sponsors": "Nhà tài trợ",
+    "contact": "Liên hệ",
+    "frcAcademy": "Học viện FRC"
   },
   "foundedTeams": {
-    "title": "Teams We Founded",
-    "subtitle": "Teams we have founded and supported as Callister #9024",
-    "paragraph1": "In the 2023-2024 season we founded the Archers 9523 team. We shared our experience and knowledge with them during their rookie year and supported them through the competition process. We continue to support them this season.",
-    "paragraph2": "Last season we founded the RoboCreators 10549 team of 14 students in Mardin. We gave the team members online design and software training every week. We also held weekly online meetings over Zoom for PR and documentation tasks. We also went to Mardin to provide mechanical training and support during the robot build process.",
-    "paragraph3": "Again in the 2024-2025 season we founded the EagleWarriors 10542 team of 34 members in Kartal. We prepared presentation materials for Kartal from the setup phase and supported the competition process with Fusion 360, Java and mechanical training. We supported the team by building a chassis bot with the materials we had before the season.",
-    "paragraph5": "With the support of the YGA foundation we founded the Con-Science FTC team, made up mostly of students from the earthquake and eastern regions. We provided mentorship to this team of 12 students from 6 different regions of Turkey throughout the season.",
-    "paragraph6": "This season we are leading another new FTC team in Ümraniye. We have passed on the FIRST spirit and necessary FTC knowledge to these students through in-person and online training. We continue to support this team of 7 members in their growth and development."
+    "title": "Đội chúng tôi thành lập",
+    "subtitle": "Các đội chúng tôi đã thành lập và hỗ trợ là Callister #9024",
+    "paragraph1": "Mùa giải 2023-2024 chúng tôi thành lập đội Cung thủ 9523. Chúng tôi đã chia sẻ kinh nghiệm và kiến ​​thức của mình với họ trong năm tân binh và hỗ trợ họ trong suốt quá trình thi đấu. Chúng tôi tiếp tục hỗ trợ họ trong mùa giải này.",
+    "paragraph2": "Mùa trước, chúng tôi đã thành lập nhóm RoboCreators 10549 gồm 14 sinh viên ở Mardin. Chúng tôi đã tổ chức đào tạo trực tuyến cho các thành viên trong nhóm về thiết kế và phần mềm hàng tuần. Chúng tôi cũng tổ chức các cuộc họp trực tuyến hàng tuần qua Zoom cho các nhiệm vụ PR và tài liệu. Chúng tôi cũng đã đến Mardin để cung cấp dịch vụ đào tạo và hỗ trợ cơ khí trong quá trình chế tạo robot.",
+    "paragraph3": "Một lần nữa vào mùa giải 2024-2025, chúng tôi thành lập đội EagleWarriors 10542 gồm 34 thành viên ở Kartal. Chúng tôi đã chuẩn bị tài liệu thuyết trình cho Kartal từ giai đoạn thiết lập và hỗ trợ quá trình cạnh tranh bằng Fusion 360, Java và đào tạo cơ khí. Chúng tôi đã hỗ trợ nhóm bằng cách chế tạo bot khung gầm bằng những vật liệu chúng tôi có trước mùa giải.",
+    "paragraph5": "Với sự hỗ trợ của tổ chức YGA, chúng tôi đã thành lập nhóm FTC Con-Science, bao gồm hầu hết các sinh viên đến từ trận động đất và các khu vực phía đông. Chúng tôi đã cố vấn cho đội gồm 12 sinh viên đến từ 6 vùng khác nhau của Thổ Nhĩ Kỳ trong suốt mùa giải.",
+    "paragraph6": "Mùa giải này chúng tôi đang dẫn dắt một nhóm FTC mới khác ở Ümraniye. Chúng tôi đã truyền đạt tinh thần ĐẦU TIÊN và kiến ​​thức FTC cần thiết cho những sinh viên này thông qua đào tạo trực tiếp và trực tuyến. Chúng tôi tiếp tục hỗ trợ đội ngũ gồm 7 thành viên này trong quá trình tăng trưởng và phát triển của họ."
   },
   "hero": {
-    "title": "Callister",
-    "subtitle": "Imagine, Design, Build, Share!",
-    "description": "A leading FRC team in technology, innovation, and sustainability.",
-    "aboutTeam": "Meet the Team",
-    "viewProjects": "Our Projects",
+    "title": "người gọi điện",
+    "subtitle": "Hãy tưởng tượng, thiết kế, xây dựng, chia sẻ!",
+    "description": "Đội ngũ FRC hàng đầu về công nghệ, đổi mới và tính bền vững.",
+    "aboutTeam": "Gặp gỡ đội",
+    "viewProjects": "Dự án của chúng tôi",
     "stats": {
-      "teamMembers": "Team Members",
-      "projects": "Projects",
-      "awards": "Awards"
+      "teamMembers": "Thành viên nhóm",
+      "projects": "Dự án",
+      "awards": "Giải thưởng"
     }
   },
   "frc": {
-    "title": "FIRST Robotics Competition",
-    "subtitle": "International robotics competition for high school students",
-    "whatIs": "What is FRC?",
-    "description1": "FIRST Robotics Competition (FRC) is an international robotics competition for high school students. Students develop engineering, programming, and teamwork skills while solving real-world problems.",
-    "description2": "Each season, teams design and build robots for a specific task within 6 weeks. During competition, teams collaborate (Coopertition) to achieve the best results.",
-    "description3": "FRC's core values are Gracious Professionalism and Coopertition. These values prioritize cooperation and respect even during competition.",
-    "matchImage": "FRC Match Image"
+    "title": "Cuộc thi Robotics ĐẦU TIÊN",
+    "subtitle": "Cuộc thi robot quốc tế dành cho học sinh trung học",
+    "whatIs": "FRC là gì?",
+    "description1": "FIRST Robotics Competition (FRC) là cuộc thi robot quốc tế dành cho học sinh trung học. Học sinh phát triển các kỹ năng kỹ thuật, lập trình và làm việc nhóm trong khi giải quyết các vấn đề trong thế giới thực.",
+    "description2": "Mỗi mùa giải, các đội thiết kế và chế tạo robot cho một nhiệm vụ cụ thể trong vòng 6 tuần. Trong quá trình thi đấu, các đội cộng tác (Coopertition) để đạt được kết quả tốt nhất.",
+    "description3": "Giá trị cốt lõi của FRC là Tính chuyên nghiệp và Hợp tác. Những giá trị này ưu tiên sự hợp tác và tôn trọng ngay cả trong quá trình cạnh tranh.",
+    "matchImage": "Hình ảnh trận đấu FRC"
   },
   "values": {
-    "title": "Our Values",
-    "subtitle": "We work in line with FRC's core values",
+    "title": "Giá trị của chúng tôi",
+    "subtitle": "Chúng tôi làm việc phù hợp với các giá trị cốt lõi của FRC",
     "graciousProfessionalism": {
-      "title": "Gracious Professionalism",
-      "description": "We demonstrate respectful and professional behavior"
+      "title": "Sự chuyên nghiệp duyên dáng",
+      "description": "Chúng ta thể hiện hành vi tôn trọng và chuyên nghiệp"
     },
     "coopertition": {
-      "title": "Coopertition",
-      "description": "We collaborate even during competition"
+      "title": "Hợp tác",
+      "description": "Chúng tôi cộng tác ngay cả khi đang cạnh tranh"
     },
     "innovation": {
-      "title": "Innovation",
-      "description": "We develop creative solutions"
+      "title": "Sự đổi mới",
+      "description": "Chúng tôi phát triển các giải pháp sáng tạo"
     },
     "excellence": {
-      "title": "Excellence",
-      "description": "We work to the highest standards"
+      "title": "Xuất sắc",
+      "description": "Chúng tôi làm việc theo tiêu chuẩn cao nhất"
     }
   },
   "news": {
-    "title": "Latest News",
-    "subtitle": "Latest updates from our team",
-    "viewAllNews": "View All News",
-    "newsImage": "News Image",
+    "title": "Tin tức mới nhất",
+    "subtitle": "Cập nhật mới nhất từ ​​nhóm của chúng tôi",
+    "viewAllNews": "Xem tất cả tin tức",
+    "newsImage": "Hình ảnh tin tức",
     "latest": {
-      "title": "FRC 2026 AGE/REBUILT Season Announcement",
-      "date": "March 3, 2026",
-      "excerpt": "FIRST®️ AGE/REBUILT competition season in Turkey! 6 events in Istanbul, 2 in Ankara."
+      "title": "Thông báo về mùa giải AGE/REBUILT FRC 2026",
+      "date": "Ngày 3 tháng 3 năm 2026",
+      "excerpt": "Mùa thi đấu FIRST®️ AGE/REBUILT ở Thổ Nhĩ Kỳ! 6 sự kiện ở Istanbul, 2 ở Ankara."
     }
   },
   "frcAcademySection": {
-    "title": "FRC Academy",
-    "subtitle": "Training platform for teams new to the FRC world",
-    "badge": "Training Platform",
-    "heading": "Training Platform for Rookie Teams",
-    "subheading": "We accompany your FRC journey with our experience!",
-    "paragraph1": "Founded by Archers and Callister, FRC Academy is an educational platform that aims to provide knowledge in various FRC areas such as software, design, mechanics and electronics, especially for rookie teams.",
-    "feature1": "We share the experience we have gained since the beginning with other teams.",
-    "feature2": "We are with you as a technical role model throughout the season.",
-    "feature3": "A community that has reached approximately 450 members and 7 rookie teams.",
-    "conclusion": "Take a solid step into the FRC world with FRC Academy!",
-    "button": "Visit FRC Academy",
+    "title": "Học viện FRC",
+    "subtitle": "Nền tảng đào tạo dành cho các đội mới tham gia thế giới FRC",
+    "badge": "Nền tảng đào tạo",
+    "heading": "Nền tảng đào tạo cho các đội tân binh",
+    "subheading": "Chúng tôi đồng hành cùng hành trình FRC của bạn bằng kinh nghiệm của chúng tôi!",
+    "paragraph1": "Được thành lập bởi Archers và Callister, Học viện FRC là một nền tảng giáo dục nhằm cung cấp kiến ​​thức trong các lĩnh vực khác nhau của FRC như phần mềm, thiết kế, cơ khí và điện tử, đặc biệt dành cho các đội tân binh.",
+    "feature1": "Chúng tôi chia sẻ kinh nghiệm có được từ đầu với các đội khác.",
+    "feature2": "Chúng tôi luôn sát cánh cùng bạn với tư cách là hình mẫu kỹ thuật trong suốt mùa giải.",
+    "feature3": "Một cộng đồng đã có khoảng 450 thành viên và 7 đội tân binh.",
+    "conclusion": "Hãy bước một bước vững chắc vào thế giới FRC với Học viện FRC!",
+    "button": "Thăm Học viện FRC",
     "features": {
       "software": {
-        "title": "Software",
-        "description": "Training on robot control, programming and software architecture"
+        "title": "Phần mềm",
+        "description": "Đào tạo điều khiển robot, lập trình và kiến ​​trúc phần mềm"
       },
       "design": {
-        "title": "Design",
-        "description": "Guidance on CAD, mechanical design and manufacturing processes"
+        "title": "Thiết kế",
+        "description": "Hướng dẫn về CAD, thiết kế cơ khí và quy trình sản xuất"
       },
       "mechanical": {
-        "title": "Mechanical",
-        "description": "Support on robot assembly, power transmission and mechanical systems"
+        "title": "Cơ khí",
+        "description": "Hỗ trợ lắp ráp robot, truyền tải điện và hệ thống cơ khí"
       },
       "electronics": {
-        "title": "Electronics",
-        "description": "Knowledge on sensors, wiring and electronics infrastructure"
+        "title": "Điện tử",
+        "description": "Kiến thức về cảm biến, hệ thống dây điện và cơ sở hạ tầng điện tử"
       }
     }
   },
   "sponsors": {
-    "title": "Our Sponsors",
-    "subtitle": "Valuable sponsors supporting Callister #9024 FRC Team",
-    "categories": "Sponsor Categories",
-    "logos": "Sponsor Logos",
-    "packages": "Sponsorship Packages",
-    "sponsorLogo": "Sponsor Logo",
-    "waiting": "Waiting",
+    "title": "Nhà tài trợ của chúng tôi",
+    "subtitle": "Các nhà tài trợ quý giá hỗ trợ Callister #9024 FRC Team",
+    "categories": "Hạng mục nhà tài trợ",
+    "logos": "Logo nhà tài trợ",
+    "packages": "Gói tài trợ",
+    "sponsorLogo": "Logo nhà tài trợ",
+    "waiting": "Chờ",
     "descriptions": {
-      "arm": "World leader in microprocessor and software technologies",
-      "boeing": "World's largest aerospace company and leading manufacturer of commercial airplanes",
-      "fikret yüksel": "Foundation supporting FIRST programs in Turkey, helping students develop STEAM skills"
+      "arm": "Dẫn đầu thế giới về công nghệ vi xử lý và phần mềm",
+      "boeing": "Công ty hàng không vũ trụ lớn nhất thế giới và nhà sản xuất máy bay thương mại hàng đầu",
+      "fikret yüksel": "Quỹ hỗ trợ các chương trình FIRST tại Thổ Nhĩ Kỳ, giúp học sinh phát triển kỹ năng STEAM"
     },
     "packagesList": {
       "callister": {
-        "name": "Callister Package",
+        "name": "Gói gọi điện",
         "price": "$15.000+",
         "features": [
-          "Company logo in largest size on the back of the uniform",
-          "Team name is determined according to the company's request",
-          "Right to display promotional materials of the sponsor company in the pit area",
-          "Company name and logo of the sponsor company in first place on all our social media accounts",
-          "Use of company logo in largest size in brochures and presentations",
-          "4 weeks of design, programming, mechanical and STEAM training for children of sponsor company employees",
-          "Company promotion in all social responsibility activities carried out by our team",
-          "Right to shape event names",
-          "Right to make posts using the team name if the sponsor wishes",
-          "Right to speak and advertise at events organized by our team"
+          "Logo công ty cỡ lớn nhất ở mặt sau đồng phục",
+          "Tên đội được xác định theo yêu cầu của công ty",
+          "Quyền trưng bày các tài liệu quảng cáo của công ty tài trợ tại khu vực hố thi đấu",
+          "Tên công ty và logo của công ty tài trợ ở vị trí đầu tiên trên tất cả các tài khoản truyền thông xã hội của chúng tôi",
+          "Sử dụng logo công ty với kích thước lớn nhất trong tài liệu quảng cáo và thuyết trình",
+          "4 tuần đào tạo thiết kế, lập trình, cơ khí và STEAM cho con em nhân viên công ty tài trợ",
+          "Thúc đẩy công ty trong tất cả các hoạt động trách nhiệm xã hội do đội ngũ của chúng tôi thực hiện",
+          "Quyền định hình tên sự kiện",
+          "Quyền đăng bài sử dụng tên đội nếu nhà tài trợ mong muốn",
+          "Quyền phát biểu và quảng cáo tại các sự kiện do nhóm chúng tôi tổ chức"
         ]
       },
       "diamond": {
-        "name": "Diamond Package",
+        "name": "Gói kim cương",
         "price": "$9.000+",
         "features": [
-          "Company logo in large size on the back of the uniform",
-          "Company name and logo of the sponsor company on all our social media accounts",
-          "Use of company logo in brochures and presentations",
-          "Right to display promotional materials of the sponsor company in the pit area",
-          "Basic company promotion in all social responsibility activities carried out by our team",
-          "4 weeks of free design and programming training for children of sponsor company employees",
-          "Right to make posts using the team name if the sponsor wishes",
-          "Right to participate voluntarily in social responsibility projects of the sponsor company",
-          "Right to speak and advertise at events organized by our team"
+          "Logo công ty cỡ lớn phía sau đồng phục",
+          "Tên công ty và logo của công ty tài trợ trên tất cả các tài khoản truyền thông xã hội của chúng tôi",
+          "Sử dụng logo công ty trong tài liệu quảng cáo và thuyết trình",
+          "Quyền trưng bày các tài liệu quảng cáo của công ty tài trợ tại khu vực hố thi đấu",
+          "Quảng bá cơ bản của công ty trong tất cả các hoạt động trách nhiệm xã hội do nhóm chúng tôi thực hiện",
+          "4 tuần đào tạo thiết kế và lập trình miễn phí cho con em nhân viên công ty tài trợ",
+          "Quyền đăng bài sử dụng tên đội nếu nhà tài trợ mong muốn",
+          "Quyền tự nguyện tham gia các dự án trách nhiệm xã hội của công ty tài trợ",
+          "Quyền phát biểu và quảng cáo tại các sự kiện do nhóm chúng tôi tổ chức"
         ]
       },
       "gold": {
-        "name": "Gold Package",
+        "name": "Gói Vàng",
         "price": "$7.000+",
         "features": [
-          "Company logo in medium size on the back of the uniform",
-          "Company name and logo of the sponsor company on all our social media accounts",
-          "Use of company logo in brochures and presentations",
-          "Right to display promotional materials of the sponsor company in the pit area",
-          "Basic company promotion in all social responsibility activities carried out by our team",
-          "Right to make posts using the team name if the sponsor wishes",
-          "Right to participate voluntarily in social responsibility projects of the sponsor company",
-          "Right to speak and advertise at events organized by our team"
+          "Logo công ty cỡ vừa ở mặt sau đồng phục",
+          "Tên công ty và logo của công ty tài trợ trên tất cả các tài khoản truyền thông xã hội của chúng tôi",
+          "Sử dụng logo công ty trong tài liệu quảng cáo và thuyết trình",
+          "Quyền trưng bày các tài liệu quảng cáo của công ty tài trợ tại khu vực hố thi đấu",
+          "Quảng bá cơ bản của công ty trong tất cả các hoạt động trách nhiệm xã hội do nhóm chúng tôi thực hiện",
+          "Quyền đăng bài sử dụng tên đội nếu nhà tài trợ mong muốn",
+          "Quyền tự nguyện tham gia các dự án trách nhiệm xã hội của công ty tài trợ",
+          "Quyền phát biểu và quảng cáo tại các sự kiện do nhóm chúng tôi tổ chức"
         ]
       },
       "silver": {
-        "name": "Silver Package",
+        "name": "Gói bạc",
         "price": "$5.000+",
         "features": [
-          "Company logo in small size on the back of the uniform",
-          "Use of company logo in brochures and presentations",
-          "Special thanks on social media and our website",
-          "Right to make posts using the team name if the sponsor wishes"
+          "Logo công ty cỡ nhỏ phía sau đồng phục",
+          "Sử dụng logo công ty trong tài liệu quảng cáo và thuyết trình",
+          "Cảm ơn đặc biệt trên phương tiện truyền thông xã hội và trang web của chúng tôi",
+          "Quyền đăng bài sử dụng tên đội nếu nhà tài trợ mong muốn"
         ]
       },
       "bronze": {
-        "name": "Bronze Package",
+        "name": "Gói đồng",
         "price": "$3.000+",
         "features": [
-          "Company logo in small size on the back of the uniform",
-          "Use of company logo in brochures and presentations",
-          "Special thanks on social media and our website"
+          "Logo công ty cỡ nhỏ phía sau đồng phục",
+          "Sử dụng logo công ty trong tài liệu quảng cáo và thuyết trình",
+          "Cảm ơn đặc biệt trên phương tiện truyền thông xã hội và trang web của chúng tôi"
         ]
       }
     }
   },
   "awards": {
-    "title": "Our Awards",
-    "subtitle": "Awards and achievements won by Callister #9024 FRC Team",
-    "competitionList": "Competition List:",
+    "title": "Giải thưởng của chúng tôi",
+    "subtitle": "Các giải thưởng và thành tích mà Callister #9024 FRC Team đã giành được",
+    "competitionList": "Danh sách cuộc thi:",
     "table": {
-      "year": "Year",
-      "event": "Event",
-      "awards": "Awards"
+      "year": "Năm",
+      "event": "Sự kiện",
+      "awards": "Giải thưởng"
     },
     "awardDetails": {
       "regionalFinalists": {
-        "name": "Regional Finalists",
-        "description": "Awarded to honor the alliance that reaches the final matches in a regional tournament and comes in second place. It symbolizes the team's strategic gameplay, field coordination, and performance throughout the tournament."
+        "name": "Chung kết khu vực",
+        "description": "Được trao để vinh danh liên minh lọt vào trận đấu cuối cùng trong một giải đấu khu vực và đứng ở vị trí thứ hai. Nó tượng trưng cho lối chơi chiến lược, sự phối hợp trên sân và hiệu suất của đội trong suốt giải đấu."
       },
       "innovationInControl": {
-        "name": "Innovation in Control Award",
-        "description": "Awarded to teams that develop innovative and effective solutions in robot control systems. It rewards creativity in sensor usage, software algorithms, driver interface, or control architecture."
+        "name": "Giải thưởng Đổi mới trong Kiểm soát",
+        "description": "Được trao cho các nhóm phát triển các giải pháp sáng tạo và hiệu quả trong hệ thống điều khiển robot. Nó khen thưởng sự sáng tạo trong việc sử dụng cảm biến, thuật toán phần mềm, giao diện trình điều khiển hoặc kiến ​​trúc điều khiển."
       },
       "graciousProfessionalism": {
-        "name": "Gracious Professionalism Award",
-        "description": "Honors teams that demonstrate kind, respectful, helpful, and collaborative attitudes throughout the competition. It is given to teams that best reflect one of FIRST's core values: \"Gracious Professionalism®\"."
+        "name": "Giải thưởng chuyên nghiệp duyên dáng",
+        "description": "Vinh danh các đội thể hiện thái độ tử tế, tôn trọng, hữu ích và hợp tác trong suốt cuộc thi. Giải thưởng này được trao cho các đội phản ánh tốt nhất một trong những giá trị cốt lõi của FIRST: \"Sự chuyên nghiệp duyên dáng®\"."
       },
       "highestRookieSeed": {
-        "name": "Highest Rookie Seed",
-        "description": "Awarded to teams that complete elimination matches with the highest ranking among rookie teams. It shows a team's strong field performance and strategic success in their first year."
+        "name": "Hạt giống tân binh cao nhất",
+        "description": "Trao cho các đội hoàn thành các trận đấu loại trực tiếp có thứ hạng cao nhất trong các đội tân binh. Nó cho thấy hiệu suất hoạt động mạnh mẽ và thành công chiến lược của một đội trong năm đầu tiên."
       },
       "judgesAward": {
-        "name": "Judges' Award",
-        "description": "Awarded to teams that impress the jury with their unique achievements, special stories, or remarkable approaches, even if they don't fully fit into official categories."
+        "name": "Giải thưởng của Thẩm phán",
+        "description": "Trao cho các đội gây ấn tượng với ban giám khảo bằng thành tích độc đáo, câu chuyện đặc biệt hoặc cách tiếp cận đáng chú ý, ngay cả khi chúng không hoàn toàn phù hợp với các hạng mục chính thức."
       }
     },
     "eventNames": {
-      "milsteinDivision": "Milstein Division",
-      "ankaraRegional": "Ankara Regional",
-      "cezeriRobotLigi": "Cezeri Robot League Ümraniye Robotics Competition",
-      "bosphorusRegional": "Bosphorus Regional",
-      "istanbulRegional": "Istanbul Regional",
-      "halicRegional": "Halic Regional"
+      "milsteinDivision": "Phân khu Milstein",
+      "ankaraRegional": "Khu vực Ankara",
+      "cezeriRobotLigi": "Giải đấu Robot Cezeri Cuộc thi Robotics Ümraniye",
+      "bosphorusRegional": "Khu vực Bosphorus",
+      "istanbulRegional": "Khu vực Istanbul",
+      "halicRegional": "Khu vực Halic"
     }
   },
   "about": {
-    "title": "Who Are We?",
-    "subtitle": "The story, vision, and social impact of Callister #9024 FRC Team",
+    "title": "Chúng tôi là ai?",
+    "subtitle": "Câu chuyện, tầm nhìn và tác động xã hội của Callister #9024 FRC Team",
     "stats": {
-      "foundedDate": "Founded Date",
-      "teamMembers": "Team Members",
-      "awards": "Awards",
-      "projects": "Projects"
+      "foundedDate": "Ngày thành lập",
+      "teamMembers": "Thành viên nhóm",
+      "awards": "Giải thưởng",
+      "projects": "Dự án"
     },
     "content": {
-      "whoWeAre": "Who Are We?",
-      "foundedDate": "May 19, 2022",
-      "teamSize": "25 students and 1 mentor",
-      "signature": "Best regards, Callister #9024 FRC Team",
-      "paragraph1": "As the Callister #9024 FRC team, founded on May 19, 2022, we set out with the goal of training future leaders in science, technology, engineering, art, and mathematics (STEAM) fields. With our strong team of 25 students and 1 mentor, we have made it our mission not only to build robots but also to contribute to society through social responsibility and awareness-focused projects. Each member of our team stands out not only with their technical competencies but also with their sensitivity, team spirit, entrepreneurship, and visionary approach.",
-      "paragraph2": "Our mission is to inspire all segments of society as individuals who have internalized FIRST principles, to spread STEAM culture, and to lead others on this path. Our vision is to represent our country in the best way possible on national and international platforms, to contribute to both individual and social development, and to work for a sustainable world with projects that make a difference. In this direction, every work we carry out as a team is not just competition-focused but strategic steps aimed at creating a broader impact area.",
-      "paragraph3": "With the projects we have implemented so far, we have inspired both children and adults. For example, within the scope of our \"Window\" project, we went to village schools and provided EV3 training. We enabled children to showcase not only their technical skills but also their creativity.",
-      "paragraph4": "While highlighting the role of women in the art world with the \"Spirit of Women in Art\" webinar series, we also started a project this year to inspire girls. Within the scope of our collaboration with KEV, we held a seminar on May 13th with our \"Strong Women, Strong Tomorrows\" project; we brought young girls together with successful women in the business world. Thanks to this event, young girls had the opportunity to learn about different career fields and gained the opportunity to develop themselves and increase their motivation.",
-      "paragraph5": "With our \"Turtle Museum\" project, we aimed to increase environmental awareness; we also opened an exhibition where we created works from recycled materials to raise awareness about the problems that turtles and other marine creatures face in their habitats in various schools. The purpose of our exhibition was to show what kind of waste exists in our seas, to create awareness against global warming, and to educate people.",
-      "paragraph6": "As Callister, with our \"Save The Blue\" project, our team removed a ghost net from the sea in the Gulf of İzmit to reduce the damage that ghost nets cause to marine life and carried out underwater waste collection activities. Ghost nets cause marine creatures to get entangled and injured or die, damage underwater structures such as coral reefs, and cause microplastic pollution. With our work, we took a step towards protecting marine life and aimed to create environmental awareness. With this project, we contributed to the \"Ghost Nets\" project organized by the Ministry of Agriculture and Forestry and Kocaeli Metropolitan Municipality.",
-      "paragraph7": "With our project called \"Eco Footprint\", we drew attention to carbon footprint, strengthened both environmental awareness and social participation with beach cleaning events. Additionally, with projects such as the \"Mini Brick Symphony\" competition, \"Climate Museum\" project, \"New Access Icon\", we showed that we are active world citizens by addressing universal issues such as social justice, equality, environment, and sustainability. Our \"Ecoquake\" project, which we started to create earthquake awareness, is also one of the important steps we took to raise awareness in society.",
-      "paragraph8": "We have always believed that the biggest impact we can create is to pass on what we know and our experiences to others correctly and powerfully. As Callister, we created an innovative website project to support young engineers and software developers. Our project \"FRC Academy\", which emerged from this thought, is actually a platform where all the knowledge and experiences our team has gained since May 19, 2022, come together. Within the scope of this project, we provided teams and students who are taking their first steps into the FRC world with the opportunity to develop their skills in design, software, mechanics, and electronics. As Callister, our goal is to pass on our experiences and draw the right path for those who come after us.",
-      "paragraph9": "Many awards we have won:",
+      "whoWeAre": "Chúng tôi là ai?",
+      "foundedDate": "Ngày 19 tháng 5 năm 2022",
+      "teamSize": "25 học sinh và 1 cố vấn",
+      "signature": "Trân trọng, Callister #9024 Nhóm FRC",
+      "paragraph1": "Với tư cách là nhóm Callister #9024 FRC, được thành lập vào ngày 19 tháng 5 năm 2022, chúng tôi đặt ra mục tiêu đào tạo các nhà lãnh đạo tương lai trong các lĩnh vực khoa học, công nghệ, kỹ thuật, nghệ thuật và toán học (STEAM). Với đội ngũ hùng hậu gồm 25 sinh viên và 1 cố vấn, chúng tôi đã thực hiện sứ mệnh của mình không chỉ là chế tạo robot mà còn đóng góp cho xã hội thông qua các dự án tập trung vào trách nhiệm xã hội và nâng cao nhận thức. Mỗi thành viên trong nhóm của chúng tôi nổi bật không chỉ ở năng lực kỹ thuật mà còn ở sự nhạy cảm, tinh thần đồng đội, tinh thần kinh doanh và cách tiếp cận có tầm nhìn.",
+      "paragraph2": "Sứ mệnh của chúng tôi là truyền cảm hứng cho tất cả các thành phần trong xã hội với tư cách là những cá nhân đã tiếp thu các nguyên tắc FIRST, truyền bá văn hóa STEAM và dẫn dắt những người khác đi theo con đường này. Tầm nhìn của chúng tôi là đại diện cho đất nước mình theo cách tốt nhất có thể trên các nền tảng quốc gia và quốc tế, đóng góp cho sự phát triển của cả cá nhân và xã hội, đồng thời nỗ lực vì một thế giới bền vững với các dự án tạo nên sự khác biệt. Theo hướng này, mọi công việc chúng tôi thực hiện với tư cách nhóm không chỉ tập trung vào cạnh tranh mà còn là các bước chiến lược nhằm tạo ra phạm vi tác động rộng hơn.",
+      "paragraph3": "Với những dự án chúng tôi đã thực hiện cho đến nay, chúng tôi đã truyền cảm hứng cho cả trẻ em và người lớn. Ví dụ: trong phạm vi dự án \"Cửa sổ\" của chúng tôi, chúng tôi đã đến các trường học trong làng và cung cấp chương trình đào tạo về EV3. Chúng tôi giúp trẻ em thể hiện không chỉ các kỹ năng kỹ thuật mà còn cả khả năng sáng tạo của mình.",
+      "paragraph4": "Trong khi nêu bật vai trò của phụ nữ trong thế giới nghệ thuật với chuỗi hội thảo trực tuyến \"Tinh thần phụ nữ trong nghệ thuật\", chúng tôi cũng đã bắt đầu một dự án trong năm nay để truyền cảm hứng cho các cô gái. Trong phạm vi hợp tác với KEV, chúng tôi đã tổ chức hội thảo vào ngày 13 tháng 5 với dự án “Phụ nữ mạnh mẽ, ngày mai mạnh mẽ”; chúng tôi đã đưa các cô gái trẻ đến với những phụ nữ thành đạt trong thế giới kinh doanh. Nhờ sự kiện này, các cô gái trẻ có cơ hội tìm hiểu về các lĩnh vực nghề nghiệp khác nhau và có cơ hội phát triển bản thân, tăng thêm động lực.",
+      "paragraph5": "Với dự án \"Bảo tàng Rùa\", chúng tôi hướng đến nâng cao nhận thức về môi trường; chúng tôi cũng đã mở một cuộc triển lãm nơi chúng tôi tạo ra các tác phẩm từ vật liệu tái chế để nâng cao nhận thức về những vấn đề mà rùa và các sinh vật biển khác gặp phải trong môi trường sống của chúng ở nhiều trường học khác nhau. Mục đích của cuộc triển lãm của chúng tôi là để giới thiệu loại chất thải nào tồn tại ở vùng biển của chúng ta, nhằm nâng cao nhận thức chống lại sự nóng lên toàn cầu và giáo dục mọi người.",
+      "paragraph6": "Với tư cách là Callister, với dự án \"Save The Blue\", nhóm của chúng tôi đã loại bỏ lưới ma khỏi biển ở Vịnh İzmit để giảm thiệt hại mà lưới ma gây ra cho sinh vật biển và thực hiện các hoạt động thu gom rác thải dưới nước. Lưới ma khiến sinh vật biển vướng vào, bị thương hoặc chết, làm hư hại các cấu trúc dưới nước như rạn san hô và gây ô nhiễm vi hạt nhựa. Với công việc của mình, chúng tôi đã thực hiện một bước hướng tới việc bảo vệ sinh vật biển và nhằm mục đích nâng cao nhận thức về môi trường. Với dự án này, chúng tôi đã đóng góp vào dự án \"Mạng ma\" do Bộ Nông Lâm nghiệp và Khu đô thị Kocaeli tổ chức.",
+      "paragraph7": "Với dự án mang tên \"Dấu chân sinh thái\", chúng tôi đã thu hút sự chú ý đến lượng khí thải carbon, tăng cường cả nhận thức về môi trường và sự tham gia của xã hội bằng các sự kiện làm sạch bãi biển. Ngoài ra, với các dự án như cuộc thi \"Bản giao hưởng gạch mini\", dự án \"Bảo tàng khí hậu\", \"Biểu tượng truy cập mới\", chúng tôi đã thể hiện rằng mình là những công dân thế giới tích cực bằng cách giải quyết các vấn đề phổ quát như công bằng xã hội, bình đẳng, môi trường và tính bền vững. Dự án \"Ecoquake\" mà chúng tôi bắt đầu nhằm nâng cao nhận thức về động đất, cũng là một trong những bước quan trọng mà chúng tôi thực hiện để nâng cao nhận thức trong xã hội.",
+      "paragraph8": "Chúng tôi luôn tin rằng tác động lớn nhất mà chúng tôi có thể tạo ra là truyền đạt những gì chúng tôi biết và kinh nghiệm của mình cho người khác một cách chính xác và mạnh mẽ. Với tư cách là Callister, chúng tôi đã tạo ra một dự án trang web sáng tạo để hỗ trợ các kỹ sư và nhà phát triển phần mềm trẻ. Dự án \"Học viện FRC\" của chúng tôi, xuất phát từ suy nghĩ này, thực sự là một nền tảng nơi tập hợp tất cả kiến ​​thức và kinh nghiệm mà nhóm chúng tôi đã thu được kể từ ngày 19 tháng 5 năm 2022. Trong phạm vi của dự án này, chúng tôi đã mang đến cho các nhóm và sinh viên đang bước những bước đầu tiên vào thế giới FRC cơ hội phát triển các kỹ năng của họ về thiết kế, phần mềm, cơ khí và điện tử. Với tư cách là Callister, mục tiêu của chúng tôi là truyền đạt kinh nghiệm của mình và vạch ra con đường đúng đắn cho những người đi sau chúng tôi.",
+      "paragraph9": "Nhiều giải thưởng chúng tôi đã giành được:",
       "awardsList": [
-        "Highest Rookie Seed Award",
-        "Judges' Award",
-        "Rookie Inspiration Award",
-        "Rookie All-Star Award",
-        "Gracious Professionalism Award"
+        "Giải thưởng hạt giống tân binh cao nhất",
+        "Giải thưởng của Thẩm phán",
+        "Giải thưởng truyền cảm hứng tân binh",
+        "Giải thưởng Tân binh toàn sao",
+        "Giải thưởng chuyên nghiệp duyên dáng"
       ],
-      "paragraph10": "These awards show that we are not just a competitive team but an ecosystem that learns, teaches, and shares. As Callister, we aim to go beyond competition to solidarity, beyond learning to teaching, beyond success to creating impact.",
-      "paragraph11": "While writing this letter, our desire was to explain that we are not just a competition team but also a transformation movement. With your company's support, we can reach bigger dreams together. Because we are a team that wants to design the future, questions boundaries, and works to change them."
+      "paragraph10": "Những giải thưởng này cho thấy chúng tôi không chỉ là một đội cạnh tranh mà còn là một hệ sinh thái học hỏi, giảng dạy và chia sẻ. Với tư cách là Callister, chúng tôi đặt mục tiêu vượt xa sự cạnh tranh để đạt đến sự đoàn kết, vượt ra ngoài việc học tập để giảng dạy, vượt ra ngoài thành công để tạo ra tác động.",
+      "paragraph11": "Khi viết bức thư này, mong muốn của chúng tôi là giải thích rằng chúng tôi không chỉ là một đội thi đấu mà còn là một phong trào chuyển đổi. Với sự hỗ trợ của công ty bạn, chúng ta có thể cùng nhau đạt được những ước mơ lớn hơn. Bởi vì chúng tôi là một nhóm muốn thiết kế tương lai, đặt câu hỏi về các ranh giới và nỗ lực thay đổi chúng."
     }
   },
   "team": {
-    "title": "Our Team",
-    "subtitle": "Valuable members of Callister #9024 FRC Team",
+    "title": "Đội ngũ của chúng tôi",
+    "subtitle": "Các thành viên quý giá của Callister #9024 FRC Team",
     "modal": {
-      "role": "Role:",
-      "department": "Department:",
-      "description": "Description:"
+      "role": "Vai trò:",
+      "department": "Phòng:",
+      "description": "Sự miêu tả:"
     },
     "roles": {
-      "mentor": "Mentor",
-      "softwareDeveloper": "Software Developer",
-      "teamCaptain": "Team Captain",
-      "mechanical": "Mechanical",
-      "socialMediaManager": "Social Media Manager",
-      "designer": "Designer",
-      "softwareDeveloperAndTeamCaptain": "Software Developer and Team Captain",
-      "teamCaptainAndMechanical": "Team Captain and Mechanical",
-      "softwareCaptain": "Software Captain",
-      "mechanicalCaptain": "Mechanical Captain",
-      "designCaptain": "Design Captain",
-      "designAndSoftwareDeveloper": "Design and Software Developer"
+      "mentor": "Người hướng dẫn",
+      "softwareDeveloper": "Nhà phát triển phần mềm",
+      "teamCaptain": "đội trưởng",
+      "mechanical": "Cơ khí",
+      "socialMediaManager": "Người quản lý phương tiện truyền thông xã hội",
+      "designer": "Nhà thiết kế",
+      "softwareDeveloperAndTeamCaptain": "Nhà phát triển phần mềm và Trưởng nhóm",
+      "teamCaptainAndMechanical": "Đội trưởng và Cơ khí",
+      "softwareCaptain": "Đội trưởng phần mềm",
+      "mechanicalCaptain": "Đội trưởng cơ khí",
+      "designCaptain": "Đội trưởng thiết kế",
+      "designAndSoftwareDeveloper": "Nhà phát triển phần mềm và thiết kế"
     },
     "departments": {
-      "mentor": "Mentor",
-      "mechanical": "Mechanical",
-      "software": "Software",
-      "design": "Design",
-      "media": "Media"
+      "mentor": "Người hướng dẫn",
+      "mechanical": "Cơ khí",
+      "software": "Phần mềm",
+      "design": "Thiết kế",
+      "media": "Phương tiện truyền thông"
     },
     "descriptions": {
-      "mentor": "Team mentor and technical advisor.",
-      "softwareDeveloper": "Robot control systems and software development.",
-      "teamCaptain": "Team captain and responsible for software development.",
-      "mechanical": "Responsible for robot mechanical design and production processes.",
-      "socialMediaManager": "Social media management and content production.",
-      "designer": "Robot and graphic design.",
-      "softwareDeveloperAndTeamCaptain": "Team captain and responsible for software development.",
-      "teamCaptainAndMechanical": "Team captain and responsible for mechanical systems.",
-      "designAndSoftwareDeveloper": "Robot design and software development.",
-      "robotAssembly": "Robot assembly and mechanical systems.",
-      "teamCaptainShort": "Team captain.",
-      "softwareCaptainDesc": "Software captain and responsible for software development.",
-      "mechanicalCaptainDesc": "Mechanical captain and responsible for mechanical systems.",
-      "teamCaptainAndSoftware": "Team captain; also a member of the software team.",
-      "designCaptainDesc": "Design captain; responsible for robot and graphic design."
+      "mentor": "Cố vấn nhóm và cố vấn kỹ thuật.",
+      "softwareDeveloper": "Hệ thống điều khiển robot và phát triển phần mềm.",
+      "teamCaptain": "Đội trưởng và chịu trách nhiệm phát triển phần mềm.",
+      "mechanical": "Chịu trách nhiệm về quy trình thiết kế và sản xuất cơ khí robot.",
+      "socialMediaManager": "Quản lý phương tiện truyền thông xã hội và sản xuất nội dung.",
+      "designer": "Robot và thiết kế đồ họa.",
+      "softwareDeveloperAndTeamCaptain": "Đội trưởng và chịu trách nhiệm phát triển phần mềm.",
+      "teamCaptainAndMechanical": "Đội trưởng và chịu trách nhiệm về hệ thống cơ khí.",
+      "designAndSoftwareDeveloper": "Thiết kế robot và phát triển phần mềm.",
+      "robotAssembly": "Lắp ráp robot và hệ thống cơ khí.",
+      "teamCaptainShort": "Đội trưởng.",
+      "softwareCaptainDesc": "Đội trưởng phần mềm và chịu trách nhiệm phát triển phần mềm.",
+      "mechanicalCaptainDesc": "Đội trưởng cơ khí và chịu trách nhiệm về hệ thống cơ khí.",
+      "teamCaptainAndSoftware": "Đội trưởng; cũng là thành viên của nhóm phần mềm.",
+      "designCaptainDesc": "Đội trưởng thiết kế; chịu trách nhiệm về robot và thiết kế đồ họa."
     }
   },
   "projects": {
-    "title": "Our Projects",
-    "subtitle": "Projects implemented by Callister #9024 FRC Team",
-    "viewProject": "View Project",
-    "siteButton": "Go to site",
-    "category": "Category",
-    "status": "Status",
-    "completed": "Completed",
-    "ongoing": "Ongoing",
-    "planned": "Planned",
-    "all": "All",
-    "education": "Education",
-    "environment": "Environment",
-    "social": "Social",
-    "technology": "Technology",
-    "culture": "Culture",
+    "title": "Dự án của chúng tôi",
+    "subtitle": "Các dự án do Callister #9024 FRC Team thực hiện",
+    "viewProject": "Xem dự án",
+    "siteButton": "Tới trang web",
+    "category": "Loại",
+    "status": "Trạng thái",
+    "completed": "Hoàn thành",
+    "ongoing": "Đang thực hiện",
+    "planned": "Đã lên kế hoạch",
+    "all": "Tất cả",
+    "education": "Giáo dục",
+    "environment": "Môi trường",
+    "social": "Xã hội",
+    "technology": "Công nghệ",
+    "culture": "Văn hoá",
     "donations": {
-      "title": "Donations We Made",
-      "paragraph1": "As team Callister, we carried out a social responsibility project for students at 11 village schools in Hakkari, Şırnak and Hatay during the 2025–2026 academic year semester break. So that the cold and harsh weather conditions that intensify in winter do not negatively affect students' daily lives and education, coat and boot aid as well as test books were collected by our members and delivered to the relevant provinces.",
-      "paragraph2": "As a team, on January 2 we provided 50 pairs of boots and 50 coats to Şehit Raşit Ercan Primary and Secondary School in Elâzığ. In this project we aimed to meet the needs of children in insufficient financial circumstances and support them. On January 19 we set up a computer lab with 10 computers at the same school, Şehit Raşit Ercan Primary and Secondary School.",
-      "paragraph3": "As a team we opened a library at İstasyon Primary School in the Karatepe area of Kocaeli and carried out a social responsibility project. Within this project a lasting learning environment was created where students can access information more easily and which supports their education.",
-      "paragraph4": "On 14.02.2026, as team Callister we had a water well built at Encemine Orphanage in an arid region of Chad, Africa. With this project we aimed to support African children's access to clean water, a basic need, and to draw attention to food shortage and drought in the region. Thanks to this well, approximately 150 people will be able to access clean, safe water regularly. The well was planned for long-term use and built to be able to supply safe water for about 60 years. As team Callister we continue to aim to contribute to people's quality of life and raise awareness by acting with a sense of social responsibility.",
-      "paragraph5": "During this Ramadan, as team Callister we carried out a food distribution for families in need in order to keep alive the spirit of solidarity and sharing."
+      "title": "Chúng tôi đã quyên góp",
+      "paragraph1": "Với tư cách là nhóm Callister, chúng tôi đã thực hiện một dự án trách nhiệm xã hội dành cho học sinh tại 11 trường làng ở Hakkari, Şırnak và Hatay trong kỳ nghỉ học kỳ năm học 2025–2026. Để điều kiện thời tiết lạnh giá và khắc nghiệt ngày càng gia tăng vào mùa đông không ảnh hưởng tiêu cực đến cuộc sống hàng ngày và việc học tập của các em học sinh, áo khoác, ủng cũng như sách kiểm tra đã được các thành viên thu gom và chuyển đến các tỉnh thành liên quan.",
+      "paragraph2": "Với tư cách là một nhóm, vào ngày 2 tháng 1, chúng tôi đã cung cấp 50 đôi ủng và 50 áo khoác cho Trường Tiểu học và Trung học Şehit Raşit Ercan ở Elâzığ. Trong dự án này, chúng tôi mong muốn đáp ứng nhu cầu của trẻ em có hoàn cảnh khó khăn về tài chính và hỗ trợ chúng. Vào ngày 19 tháng 1, chúng tôi đã thành lập một phòng máy tính với 10 máy tính tại cùng một trường, Trường Tiểu học và Trung học Şehit Raşit Ercan.",
+      "paragraph3": "Với tư cách là một nhóm, chúng tôi đã mở một thư viện tại Trường tiểu học İstasyon ở khu Karatepe của Kocaeli và thực hiện một dự án trách nhiệm xã hội. Trong dự án này, một môi trường học tập lâu dài đã được tạo ra để sinh viên có thể truy cập thông tin dễ dàng hơn và hỗ trợ việc học tập của họ.",
+      "paragraph4": "Vào ngày 14.02.2026, với tư cách là nhóm Callister, chúng tôi đã xây dựng một giếng nước tại Trại trẻ mồ côi Encemine ở một vùng khô cằn của Tchad, Châu Phi. Với dự án này, chúng tôi hướng đến việc hỗ trợ trẻ em châu Phi tiếp cận với nước sạch, một nhu cầu cơ bản, đồng thời thu hút sự chú ý đến tình trạng thiếu lương thực và hạn hán trong khu vực. Nhờ giếng này, khoảng 150 người dân sẽ được sử dụng nước sạch, an toàn thường xuyên. Giếng được lên kế hoạch sử dụng lâu dài và được xây dựng để có thể cung cấp nước an toàn trong khoảng 60 năm. Với tư cách là nhóm Callister, chúng tôi tiếp tục hướng tới mục tiêu đóng góp vào chất lượng cuộc sống của mọi người và nâng cao nhận thức bằng cách hành động với tinh thần trách nhiệm xã hội.",
+      "paragraph5": "Trong tháng Ramadan này, với tư cách là nhóm Callister, chúng tôi đã thực hiện phân phát thực phẩm cho các gia đình có hoàn cảnh khó khăn nhằm duy trì tinh thần đoàn kết và chia sẻ."
     },
     "kermes": {
-      "title": "Kermes We Organized",
-      "paragraph1": "With the income from the kermes events we organized as team Callister, we covered the surgery costs of our beloved school dog Beethoven, who had health problems, and took charge of his treatment. Through this social responsibility work we aimed not only to contribute to improving a living being's quality of life but also to strengthen as a team the values of helping one another, taking responsibility, and social sensitivity.",
-      "paragraph2": "As a team we organized a kermes in cooperation with Kurtköy Bahçeşehir School Family Association. Within this kermes we sold school supplies, various toys and other products, aiming both to strengthen the spirit of solidarity and to contribute to our social responsibility project. We donated the 120,000 TL income from the kermes to AÇEV to support children's education. As team Callister we aim to continue contributing to society and supporting education through such social responsibility projects.",
-      "paragraph3": "At the Ümraniye Bahçeşehir College Cookie Day event we organized together with our FTC team TECHMASTERS, we aimed to instill in young children the values of unity, solidarity, sharing and helping. With the income from the sales at the event we purchased stationery and donated it to a village school in Ardahan. With this project we aimed both to support a culture of solidarity and to draw attention to the importance of social values such as unity, solidarity and helping one another."
+      "title": "Kermes chúng tôi đã tổ chức",
+      "paragraph1": "Với thu nhập từ các sự kiện kermes mà chúng tôi tổ chức với tư cách là nhóm Callister, chúng tôi đã trang trải chi phí phẫu thuật cho chú chó yêu quý Beethoven của chúng tôi, chú chó có vấn đề về sức khỏe và đã chịu trách nhiệm điều trị cho nó. Thông qua công việc trách nhiệm xã hội này, chúng tôi không chỉ mong muốn góp phần cải thiện chất lượng cuộc sống của mọi người mà còn củng cố các giá trị tập thể như giúp đỡ lẫn nhau, chịu trách nhiệm và nhạy cảm với xã hội.",
+      "paragraph2": "Với tư cách là một nhóm, chúng tôi đã tổ chức kermes với sự hợp tác của Hiệp hội Gia đình Trường Kurtköy Bahçeşehir. Tại kermes này, chúng tôi đã bán đồ dùng học tập, nhiều loại đồ chơi và các sản phẩm khác, nhằm mục đích củng cố tinh thần đoàn kết và đóng góp cho dự án trách nhiệm xã hội của chúng tôi. Chúng tôi đã quyên góp thu nhập 120.000 TL từ kermes cho AÇEV để hỗ trợ việc học tập của trẻ em. Với tư cách là nhóm Callister, chúng tôi mong muốn tiếp tục đóng góp cho xã hội và hỗ trợ giáo dục thông qua các dự án trách nhiệm xã hội như vậy.",
+      "paragraph3": "Tại sự kiện Ngày bánh quy của trường đại học Ümraniye Bahçeşehir mà chúng tôi đã tổ chức cùng với nhóm FTC TECHMASTERS, chúng tôi mong muốn truyền cho trẻ nhỏ những giá trị của sự đoàn kết, đoàn kết, chia sẻ và giúp đỡ. Với thu nhập từ việc bán hàng tại sự kiện, chúng tôi đã mua văn phòng phẩm và tặng nó cho một trường học trong làng ở Ardahan. Với dự án này, chúng tôi nhằm mục đích vừa hỗ trợ văn hóa đoàn kết, vừa thu hút sự chú ý đến tầm quan trọng của các giá trị xã hội như đoàn kết, đoàn kết và giúp đỡ lẫn nhau."
     },
     "projectDetails": {
       "pencere": {
-        "title": "Window",
-        "description": "EV3 training project in village schools. We provide students with robotics and coding skills.",
-        "details": "Following our motto \"We must open new windows to a better future,\" we aim to inspire primary school children and make STEM accessible to everyone. Within this scope, we started our Window project in 2022 and each year we visit 4 different village schools to provide STEM and EV3 training to the children there. After our training, we help children program the robots they build from Legos according to \"drawing pictures\" and \"playing music\" features, and through various software lessons we support them in gaining new skills. By enabling children to discover their artistic sides alongside technical areas to develop their multifaceted skills, we have reached over 8,000 students in the last 4 years."
+        "title": "Cửa sổ",
+        "description": "Dự án đào tạo EV3 ở trường làng. Chúng tôi cung cấp cho sinh viên các kỹ năng về robot và mã hóa.",
+        "details": "Với phương châm \"Chúng ta phải mở ra những cánh cửa mới cho một tương lai tốt đẹp hơn\", chúng tôi mong muốn truyền cảm hứng cho học sinh tiểu học và giúp mọi người có thể tiếp cận STEM. Trong phạm vi này, chúng tôi đã bắt đầu dự án Window vào năm 2022 và mỗi năm chúng tôi đến thăm 4 trường làng khác nhau để cung cấp chương trình đào tạo STEM và EV3 cho trẻ em ở đó. Sau khóa đào tạo, chúng tôi giúp trẻ em lập trình cho robot mà chúng chế tạo từ Lego theo các tính năng \"vẽ tranh\" và \"chơi nhạc\", đồng thời thông qua các bài học phần mềm khác nhau, chúng tôi hỗ trợ chúng đạt được các kỹ năng mới. Bằng cách cho phép trẻ khám phá khía cạnh nghệ thuật bên cạnh các lĩnh vực kỹ thuật để phát triển các kỹ năng đa diện, chúng tôi đã tiếp cận được hơn 8.000 học sinh trong 4 năm qua."
       },
       "sanatKadin": {
-        "title": "Spirit of Women in Art",
-        "description": "Webinar series introducing works of women artists. Events combining art and technology.",
-        "details": "In our webinar series called \"Spirit of Women in Art\", our aim is: To address the role and achievements of women in art, to draw attention to gender inequality in art, and to get to know our participating guests more closely and have a conversation by asking them questions. We emphasize that FRC is more than building robots, that art is also a part of life, and we start this project where we will witness women's success in art up close by saying \"A society without women is a society without tomorrow.\""
+        "title": "Tinh thần phụ nữ trong nghệ thuật",
+        "description": "Chuỗi hội thảo trực tuyến giới thiệu tác phẩm của các nữ nghệ sĩ. Sự kiện kết hợp nghệ thuật và công nghệ.",
+        "details": "Trong chuỗi hội thảo trực tuyến có tên \"Tinh thần của phụ nữ trong nghệ thuật\", mục tiêu của chúng tôi là: Đề cập đến vai trò và thành tựu của phụ nữ trong nghệ thuật, thu hút sự chú ý đến sự bất bình đẳng giới trong nghệ thuật và tìm hiểu kỹ hơn về những vị khách tham gia cũng như trò chuyện bằng cách đặt câu hỏi cho họ. Chúng tôi nhấn mạnh rằng FRC không chỉ là chế tạo robot, nghệ thuật còn là một phần của cuộc sống và chúng tôi bắt đầu dự án này, nơi chúng tôi sẽ chứng kiến ​​sự thành công của phụ nữ trong nghệ thuật một cách cận cảnh bằng câu nói \"Một xã hội không có phụ nữ là một xã hội không có ngày mai\"."
       },
       "gucluKadinlar": {
-        "title": "Strong Women, Strong Tomorrows",
-        "description": "Women's empowerment project in collaboration with KEV. We increase women's participation in STEM fields.",
-        "details": "We develop projects that enable women to take a more active role in STEM fields through collaboration with KEV."
+        "title": "Phụ nữ mạnh mẽ, ngày mai mạnh mẽ",
+        "description": "Dự án trao quyền cho phụ nữ phối hợp với KEV. Chúng tôi tăng cường sự tham gia của phụ nữ vào các lĩnh vực STEM.",
+        "details": "Chúng tôi phát triển các dự án cho phép phụ nữ đóng vai trò tích cực hơn trong các lĩnh vực STEM thông qua hợp tác với KEV."
       },
       "kaplumbaga": {
-        "title": "Turtle Museum",
-        "description": "Digital museum project creating awareness for the protection of sea turtles.",
-        "details": "Within the scope of this project, we hosted 8th grade students who visited our school. Our visit to DEKAMER at İztuzu Beach in recent months made us think about what else we could do to create awareness, and we created an exhibition called \"Turtle Museum\" at our school, displaying the life journey of Caretta Carettas from hatching to adulthood. In this project, which we undertook with the basic purpose of drawing attention to the sea turtle species under the threat of extinction and creating awareness, we explained in detail the measures to be taken and the road maps to be followed in our presentation, and as a result of this project, we created awareness among the students who came to our school."
+        "title": "Bảo tàng Rùa",
+        "description": "Dự án bảo tàng kỹ thuật số nâng cao nhận thức về việc bảo vệ rùa biển.",
+        "details": "Trong phạm vi của dự án này, chúng tôi đã đón tiếp các học sinh lớp 8 đến thăm trường của chúng tôi. Chuyến thăm DEKAMER tại Bãi biển İztuzu trong những tháng gần đây đã khiến chúng tôi suy nghĩ về những gì chúng tôi có thể làm để nâng cao nhận thức và chúng tôi đã tạo ra một cuộc triển lãm mang tên \"Bảo tàng Rùa\" tại trường học của mình, trưng bày hành trình cuộc đời của Caretta Carettas từ khi nở đến khi trưởng thành. Trong dự án này, chúng tôi thực hiện với mục đích cơ bản là thu hút sự chú ý đến các loài rùa biển đang có nguy cơ tuyệt chủng và nâng cao nhận thức, chúng tôi đã giải thích chi tiết các biện pháp cần thực hiện và lộ trình cần tuân thủ trong bài thuyết trình của mình, và kết quả của dự án này là chúng tôi đã nâng cao nhận thức cho các học sinh đến trường của chúng tôi."
       },
       "iztuzu": {
-        "title": "İztuzu Project",
-        "description": "Visit project to the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection.",
-        "details": "We visited the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection. Here we learned new information about sea turtles and helped treat injured turtles. We also provided financial support by purchasing souvenirs. It was a trip that opened our horizons and increased our awareness about the environment in the projects we will implement together in the upcoming season."
+        "title": "Dự án İztuzu",
+        "description": "Tham quan dự án Trung tâm Nghiên cứu, Cứu hộ và Phục hồi Rùa biển dưới sự bảo vệ của WWF.",
+        "details": "Chúng tôi đến thăm Trung tâm Nghiên cứu, Cứu hộ và Phục hồi Rùa biển dưới sự bảo vệ của WWF. Tại đây, chúng tôi đã biết được thông tin mới về rùa biển và giúp chữa trị cho những chú rùa bị thương. Chúng tôi cũng hỗ trợ tài chính bằng cách mua quà lưu niệm. Đó là chuyến đi đã mở ra tầm nhìn và nâng cao nhận thức của chúng tôi về môi trường trong những dự án mà chúng tôi sẽ cùng nhau thực hiện trong mùa giải sắp tới."
       },
       "ecoFootprint": {
-        "title": "Eco Footprint",
-        "description": "Sustainable living project aimed at reducing carbon footprint.",
-        "details": "Within the scope of the \"Eco Footprint\" project, which we aimed to sustain throughout the season as a team, we went to Süreyya Beach and tried to collect all the garbage thrown on the ground from large to small, conducted educational interviews to learn how knowledgeable the society is about carbon footprint and to create awareness. We carried out a new one of our garbage collection events, which we made into a series, at İztuzu Beach. We collected most of the garbage that washed ashore. In addition, we attended the Carbon Footprint and Us Conference held at Kocaeli Congress Center. At this conference, we had the opportunity to introduce our social responsibility projects, our robot, and FRC. We also learned new information about carbon footprint."
+        "title": "Dấu chân sinh thái",
+        "description": "Dự án sống bền vững nhằm giảm lượng khí thải carbon.",
+        "details": "Trong phạm vi dự án \"Dấu chân sinh thái\" mà chúng tôi muốn duy trì trong suốt mùa giải với tư cách là một nhóm, chúng tôi đã đến Bãi biển Süreyya và cố gắng thu gom tất cả rác thải vứt trên mặt đất từ ​​lớn đến nhỏ, thực hiện các cuộc phỏng vấn mang tính giáo dục để tìm hiểu mức độ hiểu biết của xã hội về dấu chân carbon và nâng cao nhận thức. Chúng tôi đã thực hiện một trong những sự kiện thu gom rác mới mà chúng tôi đã thực hiện thành một chuỗi sự kiện tại Bãi biển İztuzu. Chúng tôi đã thu gom phần lớn rác dạt vào bờ. Ngoài ra, chúng tôi đã tham dự Hội nghị về Dấu chân Carbon và Chúng ta được tổ chức tại Trung tâm Hội nghị Kocaeli. Tại hội nghị này, chúng tôi có cơ hội giới thiệu các dự án trách nhiệm xã hội, robot của chúng tôi và FRC. Chúng tôi cũng đã biết được thông tin mới về lượng khí thải carbon."
       },
       "miniBrick": {
-        "title": "Mini Brick Symphony",
-        "description": "Project to let children with limited access to technology experience FIRST and team spirit through an FLL-like activity.",
-        "details": "In this project designed by developing our Window project, we aimed for children with limited access to technology to experience FIRST and team spirit through an FLL-like event. Participating children were divided into groups with our team members mentoring them, and they experienced building an EV3 robot that could perform various tasks. We have been organizing this project since 2024 and continue it every year, instilling FIRST and team spirit in 2k+ children."
+        "title": "Bản giao hưởng gạch nhỏ",
+        "description": "Dự án cho phép trẻ em có khả năng tiếp cận công nghệ hạn chế trải nghiệm ĐẦU TIÊN và tinh thần đồng đội thông qua một hoạt động giống như FLL.",
+        "details": "Trong dự án này được thiết kế bằng cách phát triển dự án Window của chúng tôi, chúng tôi hướng tới những trẻ em có khả năng tiếp cận công nghệ hạn chế để trải nghiệm ĐẦU TIÊN và tinh thần đồng đội thông qua một sự kiện giống như FLL. Trẻ em tham gia được chia thành các nhóm với sự hướng dẫn của các thành viên trong nhóm của chúng tôi và các em đã trải nghiệm việc chế tạo một robot EV3 có thể thực hiện nhiều nhiệm vụ khác nhau. Chúng tôi đã tổ chức dự án này từ năm 2024 và tiếp tục nó hàng năm, truyền tải tinh thần ĐẦU TIÊN và tinh thần đồng đội cho hơn 2 nghìn trẻ em."
       },
       "iklimMuzesi": {
-        "title": "Climate Museum",
-        "description": "Digital museum project creating awareness about climate change.",
-        "details": "Climate Museum is a project where we explain the importance of the climate crisis and what needs to be done about it to 8th grade students who visit our school, and we aim for them to learn while having fun during the time they spend there. The museum was made by our team members with the accompaniment of our art teachers. In addition, the presentations we made in the museum and the Kahoot we played with the children were prepared by us."
+        "title": "Bảo tàng Khí hậu",
+        "description": "Dự án bảo tàng kỹ thuật số nâng cao nhận thức về biến đổi khí hậu.",
+        "details": "Bảo tàng Khí hậu là một dự án trong đó chúng tôi giải thích tầm quan trọng của cuộc khủng hoảng khí hậu và những việc cần phải làm để giải quyết vấn đề này cho các học sinh lớp 8 đến thăm trường của chúng tôi và chúng tôi mong muốn các em vừa học vừa vui vẻ trong suốt thời gian học ở đó. Bảo tàng được thực hiện bởi các thành viên trong nhóm của chúng tôi với sự hỗ trợ của các giáo viên mỹ thuật của chúng tôi. Ngoài ra, các bài thuyết trình mà chúng tôi thực hiện trong bảo tàng và trò chơi Kahoot mà chúng tôi chơi với bọn trẻ đều do chúng tôi chuẩn bị."
       },
       "erisimSimgesi": {
-        "title": "New Access Icon",
-        "description": "Project developing accessible technology solutions for disabled individuals.",
-        "details": "The static access icon used for disabled individuals has been replaced by the new access icon where the individual actively contributes to life. The purpose of this change is to initiate a sustainable transformation in disabled rights. Our aim is to increase awareness in Turkey with this access icon and draw attention to the active role of disabled individuals in life."
+        "title": "Biểu tượng truy cập mới",
+        "description": "Dự án phát triển giải pháp công nghệ tiếp cận dành cho người khuyết tật.",
+        "details": "Biểu tượng truy cập tĩnh dành cho người khuyết tật đã được thay thế bằng biểu tượng truy cập mới nơi cá nhân tích cực đóng góp cho cuộc sống. Mục đích của sự thay đổi này là để bắt đầu một sự chuyển đổi bền vững về quyền của người khuyết tật. Mục đích của chúng tôi là nâng cao nhận thức ở Thổ Nhĩ Kỳ với biểu tượng truy cập này và thu hút sự chú ý đến vai trò tích cực của những người khuyết tật trong cuộc sống."
       },
       "ecoquake": {
-        "title": "Ecoquake",
-        "description": "Environmental technology project developing earthquake early warning system.",
-        "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
+        "title": "trận động đất sinh thái",
+        "description": "Dự án công nghệ môi trường phát triển hệ thống cảnh báo sớm động đất.",
+        "details": "Động đất là một vấn đề lớn của thời đại chúng ta. Nhiều đến mức nó gây ra nhiều tổn thất về nhân mạng, tài sản và còn ảnh hưởng tiêu cực đến nền kinh tế đất nước. Mục đích của Ecoquake là giải quyết một số mục tiêu phát triển bền vững trong 9 mục tiêu, 9 video và 9 bài đăng nhằm nâng cao nhận thức về động đất trong xã hội."
       },
       "gumushaneStem": {
-        "title": "Gümüşhane and Bayburt STEM Education",
-        "description": "Semester STEM education camp carried out for 2 years with Gümüşhane and Bayburt Provincial Directorates of National Education.",
-        "details": "In this project that we have been continuing for 2 years with Gümüşhane and Bayburt Provincial Directorates of National Education, we brought together a total of 3k+ 5th grade students over two years and organized a 5-day semester education camp on STEM, TinkerCAD and Scratch. Through the STEM and robotics training we provided to these students, we enabled them to get to know these fields and develop themselves in these areas."
+        "title": "Giáo dục STEM Gümüşhane và Bayburt",
+        "description": "Trại giáo dục STEM theo học kỳ được thực hiện trong 2 năm với Ban Giám đốc Giáo dục Quốc gia Tỉnh Gümüşhane và Bayburt.",
+        "details": "Trong dự án mà chúng tôi đã tiếp tục trong 2 năm này với Ban Giám đốc Giáo dục Quốc gia Tỉnh Gümüşhane và Bayburt, chúng tôi đã tập hợp tổng cộng 3k+ học sinh lớp 5 trong vòng hai năm và tổ chức trại giáo dục học kỳ 5 ngày về STEM, TinkerCAD và Scratch. Thông qua chương trình đào tạo về STEM và robot mà chúng tôi cung cấp cho những sinh viên này, chúng tôi đã giúp họ làm quen với các lĩnh vực này và phát triển bản thân trong các lĩnh vực này."
       },
       "frcAcademy": {
-        "title": "FRC Academy",
-        "description": "A training platform founded by Archers and Callister for teams new to FRC.",
-        "details": "This education platform, which we founded in 2025 as Archers and Callister, is a place where teams—especially rookie teams—can learn about and develop themselves in different areas of FRC such as software, design, mechanical and electronics. Our aim in this project is to pass on the experience we have gained since our establishment to other teams and to be a technical role model for them throughout the season. Within the scope of our project, we have reached approximately 800 members and 7 rookie teams in the last two years."
+        "title": "Học viện FRC",
+        "description": "Một nền tảng đào tạo do Archers và Callister thành lập dành cho các đội mới tham gia FRC.",
+        "details": "Nền tảng giáo dục này, được chúng tôi thành lập vào năm 2025 với tên gọi Archers và Callister, là nơi mà các đội—đặc biệt là các đội tân binh—có thể tìm hiểu và phát triển bản thân trong các lĩnh vực khác nhau của FRC như phần mềm, thiết kế, cơ khí và điện tử. Mục đích của chúng tôi trong dự án này là truyền đạt kinh nghiệm đã có được kể từ khi thành lập cho các đội khác và trở thành hình mẫu kỹ thuật cho họ trong suốt mùa giải. Trong phạm vi dự án của mình, chúng tôi đã có khoảng 800 thành viên và 7 đội tân binh trong hai năm qua."
       },
       "diveIztuzu": {
-        "title": "DIVE in Iztuzu",
-        "description": "A project organized with our sister team Archers to protect marine life and raise environmental awareness.",
-        "details": "Within the scope of our \"DIVE in Iztuzu\" project organized with our sister team Archers, we explored the underwater world in Dalyan. To protect marine life and build environmental awareness, we visited the DEKAMER Caretta Caretta Hospital in Iztuzu. We learned about sea turtles and the threats they face, and provided financial support through donations. This visit increased our environmental awareness, inspired our future projects, and strengthened our team bonds."
+        "title": "LẶN ở Iztuzu",
+        "description": "Một dự án được tổ chức với nhóm chị em Archers của chúng tôi để bảo vệ sinh vật biển và nâng cao nhận thức về môi trường.",
+        "details": "Trong phạm vi dự án \"DIVE in Iztuzu\" được tổ chức cùng với đội chị em Cung thủ, chúng tôi đã khám phá thế giới dưới nước ở Dalyan. Để bảo vệ sinh vật biển và nâng cao nhận thức về môi trường, chúng tôi đã đến thăm Bệnh viện DEKAMER Caretta Caretta ở Iztuzu. Chúng tôi đã tìm hiểu về rùa biển và những mối đe dọa mà chúng phải đối mặt, đồng thời hỗ trợ tài chính thông qua các khoản quyên góp. Chuyến thăm này đã nâng cao nhận thức về môi trường của chúng tôi, truyền cảm hứng cho các dự án trong tương lai và củng cố mối quan hệ trong nhóm của chúng tôi."
       },
       "towardsUnderwater": {
         "title": "Su Altına Doğru",
-        "description": "An exhibition project demonstrating the relationship between marine life and plastic pollution.",
-        "details": "Recent research has made the relationship between marine life and plastic pollution clearer. As a team, we organized an exhibition inside the GOSB administration building to demonstrate the effects of plastics on marine ecosystems. Using recycled materials, we focused on marine debris and plastics, showcasing artworks that seek solutions. The opening was attended by GOSB Regional Director, Deputy Directors, Corporate Communications Director, company executives, our school principal and vice principal, as well as company representatives from Petfor, Torun Metal and Pimtaş Plastik."
+        "description": "Một dự án triển lãm thể hiện mối quan hệ giữa sinh vật biển và ô nhiễm nhựa.",
+        "details": "Nghiên cứu gần đây đã làm rõ hơn mối quan hệ giữa sinh vật biển và ô nhiễm nhựa. Với tư cách là một nhóm, chúng tôi đã tổ chức một cuộc triển lãm bên trong tòa nhà hành chính GOSB để chứng minh tác động của nhựa đối với hệ sinh thái biển. Sử dụng vật liệu tái chế, chúng tôi tập trung vào rác thải biển và nhựa, trưng bày các tác phẩm nghệ thuật tìm kiếm giải pháp. Lễ khai mạc có sự tham dự của Giám đốc khu vực GOSB, các Phó Giám đốc, Giám đốc Truyền thông Doanh nghiệp, giám đốc điều hành công ty, hiệu trưởng và phó hiệu trưởng của trường chúng tôi, cũng như đại diện công ty từ Petfor, Torun Metal và Pimtaş Plastik."
       },
       "balcikKutuphane": {
-        "title": "Balçık Village School 19 May Library",
-        "description": "Project to build a library in a village school and provide education to students.",
-        "details": "With the money collected as a result of the fairs we organized at our school and the support of the school family association, we built a library from scratch in Gebze Balçık Village school for the purpose of bringing individuals who meet books at an early age, read, and have a wide imagination to society. There are 1000 books waiting to be read in the library we created with the support of students in our team and other teams. On May 19, along with the library opening, we introduced FRC to the students at the village school and showed them the matches. At the same time, we provided EV3 training to middle school students and WeDo 2.0 training to primary school students, putting them in experiences they had never had before."
+        "title": "Trường làng Balçık 19 tháng 5 Thư viện",
+        "description": "Dự án xây dựng thư viện ở trường làng và phục vụ giáo dục cho học sinh.",
+        "details": "Với số tiền thu được từ các hội chợ mà chúng tôi tổ chức ở trường và sự hỗ trợ của hiệp hội gia đình trường học, chúng tôi đã xây dựng một thư viện từ đầu ở trường Làng Gebze Balçık với mục đích đưa những cá nhân tiếp xúc với sách ngay từ nhỏ, đọc sách và có trí tưởng tượng phong phú đến với xã hội. Có 1000 cuốn sách đang chờ đọc trong thư viện mà chúng tôi đã tạo ra với sự hỗ trợ của các sinh viên trong nhóm của chúng tôi và các nhóm khác. Ngày 19/5, nhân dịp khai trương thư viện, chúng tôi đã giới thiệu FRC tới các em học sinh trường làng và cho các em xem các trận đấu. Đồng thời, chúng tôi cung cấp đào tạo EV3 cho học sinh cấp hai và đào tạo WeDo 2.0 cho học sinh tiểu học, đưa các em vào những trải nghiệm mà các em chưa từng có trước đây."
       },
       "saveBlue": {
-        "title": "Save The Blue",
-        "description": "Environmental protection project fighting ocean pollution. We protect marine life.",
-        "details": "We developed a project that creates awareness about ocean pollution and offers solution suggestions."
+        "title": "Cứu lấy màu xanh",
+        "description": "Dự án bảo vệ môi trường chống ô nhiễm đại dương. Chúng tôi bảo vệ sinh vật biển.",
+        "details": "Chúng tôi đã phát triển một dự án nhằm nâng cao nhận thức về ô nhiễm đại dương và đưa ra các đề xuất giải pháp."
       },
       "sanalKutuphane": {
-        "title": "Virtual Library",
-        "description": "Accessible library of audio MEB textbooks for visually impaired middle school students.",
-        "details": "In this project, we set up a virtual library of audio MEB books at middle school level to ease the learning process for visually impaired students and support them in their academic lives. This year we first voiced the 5th grade textbooks."
+        "title": "Thư viện ảo",
+        "description": "Thư viện sách giáo khoa MEB âm thanh có thể truy cập dành cho học sinh trung học cơ sở khiếm thị.",
+        "details": "Trong dự án này, chúng tôi đã thiết lập một thư viện ảo gồm sách MEB âm thanh ở cấp trung học cơ sở để tạo điều kiện thuận lợi cho quá trình học tập của học sinh khiếm thị và hỗ trợ các em trong đời sống học tập. Năm nay chúng tôi lần đầu tiên lồng tiếng sách giáo khoa lớp 5."
       },
       "hayatiTasarla": {
-        "title": "Design Your Life",
-        "description": "TinkerCAD training for 6th and 7th graders and an Atatürk–Republic themed design competition.",
-        "details": "When we started this project, our aim was not only to introduce students to areas like STEAM and design but to give them hands-on experience and help them discover their interests in these fields. To that end, after a 3-day TinkerCAD training for 6th and 7th graders, we organized a design competition. During the competition they created TinkerCAD designs themed around Atatürk and the Republic. Thus we provided an environment where they could reinforce what they learned and put it into practice."
+        "title": "Thiết kế cuộc sống của bạn",
+        "description": "Đào tạo TinkerCAD cho học sinh lớp 6 và 7 và cuộc thi thiết kế theo chủ đề Atatürk–Cộng hòa.",
+        "details": "Khi bắt đầu dự án này, mục tiêu của chúng tôi không chỉ là giới thiệu cho sinh viên những lĩnh vực như STEAM và thiết kế mà còn mang đến cho họ trải nghiệm thực tế và giúp họ khám phá sở thích của mình trong những lĩnh vực này. Để đạt được mục tiêu đó, sau 3 ngày đào tạo TinkerCAD cho học sinh lớp 6 và 7, chúng tôi đã tổ chức một cuộc thi thiết kế. Trong cuộc thi, họ đã tạo ra các thiết kế TinkerCAD theo chủ đề xoay quanh Atatürk và Cộng hòa. Vì vậy, chúng tôi đã cung cấp một môi trường nơi họ có thể củng cố những gì đã học và áp dụng nó vào thực tế."
       },
       "reefspeech": {
         "title": "Reefspeech",
-        "description": "Environmental presentations and experiments for 5th graders to build environmental awareness at an early age.",
-        "details": "We organized environmental presentations so that environmental awareness is gained early. We delivered our Reefspeech presentations to 5th grade students, prepared experiments for them to make the sessions more effective, and enabled them to learn while having fun. Through this activity we instilled environmental awareness in students from an early age."
+        "description": "Thuyết trình và thí nghiệm về môi trường cho học sinh lớp 5 nhằm xây dựng nhận thức về môi trường ngay từ nhỏ.",
+        "details": "Chúng tôi tổ chức các buổi thuyết trình về môi trường để sớm đạt được nhận thức về môi trường. Chúng tôi đã trình bày các bài thuyết trình Reefspeech của mình cho các học sinh lớp 5, chuẩn bị các thí nghiệm cho các em để giúp các buổi học hiệu quả hơn và giúp các em vừa học vừa vui vẻ. Thông qua hoạt động này, chúng tôi đã truyền đạt nhận thức về môi trường cho học sinh ngay từ khi còn nhỏ."
       },
       "callisterAi": {
         "title": "Callister AI",
-        "description": "AI assistant that brings FRC teams’ information, documents and code together on one platform.",
-        "details": "Callister AI is an AI solution that brings together the knowledge, documents and code FRC teams produce throughout the season on a single platform. Thanks to the in-team chat space, software, mechanical and strategy teams can communicate regularly and quickly, strengthening coordination. The code snippet library allows tested code to be stored and reused both during the season and in later years. With its RAG infrastructure, the system produces consistent answers based on official documentation and reliable technical sources. Through The Blue Alliance integration, match and team data can be viewed on the platform. Callister AI is not a general-purpose tool but a sustainable, practical in-team assistant that fits the daily workflow of FRC teams. The platform is available at www.callisterai.com, and the Callister AI app is also on Google Play Store for mobile use."
+        "description": "Trợ lý AI tập hợp thông tin, tài liệu và mã của các nhóm FRC trên một nền tảng.",
+        "details": "Callister AI là một giải pháp AI tập hợp kiến ​​thức, tài liệu và mã mà các nhóm FRC tạo ra trong suốt mùa giải trên một nền tảng duy nhất. Nhờ không gian trò chuyện trong nhóm, các nhóm phần mềm, cơ khí và chiến lược có thể liên lạc thường xuyên và nhanh chóng, tăng cường sự phối hợp. Thư viện đoạn mã cho phép lưu trữ và sử dụng lại mã đã kiểm tra cả trong mùa và những năm sau đó. Với cơ sở hạ tầng RAG, hệ thống đưa ra các câu trả lời nhất quán dựa trên tài liệu chính thức và các nguồn kỹ thuật đáng tin cậy. Thông qua tích hợp The Blue Alliance, dữ liệu trận đấu và đội có thể được xem trên nền tảng. Callister AI không phải là một công cụ có mục đích chung mà là một trợ lý thực tế, bền vững trong nhóm, phù hợp với quy trình làm việc hàng ngày của các nhóm FRC. Nền tảng này có sẵn tại www.callisterai.com và ứng dụng Callister AI cũng có trên Google Play Store để sử dụng trên thiết bị di động."
       },
       "yagsl": {
         "title": "YAGSL",
-        "description": "Turkish translation of YAGSL documentation in collaboration with YASS; swerve drive infrastructure.",
-        "details": "As team Callister, we took an important step so that FRC teams in Turkey can have a stronger technical foundation in swerve drive software. As part of our collaboration with YASS, we brought the widely used YAGSL documentation into Turkish. With this work we aimed to create an accessible, clear resource especially for teams new to swerve or who have difficulty following technical documentation in English. YAGSL provides detailed information on critical topics such as module configuration, calibration processes, software architecture and drive control. With the documentation translated into Turkish, teams can adapt to this technical content more quickly and reduce time loss in software development. We aim for our project to contribute to the FRC ecosystem in Turkey by increasing knowledge sharing and supporting teams in building more sustainable, robust software foundations. The YAGSL documentation is accessible via the Callister AI platform."
+        "description": "Bản dịch tài liệu YAGSL bằng tiếng Thổ Nhĩ Kỳ phối hợp với YASS; cơ sở hạ tầng ổ đĩa chuyển hướng.",
+        "details": "Với tư cách là nhóm Callister, chúng tôi đã thực hiện một bước quan trọng để các nhóm FRC ở Thổ Nhĩ Kỳ có thể có nền tảng kỹ thuật vững chắc hơn về phần mềm truyền động chuyển hướng. Là một phần trong sự hợp tác của chúng tôi với YASS, chúng tôi đã đưa tài liệu YAGSL được sử dụng rộng rãi sang tiếng Thổ Nhĩ Kỳ. Với công việc này, chúng tôi mong muốn tạo ra một nguồn tài nguyên rõ ràng, dễ tiếp cận, đặc biệt dành cho các nhóm mới chuyển hướng hoặc những người gặp khó khăn trong việc theo dõi tài liệu kỹ thuật bằng tiếng Anh. YAGSL cung cấp thông tin chi tiết về các chủ đề quan trọng như cấu hình mô-đun, quy trình hiệu chuẩn, kiến ​​trúc phần mềm và điều khiển biến tần. Với tài liệu được dịch sang tiếng Thổ Nhĩ Kỳ, các nhóm có thể thích ứng với nội dung kỹ thuật này nhanh hơn và giảm lãng phí thời gian trong quá trình phát triển phần mềm. Chúng tôi mong muốn dự án của mình sẽ đóng góp cho hệ sinh thái FRC ở Thổ Nhĩ Kỳ bằng cách tăng cường chia sẻ kiến ​​thức và hỗ trợ các nhóm xây dựng nền tảng phần mềm mạnh mẽ, bền vững hơn. Tài liệu YAGSL có thể truy cập được thông qua nền tảng Callister AI."
       },
       "callisterScoutingApp": {
-        "title": "Callister Scouting App",
-        "description": "An app that combines pit scouting, match scouting, and analysis processes for FRC teams on a single platform.",
-        "details": "As team Callister, we developed the Callister Scouting App platform to make FRC teams' scouting processes more organized and practical. Many FRC teams still use pen and paper during competitions, which causes both time loss and inefficiency in the process. In addition, reviewing and interpreting scouting data collected this way later can become quite difficult. To build a strong strategy during regionals, the collected information must be used accurately and systematically. For this reason, we aimed to make the scouting process faster, more accessible, and more sustainable. The application brings pit scouting, match scouting, and analysis processes together on a single platform. In the pit scouting section, technical specifications of teams' robots can be recorded easily; in the match scouting section, data such as in-match performance and autonomous path can be entered quickly. The collected information is visualized with charts and statistics in the app, making it easier to understand. With Callister AI support, teams' strengths and weaknesses can be seen more clearly, and the strategy-building process can be supported. Thanks to The Blue Alliance and FRC Event API integrations, team lists, match schedules, live scores, and rankings can be tracked instantly through the app. Our goal with this project is to make FRC teams' scouting processes more systematic and to help them develop more informed strategies. The platform is accessible via www.callisterscout.com, as well as through Callister AI and the Callister website."
+        "title": "Ứng dụng trinh sát Callister",
+        "description": "Một ứng dụng kết hợp các quy trình trinh sát hố, trinh sát trận đấu và phân tích cho các đội FRC trên một nền tảng duy nhất.",
+        "details": "Với tư cách là nhóm Callister, chúng tôi đã phát triển nền tảng Ứng dụng Hướng đạo Callister để làm cho quy trình trinh sát của các nhóm FRC trở nên có tổ chức và thiết thực hơn. Nhiều đội FRC vẫn sử dụng bút và giấy trong khi thi đấu, điều này gây mất thời gian và kém hiệu quả trong quá trình thi đấu. Ngoài ra, việc xem xét và giải thích dữ liệu trinh sát được thu thập theo cách này sau này có thể trở nên khá khó khăn. Để xây dựng một chiến lược mạnh mẽ trong khu vực, thông tin thu thập được phải được sử dụng một cách chính xác và có hệ thống. Vì lý do này, chúng tôi mong muốn làm cho quá trình trinh sát nhanh hơn, dễ tiếp cận hơn và bền vững hơn. Ứng dụng này kết hợp các quy trình trinh sát hố, trinh sát trận đấu và phân tích trên một nền tảng duy nhất. Trong phần trinh sát hố, có thể dễ dàng ghi lại các thông số kỹ thuật của robot của các đội; trong phần trinh sát trận đấu, dữ liệu như hiệu suất trong trận đấu và đường đi tự động có thể được nhập nhanh chóng. Thông tin thu thập được hiển thị trực quan bằng biểu đồ và số liệu thống kê trong ứng dụng, giúp dễ hiểu hơn. Với sự hỗ trợ của Callister AI, điểm mạnh và điểm yếu của các đội có thể được thấy rõ hơn và quá trình xây dựng chiến lược có thể được hỗ trợ. Nhờ tích hợp API sự kiện của The Blue Alliance và FRC, danh sách đội, lịch thi đấu, tỷ số trực tiếp và thứ hạng có thể được theo dõi ngay lập tức thông qua ứng dụng. Mục tiêu của chúng tôi với dự án này là làm cho quy trình trinh sát của các nhóm FRC trở nên có hệ thống hơn và giúp họ phát triển các chiến lược sáng suốt hơn. Nền tảng này có thể truy cập được thông qua www.callisterscout.com, cũng như thông qua Callister AI và trang web Callister."
       }
     }
   },
   "events": {
-    "title": "Our Events",
-    "subtitle": "Events attended by Callister #9024 FRC Team",
-    "upcoming": "Upcoming Events",
-    "past": "Past Events",
-    "register": "Register",
-    "viewDetails": "View Details",
-    "details": "Details:",
-    "result": "Result:",
+    "title": "Sự kiện của chúng tôi",
+    "subtitle": "Các sự kiện có sự tham gia của Callister #9024 FRC Team",
+    "upcoming": "Sự kiện sắp tới",
+    "past": "Sự kiện trong quá khứ",
+    "register": "Đăng ký",
+    "viewDetails": "Xem chi tiết",
+    "details": "Chi tiết:",
+    "result": "Kết quả:",
     "eventDetails": {
       "frc2026": {
-        "title": "FRC 2026 AGE/REBUILT Season Announcement",
-        "description": "FIRST®️ AGE/REBUILT competition season in Turkey! 6 events in Istanbul, 2 events in Ankara. Will be held at Başakşehir Sports Hall and Turkish Athletics Federation Athletics Hall.",
-        "details": "Istanbul Regional (March 3-5), Bosphorus Regional (March 6-8), Yeditepe Regional (March 9-11), Haliç Regional (March 25-27), Marmara Regional (March 28-30), Avrasya Regional (March 31-April 2), Ankara Regional (April 7-9), Başkent Regional (April 10-12)"
+        "title": "Thông báo về mùa giải AGE/REBUILT FRC 2026",
+        "description": "Mùa thi đấu FIRST®️ AGE/REBUILT ở Thổ Nhĩ Kỳ! 6 sự kiện ở Istanbul, 2 sự kiện ở Ankara. Sẽ được tổ chức tại Nhà thể thao Başakşehir và Nhà thi đấu điền kinh của Liên đoàn điền kinh Thổ Nhĩ Kỳ.",
+        "details": "Vùng Istanbul (3-5 tháng 3), Vùng Bosphorus (6-8 tháng 3), Vùng Yeditepe (9-11 tháng 3), Vùng Haliç (25-27 tháng 3), Vùng Marmara (28-30 tháng 3), Vùng Avrasya (31 tháng 3 - 2 tháng 4), Vùng Ankara (7-9 tháng 4), Vùng Başkent (10-12 tháng 4)"
       },
       "teamFoundation": {
-        "title": "Team Foundation",
-        "description": "Callister #9024 FRC team was established.",
-        "result": "Foundation"
+        "title": "Quỹ đội",
+        "description": "Nhóm Callister #9024 FRC được thành lập.",
+        "result": "Sự thành lập"
       }
     },
     "types": {
-      "competition": "Competition",
-      "festival": "Festival",
-      "project": "Project",
-      "webinar": "Webinar",
-      "foundation": "Foundation"
+      "competition": "Cuộc thi",
+      "festival": "Lễ hội",
+      "project": "Dự án",
+      "webinar": "Hội thảo trên web",
+      "foundation": "Sự thành lập"
     }
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Get in touch with Callister #9024 FRC Team",
+    "title": "Liên hệ",
+    "subtitle": "Hãy liên hệ với Callister #9024 FRC Team",
     "form": {
-      "name": "Full Name",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Message",
-      "namePlaceholder": "Your name and surname",
-      "emailPlaceholder": "example@email.com",
-      "subjectPlaceholder": "Subject of your message",
-      "messagePlaceholder": "Write your message here...",
-      "send": "Send",
-      "sending": "Sending...",
-      "sent": "Message sent!",
-      "error": "An error occurred. Please try again."
+      "name": "Tên đầy đủ",
+      "email": "E-mail",
+      "subject": "Chủ thể",
+      "message": "Tin nhắn",
+      "namePlaceholder": "Tên và họ của bạn",
+      "emailPlaceholder": "ví dụ@email.com",
+      "subjectPlaceholder": "Chủ đề tin nhắn của bạn",
+      "messagePlaceholder": "Viết tin nhắn của bạn ở đây...",
+      "send": "Gửi",
+      "sending": "Đang gửi...",
+      "sent": "Đã gửi tin nhắn!",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
     },
     "info": {
-      "address": "Address",
-      "phone": "Phone",
-      "email": "Email",
-      "social": "Social Media"
+      "address": "Địa chỉ",
+      "phone": "Điện thoại",
+      "email": "E-mail",
+      "social": "Truyền thông xã hội"
     },
-    "address": "Kocaeli, Turkey",
-    "addressLine1": "Gebze Bahçeşehir Fen ve Teknoloji Lisesi",
+    "address": "Kocaeli, Thổ Nhĩ Kỳ",
+    "addressLine1": "Gebze Bahçeşehir Fen và Teknoloji Lisesi",
     "addressLine2": "Kocaeli, Gebze",
     "phone": "+90 (262) XXX XX XX",
     "email": "info@callisterfrc.com",
-    "directMessage": "Send direct message",
-    "visitLocation": "Visit location",
-    "followUs": "Follow us",
-    "quickContact": "Quick Contact",
-    "quickContactDesc": "Fill out the form to get in touch with us",
-    "formCardDesc": "You can send us a message using the form below."
+    "directMessage": "Gửi tin nhắn trực tiếp",
+    "visitLocation": "Tham quan địa điểm",
+    "followUs": "Theo dõi chúng tôi",
+    "quickContact": "Liên hệ nhanh",
+    "quickContactDesc": "Điền vào biểu mẫu để liên hệ với chúng tôi",
+    "formCardDesc": "Bạn có thể gửi tin nhắn cho chúng tôi bằng cách sử dụng mẫu dưới đây."
   },
   "footer": {
-    "description": "We work together for science, technology, and social impact.",
-    "copyright": "© {year} Callister #9024 FRC Team"
+    "description": "Chúng tôi làm việc cùng nhau vì khoa học, công nghệ và tác động xã hội.",
+    "copyright": "© {year} Callister #9024 Đội ngũ FRC"
   },
   "ai": {
     "title": "Callister AI",
-    "subtitle": "AI-Powered FRC Assistant",
-    "description": "Expert support in every field of FRC from robot design to strategy, from mechanics to simulation",
-    "heading": "Future Robotics Assistant",
-    "subheading": "Experience the future of FRC today!",
-    "paragraph1": "Callister AI is a specially developed AI-powered assistant for FRC teams. It provides instant expert support in every field from robot design to strategy, from mechanics to simulation.",
-    "feature1": "24/7 by your side, providing instant answers to your questions.",
-    "feature2": "Analyzes FRC rules and suggests the most effective strategies.",
-    "feature3": "Continuously optimizes your team's performance.",
-    "conclusion": "Callister AI is not just an assistant; it's your strongest teammate on the road to championship!",
-    "button": "Chat with AI Assistant",
+    "subtitle": "Trợ lý FRC được hỗ trợ bởi AI",
+    "description": "Hỗ trợ chuyên môn trong mọi lĩnh vực của FRC từ thiết kế robot đến chiến lược, từ cơ khí đến mô phỏng",
+    "heading": "Trợ lý Robot tương lai",
+    "subheading": "Hãy trải nghiệm tương lai của FRC ngay hôm nay!",
+    "paragraph1": "Callister AI là trợ lý hỗ trợ AI được phát triển đặc biệt dành cho các nhóm FRC. Nó cung cấp sự hỗ trợ tức thì của chuyên gia trong mọi lĩnh vực, từ thiết kế robot đến chiến lược, từ cơ học đến mô phỏng.",
+    "feature1": "24/7 bên cạnh bạn, cung cấp câu trả lời ngay lập tức cho câu hỏi của bạn.",
+    "feature2": "Phân tích các quy tắc FRC và đề xuất các chiến lược hiệu quả nhất.",
+    "feature3": "Liên tục tối ưu hóa hiệu suất của nhóm bạn.",
+    "conclusion": "Callister AI không chỉ là một trợ lý; đó là người đồng đội mạnh nhất của bạn trên con đường tới chức vô địch!",
+    "button": "Trò chuyện với Trợ lý AI",
     "features": {
       "general": {
-        "title": "General FRC",
-        "description": "Comprehensive guidance on robot design, competition rules and general FRC topics"
+        "title": "FRC chung",
+        "description": "Hướng dẫn toàn diện về thiết kế robot, luật thi đấu và các chủ đề chung của FRC"
       },
       "strategy": {
-        "title": "Strategy",
-        "description": "Expertise in game analysis, team coordination and competitive strategies"
+        "title": "Chiến lược",
+        "description": "Chuyên môn về phân tích trò chơi, phối hợp nhóm và chiến lược cạnh tranh"
       },
       "mechanical": {
-        "title": "Mechanical",
-        "description": "Technical support in motor selection, power transmission and mechanical design"
+        "title": "Cơ khí",
+        "description": "Hỗ trợ kỹ thuật trong việc lựa chọn động cơ, truyền lực và thiết kế cơ khí"
       },
       "simulation": {
-        "title": "Simulation",
-        "description": "Guidance on robot simulation, physics engines and test environments"
+        "title": "Mô phỏng",
+        "description": "Hướng dẫn mô phỏng robot, động cơ vật lý và môi trường thử nghiệm"
       }
     }
   },
   "admin": {
-    "title": "Admin Panel",
-    "subtitle": "Edit and manage FRC responses",
-    "warning": "⚠️ This page is for admin users only. Changes are not automatically saved.",
-    "keyLabel": "Key (Question)",
-    "valueLabel": "Value (Answer)",
-    "placeholder": "Write detailed answer...",
-    "addUpdate": "Add / Update",
-    "download": "Download JSON",
-    "reset": "Reset",
-    "currentResponses": "Current Responses",
-    "edit": "Edit",
-    "delete": "Delete",
+    "title": "Bảng quản trị",
+    "subtitle": "Chỉnh sửa và quản lý phản hồi FRC",
+    "warning": "⚠️ Trang này chỉ dành cho người dùng quản trị. Các thay đổi không được lưu tự động.",
+    "keyLabel": "Chìa khóa (Câu hỏi)",
+    "valueLabel": "Giá trị (Trả lời)",
+    "placeholder": "Viết câu trả lời chi tiết...",
+    "addUpdate": "Thêm/Cập nhật",
+    "download": "Tải xuống JSON",
+    "reset": "Cài lại",
+    "currentResponses": "Phản hồi hiện tại",
+    "edit": "Biên tập",
+    "delete": "Xóa bỏ",
     "messages": {
-      "loadError": "Failed to load FRC responses.",
-      "keyEmpty": "Key cannot be empty.",
-      "keySpaces": "Key contains too many spaces.",
-      "keyShort": "Key must be at least 3 characters.",
-      "keyProtected": "'bilinmeyen' key cannot be deleted.",
-      "success": "successfully added/updated.",
-      "deleted": "deleted.",
-      "resetSuccess": "Data reset to default values."
+      "loadError": "Không tải được phản hồi FRC.",
+      "keyEmpty": "Chìa khóa không được để trống.",
+      "keySpaces": "Khóa chứa quá nhiều khoảng trắng.",
+      "keyShort": "Khóa phải có ít nhất 3 ký tự.",
+      "keyProtected": "Không thể xóa khóa 'bilinmeen'.",
+      "success": "đã thêm/cập nhật thành công.",
+      "deleted": "đã xóa.",
+      "resetSuccess": "Đặt lại dữ liệu về giá trị mặc định."
     }
   }
 }

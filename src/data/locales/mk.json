@@ -1,588 +1,588 @@
 {
   "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "notFound": "Page not found",
-    "backToHome": "Back to Home",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "contact": "Contact",
-    "about": "About",
-    "team": "Team",
-    "projects": "Projects",
-    "events": "Events",
-    "awards": "Awards",
-    "sponsors": "Sponsors"
+    "loading": "Се вчитува...",
+    "error": "Се појави грешка",
+    "notFound": "Страницата не е пронајдена",
+    "backToHome": "Назад кон дома",
+    "readMore": "Прочитај повеќе",
+    "viewAll": "Прикажи ги сите",
+    "contact": "Контакт",
+    "about": "За",
+    "team": "Тим",
+    "projects": "Проекти",
+    "events": "Настани",
+    "awards": "Награди",
+    "sponsors": "Спонзори"
   },
   "nav": {
-    "home": "Home",
-    "about": "About",
-    "team": "Team",
-    "projects": "Projects",
-    "foundedTeams": "Teams We Founded",
-    "events": "Events",
-    "awards": "Awards",
-    "sponsors": "Sponsors",
-    "contact": "Contact",
-    "frcAcademy": "FRC Academy"
+    "home": "Дома",
+    "about": "За",
+    "team": "Тим",
+    "projects": "Проекти",
+    "foundedTeams": "Тимови што ги основавме",
+    "events": "Настани",
+    "awards": "Награди",
+    "sponsors": "Спонзори",
+    "contact": "Контакт",
+    "frcAcademy": "FRC академија"
   },
   "foundedTeams": {
-    "title": "Teams We Founded",
-    "subtitle": "Teams we have founded and supported as Callister #9024",
-    "paragraph1": "In the 2023-2024 season we founded the Archers 9523 team. We shared our experience and knowledge with them during their rookie year and supported them through the competition process. We continue to support them this season.",
-    "paragraph2": "Last season we founded the RoboCreators 10549 team of 14 students in Mardin. We gave the team members online design and software training every week. We also held weekly online meetings over Zoom for PR and documentation tasks. We also went to Mardin to provide mechanical training and support during the robot build process.",
-    "paragraph3": "Again in the 2024-2025 season we founded the EagleWarriors 10542 team of 34 members in Kartal. We prepared presentation materials for Kartal from the setup phase and supported the competition process with Fusion 360, Java and mechanical training. We supported the team by building a chassis bot with the materials we had before the season.",
-    "paragraph5": "With the support of the YGA foundation we founded the Con-Science FTC team, made up mostly of students from the earthquake and eastern regions. We provided mentorship to this team of 12 students from 6 different regions of Turkey throughout the season.",
-    "paragraph6": "This season we are leading another new FTC team in Ümraniye. We have passed on the FIRST spirit and necessary FTC knowledge to these students through in-person and online training. We continue to support this team of 7 members in their growth and development."
+    "title": "Тимови што ги основавме",
+    "subtitle": "Тимови што ги основавме и поддржавме како Callister #9024",
+    "paragraph1": "Во сезоната 2023-2024 го основавме тимот Archers 9523. Го споделивме нашето искуство и знаење со нив за време на нивната дебитантска година и ги поддржавме во процесот на натпреварување. Продолжуваме да ги поддржуваме оваа сезона.",
+    "paragraph2": "Минатата сезона го основавме тимот на RoboCreators 10549 од 14 студенти во Мардин. На членовите на тимот им дававме онлајн обука за дизајн и софтвер секоја недела. Одржувавме и неделни онлајн состаноци преку Zoom за задачи за односи со јавноста и документација. Отидовме и во Мардин за да обезбедиме механичка обука и поддршка за време на процесот на градење роботи.",
+    "paragraph3": "Повторно во сезоната 2024-2025 го основавме тимот на EagleWarriors 10542 од 34 членови во Картал. Подготвивме презентациски материјали за Картал од фазата на поставување и го поддржавме процесот на натпреварување со Fusion 360, Java и механичка обука. Го поддржавме тимот со изградба на бот за шасија со материјалите што ги имавме пред сезоната.",
+    "paragraph5": "Со поддршка на фондацијата YGA го основавме тимот на Con-Science FTC, составен претежно од студенти од земјотресите и источните региони. Ние обезбедивме менторство на овој тим од 12 студенти од 6 различни региони на Турција во текот на целата сезона.",
+    "paragraph6": "Оваа сезона водиме уште еден нов тим на ФТЦ во Умраније. На овие студенти им го пренесовме ПРВИОТ дух и неопходното знаење за FTC преку лично и онлајн обука. Ние продолжуваме да го поддржуваме овој тим од 7 членови во нивниот раст и развој."
   },
   "hero": {
-    "title": "Callister",
-    "subtitle": "Imagine, Design, Build, Share!",
-    "description": "A leading FRC team in technology, innovation, and sustainability.",
-    "aboutTeam": "Meet the Team",
-    "viewProjects": "Our Projects",
+    "title": "Калистер",
+    "subtitle": "Замислете, дизајнирајте, градете, споделувајте!",
+    "description": "Водечки тим на FRC во технологијата, иновациите и одржливоста.",
+    "aboutTeam": "Запознајте го тимот",
+    "viewProjects": "Нашите проекти",
     "stats": {
-      "teamMembers": "Team Members",
-      "projects": "Projects",
-      "awards": "Awards"
+      "teamMembers": "Членови на тимот",
+      "projects": "Проекти",
+      "awards": "Награди"
     }
   },
   "frc": {
-    "title": "FIRST Robotics Competition",
-    "subtitle": "International robotics competition for high school students",
-    "whatIs": "What is FRC?",
-    "description1": "FIRST Robotics Competition (FRC) is an international robotics competition for high school students. Students develop engineering, programming, and teamwork skills while solving real-world problems.",
-    "description2": "Each season, teams design and build robots for a specific task within 6 weeks. During competition, teams collaborate (Coopertition) to achieve the best results.",
-    "description3": "FRC's core values are Gracious Professionalism and Coopertition. These values prioritize cooperation and respect even during competition.",
-    "matchImage": "FRC Match Image"
+    "title": "ПРВ натпревар по роботика",
+    "subtitle": "Меѓународен натпревар по роботика за средношколци",
+    "whatIs": "Што е FRC?",
+    "description1": "FIRST Robotics Competition (FRC) е меѓународен натпревар по роботика за средношколци. Студентите развиваат вештини за инженерство, програмирање и тимска работа додека решаваат проблеми од реалниот свет.",
+    "description2": "Секоја сезона, тимовите дизајнираат и градат роботи за одредена задача во рок од 6 недели. За време на натпреварот, тимовите соработуваат (Coopertition) за да постигнат најдобри резултати.",
+    "description3": "Основните вредности на FRC се Благодатниот професионализам и соработка. Овие вредности даваат приоритет на соработката и почитувањето дури и за време на натпреварот.",
+    "matchImage": "Слика за натпревар на FRC"
   },
   "values": {
-    "title": "Our Values",
-    "subtitle": "We work in line with FRC's core values",
+    "title": "Нашите вредности",
+    "subtitle": "Работиме во согласност со основните вредности на FRC",
     "graciousProfessionalism": {
-      "title": "Gracious Professionalism",
-      "description": "We demonstrate respectful and professional behavior"
+      "title": "Благодатен професионализам",
+      "description": "Демонстрираме почит и професионално однесување"
     },
     "coopertition": {
-      "title": "Coopertition",
-      "description": "We collaborate even during competition"
+      "title": "Соработка",
+      "description": "Ние соработуваме дури и за време на натпреварот"
     },
     "innovation": {
-      "title": "Innovation",
-      "description": "We develop creative solutions"
+      "title": "Иновации",
+      "description": "Развиваме креативни решенија"
     },
     "excellence": {
-      "title": "Excellence",
-      "description": "We work to the highest standards"
+      "title": "Извонредност",
+      "description": "Работиме според највисоките стандарди"
     }
   },
   "news": {
-    "title": "Latest News",
-    "subtitle": "Latest updates from our team",
-    "viewAllNews": "View All News",
-    "newsImage": "News Image",
+    "title": "Најнови вести",
+    "subtitle": "Најнови ажурирања од нашиот тим",
+    "viewAllNews": "Прикажи ги сите вести",
+    "newsImage": "Слика од вести",
     "latest": {
-      "title": "FRC 2026 AGE/REBUILT Season Announcement",
-      "date": "March 3, 2026",
-      "excerpt": "FIRST®️ AGE/REBUILT competition season in Turkey! 6 events in Istanbul, 2 in Ankara."
+      "title": "Соопштение за сезоната FRC 2026 AGE/REBUILT",
+      "date": "3 март 2026 година",
+      "excerpt": "FIRST®️ AGE/REBUILT натпреварувачка сезона во Турција! 6 настани во Истанбул, 2 во Анкара."
     }
   },
   "frcAcademySection": {
-    "title": "FRC Academy",
-    "subtitle": "Training platform for teams new to the FRC world",
-    "badge": "Training Platform",
-    "heading": "Training Platform for Rookie Teams",
-    "subheading": "We accompany your FRC journey with our experience!",
-    "paragraph1": "Founded by Archers and Callister, FRC Academy is an educational platform that aims to provide knowledge in various FRC areas such as software, design, mechanics and electronics, especially for rookie teams.",
-    "feature1": "We share the experience we have gained since the beginning with other teams.",
-    "feature2": "We are with you as a technical role model throughout the season.",
-    "feature3": "A community that has reached approximately 450 members and 7 rookie teams.",
-    "conclusion": "Take a solid step into the FRC world with FRC Academy!",
-    "button": "Visit FRC Academy",
+    "title": "FRC академија",
+    "subtitle": "Платформа за обука за тимови нови во светот на FRC",
+    "badge": "Платформа за обука",
+    "heading": "Платформа за обука за дебитант тимови",
+    "subheading": "Ние го придружуваме вашето патување со FRC со нашето искуство!",
+    "paragraph1": "Основана од Archers и Callister, FRC Academy е едукативна платформа која има за цел да обезбеди знаење во различни области на FRC како што се софтвер, дизајн, механика и електроника, особено за дебитант тимови.",
+    "feature1": "Искуството што го стекнавме од почетокот го споделуваме со други тимови.",
+    "feature2": "Ние сме со вас како технички пример во текот на целата сезона.",
+    "feature3": "Заедница која достигна приближно 450 членови и 7 дебитант тимови.",
+    "conclusion": "Направете солиден чекор во светот на FRC со FRC Academy!",
+    "button": "Посетете ја академијата FRC",
     "features": {
       "software": {
-        "title": "Software",
-        "description": "Training on robot control, programming and software architecture"
+        "title": "Софтвер",
+        "description": "Обука за контрола на роботи, програмирање и софтверска архитектура"
       },
       "design": {
-        "title": "Design",
-        "description": "Guidance on CAD, mechanical design and manufacturing processes"
+        "title": "Дизајн",
+        "description": "Насоки за CAD, механички дизајн и производни процеси"
       },
       "mechanical": {
-        "title": "Mechanical",
-        "description": "Support on robot assembly, power transmission and mechanical systems"
+        "title": "Механички",
+        "description": "Поддршка за склопување на роботи, пренос на енергија и механички системи"
       },
       "electronics": {
-        "title": "Electronics",
-        "description": "Knowledge on sensors, wiring and electronics infrastructure"
+        "title": "Електроника",
+        "description": "Познавање на сензори, жици и електроника инфраструктура"
       }
     }
   },
   "sponsors": {
-    "title": "Our Sponsors",
-    "subtitle": "Valuable sponsors supporting Callister #9024 FRC Team",
-    "categories": "Sponsor Categories",
-    "logos": "Sponsor Logos",
-    "packages": "Sponsorship Packages",
-    "sponsorLogo": "Sponsor Logo",
-    "waiting": "Waiting",
+    "title": "Нашите спонзори",
+    "subtitle": "Вредни спонзори кои го поддржуваат тимот на Callister #9024 FRC",
+    "categories": "Категории на спонзори",
+    "logos": "Логоа на спонзори",
+    "packages": "Спонзорски пакети",
+    "sponsorLogo": "Логото на спонзорот",
+    "waiting": "Чекање",
     "descriptions": {
-      "arm": "World leader in microprocessor and software technologies",
-      "boeing": "World's largest aerospace company and leading manufacturer of commercial airplanes",
-      "fikret yüksel": "Foundation supporting FIRST programs in Turkey, helping students develop STEAM skills"
+      "arm": "Светски лидер во микропроцесорски и софтверски технологии",
+      "boeing": "Најголемата воздушна компанија во светот и водечки производител на комерцијални авиони",
+      "fikret yüksel": "Фондацијата ги поддржува програмите FIRST во Турција, помагајќи им на студентите да ги развијат вештините на STEAM"
     },
     "packagesList": {
       "callister": {
-        "name": "Callister Package",
+        "name": "Callister пакет",
         "price": "$15.000+",
         "features": [
-          "Company logo in largest size on the back of the uniform",
-          "Team name is determined according to the company's request",
-          "Right to display promotional materials of the sponsor company in the pit area",
-          "Company name and logo of the sponsor company in first place on all our social media accounts",
-          "Use of company logo in largest size in brochures and presentations",
-          "4 weeks of design, programming, mechanical and STEAM training for children of sponsor company employees",
-          "Company promotion in all social responsibility activities carried out by our team",
-          "Right to shape event names",
-          "Right to make posts using the team name if the sponsor wishes",
-          "Right to speak and advertise at events organized by our team"
+          "Лого на компанијата во најголема големина на задниот дел од униформата",
+          "Името на тимот се одредува според барањето на компанијата",
+          "Право на изложување на промотивни материјали на спонзорската компанија во јамската област",
+          "Името на компанијата и логото на спонзорската компанија се на прво место на сите наши профили на социјалните медиуми",
+          "Употреба на логото на компанијата во најголема големина во брошури и презентации",
+          "4 недели обука за дизајн, програмирање, механичка и STEAM за деца на вработени во спонзорската компанија",
+          "Промоција на компанијата во сите активности за општествена одговорност што ги спроведува нашиот тим",
+          "Право да се обликуваат имињата на настаните",
+          "Право да се прават објави користејќи го името на тимот доколку сака спонзорот",
+          "Право на говор и рекламирање на настани организирани од нашиот тим"
         ]
       },
       "diamond": {
-        "name": "Diamond Package",
+        "name": "Дијамантски пакет",
         "price": "$9.000+",
         "features": [
-          "Company logo in large size on the back of the uniform",
-          "Company name and logo of the sponsor company on all our social media accounts",
-          "Use of company logo in brochures and presentations",
-          "Right to display promotional materials of the sponsor company in the pit area",
-          "Basic company promotion in all social responsibility activities carried out by our team",
-          "4 weeks of free design and programming training for children of sponsor company employees",
-          "Right to make posts using the team name if the sponsor wishes",
-          "Right to participate voluntarily in social responsibility projects of the sponsor company",
-          "Right to speak and advertise at events organized by our team"
+          "Лого на компанијата во големи димензии на задниот дел од униформата",
+          "Името на компанијата и логото на спонзорската компанија на сите наши сметки на социјалните медиуми",
+          "Употреба на логото на компанијата во брошури и презентации",
+          "Право на изложување на промотивни материјали на спонзорската компанија во јамската област",
+          "Основна промоција на компанијата во сите активности за општествена одговорност што ги спроведува нашиот тим",
+          "4 недели бесплатна обука за дизајн и програмирање за деца на вработени во компанијата спонзори",
+          "Право да се прават објави користејќи го името на тимот доколку сака спонзорот",
+          "Право на доброволно учество во проекти за општествена одговорност на спонзорската компанија",
+          "Право на говор и рекламирање на настани организирани од нашиот тим"
         ]
       },
       "gold": {
-        "name": "Gold Package",
-        "price": "$7.000+",
+        "name": "Златен пакет",
+        "price": "+ 7.000 долари",
         "features": [
-          "Company logo in medium size on the back of the uniform",
-          "Company name and logo of the sponsor company on all our social media accounts",
-          "Use of company logo in brochures and presentations",
-          "Right to display promotional materials of the sponsor company in the pit area",
-          "Basic company promotion in all social responsibility activities carried out by our team",
-          "Right to make posts using the team name if the sponsor wishes",
-          "Right to participate voluntarily in social responsibility projects of the sponsor company",
-          "Right to speak and advertise at events organized by our team"
+          "Лого на компанијата со средна големина на задниот дел од униформата",
+          "Името на компанијата и логото на спонзорската компанија на сите наши сметки на социјалните медиуми",
+          "Употреба на логото на компанијата во брошури и презентации",
+          "Право на изложување на промотивни материјали на спонзорската компанија во јамската област",
+          "Основна промоција на компанијата во сите активности за општествена одговорност што ги спроведува нашиот тим",
+          "Право да се прават објави користејќи го името на тимот доколку сака спонзорот",
+          "Право на доброволно учество во проекти за општествена одговорност на спонзорската компанија",
+          "Право на говор и рекламирање на настани организирани од нашиот тим"
         ]
       },
       "silver": {
-        "name": "Silver Package",
-        "price": "$5.000+",
+        "name": "Сребрен пакет",
+        "price": "+ 5.000 долари",
         "features": [
-          "Company logo in small size on the back of the uniform",
-          "Use of company logo in brochures and presentations",
-          "Special thanks on social media and our website",
-          "Right to make posts using the team name if the sponsor wishes"
+          "Лого на компанијата во мала големина на задниот дел од униформата",
+          "Употреба на логото на компанијата во брошури и презентации",
+          "Посебна благодарност на социјалните медиуми и нашата веб-страница",
+          "Право да се прават објави користејќи го името на тимот доколку сака спонзорот"
         ]
       },
       "bronze": {
-        "name": "Bronze Package",
-        "price": "$3.000+",
+        "name": "Бронзено пакување",
+        "price": "+ 3.000 долари",
         "features": [
-          "Company logo in small size on the back of the uniform",
-          "Use of company logo in brochures and presentations",
-          "Special thanks on social media and our website"
+          "Лого на компанијата во мала големина на задниот дел од униформата",
+          "Употреба на логото на компанијата во брошури и презентации",
+          "Посебна благодарност на социјалните медиуми и нашата веб-страница"
         ]
       }
     }
   },
   "awards": {
-    "title": "Our Awards",
-    "subtitle": "Awards and achievements won by Callister #9024 FRC Team",
-    "competitionList": "Competition List:",
+    "title": "Нашите награди",
+    "subtitle": "Награди и достигнувања освоени од Callister #9024 FRC Team",
+    "competitionList": "Список на натпревари:",
     "table": {
-      "year": "Year",
-      "event": "Event",
-      "awards": "Awards"
+      "year": "година",
+      "event": "Настан",
+      "awards": "Награди"
     },
     "awardDetails": {
       "regionalFinalists": {
-        "name": "Regional Finalists",
-        "description": "Awarded to honor the alliance that reaches the final matches in a regional tournament and comes in second place. It symbolizes the team's strategic gameplay, field coordination, and performance throughout the tournament."
+        "name": "Регионални финалисти",
+        "description": "Доделена во чест на сојузот кој стигнува до финалните натпревари на регионален турнир и доаѓа на второто место. Тоа ја симболизира стратешката игра на тимот, координацијата на теренот и перформансите во текот на турнирот."
       },
       "innovationInControl": {
-        "name": "Innovation in Control Award",
-        "description": "Awarded to teams that develop innovative and effective solutions in robot control systems. It rewards creativity in sensor usage, software algorithms, driver interface, or control architecture."
+        "name": "Награда за иновации во контролата",
+        "description": "Доделено на тимови кои развиваат иновативни и ефективни решенија во системи за контрола на роботи. Ја наградува креативноста во користењето на сензорите, софтверските алгоритми, интерфејсот на возачот или архитектурата на контролата."
       },
       "graciousProfessionalism": {
-        "name": "Gracious Professionalism Award",
-        "description": "Honors teams that demonstrate kind, respectful, helpful, and collaborative attitudes throughout the competition. It is given to teams that best reflect one of FIRST's core values: \"Gracious Professionalism®\"."
+        "name": "Награда за милостив професионализам",
+        "description": "Ги почестува тимовите кои покажуваат љубезни, почитувани, корисни и соработнички ставови во текот на натпреварот. Се дава на тимови кои најдобро ја одразуваат една од основните вредности на FIRST: „Gracious Professionalism®“."
       },
       "highestRookieSeed": {
-        "name": "Highest Rookie Seed",
-        "description": "Awarded to teams that complete elimination matches with the highest ranking among rookie teams. It shows a team's strong field performance and strategic success in their first year."
+        "name": "Највисоко семе за дебитант",
+        "description": "Се доделува на тимови кои завршуваат елиминациски натпревари со највисок пласман меѓу дебитантските тимови. Тоа ги покажува силните теренски перформанси и стратешкиот успех на тимот во првата година."
       },
       "judgesAward": {
-        "name": "Judges' Award",
-        "description": "Awarded to teams that impress the jury with their unique achievements, special stories, or remarkable approaches, even if they don't fully fit into official categories."
+        "name": "Награда на судии",
+        "description": "Доделено на тимови кои го импресионираат жирито со нивните уникатни достигнувања, специјални приказни или извонредни пристапи, дури и ако тие целосно не се вклопуваат во официјалните категории."
       }
     },
     "eventNames": {
-      "milsteinDivision": "Milstein Division",
-      "ankaraRegional": "Ankara Regional",
-      "cezeriRobotLigi": "Cezeri Robot League Ümraniye Robotics Competition",
-      "bosphorusRegional": "Bosphorus Regional",
-      "istanbulRegional": "Istanbul Regional",
-      "halicRegional": "Halic Regional"
+      "milsteinDivision": "Дивизија Милштајн",
+      "ankaraRegional": "Регионална Анкара",
+      "cezeriRobotLigi": "Cezeri Robot League Ümraniye Натпревар за роботика",
+      "bosphorusRegional": "Регионален Босфор",
+      "istanbulRegional": "Регионален Истанбул",
+      "halicRegional": "Регионален Халиќ"
     }
   },
   "about": {
-    "title": "Who Are We?",
-    "subtitle": "The story, vision, and social impact of Callister #9024 FRC Team",
+    "title": "Кои сме ние?",
+    "subtitle": "Приказната, визијата и социјалното влијание на тимот на Callister #9024 FRC",
     "stats": {
-      "foundedDate": "Founded Date",
-      "teamMembers": "Team Members",
-      "awards": "Awards",
-      "projects": "Projects"
+      "foundedDate": "Датум на основање",
+      "teamMembers": "Членови на тимот",
+      "awards": "Награди",
+      "projects": "Проекти"
     },
     "content": {
-      "whoWeAre": "Who Are We?",
-      "foundedDate": "May 19, 2022",
-      "teamSize": "25 students and 1 mentor",
-      "signature": "Best regards, Callister #9024 FRC Team",
-      "paragraph1": "As the Callister #9024 FRC team, founded on May 19, 2022, we set out with the goal of training future leaders in science, technology, engineering, art, and mathematics (STEAM) fields. With our strong team of 25 students and 1 mentor, we have made it our mission not only to build robots but also to contribute to society through social responsibility and awareness-focused projects. Each member of our team stands out not only with their technical competencies but also with their sensitivity, team spirit, entrepreneurship, and visionary approach.",
-      "paragraph2": "Our mission is to inspire all segments of society as individuals who have internalized FIRST principles, to spread STEAM culture, and to lead others on this path. Our vision is to represent our country in the best way possible on national and international platforms, to contribute to both individual and social development, and to work for a sustainable world with projects that make a difference. In this direction, every work we carry out as a team is not just competition-focused but strategic steps aimed at creating a broader impact area.",
-      "paragraph3": "With the projects we have implemented so far, we have inspired both children and adults. For example, within the scope of our \"Window\" project, we went to village schools and provided EV3 training. We enabled children to showcase not only their technical skills but also their creativity.",
-      "paragraph4": "While highlighting the role of women in the art world with the \"Spirit of Women in Art\" webinar series, we also started a project this year to inspire girls. Within the scope of our collaboration with KEV, we held a seminar on May 13th with our \"Strong Women, Strong Tomorrows\" project; we brought young girls together with successful women in the business world. Thanks to this event, young girls had the opportunity to learn about different career fields and gained the opportunity to develop themselves and increase their motivation.",
-      "paragraph5": "With our \"Turtle Museum\" project, we aimed to increase environmental awareness; we also opened an exhibition where we created works from recycled materials to raise awareness about the problems that turtles and other marine creatures face in their habitats in various schools. The purpose of our exhibition was to show what kind of waste exists in our seas, to create awareness against global warming, and to educate people.",
-      "paragraph6": "As Callister, with our \"Save The Blue\" project, our team removed a ghost net from the sea in the Gulf of İzmit to reduce the damage that ghost nets cause to marine life and carried out underwater waste collection activities. Ghost nets cause marine creatures to get entangled and injured or die, damage underwater structures such as coral reefs, and cause microplastic pollution. With our work, we took a step towards protecting marine life and aimed to create environmental awareness. With this project, we contributed to the \"Ghost Nets\" project organized by the Ministry of Agriculture and Forestry and Kocaeli Metropolitan Municipality.",
-      "paragraph7": "With our project called \"Eco Footprint\", we drew attention to carbon footprint, strengthened both environmental awareness and social participation with beach cleaning events. Additionally, with projects such as the \"Mini Brick Symphony\" competition, \"Climate Museum\" project, \"New Access Icon\", we showed that we are active world citizens by addressing universal issues such as social justice, equality, environment, and sustainability. Our \"Ecoquake\" project, which we started to create earthquake awareness, is also one of the important steps we took to raise awareness in society.",
-      "paragraph8": "We have always believed that the biggest impact we can create is to pass on what we know and our experiences to others correctly and powerfully. As Callister, we created an innovative website project to support young engineers and software developers. Our project \"FRC Academy\", which emerged from this thought, is actually a platform where all the knowledge and experiences our team has gained since May 19, 2022, come together. Within the scope of this project, we provided teams and students who are taking their first steps into the FRC world with the opportunity to develop their skills in design, software, mechanics, and electronics. As Callister, our goal is to pass on our experiences and draw the right path for those who come after us.",
-      "paragraph9": "Many awards we have won:",
+      "whoWeAre": "Кои сме ние?",
+      "foundedDate": "19 мај 2022 година",
+      "teamSize": "25 ученици и 1 ментор",
+      "signature": "Со почит, Callister #9024 FRC тим",
+      "paragraph1": "Како тим Callister #9024 FRC, основан на 19 мај 2022 година, тргнавме со цел да ги обучиме идните лидери во областите на науката, технологијата, инженерството, уметноста и математиката (STEAM). Со нашиот силен тим од 25 студенти и 1 ментор, ја направивме наша мисија не само да изградиме роботи, туку и да придонесеме за општеството преку проекти насочени кон општествена одговорност и свест. Секој член на нашиот тим се издвојува не само со своите технички компетенции туку и со нивната чувствителност, тимски дух, претприемништво и визионерски пристап.",
+      "paragraph2": "Нашата мисија е да ги инспирираме сите сегменти од општеството како поединци кои ги интернализирале ПРВИТЕ принципи, да ја шириме STEAM културата и да ги водиме другите на овој пат. Нашата визија е да ја претставуваме нашата земја на најдобар можен начин на национални и меѓународни платформи, да придонесеме и за индивидуалниот и социјалниот развој и да работиме за одржлив свет со проекти кои прават разлика. Во оваа насока, секоја работа што ја извршуваме како тим не е само фокусирана на конкуренцијата, туку стратешки чекори насочени кон создавање поширока област со влијание.",
+      "paragraph3": "Со проектите што ги реализиравме досега ги инспириравме и децата и возрасните. На пример, во рамките на нашиот проект „Прозорец“, отидовме во селските училишта и обезбедивме обука за ЕВ3. Им овозможивме на децата да ги покажат не само своите технички вештини, туку и нивната креативност.",
+      "paragraph4": "И покрај тоа што ја истакнавме улогата на жената во светот на уметноста со серијата вебинари „Духот на жените во уметноста“, оваа година започнавме и проект за инспирација на девојките. Во рамките на нашата соработка со КЕВ, на 13 мај одржавме семинар со нашиот проект „Силни жени, силни утре“; Собравме млади девојки со успешни жени во светот на бизнисот. Благодарение на овој настан, младите девојки имаа можност да научат за различни полиња во кариерата и добија можност да се развиваат и да ја зголемат својата мотивација.",
+      "paragraph5": "Со нашиот проект „Музеј на желки“ имавме за цел да ја зголемиме еколошката свест; отворивме и изложба каде создадовме дела од рециклирани материјали за да ја подигнеме свеста за проблемите со кои се соочуваат желките и другите морски суштества во нивните живеалишта во различни училишта. Целта на нашата изложба беше да покажеме каков отпад постои во нашите мориња, да создадеме свест против глобалното затоплување и да ги едуцираме луѓето.",
+      "paragraph6": "Како Callister, со нашиот проект „Save The Blue“, нашиот тим отстрани мрежа на духови од морето во Заливот Измит за да ја намали штетата што ја предизвикуваат мрежите на духови на морскиот свет и изврши активности за подводно собирање отпад. Мрежите на духови предизвикуваат морските суштества да се заплеткуваат и повредени или умираат, да ги оштетат подводните структури како коралните гребени и да предизвикаат микропластично загадување. Со нашата работа направивме чекор кон заштита на морскиот свет и имавме за цел да создадеме еколошка свест. Со овој проект придонесовме во проектот „Мрежи на духови“ организиран од Министерството за земјоделство и шумарство и општина Коџаели.",
+      "paragraph7": "Со нашиот проект наречен „Еко отпечаток“, го свртевме вниманието на јаглеродниот отпечаток, ја зајакнавме и еколошката свест и социјалното учество со настани за чистење на плажите. Дополнително, со проектите како што се натпреварот „Мини симфонија од тули“, проектот „Климатски музеј“, „Икона за нов пристап“, покажавме дека сме активни граѓани на светот преку решавање на универзалните прашања како што се социјалната правда, еднаквоста, животната средина и одржливоста. Нашиот проект „Екоземјотрес“, со кој започнавме да создаваме свест за земјотресот, е исто така еден од важните чекори што ги презедовме за подигање на свеста во општеството.",
+      "paragraph8": "Отсекогаш сме верувале дека најголемото влијание што можеме да го создадеме е правилно и моќно да им го пренесеме она што го знаеме и нашите искуства на другите. Како Callister, создадовме иновативен проект за веб-локација за поддршка на младите инженери и развивачи на софтвер. Нашиот проект „ФРЦ Академија“, кој произлезе од оваа мисла, е всушност платформа на која се спојуваат сите знаења и искуства што нашиот тим ги стекна од 19 мај 2022 година. Во рамките на овој проект, на тимовите и студентите кои ги прават своите први чекори во светот на FRC им обезбедивме можност да ги развијат своите вештини во дизајн, софтвер, механика и електроника. Како Калистер, нашата цел е да ги пренесеме нашите искуства и да го извлечеме вистинскиот пат за оние кои доаѓаат по нас.",
+      "paragraph9": "Добивме многу награди:",
       "awardsList": [
-        "Highest Rookie Seed Award",
-        "Judges' Award",
-        "Rookie Inspiration Award",
-        "Rookie All-Star Award",
-        "Gracious Professionalism Award"
+        "Највисока награда за семе за дебитант",
+        "Награда на судии",
+        "Награда за инспирација за дебитант",
+        "Дебитант Ол-стар награда",
+        "Награда за милостив професионализам"
       ],
-      "paragraph10": "These awards show that we are not just a competitive team but an ecosystem that learns, teaches, and shares. As Callister, we aim to go beyond competition to solidarity, beyond learning to teaching, beyond success to creating impact.",
-      "paragraph11": "While writing this letter, our desire was to explain that we are not just a competition team but also a transformation movement. With your company's support, we can reach bigger dreams together. Because we are a team that wants to design the future, questions boundaries, and works to change them."
+      "paragraph10": "Овие награди покажуваат дека ние не сме само конкурентен тим, туку екосистем кој учи, учи и споделува. Како Callister, имаме за цел да одиме подалеку од конкуренцијата до солидарност, надвор од учењето до наставата, над успехот до создавањето влијание.",
+      "paragraph11": "Додека го пишувавме ова писмо, нашата желба беше да објасниме дека не сме само натпреварувачки тим, туку и движење за трансформација. Со поддршка на вашата компанија, можеме заедно да постигнеме поголеми соништа. Затоа што ние сме тим кој сака да ја дизајнира иднината, ги доведува во прашање границите и работи на нивно менување."
     }
   },
   "team": {
-    "title": "Our Team",
-    "subtitle": "Valuable members of Callister #9024 FRC Team",
+    "title": "Нашиот тим",
+    "subtitle": "Вредни членови на тимот на Callister #9024 FRC",
     "modal": {
-      "role": "Role:",
-      "department": "Department:",
-      "description": "Description:"
+      "role": "Улога:",
+      "department": "Одделение:",
+      "description": "Опис:"
     },
     "roles": {
-      "mentor": "Mentor",
-      "softwareDeveloper": "Software Developer",
-      "teamCaptain": "Team Captain",
-      "mechanical": "Mechanical",
-      "socialMediaManager": "Social Media Manager",
-      "designer": "Designer",
-      "softwareDeveloperAndTeamCaptain": "Software Developer and Team Captain",
-      "teamCaptainAndMechanical": "Team Captain and Mechanical",
-      "softwareCaptain": "Software Captain",
-      "mechanicalCaptain": "Mechanical Captain",
-      "designCaptain": "Design Captain",
-      "designAndSoftwareDeveloper": "Design and Software Developer"
+      "mentor": "Ментор",
+      "softwareDeveloper": "Развивач на софтвер",
+      "teamCaptain": "Капитен на тимот",
+      "mechanical": "Механички",
+      "socialMediaManager": "Менаџер за социјални медиуми",
+      "designer": "Дизајнер",
+      "softwareDeveloperAndTeamCaptain": "Развивач на софтвер и капетан на тимот",
+      "teamCaptainAndMechanical": "Тимски капитен и механичар",
+      "softwareCaptain": "Капетан на софтвер",
+      "mechanicalCaptain": "Механички капетан",
+      "designCaptain": "Капетан за дизајн",
+      "designAndSoftwareDeveloper": "Дизајн и развивач на софтвер"
     },
     "departments": {
-      "mentor": "Mentor",
-      "mechanical": "Mechanical",
-      "software": "Software",
-      "design": "Design",
-      "media": "Media"
+      "mentor": "Ментор",
+      "mechanical": "Механички",
+      "software": "Софтвер",
+      "design": "Дизајн",
+      "media": "Медиуми"
     },
     "descriptions": {
-      "mentor": "Team mentor and technical advisor.",
-      "softwareDeveloper": "Robot control systems and software development.",
-      "teamCaptain": "Team captain and responsible for software development.",
-      "mechanical": "Responsible for robot mechanical design and production processes.",
-      "socialMediaManager": "Social media management and content production.",
-      "designer": "Robot and graphic design.",
-      "softwareDeveloperAndTeamCaptain": "Team captain and responsible for software development.",
-      "teamCaptainAndMechanical": "Team captain and responsible for mechanical systems.",
-      "designAndSoftwareDeveloper": "Robot design and software development.",
-      "robotAssembly": "Robot assembly and mechanical systems.",
-      "teamCaptainShort": "Team captain.",
-      "softwareCaptainDesc": "Software captain and responsible for software development.",
-      "mechanicalCaptainDesc": "Mechanical captain and responsible for mechanical systems.",
-      "teamCaptainAndSoftware": "Team captain; also a member of the software team.",
-      "designCaptainDesc": "Design captain; responsible for robot and graphic design."
+      "mentor": "Тимски ментор и технички советник.",
+      "softwareDeveloper": "Системи за контрола на роботи и развој на софтвер.",
+      "teamCaptain": "Капитен на тимот и одговорен за развој на софтвер.",
+      "mechanical": "Одговорен за механички дизајн и производствени процеси на робот.",
+      "socialMediaManager": "Управување со социјалните медиуми и производство на содржина.",
+      "designer": "Робот и графички дизајн.",
+      "softwareDeveloperAndTeamCaptain": "Капитен на тимот и одговорен за развој на софтвер.",
+      "teamCaptainAndMechanical": "Капитен на тимот и одговорен за механички системи.",
+      "designAndSoftwareDeveloper": "Дизајн на роботи и развој на софтвер.",
+      "robotAssembly": "Монтажа на роботи и механички системи.",
+      "teamCaptainShort": "Капитен на тимот.",
+      "softwareCaptainDesc": "Капетан на софтвер и одговорен за развој на софтвер.",
+      "mechanicalCaptainDesc": "Механички капетан и одговорен за механички системи.",
+      "teamCaptainAndSoftware": "капитен на тимот; исто така член на софтверскиот тим.",
+      "designCaptainDesc": "Дизајн капетан; одговорен за робот и графички дизајн."
     }
   },
   "projects": {
-    "title": "Our Projects",
-    "subtitle": "Projects implemented by Callister #9024 FRC Team",
-    "viewProject": "View Project",
-    "siteButton": "Go to site",
-    "category": "Category",
-    "status": "Status",
-    "completed": "Completed",
-    "ongoing": "Ongoing",
-    "planned": "Planned",
-    "all": "All",
-    "education": "Education",
-    "environment": "Environment",
-    "social": "Social",
-    "technology": "Technology",
-    "culture": "Culture",
+    "title": "Нашите проекти",
+    "subtitle": "Проекти имплементирани од Callister #9024 FRC Team",
+    "viewProject": "Прикажи го проектот",
+    "siteButton": "Одете на страницата",
+    "category": "Категорија",
+    "status": "Статус",
+    "completed": "Завршено",
+    "ongoing": "Во тек",
+    "planned": "Планирано",
+    "all": "Сите",
+    "education": "Образование",
+    "environment": "Животна средина",
+    "social": "Социјални",
+    "technology": "Технологија",
+    "culture": "Култура",
     "donations": {
-      "title": "Donations We Made",
-      "paragraph1": "As team Callister, we carried out a social responsibility project for students at 11 village schools in Hakkari, Şırnak and Hatay during the 2025–2026 academic year semester break. So that the cold and harsh weather conditions that intensify in winter do not negatively affect students' daily lives and education, coat and boot aid as well as test books were collected by our members and delivered to the relevant provinces.",
-      "paragraph2": "As a team, on January 2 we provided 50 pairs of boots and 50 coats to Şehit Raşit Ercan Primary and Secondary School in Elâzığ. In this project we aimed to meet the needs of children in insufficient financial circumstances and support them. On January 19 we set up a computer lab with 10 computers at the same school, Şehit Raşit Ercan Primary and Secondary School.",
-      "paragraph3": "As a team we opened a library at İstasyon Primary School in the Karatepe area of Kocaeli and carried out a social responsibility project. Within this project a lasting learning environment was created where students can access information more easily and which supports their education.",
-      "paragraph4": "On 14.02.2026, as team Callister we had a water well built at Encemine Orphanage in an arid region of Chad, Africa. With this project we aimed to support African children's access to clean water, a basic need, and to draw attention to food shortage and drought in the region. Thanks to this well, approximately 150 people will be able to access clean, safe water regularly. The well was planned for long-term use and built to be able to supply safe water for about 60 years. As team Callister we continue to aim to contribute to people's quality of life and raise awareness by acting with a sense of social responsibility.",
-      "paragraph5": "During this Ramadan, as team Callister we carried out a food distribution for families in need in order to keep alive the spirit of solidarity and sharing."
+      "title": "Донации што ги направивме",
+      "paragraph1": "Како тим Калистер, спроведовме проект за општествена одговорност за учениците од 11 селски училишта во Хакари, Ширнак и Хатај за време на паузата за семестар од учебната 2025-2026 година. За студените и суровите временски услови кои се интензивираат во зима да не влијаат негативно на секојдневниот живот и образованието на учениците, нашите членови собраа помош за палто и чизми, како и тест книги и беа доставени до соодветните провинции.",
+      "paragraph2": "Како тим, на 2 јануари обезбедивме 50 пара чизми и 50 палта на основното и средното училиште Шехит Рашит Ерџан во Елазиг. Во овој проект имавме за цел да им излеземе во пресрет на децата во недоволни финансиски услови и да ги поддржиме. На 19 јануари поставивме компјутерска лабораторија со 10 компјутери во истото училиште, основното и средното училиште Шехит Рашит Ерџан.",
+      "paragraph3": "Како тим отворивме библиотека во основното училиште „Истасион“ во областа Каратепе во Коџаели и спроведовме проект за општествена одговорност. Во рамките на овој проект беше создадена трајна средина за учење каде што учениците можат полесно да пристапат до информации и што го поддржува нивното образование.",
+      "paragraph4": "На 14.02.2026 година, како тим Калистер изградивме бунар за вода во сиропиталиштето Encemine во сушен регион на Чад, Африка. Со овој проект имавме за цел да го поддржиме пристапот на африканските деца до чиста вода, основна потреба, и да привлечеме внимание на недостигот на храна и сушата во регионот. Благодарение на овој бунар, приближно 150 луѓе ќе можат редовно да пристапуваат до чиста, безбедна вода. Бунарот беше планиран за долгорочна употреба и изграден за да може да снабдува безбедна вода околу 60 години. Како тим Callister, ние продолжуваме да се стремиме да придонесеме за квалитетот на животот на луѓето и да ја подигнеме свеста преку делување со чувство на општествена одговорност.",
+      "paragraph5": "За време на овој Рамазан, како тим Калистер извршивме дистрибуција на храна за семејствата кои имаат потреба, со цел да го одржиме жив духот на солидарноста и споделувањето."
     },
     "kermes": {
-      "title": "Kermes We Organized",
-      "paragraph1": "With the income from the kermes events we organized as team Callister, we covered the surgery costs of our beloved school dog Beethoven, who had health problems, and took charge of his treatment. Through this social responsibility work we aimed not only to contribute to improving a living being's quality of life but also to strengthen as a team the values of helping one another, taking responsibility, and social sensitivity.",
-      "paragraph2": "As a team we organized a kermes in cooperation with Kurtköy Bahçeşehir School Family Association. Within this kermes we sold school supplies, various toys and other products, aiming both to strengthen the spirit of solidarity and to contribute to our social responsibility project. We donated the 120,000 TL income from the kermes to AÇEV to support children's education. As team Callister we aim to continue contributing to society and supporting education through such social responsibility projects.",
-      "paragraph3": "At the Ümraniye Bahçeşehir College Cookie Day event we organized together with our FTC team TECHMASTERS, we aimed to instill in young children the values of unity, solidarity, sharing and helping. With the income from the sales at the event we purchased stationery and donated it to a village school in Ardahan. With this project we aimed both to support a culture of solidarity and to draw attention to the importance of social values such as unity, solidarity and helping one another."
+      "title": "Кермес Ние организиравме",
+      "paragraph1": "Со приходите од кермес настаните што ги организиравме како тим Калистер, ги покривавме трошоците за операција на нашето сакано училишно куче Бетовен, кое имаше здравствени проблеми, и го презедовме неговото лекување. Преку оваа работа за општествена одговорност имавме за цел не само да придонесеме за подобрување на квалитетот на животот на живото суштество, туку и да ги зајакнеме како тим вредностите на меѓусебно помагање, преземање одговорност и социјална чувствителност.",
+      "paragraph2": "Како тим организиравме кермес во соработка со Здружението на училишното семејство Курткој Бахчешехир. Во рамките на овој кермес продававме училишен прибор, разни играчки и други производи, со цел да го зајакнеме духот на солидарноста и да придонесеме за нашиот проект за општествена одговорност. Приходите од 120.000 TL од кермесите ги дониравме на AÇEV за поддршка на образованието на децата. Како тим Callister имаме за цел да продолжиме да придонесуваме за општеството и да го поддржуваме образованието преку вакви проекти за општествена одговорност.",
+      "paragraph3": "На настанот Ümraniye Bahçeşehir College Cookie Day што го организиравме заедно со нашиот тим FTC TECHMASTERS, имавме за цел да ги всадиме кај малите деца вредностите на единство, солидарност, споделување и помагање. Со приходите од продажбата на настанот купивме канцелариски материјал и го дониравме на селското училиште во Ардахан. Со овој проект имавме за цел и да ја поддржиме културата на солидарност и да привлечеме внимание на важноста на општествените вредности како што се единството, солидарноста и меѓусебното помагање."
     },
     "projectDetails": {
       "pencere": {
-        "title": "Window",
-        "description": "EV3 training project in village schools. We provide students with robotics and coding skills.",
-        "details": "Following our motto \"We must open new windows to a better future,\" we aim to inspire primary school children and make STEM accessible to everyone. Within this scope, we started our Window project in 2022 and each year we visit 4 different village schools to provide STEM and EV3 training to the children there. After our training, we help children program the robots they build from Legos according to \"drawing pictures\" and \"playing music\" features, and through various software lessons we support them in gaining new skills. By enabling children to discover their artistic sides alongside technical areas to develop their multifaceted skills, we have reached over 8,000 students in the last 4 years."
+        "title": "Прозорец",
+        "description": "Проект за обука на ЕВ3 во селските училишта. Ние им нудиме на студентите вештини за роботика и кодирање.",
+        "details": "Следејќи го нашето мото „Мораме да отвориме нови прозорци кон подобра иднина“, имаме за цел да ги инспирираме децата од основните училишта и да го направиме STEM достапен за секого. Во овој опсег, го започнавме нашиот проект Window во 2022 година и секоја година посетуваме 4 различни селски училишта за да обезбедиме обука за СТЕМ и ЕВ3 на децата таму. По нашиот тренинг, им помагаме на децата да ги програмираат роботите што ги градат од Легос според карактеристиките „цртање слики“ и „пуштање музика“, а преку разни софтверски лекции ги поддржуваме во стекнување нови вештини. Овозможувајќи им на децата да ги откријат своите уметнички страни заедно со техничките области за да ги развијат своите повеќеслојни вештини, стигнавме до над 8.000 ученици во последните 4 години."
       },
       "sanatKadin": {
-        "title": "Spirit of Women in Art",
-        "description": "Webinar series introducing works of women artists. Events combining art and technology.",
-        "details": "In our webinar series called \"Spirit of Women in Art\", our aim is: To address the role and achievements of women in art, to draw attention to gender inequality in art, and to get to know our participating guests more closely and have a conversation by asking them questions. We emphasize that FRC is more than building robots, that art is also a part of life, and we start this project where we will witness women's success in art up close by saying \"A society without women is a society without tomorrow.\""
+        "title": "Духот на жената во уметноста",
+        "description": "Серија на вебинари во која се претставени дела на жени уметнички. Настани кои комбинираат уметност и технологија.",
+        "details": "Во нашата серија вебинари наречена „Духот на жените во уметноста“, нашата цел е: да се осврнеме на улогата и достигнувањата на жените во уметноста, да привлечеме внимание на родовата нееднаквост во уметноста и поблиску да ги запознаеме нашите гости-учеснички и да разговараме поставувајќи им прашања. Нагласуваме дека FRC е повеќе од градење роботи, дека уметноста е исто така дел од животот и го започнуваме овој проект каде одблиску ќе бидеме сведоци на женскиот успех во уметноста со тоа што ќе кажеме „Општество без жени е општество без утре“."
       },
       "gucluKadinlar": {
-        "title": "Strong Women, Strong Tomorrows",
-        "description": "Women's empowerment project in collaboration with KEV. We increase women's participation in STEM fields.",
-        "details": "We develop projects that enable women to take a more active role in STEM fields through collaboration with KEV."
+        "title": "Силни жени, силни утре",
+        "description": "Проект за зајакнување на жените во соработка со КЕВ. Го зголемуваме учеството на жените во СТЕМ полињата.",
+        "details": "Развиваме проекти кои им овозможуваат на жените да преземат поактивна улога во СТЕМ полињата преку соработка со КЕВ."
       },
       "kaplumbaga": {
-        "title": "Turtle Museum",
-        "description": "Digital museum project creating awareness for the protection of sea turtles.",
-        "details": "Within the scope of this project, we hosted 8th grade students who visited our school. Our visit to DEKAMER at İztuzu Beach in recent months made us think about what else we could do to create awareness, and we created an exhibition called \"Turtle Museum\" at our school, displaying the life journey of Caretta Carettas from hatching to adulthood. In this project, which we undertook with the basic purpose of drawing attention to the sea turtle species under the threat of extinction and creating awareness, we explained in detail the measures to be taken and the road maps to be followed in our presentation, and as a result of this project, we created awareness among the students who came to our school."
+        "title": "Музеј на желки",
+        "description": "Проект за дигитален музеј кој создава свест за заштита на морските желки.",
+        "details": "Во рамките на овој проект бевме домаќини на ученици од 8-мо одделение кои го посетија нашето училиште. Нашата посета на ДЕКАМЕР на плажата Изтузу во последниве месеци не натера да размислиме што друго би можеле да направиме за да создадеме свесност, и создадовме изложба наречена „Музеј на желки“ во нашето училиште, прикажувајќи го животното патување на Карета Карета од шрафирање до зрелоста. Во овој проект, кој го презедовме со основна цел да привлечеме внимание на видовите морски желки кои се под закана од исчезнување и да се подигне свеста, детално ги објаснивме мерките што треба да се преземат и патоказите што треба да се следат при нашата презентација, а како резултат на овој проект, создадовме свест кај учениците кои дојдоа во нашето училиште."
       },
       "iztuzu": {
-        "title": "İztuzu Project",
-        "description": "Visit project to the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection.",
-        "details": "We visited the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection. Here we learned new information about sea turtles and helped treat injured turtles. We also provided financial support by purchasing souvenirs. It was a trip that opened our horizons and increased our awareness about the environment in the projects we will implement together in the upcoming season."
+        "title": "Проект İztuzu",
+        "description": "Посетете го проектот на Центарот за истражување, спасување и рехабилитација на морските желки под заштита на WWF.",
+        "details": "Го посетивме Центарот за истражување, спасување и рехабилитација на морските желки под заштита на WWF. Овде научивме нови информации за морските желки и помогнавме во лекувањето на повредените желки. Обезбедивме и финансиска поддршка со набавка на сувенири. Тоа беше патување кое ни ги отвори хоризонтите и ја зголеми нашата свест за животната средина во проектите што ќе ги реализираме заедно во претстојната сезона."
       },
       "ecoFootprint": {
-        "title": "Eco Footprint",
-        "description": "Sustainable living project aimed at reducing carbon footprint.",
-        "details": "Within the scope of the \"Eco Footprint\" project, which we aimed to sustain throughout the season as a team, we went to Süreyya Beach and tried to collect all the garbage thrown on the ground from large to small, conducted educational interviews to learn how knowledgeable the society is about carbon footprint and to create awareness. We carried out a new one of our garbage collection events, which we made into a series, at İztuzu Beach. We collected most of the garbage that washed ashore. In addition, we attended the Carbon Footprint and Us Conference held at Kocaeli Congress Center. At this conference, we had the opportunity to introduce our social responsibility projects, our robot, and FRC. We also learned new information about carbon footprint."
+        "title": "Еко отпечаток",
+        "description": "Проект за одржлив живот насочен кон намалување на јаглеродот.",
+        "details": "Во рамките на проектот „Еко отпечаток“, кој имавме за цел да го одржиме во текот на целата сезона како тим, отидовме на плажата Суреја и се обидовме да го собереме целото ѓубре фрлено на земја од големо до мало, спроведени едукативни интервјуа за да дознаеме колку општеството има знаење за јаглеродниот отпечаток и да создадеме свест. Спроведовме нов еден од нашите настани за собирање ѓубре, кој го направивме во серија, на плажата Изтузу. Собравме поголем дел од ѓубрето што исфрли на брегот. Дополнително, присуствувавме на конференцијата „Carbon Footprint and Us“ што се одржа во Конгресниот центар во Коџаели. На оваа конференција имавме можност да ги претставиме нашите проекти за општествена одговорност, нашиот робот и FRC. Научивме и нови информации за јаглеродниот отпечаток."
       },
       "miniBrick": {
-        "title": "Mini Brick Symphony",
-        "description": "Project to let children with limited access to technology experience FIRST and team spirit through an FLL-like activity.",
-        "details": "In this project designed by developing our Window project, we aimed for children with limited access to technology to experience FIRST and team spirit through an FLL-like event. Participating children were divided into groups with our team members mentoring them, and they experienced building an EV3 robot that could perform various tasks. We have been organizing this project since 2024 and continue it every year, instilling FIRST and team spirit in 2k+ children."
+        "title": "Симфонија од мини цигли",
+        "description": "Проект кој ќе им овозможи на децата со ограничен пристап до технологијата ПРВО да го искусат тимскиот дух преку активност слична на FLL.",
+        "details": "Во овој проект дизајниран со развивање на нашиот проект Window, имавме за цел децата со ограничен пристап до технологијата да го искусат ПРВИОТ и тимскиот дух преку настан сличен на FLL. Децата кои учествуваа беа поделени во групи со членови на нашиот тим кои ги менторираа и тие искусија да изградат EV3 робот кој може да извршува различни задачи. Овој проект го организираме од 2024 година и го продолжуваме секоја година, всадувајќи ПРВ и тимски дух кај 2.000 + деца."
       },
       "iklimMuzesi": {
-        "title": "Climate Museum",
-        "description": "Digital museum project creating awareness about climate change.",
-        "details": "Climate Museum is a project where we explain the importance of the climate crisis and what needs to be done about it to 8th grade students who visit our school, and we aim for them to learn while having fun during the time they spend there. The museum was made by our team members with the accompaniment of our art teachers. In addition, the presentations we made in the museum and the Kahoot we played with the children were prepared by us."
+        "title": "Климатски музеј",
+        "description": "Проект за дигитален музеј кој создава свест за климатските промени.",
+        "details": "Климатскиот музеј е проект каде што им ја објаснуваме важноста на климатската криза и што треба да се направи во врска со тоа на учениците од 8-мо одделение кои го посетуваат нашето училиште, и имаме за цел тие да учат додека се забавуваат за време на времето што го поминуваат таму. Музејот го направија членовите на нашиот тим со придружба на нашите наставници по уметност. Покрај тоа, презентациите што ги направивме во музејот и Кахутот што го игравме со децата ги подготвивме ние."
       },
       "erisimSimgesi": {
-        "title": "New Access Icon",
-        "description": "Project developing accessible technology solutions for disabled individuals.",
-        "details": "The static access icon used for disabled individuals has been replaced by the new access icon where the individual actively contributes to life. The purpose of this change is to initiate a sustainable transformation in disabled rights. Our aim is to increase awareness in Turkey with this access icon and draw attention to the active role of disabled individuals in life."
+        "title": "Нова икона за пристап",
+        "description": "Проект за развој на пристапни технолошки решенија за хендикепирани лица.",
+        "details": "Иконата за статички пристап што се користи за хендикепирани лица е заменета со новата икона за пристап каде што поединецот активно придонесува за животот. Целта на оваа промена е да се иницира одржлива трансформација во правата на лицата со хендикеп. Нашата цел е да ја зголемиме свеста во Турција со оваа икона за пристап и да го привлечеме вниманието на активната улога на хендикепираните лица во животот."
       },
       "ecoquake": {
-        "title": "Ecoquake",
-        "description": "Environmental technology project developing earthquake early warning system.",
-        "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
+        "title": "Еко земјотрес",
+        "description": "Проект за технологија за животна средина за развој на систем за рано предупредување за земјотрес.",
+        "details": "Земјотресот е голем проблем на нашето време. Толку многу што предизвикува многу човечки и имотни загуби и, исто така, негативно влијае на економијата на земјата. Целта на Ecoquake е да се осврне на некои од целите за одржлив развој во 9 цели, 9 видеа и 9 објави, со цел да се зголеми свеста за земјотресите во општеството."
       },
       "gumushaneStem": {
-        "title": "Gümüşhane and Bayburt STEM Education",
-        "description": "Semester STEM education camp carried out for 2 years with Gümüşhane and Bayburt Provincial Directorates of National Education.",
-        "details": "In this project that we have been continuing for 2 years with Gümüşhane and Bayburt Provincial Directorates of National Education, we brought together a total of 3k+ 5th grade students over two years and organized a 5-day semester education camp on STEM, TinkerCAD and Scratch. Through the STEM and robotics training we provided to these students, we enabled them to get to know these fields and develop themselves in these areas."
+        "title": "Gümüşhane и Bayburt STEM Образование",
+        "description": "Кампот ЗА едукација на СТЕМ семестар се спроведуваше 2 години со Дирекциите за национално образование на покраините Гумушхане и Бајбурт.",
+        "details": "Во овој проект што го продолжуваме веќе 2 години со Дирекциите за национално образование на покраините Гумушхане и Бајбурт, собравме вкупно 3.000+ ученици од 5-то одделение во текот на две години и организиравме 5-дневен семестрален едукативен камп за STEM, TinkerCAD и Scratch. Преку обуката ЗА STEM и роботика што им ја обезбедивме на овие ученици, им овозможивме да ги запознаат овие области и да се развијат во овие области."
       },
       "frcAcademy": {
-        "title": "FRC Academy",
-        "description": "A training platform founded by Archers and Callister for teams new to FRC.",
-        "details": "This education platform, which we founded in 2025 as Archers and Callister, is a place where teams—especially rookie teams—can learn about and develop themselves in different areas of FRC such as software, design, mechanical and electronics. Our aim in this project is to pass on the experience we have gained since our establishment to other teams and to be a technical role model for them throughout the season. Within the scope of our project, we have reached approximately 800 members and 7 rookie teams in the last two years."
+        "title": "FRC академија",
+        "description": "Платформа за обука основана од Стрелците и Калистер за тимови нови во FRC.",
+        "details": "Оваа платформа за образование, која ја основавме во 2025 година како Стрелци и Калистер, е место каде што тимовите - особено тимовите почетници - можат да учат и да се развиваат во различни области на FRC, како што се софтвер, дизајн, механички и електроника. Нашата цел во овој проект е да го пренесеме искуството што сме го стекнале од нашето формирање на други тимови и да бидеме технички пример за нив во текот на целата сезона. Во рамките на нашиот проект, ниедостигнаа приближно 800 членови и 7 тимови почетници во последните две години."
       },
       "diveIztuzu": {
-        "title": "DIVE in Iztuzu",
-        "description": "A project organized with our sister team Archers to protect marine life and raise environmental awareness.",
-        "details": "Within the scope of our \"DIVE in Iztuzu\" project organized with our sister team Archers, we explored the underwater world in Dalyan. To protect marine life and build environmental awareness, we visited the DEKAMER Caretta Caretta Hospital in Iztuzu. We learned about sea turtles and the threats they face, and provided financial support through donations. This visit increased our environmental awareness, inspired our future projects, and strengthened our team bonds."
+        "title": "НУРНЕТЕ СЕ во Изтузу",
+        "description": "Проект организиран со нашиот сестрински тим Стрелци за заштита на морскиот живот и подигнување на еколошката свест.",
+        "details": "Во рамките на нашиот проект „НУРКАЊЕ во Изтузу“ организиран со нашиот сестрински тим Стрелци, го истражувавме подводниот свет во Далјан. За да го заштитиме морскиот живот и да изградиме еколошка свест, ја посетивме болницата DEKAMER Caretta Caretta во Изтузу. Дознавме за морските желки и заканите со кои се соочуваат и обезбедивме финансиска поддршка преку донации. Оваа посета ја зголеми нашата еколошка свест, ги инспирираше нашите идни проекти и ги зајакна нашите тимски врски."
       },
       "towardsUnderwater": {
         "title": "Su Altına Doğru",
-        "description": "An exhibition project demonstrating the relationship between marine life and plastic pollution.",
-        "details": "Recent research has made the relationship between marine life and plastic pollution clearer. As a team, we organized an exhibition inside the GOSB administration building to demonstrate the effects of plastics on marine ecosystems. Using recycled materials, we focused on marine debris and plastics, showcasing artworks that seek solutions. The opening was attended by GOSB Regional Director, Deputy Directors, Corporate Communications Director, company executives, our school principal and vice principal, as well as company representatives from Petfor, Torun Metal and Pimtaş Plastik."
+        "description": "Изложбен проект кој ја покажува врската помеѓу морскиот живот и загадувањето со пластика.",
+        "details": "Неодамнешните истражувања ја направија врската помеѓу морскиот живот и загадувањето со пластика појасна. Како тим, организиравме изложба во административната зграда на GOSB за да ги покажеме ефектите на пластиката врз морските екосистеми. Користејќи рециклирани материјали, се фокусиравме на морските остатоци и пластиката, прикажувајќи уметнички дела кои бараат решенија. На отворањето присуствуваа регионален директор на GOSB, заменици директори, директор за корпоративни комуникации, компсите директори, нашиот директор на училиштето и заменик-директорот, како и претставници на компанијата од Петфор, Торун Метал и Пимташ Пластик."
       },
       "balcikKutuphane": {
-        "title": "Balçık Village School 19 May Library",
-        "description": "Project to build a library in a village school and provide education to students.",
-        "details": "With the money collected as a result of the fairs we organized at our school and the support of the school family association, we built a library from scratch in Gebze Balçık Village school for the purpose of bringing individuals who meet books at an early age, read, and have a wide imagination to society. There are 1000 books waiting to be read in the library we created with the support of students in our team and other teams. On May 19, along with the library opening, we introduced FRC to the students at the village school and showed them the matches. At the same time, we provided EV3 training to middle school students and WeDo 2.0 training to primary school students, putting them in experiences they had never had before."
+        "title": "Училиште во село Балчик Библиотека 19 мај",
+        "description": "Проект за изградба на библиотека во селско училиште и обезбедување образование за учениците.",
+        "details": "Со парите собрани како резултат на саемите што ги организиравме во нашето училиште и поддршката на училишното семејно здружение, изградивме библиотека од нула во училиштето во селото Гебзе Балчик со цел да донесеме поединци кои се среќаваат со книги на рана возраст, читаат и имаат широка имагинација во општеството. Има 1000 книги кои чекаат да бидат прочитани во библиотеката што ја создадовме со поддршка на учениците во нашиот тим и другите тимови. На 19 мај, по ул.на отворањето на библиотеката, го запознавме ФРЦ со учениците во селското училиште и им ги покажавме кибритите. Во исто време, обезбедивме обука за ЕВ3 за учениците од средните училишта и обука за WeDo 2.0 за учениците од основните училишта, ставајќи ги во искуства што никогаш претходно не ги имале."
       },
       "saveBlue": {
-        "title": "Save The Blue",
-        "description": "Environmental protection project fighting ocean pollution. We protect marine life.",
-        "details": "We developed a project that creates awareness about ocean pollution and offers solution suggestions."
+        "title": "Зачувај ја сината боја",
+        "description": "Проект за заштита на животната средина против загадувањето на океаните. Го штитиме морскиот живот.",
+        "details": "Развивме проект кој создава свест за загадувањето на океаните и нуди предлози за решенија."
       },
       "sanalKutuphane": {
-        "title": "Virtual Library",
-        "description": "Accessible library of audio MEB textbooks for visually impaired middle school students.",
-        "details": "In this project, we set up a virtual library of audio MEB books at middle school level to ease the learning process for visually impaired students and support them in their academic lives. This year we first voiced the 5th grade textbooks."
+        "title": "Виртуелна библиотека",
+        "description": "Пристапна библиотека на аудио MEB учебници за средношколци со оштетен вид.",
+        "details": "Во овој проект, поставивме виртуелна библиотека на аудио MEB книги на ниво на средно училиште за да го олесниме процесот на учење за учениците со оштетен вид и да ги поддржиме во нивниот академски живот. Оваа година за прв пат ги искажавме учебниците за 5-то одделение."
       },
       "hayatiTasarla": {
-        "title": "Design Your Life",
-        "description": "TinkerCAD training for 6th and 7th graders and an Atatürk–Republic themed design competition.",
-        "details": "When we started this project, our aim was not only to introduce students to areas like STEAM and design but to give them hands-on experience and help them discover their interests in these fields. To that end, after a 3-day TinkerCAD training for 6th and 7th graders, we organized a design competition. During the competition they created TinkerCAD designs themed around Atatürk and the Republic. Thus we provided an environment where they could reinforce what they learned and put it into practice."
+        "title": "Дизајнирајте го вашиот живот",
+        "description": "TinkerCAD обука за 6-то и 7-мо одделение и натпревар за дизајн на тема Ататурк-Република.",
+        "details": "Кога го започнавме овој проект, нашата цел не беше само да ги запознаеме учениците со области како што се ПАРЕА и дизајн, туку да им дадеме практично искуство и да им помогнеме да ги откријат своите интереси во овие области. За таа цел, по 3-дневна обука на TinkerCAD за 6-то и 7-мо одделение, организиравме натпревар за дизајн. За време на натпреварот тие создадоа TinkerCAD дизајни тематизирани околу Ататурк и Републиката. Така обезбедивме средина каде што тие би можеле да го зајакнат она што го научиле и да го применат во пракса."
       },
       "reefspeech": {
         "title": "Reefspeech",
-        "description": "Environmental presentations and experiments for 5th graders to build environmental awareness at an early age.",
-        "details": "We organized environmental presentations so that environmental awareness is gained early. We delivered our Reefspeech presentations to 5th grade students, prepared experiments for them to make the sessions more effective, and enabled them to learn while having fun. Through this activity we instilled environmental awareness in students from an early age."
+        "description": "Еколошки презентации и експерименти за 5-то одделение за да се изгради еколошка свест на рана возраст.",
+        "details": "Организиравме еколошки презентации за рано да се стекне еколошка свест. Им ги одржавме нашите презентации на учениците од 5-то одделение, им подготвивме експерименти за да ги направат сесиите поефикасни и им овозможивме да учат додека се забавуваат. Преку оваа активност ја всадивме еколошката свест кај учениците уште од најрана возраст."
       },
       "callisterAi": {
         "title": "Callister AI",
-        "description": "AI assistant that brings FRC teams’ information, documents and code together on one platform.",
-        "details": "Callister AI is an AI solution that brings together the knowledge, documents and code FRC teams produce throughout the season on a single platform. Thanks to the in-team chat space, software, mechanical and strategy teams can communicate regularly and quickly, strengthening coordination. The code snippet library allows tested code to be stored and reused both during the season and in later years. With its RAG infrastructure, the system produces consistent answers based on official documentation and reliable technical sources. Through The Blue Alliance integration, match and team data can be viewed on the platform. Callister AI is not a general-purpose tool but a sustainable, practical in-team assistant that fits the daily workflow of FRC teams. The platform is available at www.callisterai.com, and the Callister AI app is also on Google Play Store for mobile use."
+        "description": "Асистент за вештачка интелигенција кој ги спојува информациите, документите и кодот на FRC тимовите на една платформа.",
+        "details": "Callister AI е AI решение кое ги спојува знаењето, документите и кодот што FRC тимовите ги произведуваат во текот на целата сезона на една платформа. Благодарение на просторот за разговор во тимот, софтверските, механичките и стратегиските тимови можат редовно и брзо да комуницираат, зајакнувајќи ја координацијата. Библиотеката со фрагменти од кодот овозможува тестираниот код да се чува и повторно да се користи и за време на сезоната и во подоцнежните години. Со својата RAG инфраструктура, системот произведува cпостојани одговори врз основа на официјална документација и веродостојни технички извори. Преку интеграцијата на Blue Alliance, податоците за натпреварите и тимот може да се видат на платформата. Callister AI не е алатка за општа намена, туку одржлив, практичен асистент во тимот кој одговара на секојдневниот работен тек на FRC тимовите. Платформата е достапна на www.callisterai.com, а апликацијата Callister AI е достапна и на Google Play Store за мобилна употреба."
       },
       "yagsl": {
         "title": "YAGSL",
-        "description": "Turkish translation of YAGSL documentation in collaboration with YASS; swerve drive infrastructure.",
-        "details": "As team Callister, we took an important step so that FRC teams in Turkey can have a stronger technical foundation in swerve drive software. As part of our collaboration with YASS, we brought the widely used YAGSL documentation into Turkish. With this work we aimed to create an accessible, clear resource especially for teams new to swerve or who have difficulty following technical documentation in English. YAGSL provides detailed information on critical topics such as module configuration, calibration processes, software architecture and drive control. With the documentation translated into Turkish, teams can adapt to this technical content more quickly and reduce time loss in software development. We aim for our project to contribute to the FRC ecosystem in Turkey by increasing knowledge sharing and supporting teams in building more sustainable, robust software foundations. The YAGSL documentation is accessible via the Callister AI platform."
+        "description": "Турски превод на документацијата на YAGSL во соработка со YASS; swerve drive infrastructure.",
+        "details": "Како тим Калистер, направивме важен чекор за тимовите на FRC во Турција да имаат посилна техничка основа во софтверот за завртување. Како дел од нашата соработка со YASS, ја донесовме широко користената документација на YAGSL на турски јазик. Со оваа работа имавме за цел да создадеме достапен, јасен ресурс, особено за тимовите кои се нови или кои имаат потешкотии да следат техничка документација на англиски јазик. YAGSL дава детални информации заитни теми како што се конфигурација на модули, процеси на калибрација, софтверска архитектура и контрола на уредот. Со документацијата преведена на турски јазик, тимовите можат побрзо да се прилагодат на оваа техничка содржина и да го намалат губењето време во развојот на софтверот. Наша цел е нашиот проект да придонесе за екосистемот на FRC во Турција преку зголемување на споделувањето на знаење и поддршка на тимовите во градењето поодржливи, поцврсти софтверски основи. Документот на YAGSLе достапна преку платформата Callister AI."
       },
       "callisterScoutingApp": {
-        "title": "Callister Scouting App",
-        "description": "An app that combines pit scouting, match scouting, and analysis processes for FRC teams on a single platform.",
-        "details": "As team Callister, we developed the Callister Scouting App platform to make FRC teams' scouting processes more organized and practical. Many FRC teams still use pen and paper during competitions, which causes both time loss and inefficiency in the process. In addition, reviewing and interpreting scouting data collected this way later can become quite difficult. To build a strong strategy during regionals, the collected information must be used accurately and systematically. For this reason, we aimed to make the scouting process faster, more accessible, and more sustainable. The application brings pit scouting, match scouting, and analysis processes together on a single platform. In the pit scouting section, technical specifications of teams' robots can be recorded easily; in the match scouting section, data such as in-match performance and autonomous path can be entered quickly. The collected information is visualized with charts and statistics in the app, making it easier to understand. With Callister AI support, teams' strengths and weaknesses can be seen more clearly, and the strategy-building process can be supported. Thanks to The Blue Alliance and FRC Event API integrations, team lists, match schedules, live scores, and rankings can be tracked instantly through the app. Our goal with this project is to make FRC teams' scouting processes more systematic and to help them develop more informed strategies. The platform is accessible via www.callisterscout.com, as well as through Callister AI and the Callister website."
+        "title": "Апликација за извидничко повикување на повици",
+        "description": "Апликација која комбинира скаутирање во јама, скаутирање на натпревари и процеси на анализа за FRC тимовите на една платформа.",
+        "details": "Како тим Калистер, ја развивме платформата Callister Scouting App за да ги направиме извидничките процеси на FRC тимовите поорганизирани и попрактични. Многу тимови на FRC сè уште користат пенкало и хартија за време на натпреварите, што предизвикува и губење време и неефикасност во процесот. Покрај тоа, разгледувањето и толкувањето на податоците за извидници собрани на овој начин подоцна може да стане доста тешко. За да се изгради силна стратегија за време на регионалните натпревари, собраните информации мора да се користаткуративно и систематски. Поради оваа причина, имавме за цел да го направиме процесот на извидување побрз, подостапен и поодржлив. Апликацијата го спојува извидувањето на јами, извидувањето натпревари и процесите на анализа на една платформа. Во делот за извидување во јама, техничките спецификации на роботите на тимовите може лесно да се снимат; во делот за извидување натпревари, податоците како што се перформансите во натпреварот и автономната патека може брзо да се внесат. Собиротдобиените информации се визуелизираат со графикони и статистички податоци во апликацијата, што го олеснува разбирањето. Со Callister AI поддршката, силните и слабите страни на тимовите може да се видат појасно, а процесот на градење стратегија може да се поддржи. Благодарение на интеграциите на API на Blue Alliance и FRC Event, списоците на тимови, распоредот на натпревари, резултатите во живо и рангирањата може да се следат веднаш преку апликацијата. Нашата цел со овој проект е да направиме СКУ на FRC тимовитепроцеси повеќе систематски и да им помогне да развијат повеќе информирани стратегии. Платформата е достапна преку www.callisterscout.com, како и преку ВИ на Callister и веб-страницата на Callister."
       }
     }
   },
   "events": {
-    "title": "Our Events",
-    "subtitle": "Events attended by Callister #9024 FRC Team",
-    "upcoming": "Upcoming Events",
-    "past": "Past Events",
-    "register": "Register",
-    "viewDetails": "View Details",
-    "details": "Details:",
-    "result": "Result:",
+    "title": "Настани",
+    "subtitle": "Настани на кои присуствуваше тимот на FRC на Callister #9024",
+    "upcoming": "Претстојни настани",
+    "past": "Претходни настани",
+    "register": "Регистрирајте се",
+    "viewDetails": "Прегледај",
+    "details": "Детали:",
+    "result": "Резултат:",
     "eventDetails": {
       "frc2026": {
-        "title": "FRC 2026 AGE/REBUILT Season Announcement",
-        "description": "FIRST®️ AGE/REBUILT competition season in Turkey! 6 events in Istanbul, 2 events in Ankara. Will be held at Başakşehir Sports Hall and Turkish Athletics Federation Athletics Hall.",
-        "details": "Istanbul Regional (March 3-5), Bosphorus Regional (March 6-8), Yeditepe Regional (March 9-11), Haliç Regional (March 25-27), Marmara Regional (March 28-30), Avrasya Regional (March 31-April 2), Ankara Regional (April 7-9), Başkent Regional (April 10-12)"
+        "title": "Соопштение за сезоната FRC 2026 AGE/REBUILT",
+        "description": "FIRST®️ AGE/REBUILT натпреварувачка сезона во Турција! 6 настани во Истанбул, 2 настани во Анкара. Ќе се одржи во спортската сала Башакшехир и атлетската сала на Турската атлетска федерација.",
+        "details": "Регионален Истанбул (3-5 март), регионален Босфор (6-8 март), Регионален Једитепе (9-11 март), регионален Халич (25-27 март), регионален Мармара (28-30 март), регионален Аврасја (31 март-2 април), регионален Анкара (1-9 април) Регионален (1 април)"
       },
       "teamFoundation": {
-        "title": "Team Foundation",
-        "description": "Callister #9024 FRC team was established.",
-        "result": "Foundation"
+        "title": "Тимска фондација",
+        "description": "Формиран е тим на Callister #9024 FRC.",
+        "result": "Фондацијата"
       }
     },
     "types": {
-      "competition": "Competition",
-      "festival": "Festival",
-      "project": "Project",
-      "webinar": "Webinar",
-      "foundation": "Foundation"
+      "competition": "Конкуренција",
+      "festival": "фестивал",
+      "project": "Проект",
+      "webinar": "Вебинар",
+      "foundation": "Фондацијата"
     }
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Get in touch with Callister #9024 FRC Team",
+    "title": "Контакт",
+    "subtitle": "Контактирајте со тимот на Callister #9024 FRC",
     "form": {
-      "name": "Full Name",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Message",
-      "namePlaceholder": "Your name and surname",
+      "name": "Целосно име",
+      "email": "Е-пошта",
+      "subject": "Предмет",
+      "message": "Порака",
+      "namePlaceholder": "Вашето име и презиме",
       "emailPlaceholder": "example@email.com",
-      "subjectPlaceholder": "Subject of your message",
-      "messagePlaceholder": "Write your message here...",
-      "send": "Send",
-      "sending": "Sending...",
-      "sent": "Message sent!",
-      "error": "An error occurred. Please try again."
+      "subjectPlaceholder": "Предмет на вашата порака",
+      "messagePlaceholder": "Напишете ја вашата порака овде...",
+      "send": "Испрати",
+      "sending": "Се испраќа...",
+      "sent": "Пораката е испратена!",
+      "error": "Се појави грешка. Ве молиме обидете се повторно."
     },
     "info": {
-      "address": "Address",
-      "phone": "Phone",
-      "email": "Email",
-      "social": "Social Media"
+      "address": "Адреса",
+      "phone": "Телефон",
+      "email": "Е-пошта",
+      "social": "Социјални медиуми"
     },
-    "address": "Kocaeli, Turkey",
+    "address": "Коџаели, Турција",
     "addressLine1": "Gebze Bahçeşehir Fen ve Teknoloji Lisesi",
-    "addressLine2": "Kocaeli, Gebze",
+    "addressLine2": "Кочаели, Гебзе",
     "phone": "+90 (262) XXX XX XX",
     "email": "info@callisterfrc.com",
-    "directMessage": "Send direct message",
-    "visitLocation": "Visit location",
-    "followUs": "Follow us",
-    "quickContact": "Quick Contact",
-    "quickContactDesc": "Fill out the form to get in touch with us",
-    "formCardDesc": "You can send us a message using the form below."
+    "directMessage": "Испрати директна порака",
+    "visitLocation": "Посетете ја локацијата",
+    "followUs": "Следете не",
+    "quickContact": "Брз контакт",
+    "quickContactDesc": "Пополнете го формуларот за да стапите во контакт со нас",
+    "formCardDesc": "Можете да ни испратите порака користејќи го формуларот подолу."
   },
   "footer": {
-    "description": "We work together for science, technology, and social impact.",
-    "copyright": "© {year} Callister #9024 FRC Team"
+    "description": "Работиме заедно за наука, технологија и општествено влијание.",
+    "copyright": "© {year} Callister #9024 FRC тим"
   },
   "ai": {
     "title": "Callister AI",
-    "subtitle": "AI-Powered FRC Assistant",
-    "description": "Expert support in every field of FRC from robot design to strategy, from mechanics to simulation",
-    "heading": "Future Robotics Assistant",
-    "subheading": "Experience the future of FRC today!",
-    "paragraph1": "Callister AI is a specially developed AI-powered assistant for FRC teams. It provides instant expert support in every field from robot design to strategy, from mechanics to simulation.",
-    "feature1": "24/7 by your side, providing instant answers to your questions.",
-    "feature2": "Analyzes FRC rules and suggests the most effective strategies.",
-    "feature3": "Continuously optimizes your team's performance.",
-    "conclusion": "Callister AI is not just an assistant; it's your strongest teammate on the road to championship!",
-    "button": "Chat with AI Assistant",
+    "subtitle": "FRC асистент со AI-придвижуван",
+    "description": "Експертска поддршка во секое поле на FRC од дизајн на роботи до стратегија, од механика до симулација",
+    "heading": "Иден асистент за роботика",
+    "subheading": "Искусете ја иднината на FRC денес!",
+    "paragraph1": "Callister AI е специјално развиен асистент со ВИ за тимовите на FRC. Обезбедува инстантна експертска поддршка во секое поле, од дизајн на роботи до стратегија, од механика до симулација.",
+    "feature1": "24/7 покрај вас, давајќи инстант одговори на вашите прашања.",
+    "feature2": "Ги анализира правилата на FRC и ги предлага најефикасните стратегии.",
+    "feature3": "Постојано ги оптимизира перформансите на вашиот тим.",
+    "conclusion": "Callister AI не е само асистент; тоа е твојот најсилен соиграч на патот кон шампионатот!",
+    "button": "Разговарајте со помошникот за вештачка интелигенција",
     "features": {
       "general": {
-        "title": "General FRC",
-        "description": "Comprehensive guidance on robot design, competition rules and general FRC topics"
+        "title": "Генерален FRC",
+        "description": "Сеопфатни упатства за дизајн на роботи, правила за натпреварување и општи теми за FRC"
       },
       "strategy": {
-        "title": "Strategy",
-        "description": "Expertise in game analysis, team coordination and competitive strategies"
+        "title": "Стратегија",
+        "description": "Експертиза во анализа на играта, тимска координација и конкурентни стратегии"
       },
       "mechanical": {
-        "title": "Mechanical",
-        "description": "Technical support in motor selection, power transmission and mechanical design"
+        "title": "Механички",
+        "description": "Техничка поддршка во изборот на мотори, пренос на моќност и механички дизајн"
       },
       "simulation": {
-        "title": "Simulation",
-        "description": "Guidance on robot simulation, physics engines and test environments"
+        "title": "Симулација",
+        "description": "Насоки за симулација на роботи, физички мотори и средини за тестирање"
       }
     }
   },
   "admin": {
-    "title": "Admin Panel",
-    "subtitle": "Edit and manage FRC responses",
-    "warning": "⚠️ This page is for admin users only. Changes are not automatically saved.",
-    "keyLabel": "Key (Question)",
-    "valueLabel": "Value (Answer)",
-    "placeholder": "Write detailed answer...",
-    "addUpdate": "Add / Update",
-    "download": "Download JSON",
-    "reset": "Reset",
-    "currentResponses": "Current Responses",
-    "edit": "Edit",
-    "delete": "Delete",
+    "title": "Административен панел",
+    "subtitle": "Уредете и управувајте со одговорите на FRC",
+    "warning": "⚠️ Оваа страница е само за администраторските корисници. Промените не се зачувуваат автоматски.",
+    "keyLabel": "Клуч (прашање)",
+    "valueLabel": "Вредност (одговор)",
+    "placeholder": "Напишете детален одговор...",
+    "addUpdate": "Додај / Ажурирај",
+    "download": "Преземете JSON",
+    "reset": "Ресетирај",
+    "currentResponses": "Тековни одговори",
+    "edit": "Уреди",
+    "delete": "Избриши",
     "messages": {
-      "loadError": "Failed to load FRC responses.",
-      "keyEmpty": "Key cannot be empty.",
-      "keySpaces": "Key contains too many spaces.",
-      "keyShort": "Key must be at least 3 characters.",
-      "keyProtected": "'bilinmeyen' key cannot be deleted.",
-      "success": "successfully added/updated.",
-      "deleted": "deleted.",
-      "resetSuccess": "Data reset to default values."
+      "loadError": "Не успеа да се вчитаат одговорите на FRC.",
+      "keyEmpty": "Клучот не може да биде празен.",
+      "keySpaces": "Клучот содржи премногу празни места.",
+      "keyShort": "Клучот мора да има најмалку 3 знаци.",
+      "keyProtected": "Клучот „bilinmeyen“ не може да се избрише.",
+      "success": "успешно додаден/ажуриран.",
+      "deleted": "избришани.",
+      "resetSuccess": "Податоците се ресетираат на стандардните вредности."
     }
   }
 }
