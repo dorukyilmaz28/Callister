@@ -344,121 +344,121 @@
       "paragraph5": "今年斋月期间，我们 Callister 队伍以团结与分享的精神，为有需要的家庭进行了食品发放。"
     },
     "kermes": {
-      "title": "我们举办的义卖",
-      "paragraph1": "我们用 Callister 队伍举办义卖所得，支付了校犬 Beethoven 的手术与治疗费用，并借此强化团队互助、责任与社会关怀的价值观。",
-      "paragraph2": "我们与 Kurtköy Bahçeşehir 学校家庭协会合作举办义卖，销售文具、玩具等产品，既强化团结精神也支持社会责任项目。义卖所得 12 万土耳其里拉捐赠给 AÇEV 以支持儿童教育。我们旨在通过此类项目持续回馈社会、支持教育。",
+      "title": "我们组织的筹款活动",
+      "paragraph1": "我们用 Callister 队伍组织的筹款活动所得，支付了校犬 Beethoven 的手术与治疗费用，并借此强化团队互助、责任与社会关怀的价值观。",
+      "paragraph2": "我们与 Kurtköy Bahçeşehir 学校家庭协会合作组织筹款活动，销售文具、玩具等产品，既强化团结精神也支持社会责任项目。筹款所得 14.5 万土耳其里拉捐赠给 AÇEV 以支持儿童教育。我们旨在通过此类项目持续回馈社会、支持教育。",
       "paragraph3": "在与 FTC 队伍 TECHMASTERS 共同举办的于姆拉尼耶 Bahçeşehir 学院曲奇日活动中，我们旨在向儿童传递团结、分享与互助的价值观，并将活动销售所得购买的文具捐赠给阿尔达汉的一所乡村学校，以支持团结文化并唤起对社会价值的重视。"
     },
     "projectDetails": {
       "pencere": {
-        "title": "窗口",
-        "description": "乡村学校 EV3 培训项目，为学生提供机器人与编程技能。",
-        "details": "我们秉承「为更美好的未来打开新窗口」的宗旨，致力于启发小学学童并让 STEM 触达每个人。在此框架下，我们于 2022 年启动窗口项目，每年前往 4 所不同的乡村学校，为当地儿童提供 STEM 与 EV3 培训。培训后，我们帮助孩子为用乐高搭建的机器人编写「画画」与「演奏音乐」程序，并通过各类软件课支持他们掌握新技能。在技术领域之外，我们也帮助孩子发掘艺术潜能、发展多面向能力，过去 4 年已与超过 8,000 名学生相遇。"
+        "title": "窗户",
+        "description": "乡村学校EV3教育项目。我们为学生提供机器人技术和编码技能。",
+        "details": "“我们必须打开新的窗口，迎接更美好的未来。”通过遵循我们的座右铭，我们的目标是激励小学生，让每个人都能接触到 STEM。在此背景下，在我们于 2022 年首次启动的 Window 项目范围内，我们每年前往 4 个不同的乡村学校，为那里的孩子们组织 STEM 和 EV3 培训。培训结束后，我们教孩子们用乐高搭建的机器人具有“画画”和“演奏音乐”的功能。我们通过帮助他们编程和提供各种软件课程来帮助他们获得新技能。在过去 4 年里，我们接待了超过 8000 名学生，让孩子们探索他们的艺术方面和技术领域，以发展他们的多才多艺。"
       },
       "sanatKadin": {
-        "title": "Spirit of Women in Art",
-        "description": "Webinar series introducing works of women artists. Events combining art and technology.",
-        "details": "In our webinar series called \"Spirit of Women in Art\", our aim is: To address the role and achievements of women in art, to draw attention to gender inequality in art, and to get to know our participating guests more closely and have a conversation by asking them questions. We emphasize that FRC is more than building robots, that art is also a part of life, and we start this project where we will witness women's success in art up close by saying \"A society without women is a society without tomorrow.\""
+        "title": "女性艺术精神",
+        "description": "介绍女性艺术家作品的网络研讨会系列。艺术与科技相结合的活动。",
+        "details": "我们举办名为“艺术的女性精神”的网络研讨会系列的目的是探讨女性在艺术中的角色和活动，引起人们对艺术中男女不平等的关注，并通过向嘉宾提问来更好地了解他们并接受采访。他强调，FRC 不仅仅是制造机器人，艺术也是生活的一部分，他将这个我们将近距离见证女性在艺术领域的成功的项目称为“一部没有女性的作品”。我们首先说“社会是一个没有明天的社会”。"
       },
       "gucluKadinlar": {
-        "title": "Strong Women, Strong Tomorrows",
-        "description": "Women's empowerment project in collaboration with KEV. We increase women's participation in STEM fields.",
-        "details": "We develop projects that enable women to take a more active role in STEM fields through collaboration with KEV."
+        "title": "坚强的女性，坚强的明天",
+        "description": "与 KEV 合作的妇女赋权项目。我们增加女性对 STEM 领域的参与。",
+        "details": "在科贾埃利教育基金会的支持下举办的研讨会中，我们聚集了500多名高中女学生（14-16岁）以及来自法律、卫生、工程、旅游和人力资源等不同领域的成功女性。我们的目标是引导年轻女孩踏上职业生涯，向她们介绍积极的榜样，并增强她们的集体赋权意识。"
       },
       "kaplumbaga": {
-        "title": "Turtle Museum",
-        "description": "Digital museum project creating awareness for the protection of sea turtles.",
-        "details": "Within the scope of this project, we hosted 8th grade students who visited our school. Our visit to DEKAMER at İztuzu Beach in recent months made us think about what else we could do to create awareness, and we created an exhibition called \"Turtle Museum\" at our school, displaying the life journey of Caretta Carettas from hatching to adulthood. In this project, which we undertook with the basic purpose of drawing attention to the sea turtle species under the threat of extinction and creating awareness, we explained in detail the measures to be taken and the road maps to be followed in our presentation, and as a result of this project, we created awareness among the students who came to our school."
+        "title": "海龟博物馆",
+        "description": "一个数字博物馆项目，旨在提高人们对海龟保护的认识。",
+        "details": "作为该项目的一部分，我们接待了来参观我们学校的八年级学生。过去几个月去伊兹图祖海滩参观DEKAMER让我们思考我们还能做些什么来提高人们的认识，我们在学校创建了一个名为“海龟博物馆”的展览，在那里我们展示了Caretta Carettas从孵化到成年阶段的生活冒险。这个博物馆的主要目的是防止灭绝在我们的演讲中，我们详细解释了该项目中应采取的预防措施和遵循的路线图，我们发起该项目是为了引起人们对有吞咽危险的海龟物种的关注并提高人们的认识，作为该项目的结果，我们提高了来到我们学校的学生的认识。"
       },
       "iztuzu": {
-        "title": "İztuzu Project",
-        "description": "Visit project to the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection.",
-        "details": "We visited the Sea Turtle Research, Rescue and Rehabilitation Center under WWF protection. Here we learned new information about sea turtles and helped treat injured turtles. We also provided financial support by purchasing souvenirs. It was a trip that opened our horizons and increased our awareness about the environment in the projects we will implement together in the upcoming season."
+        "title": "伊兹图祖项目",
+        "description": "参访在 WWF 保护下的海龟研究、救助与康复中心的项目。",
+        "details": "我们参观了在 WWF 保护下的海龟研究、救助与康复中心。在那里我们学习了许多关于海龟的新知识，并协助治疗受伤的海龟。我们还通过购买纪念品提供了经济支持。这次参访开阔了我们的视野，也提升了我们对环境议题的认识，并为我们下个赛季将共同开展的项目提供了启发。"
       },
       "ecoFootprint": {
-        "title": "Eco Footprint",
-        "description": "Sustainable living project aimed at reducing carbon footprint.",
-        "details": "Within the scope of the \"Eco Footprint\" project, which we aimed to sustain throughout the season as a team, we went to Süreyya Beach and tried to collect all the garbage thrown on the ground from large to small, conducted educational interviews to learn how knowledgeable the society is about carbon footprint and to create awareness. We carried out a new one of our garbage collection events, which we made into a series, at İztuzu Beach. We collected most of the garbage that washed ashore. In addition, we attended the Carbon Footprint and Us Conference held at Kocaeli Congress Center. At this conference, we had the opportunity to introduce our social responsibility projects, our robot, and FRC. We also learned new information about carbon footprint."
+        "title": "生态足迹",
+        "description": "减少碳足迹的可持续生活项目。",
+        "details": "作为这个名为“生态足迹”的项目的一部分，该项目旨在减少碳足迹，我们的目标是作为一个团队在整个赛季继续下去，我们去了苏雷亚海滩，试图收集扔在地上的所有垃圾，从大到小，我们进行了有益的采访，以了解社会对碳足迹的了解程度并提高认识。我们在伊兹图祖海滩组织了一系列新的垃圾收集活动。我们已经仔细检查过。我们收集了大部分冲上岸的垃圾。此外，我们还参加了在科贾埃利会议中心举行的碳足迹和美国会议。在这次会议上，我们有机会介绍我们的社会责任项目、我们的机器人和FRC。我们还了解了有关碳足迹的新信息。"
       },
       "miniBrick": {
-        "title": "Mini Brick Symphony",
-        "description": "通过 FLL 式活动让技术资源有限的儿童体验 FIRST 与团队精神的项目。",
-        "details": "在基于窗口项目发展而来的本项目中，我们旨在通过举办 FLL 式活动，让技术资源有限的儿童体验 FIRST 与团队精神。参与活动的儿童在队员担任导师的小组中，体验搭建能完成多种任务的 EV3 机器人。我们自 2024 年首次举办并每年延续，已将 FIRST 与团队精神带给 2,000 余名儿童。"
+        "title": "迷你积木交响乐",
+        "description": "该项目旨在通过类似 FLL 的活动帮助无法接触技术的儿童首先体验团队精神。",
+        "details": "在这个项目中，我们通过开发窗口项目来设计，旨在通过组织类似 FLL 的活动，让接触技术有限的孩子体验 FIRST 和团队精神。参加活动的孩子们体验了搭建一个可以执行各种任务的EV3机器人，我们的团队成员分组担任导师。我们于 2024 年首次举办，并每年继续举办。在这个项目中，我们向 2000 多名孩子灌输了 FIRST 和团队精神。"
       },
       "iklimMuzesi": {
-        "title": "Climate Museum",
-        "description": "Digital museum project creating awareness about climate change.",
-        "details": "Climate Museum is a project where we explain the importance of the climate crisis and what needs to be done about it to 8th grade students who visit our school, and we aim for them to learn while having fun during the time they spend there. The museum was made by our team members with the accompaniment of our art teachers. In addition, the presentations we made in the museum and the Kahoot we played with the children were prepared by us."
+        "title": "气候博物馆",
+        "description": "提高人们对气候变化认识的数字博物馆项目。",
+        "details": "气候博物馆是一个项目，我们向来参观我们学校的八年级学生解释气候危机的重要性以及需要采取哪些措施，我们的目标是帮助他们在学校期间快乐学习。这个博物馆是我们的团队成员在美术老师的陪同下建造的。另外，我们在博物馆里做的演示以及和孩子们一起玩的Kahoot也是我们准备的。"
       },
       "erisimSimgesi": {
-        "title": "New Access Icon",
-        "description": "Project developing accessible technology solutions for disabled individuals.",
-        "details": "The static access icon used for disabled individuals has been replaced by the new access icon where the individual actively contributes to life. The purpose of this change is to initiate a sustainable transformation in disabled rights. Our aim is to increase awareness in Turkey with this access icon and draw attention to the active role of disabled individuals in life."
+        "title": "新的访问图标",
+        "description": "为残疾人开发无障碍技术解决方案的项目。",
+        "details": "用于残疾人的静态访问符号已被个人积极为生活做出贡献的新访问符号所取代。这一变革的目的是启动残疾人权利的可持续转型。我们的目标是通过这一无障碍标志提高土耳其人的认识，并引起人们对残疾人在生活中的积极作用的关注。"
       },
       "ecoquake": {
-        "title": "Ecoquake",
-        "description": "Environmental technology project developing earthquake early warning system.",
-        "details": "Earthquake is a major problem of our time. So much so that it causes many life and property losses and also negatively affects the country's economy. Ecoquake's aim is to address some of the sustainable development goals in 9 goals, 9 videos, and 9 posts, aiming to increase earthquake awareness in society."
+        "title": "生态地震",
+        "description": "开发地震预警系统的环境技术项目。",
+        "details": "地震是当今的一个大问题。以至于造成许多生命和财产损失，也给国家经济带来负面影响。 Ecoquake 旨在通过 9 个目标、9 个视频和 9 个帖子中的一些可持续发展目标来提高社会对地震的认识。"
       },
       "gumushaneStem": {
-        "title": "Gümüşhane 与 Bayburt STEM 教育",
-        "description": "与 Gümüşhane 和 Bayburt 省教育局合作、持续 2 年的学期 STEM 教育营。",
-        "details": "我们与 Gümüşhane 和 Bayburt 省教育局合作、持续 2 年的本项目中，两年内共汇聚 3,000 余名五年级学生，举办为期 5 天的 STEM、TinkerCAD 与 Scratch 学期教育营。通过为这些学生提供 STEM 与机器人培训，帮助他们认识这些领域并在其中自我提升。"
+        "title": "Gümüşhane 和 Bayburt STEM 培训",
+        "description": "与 Gümüşhane 和 Bayburt 省国民教育局合作举办的学期 STEM 训练营已持续两年。",
+        "details": "在这个项目中，我们与 Gümüşhane 和 Bayburt 省国民教育局持续了两年，两年内聚集了 3000 多名五年级学生，并组织了为期 5 天的 STEM、TinkerCAD 和 Scratch 科目学期训练营。通过我们为这里的学生提供STEM和机器人技术的培训，我们使他们能够了解这些领域并在这些领域提高自己。"
       },
       "frcAcademy": {
-        "title": "FRC Academy",
-        "description": "Archers 与 Callister 为初入 FRC 的队伍创办的培训平台。",
-        "details": "我们于 2025 年以 Archers 与 Callister 名义创办的这一教育平台，旨在让各队伍——尤其是新秀队伍——在 FRC 的软件、设计、机械与电子等不同领域学习并提升自我。本项目的目标是将我们自成立以来积累的经验传递给其他队伍，并在整个赛季中成为技术榜样。在过去两年中，我们已触及约 800 名成员与 7 支新秀队伍。"
+        "title": "FRC学院",
+        "description": "由Archers 和Callister 创立的针对FRC 世界新团队的培训平台。",
+        "details": "这个培训平台是我们在2025年建立的Archers和Callister，是一个让团队，特别是新秀团队可以学习FRC的不同分支，如软件、设计、机械和电子等，并在这些领域提高自己的平台。我们这个项目的目的是将我们自成立以来所获得的经验传递给其他团队，并在整个赛季的技术领域成为他们的榜样。在我们的项目范围内过去两年，我们已经拥有约 800 名会员和 7 个新秀团队。"
       },
       "diveIztuzu": {
-        "title": "DIVE in Iztuzu",
-        "description": "A project organized with our sister team Archers to protect marine life and raise environmental awareness.",
-        "details": "Within the scope of our \"DIVE in Iztuzu\" project organized with our sister team Archers, we explored the underwater world in Dalyan. To protect marine life and build environmental awareness, we visited the DEKAMER Caretta Caretta Hospital in Iztuzu. We learned about sea turtles and the threats they face, and provided financial support through donations. This visit increased our environmental awareness, inspired our future projects, and strengthened our team bonds."
+        "title": "在伊兹图祖潜水",
+        "description": "与 Archers 姐妹团队共同组织的一个保护海洋生物和提高环保意识的项目。",
+        "details": "作为我们与姐妹团队 Archers 组织的“DIVE in Iztuzu”项目的一部分，我们探索了达利安的水下世界。我们参观了伊兹图祖的 DEKAMER Caretta Caretta 医院，以保护海洋生物并提高环保意识。我们了解了海龟及其威胁，并通过捐赠提供了经济支持。这次访问提高了我们的环保意识，激发了我们未来的项目并加强了我们的团队联系。它增强了我们的力量。"
       },
       "towardsUnderwater": {
-        "title": "Su Altına Doğru",
-        "description": "An exhibition project demonstrating the relationship between marine life and plastic pollution.",
-        "details": "Recent research has made the relationship between marine life and plastic pollution clearer. As a team, we organized an exhibition inside the GOSB administration building to demonstrate the effects of plastics on marine ecosystems. Using recycled materials, we focused on marine debris and plastics, showcasing artworks that seek solutions. The opening was attended by GOSB Regional Director, Deputy Directors, Corporate Communications Director, company executives, our school principal and vice principal, as well as company representatives from Petfor, Torun Metal and Pimtaş Plastik."
+        "title": "水下",
+        "description": "展览项目展示了海洋生物与塑料污染之间的关系。",
+        "details": "最近的研究阐明了海洋生物与塑料污染之间的关系。作为一个团队，我们在 GOSB 行政大楼举办的展览展示了塑料对海洋生态系统的影响。我们举办了一个展览，重点关注海洋垃圾和塑料，并通过回收材料制成的作品寻找解决方案。 GOSB 区域经理、助理经理、企业传播经理、公司经理、学校校长、副校长以及Petfor、Torun metal、Pimtaş Plastic等公司代表出席。"
       },
       "balcikKutuphane": {
-        "title": "Balçık Village School 19 May Library",
-        "description": "Project to build a library in a village school and provide education to students.",
-        "details": "With the money collected as a result of the fairs we organized at our school and the support of the school family association, we built a library from scratch in Gebze Balçık Village school for the purpose of bringing individuals who meet books at an early age, read, and have a wide imagination to society. There are 1000 books waiting to be read in the library we created with the support of students in our team and other teams. On May 19, along with the library opening, we introduced FRC to the students at the village school and showed them the matches. At the same time, we provided EV3 training to middle school students and WeDo 2.0 training to primary school students, putting them in experiences they had never had before."
+        "title": "巴尔奇克村学校 5 月 19 日 图书馆",
+        "description": "在乡村学校建立图书馆并为学生提供教育的项目。",
+        "details": "我们利用学校举办义卖活动筹集到的资金以及家长教师协会的支持，在盖布泽巴尔奇克村的乡村学校里白手起家建了一个图书馆，这个学校没有机会让那些从小接触书籍、阅读量大、想象力丰富的人融入社会。在我们团队和其他团队的学生的支持下，我们创建的图书馆里有 1000 本书等待阅读。图书馆5月19日开馆我们向村里学校的学生介绍了FRC并观看了他们的比赛。同时，我们为中学生提供EV3培训，为小学生提供WeDo 2.0培训，让他们获得从未有过的体验。"
       },
       "saveBlue": {
-        "title": "Save The Blue",
-        "description": "Environmental protection project fighting ocean pollution. We protect marine life.",
-        "details": "We developed a project that creates awareness about ocean pollution and offers solution suggestions."
+        "title": "拯救蓝色",
+        "description": "海洋污染防治环保工程。我们保护海洋生物。",
+        "details": "作为卡利斯特和弓箭手团队，我们在伊兹米特湾进行了幽灵网清​​除和水下废物收集研究。虽然幽灵网会缠住海洋生物并造成伤害或死亡，但它们也会破坏珊瑚礁等水下结构并造成微塑料污染。通过这个项目，我们向保护海洋生物迈出了一步，旨在提高环保意识。农林部和科贾埃利布我们为大都会市组织的“幽灵网络”项目做出了贡献。"
       },
       "sanalKutuphane": {
-        "title": "Virtual Library",
-        "description": "Accessible library of audio MEB textbooks for visually impaired middle school students.",
-        "details": "In this project, we set up a virtual library of audio MEB books at middle school level to ease the learning process for visually impaired students and support them in their academic lives. This year we first voiced the 5th grade textbooks."
+        "title": "虚拟图书馆",
+        "description": "一个无障碍图书馆，包含教育部为视障中学生提供的有声读物。",
+        "details": "在这个项目中，我们建立了一个虚拟图书馆，其中包含中学阶段的MEB有声读物，以促进视障中学生的学习过程并支持他们的学业生活。今年，我们首次为五年级教科书配音。"
       },
       "hayatiTasarla": {
-        "title": "Design Your Life",
-        "description": "TinkerCAD training for 6th and 7th graders and an Atatürk–Republic themed design competition.",
-        "details": "When we started this project, our aim was not only to introduce students to areas like STEAM and design but to give them hands-on experience and help them discover their interests in these fields. To that end, after a 3-day TinkerCAD training for 6th and 7th graders, we organized a design competition. During the competition they created TinkerCAD designs themed around Atatürk and the Republic. Thus we provided an environment where they could reinforce what they learned and put it into practice."
+        "title": "设计寿命",
+        "description": "六年级和七年级的 TinkerCAD 培训和 Ataturk-Republic 主题设计竞赛。",
+        "details": "When starting this project, our aim was to provide students with experience in these fields and to discover their interests in these fields, rather than just introducing them to areas such as STEAM and design.为此，我们在对六年级和七年级学生进行为期三天的 TinkerCAD 培训后，为他们组织了一场设计比赛。在本次比赛中，他们创作了 Ataturk 和 Republic 主题的 TinkerCAD 设计。因此，他们巩固了知识并将所学付诸实践。我们为他们提供了一个可以画画的环境。"
       },
       "reefspeech": {
-        "title": "Reefspeech",
-        "description": "Environmental presentations and experiments for 5th graders to build environmental awareness at an early age.",
-        "details": "We organized environmental presentations so that environmental awareness is gained early. We delivered our Reefspeech presentations to 5th grade students, prepared experiments for them to make the sessions more effective, and enabled them to learn while having fun. Through this activity we instilled environmental awareness in students from an early age."
+        "title": "礁石演讲",
+        "description": "通过为五年级学生进行环境演示和实验，从小培养环境意识。",
+        "details": "我们组织环保讲座，以提高幼儿的环保意识。我们向五年级学生做了名为 Reefspeech 的演讲。我们为他们准备了实验，让我们的演示更加有效，让他们在快乐中学习。通过这项活动，我们从小就向学生灌输了环保意识。"
       },
       "callisterAi": {
-        "title": "Callister AI",
-        "description": "AI assistant that brings FRC teams’ information, documents and code together on one platform.",
-        "details": "Callister AI is an AI solution that brings together the knowledge, documents and code FRC teams produce throughout the season on a single platform. Thanks to the in-team chat space, software, mechanical and strategy teams can communicate regularly and quickly, strengthening coordination. The code snippet library allows tested code to be stored and reused both during the season and in later years. With its RAG infrastructure, the system produces consistent answers based on official documentation and reliable technical sources. Through The Blue Alliance integration, match and team data can be viewed on the platform. Callister AI is not a general-purpose tool but a sustainable, practical in-team assistant that fits the daily workflow of FRC teams. The platform is available at www.callisterai.com, and the Callister AI app is also on Google Play Store for mobile use."
+        "title": "卡利斯特 A.I.",
+        "description": "人工智能助手，在单一平台上为 FRC 团队收集信息、文档和代码。",
+        "details": "Callister AI 是一种人工智能解决方案，可在单一平台上收集 FRC 团队整个赛季产生的信息、文档和代码。借助团队内聊天区域，软件、机械和策略团队可以定期、快速地进行沟通；从而加强协调。代码片段库允许在当季和随后的几年中存储和重复使用经过测试的代码。具有 RAG 基础设施的系统，官方文档根据十个可靠的技术来源产生一致的答案。由于蓝色联盟的集成，可以在平台上查看比赛和球队数据。 Callister AI 不是通用工具，而是可持续且实用的团队内助手，适合 FRC 团队的日常工作流程。虽然可以通过 www.callisterai.com 访问该平台，但 Callister AI 应用程序也可以在 Google Play 商店上供移动使用。"
       },
       "yagsl": {
-        "title": "YAGSL",
-        "description": "Turkish translation of YAGSL documentation in collaboration with YASS; swerve drive infrastructure.",
-        "details": "As team Callister, we took an important step so that FRC teams in Turkey can have a stronger technical foundation in swerve drive software. As part of our collaboration with YASS, we brought the widely used YAGSL documentation into Turkish. With this work we aimed to create an accessible, clear resource especially for teams new to swerve or who have difficulty following technical documentation in English. YAGSL provides detailed information on critical topics such as module configuration, calibration processes, software architecture and drive control. With the documentation translated into Turkish, teams can adapt to this technical content more quickly and reduce time loss in software development. We aim for our project to contribute to the FRC ecosystem in Turkey by increasing knowledge sharing and supporting teams in building more sustainable, robust software foundations. The YAGSL documentation is accessible via the Callister AI platform."
+        "title": "钇铝石榴石",
+        "description": "与 YASS 合作将 YAGSL 文档翻译成土耳其语；转向驱动基础设施。",
+        "details": "作为 Callister 团队，我们迈出了重要一步，确保土耳其的 FRC 团队在转向驱动软件流程方面拥有更强大的技术基础设施。在我们与 YASS 的合作范围内，我们将在全球广泛使用的 YAGSL 文档翻译成土耳其语。我们这项研究的目的是使其易于理解，特别是对于刚接触转向系统或难以遵循英文技术文档的团队。创建清晰易懂的资源。 YAGSL；它提供了有关模块配置、校准过程、软件架构和驱动控制等关键问题的详细信息。通过将文档翻译成土耳其语，团队将能够更快地适应这些技术内容并减少软件开发过程中的时间损失。我们的项目为土耳其的 FRC 生态系统做出了贡献，增加了知识共享并帮助团队我们的目标是支持建立更可持续、更强大的软件基础设施。 YAGSL文档可以通过Callister AI平台访问。"
       },
       "callisterScoutingApp": {
-        "title": "Callister Scouting App",
-        "description": "为 FRC 队伍将 pit scouting、match scouting 与分析流程整合到同一平台的应用。",
-        "details": "作为 Callister 队伍，我们开发了 Callister Scouting App 平台，以让 FRC 队伍的 scouting 流程更加有序、实用。许多 FRC 队伍在比赛中仍使用纸笔记录，这会导致时间浪费并降低流程效率。此外，这种方式收集的 scout 数据在赛后也很难高效查看与解读。要在 Regional 阶段制定强有力的策略，所获得的信息必须被准确且有条理地使用。因此，我们的目标是让 scouting 流程更快速、更易访问且更可持续。该应用将 pit scouting、match scouting 与分析流程统一到一个平台中。在 pit scouting 模块中，可便捷记录各队机器人技术参数；在 match scouting 模块中，可快速录入比赛表现与自动路径等信息。收集的数据会在应用内通过图表与统计可视化，便于理解。借助 Callister AI 支持，队伍的优势与短板可被更清晰识别，并可辅助策略制定过程。通过 The Blue Alliance 与 FRC Event API 集成，队伍列表、赛程、实时比分与排名都可在应用内实时追踪。我们希望通过该项目让 FRC 队伍的 scouting 更加系统化，并帮助其制定更有依据的策略。平台可通过 www.callisterscout.com 访问，也可通过 Callister AI 与 Callister 官网进入。"
+        "title": "卡利斯特侦察应用程序",
+        "description": "该应用程序将 FRC 团队的维修区侦察、比赛侦察和分析流程结合在一个平台上。",
+        "details": "作为Callister团队，我们开发了Callister球探应用程序平台，使FRC团队的球探过程更加有条理和实用。许多FRC队伍在比赛过程中仍然使用纸笔，造成时间损失和效率低下。此外，以后检查和理解以这种方式收集的侦察数据可能会变得非常困难。在区域进程中制定强有力的战略所获得的信息必须准确、定期使用。出于这个原因，我们的目标是让搜寻过程变得更快、更方便、更可持续。应用;它将坑探查、比赛探查和分析流程结合在一个平台上。在坑探区，可以轻松记录各队机器人的技术指标，而在比赛探查区，可以记录比赛表现、自主路线等信息。可以快速保存到系统中。通过在应用程序中使用图表和统计数据进行可视化，收集到的信息变得更容易理解。有了Callister AI的支持，可以更清楚地看到团队的优势和劣势，并为策略创建过程提供支持。借助 Blue Alliance 和 FRC Event API 集成，可以通过应用程序立即查看球队名单、比赛时间表、实时比分和排名。完成了。我们这个项目的目标是使 FRC 团队的球探过程更加系统化，并有助于制定更有意识的策略。该平台可以通过 www.callisterscout.com 以及 Callister AI 和 Callister 网站访问。"
       }
     }
   },
@@ -494,7 +494,7 @@
   "contact": {
     "title": "联系我们",
     "subtitle": "与 Callister #9024 FRC 队伍取得联系",
-"form": {
+    "form": {
       "name": "姓名",
       "email": "电子邮箱",
       "subject": "主题",

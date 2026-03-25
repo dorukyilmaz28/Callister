@@ -229,12 +229,20 @@ export default function Home() {
             </div>
             
             <div className="mt-8 sm:mt-10 flex justify-center">
-              <Link href="https://www.callisterai.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex justify-center">
-                <button className="btn-primary btn-frc-academy flex items-center justify-center space-x-2">
-                  <Brain size={20} />
-                  <span>{t('ai.button') as string}</span>
-                </button>
-              </Link>
+              <div className="w-full max-w-xl flex flex-col sm:flex-row gap-3 justify-center">
+                <Link href="https://www.callisterai.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex justify-center">
+                  <button className="btn-primary btn-frc-academy flex items-center justify-center space-x-2 w-full">
+                    <Brain size={20} />
+                    <span>{t('ai.button') as string}</span>
+                  </button>
+                </Link>
+                <Link href="https://www.callisterscout.com" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex justify-center">
+                  <button className="btn-primary btn-frc-academy flex items-center justify-center space-x-2 w-full">
+                    <Target size={20} />
+                    <span>Callister Scouting App</span>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
 
