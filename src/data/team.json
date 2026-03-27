@@ -12,7 +12,7 @@
     {"id": 10, "name": "Mina T.", "role": "Sosyal Medya Sorumlusu", "department": "Medya", "image": "/images/team/mina.jpg", "description": "Sosyal medya yönetimi ve içerik üretimi."},
     {"id": 11, "name": "Beril Ç.", "role": "Sosyal Medya Sorumlusu", "department": "Medya", "image": "/images/team/beril.jpg", "description": "Sosyal medya yönetimi ve içerik üretimi."},
     {"id": 12, "name": "Zeynep K.", "role": "Mekanik", "department": "Mekanik", "image": "/images/team/zeynep-kaba.jpg", "description": "Robot mekanik tasarımı ve üretim süreçlerinden sorumlu."},
-    {"id": 13, "name": "Yusuf M.", "role": "Yazılım Geliştirici", "department": "Yazılım", "image": "/images/team/yusuf.jpg", "description": "Robot kontrol sistemleri ve yazılım geliştirme."},
+    {"id": 13, "name": "Yusuf Mete A.", "role": "Yazılım Geliştirici", "department": "Yazılım", "image": "/images/team/yusuf.jpg", "description": "Robot kontrol sistemleri ve yazılım geliştirme."},
     {"id": 14, "name": "Naz B.", "role": "Tasarım Kaptanı", "department": "Tasarım", "image": "/images/team/naz.jpg", "description": "Tasarım kaptanı; robot ve grafik tasarımından sorumlu."},
     {"id": 15, "name": "Oğuzhan N.", "role": "Tasarımcı", "department": "Tasarım", "image": "/images/team/oguzhan.jpg", "description": "Robot ve grafik tasarımı."},
     {"id": 16, "name": "Zeynep Sare Y.", "role": "Yazılım Geliştirici", "department": "Yazılım", "image": "/images/team/zeynep-sare.jpg", "description": "Robot kontrol sistemleri ve yazılım geliştirme."},
