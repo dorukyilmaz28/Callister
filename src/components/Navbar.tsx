@@ -22,12 +22,15 @@ const navLinks: NavLink[] = [
   { label: 'LÖSEV Bağış Gecesi', href: '/losev-callister' },
 ]
 
+const desktopPrimaryHrefs = ['/', '/about', '/team', '/projects', '/losev-callister']
+
 export default function Navbar() {
   const { t, currentLanguage } = useLanguage()
   const [isVisible, setIsVisible] = useState(true)
   const [isHovered, setIsHovered] = useState(false)
   const [lastScrollY, setLastScrollY] = useState(0)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isDesktopMenuOpen, setIsDesktopMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -70,6 +73,9 @@ export default function Navbar() {
     setIsMobileMenuOpen(false)
   }
 
+  const desktopPrimaryLinks = navLinks.filter((link) => desktopPrimaryHrefs.includes(link.href))
+  const desktopSecondaryLinks = navLinks.filter((link) => !desktopPrimaryHrefs.includes(link.href))
+
   return (
     <>
       <nav 
@@ -99,9 +105,9 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden lg:flex items-center gap-6">
-          <ul className="flex gap-6 items-center">
-            {navLinks.map((link) => (
+        <div className="hidden lg:flex items-center gap-4 relative">
+          <ul className="flex gap-4 items-center">
+            {desktopPrimaryLinks.map((link) => (
               <li key={link.href}>
                 {link.external ? (
                   <a
@@ -123,6 +129,43 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
+
+          <div className="relative">
+            <button
+              onClick={() => setIsDesktopMenuOpen((prev) => !prev)}
+              className="text-base lg:text-lg font-medium text-white px-3 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
+            >
+              Menü
+            </button>
+
+            {isDesktopMenuOpen && (
+              <div className="absolute right-0 mt-2 w-72 rounded-xl border border-white/20 bg-[#4B0082]/95 backdrop-blur-md shadow-2xl p-2 z-50">
+                {desktopSecondaryLinks.map((link) => (
+                  <div key={link.href}>
+                    {link.external ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full justify-start text-left px-3 py-2 rounded-lg text-white hover:bg-white/10 transition-colors"
+                        onClick={() => setIsDesktopMenuOpen(false)}
+                      >
+                        {link.nameKey ? t(link.nameKey) : link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="w-full justify-start text-left px-3 py-2 rounded-lg text-white hover:bg-white/10 transition-colors"
+                        onClick={() => setIsDesktopMenuOpen(false)}
+                      >
+                        {link.nameKey ? t(link.nameKey) : link.label}
+                      </Link>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
           
           {/* Language Switcher */}
           <LanguageSwitcher />

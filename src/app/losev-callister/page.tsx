@@ -143,7 +143,9 @@ export default function LosevCallisterPage() {
           <p className="inline-flex px-4 py-1 rounded-full bg-white/15 border border-white/25 text-sm mb-4">
             Sosyal Sorumluluk Etkinliği
           </p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">LÖSEV Bağış Gecesi</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">
+            LÖSEV Bağış Gecesi
+          </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-white/90 mb-10">
             Callister #9024 ve Archers iş birliğiyle sosyal sorumluluk odaklı etkinlik.
           </p>
@@ -167,7 +169,7 @@ export default function LosevCallisterPage() {
       <section className="pb-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4">Etkinlik Açıklaması</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Etkinlik Açıklaması</h2>
             <p className="text-white/90 leading-relaxed">
               Bu etkinlik kapsamında bilet ve özel tasarım ürün satışlarından elde edilen gelir, etkinlik sonunda
               LÖSEV’e bağışlanacaktır. Etkinlik sonrası bağış süreci ve dekont bilgileri toplulukla şeffaf şekilde
@@ -180,15 +182,17 @@ export default function LosevCallisterPage() {
       <section id="urunler-biletler" className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold">Ürün ve Bilet Seçenekleri</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Ürün ve Bilet Seçenekleri</h2>
             <p className="text-white/80 mt-2">Fiyatlar örnek olarak tanımlanmıştır. TODO: Gerçek fiyatlar güncellenecek.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
             {PRODUCT_ITEMS.map((item) => (
               <article key={item.id} className="card p-5 flex flex-col">
-                <h3 className="text-xl font-semibold mb-2">{item.name}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-white">{item.name}</h3>
                 <p className="text-white/85 text-sm leading-relaxed mb-4">{item.description}</p>
-                <p className="text-lg font-bold mb-2">Tahmini Fiyat: {item.price.toLocaleString('tr-TR')} TL</p>
+                <p className="text-lg font-bold mb-2 text-white">
+                  Tahmini Fiyat: {item.price.toLocaleString('tr-TR')} TL
+                </p>
                 {item.requiresSize ? (
                   <p className="text-sm text-white/80 mb-4">Beden seçenekleri: {SIZE_OPTIONS.join(', ')}</p>
                 ) : (
@@ -209,7 +213,7 @@ export default function LosevCallisterPage() {
       <section id="on-kayit-formu" className="py-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6">Website İçi Ön Kayıt / Sipariş Formu</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-white">Website İçi Ön Kayıt / Sipariş Formu</h2>
 
             <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <label className="flex flex-col gap-2">
@@ -342,7 +346,7 @@ export default function LosevCallisterPage() {
 
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">Şeffaflık Taahhüdü</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">Şeffaflık Taahhüdü</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               'Gelir etkinlik sonunda LÖSEV’e bağışlanacaktır.',
@@ -361,7 +365,7 @@ export default function LosevCallisterPage() {
       <section className="py-10 pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4">Bağış Hedefi</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Bağış Hedefi</h2>
             <p className="text-white/90 mb-1">Toplanan: {currentAmount.toLocaleString('tr-TR')} TL</p>
             <p className="text-white/90 mb-4">Hedef: {targetAmount.toLocaleString('tr-TR')} TL</p>
 
