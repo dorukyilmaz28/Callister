@@ -1,6 +1,6 @@
 'use client'
 
-import { FormEvent, useMemo, useState } from 'react'
+import { useState } from 'react'
 
 type ProductItem = {
   id: string
@@ -8,23 +8,6 @@ type ProductItem = {
   description: string
   price: number
   requiresSize: boolean
-}
-
-type DeliveryOption = 'Okuldan teslim' | 'Etkinlik günü teslim'
-
-type OrderForm = {
-  fullName: string
-  email: string
-  phone: string
-  selectedItemId: string
-  size: string
-  quantity: number
-  deliveryPreference: DeliveryOption
-  note: string
-}
-
-type OrderRecord = OrderForm & {
-  createdAt: string
 }
 
 const PRODUCT_ITEMS: ProductItem[] = [
@@ -36,55 +19,47 @@ const PRODUCT_ITEMS: ProductItem[] = [
     requiresSize: false,
   },
   {
-    id: 'callister-sweatshirt',
-    name: 'Callister Sweatshirt',
+    id: 'callister-sweat',
+    name: 'Callister Sweat',
     description: 'Callister temalı özel sweatshirt. Etkinlik gününe özel stok.',
     price: 900,
     requiresSize: true,
   },
   {
-    id: 'archers-tshirt',
-    name: 'Archers T-Shirt',
-    description: 'Archers iş birliği koleksiyonundan sınırlı sayıda t-shirt.',
+    id: 'archers-sweat',
+    name: 'Archers Sweat',
+    description: 'Archers temalı özel sweatshirt. Sınırlı üretim.',
+    price: 900,
+    requiresSize: true,
+  },
+  {
+    id: 'callister-tshirt',
+    name: 'Callister T-Shirt',
+    description: 'Callister günlük kullanım t-shirt ürünü.',
     price: 500,
     requiresSize: true,
   },
   {
-    id: 'ozel-urun',
-    name: 'Callister x Archers Özel Ürün',
-    description: 'İki takımın ortak tasarımını taşıyan koleksiyon ürünü.',
-    price: 750,
+    id: 'archers-tshirt',
+    name: 'Archers T-Shirt',
+    description: 'Archers günlük kullanım t-shirt ürünü.',
+    price: 500,
     requiresSize: true,
   },
 ]
 
 const SIZE_OPTIONS = ['XS', 'S', 'M', 'L', 'XL']
-const DELIVERY_OPTIONS: DeliveryOption[] = ['Okuldan teslim', 'Etkinlik günü teslim']
 
 const targetAmount = 50000
 const currentAmount = 0
 const progressPercentage = Math.min((currentAmount / targetAmount) * 100, 100)
 
-const initialFormState: OrderForm = {
-  fullName: '',
-  email: '',
-  phone: '',
-  selectedItemId: '',
-  size: 'M',
-  quantity: 1,
-  deliveryPreference: 'Okuldan teslim',
-  note: '',
-}
-
 export default function LosevCallisterPage() {
-  const [formData, setFormData] = useState<OrderForm>(initialFormState)
-  const [orders, setOrders] = useState<OrderRecord[]>([])
-  const [errorMessage, setErrorMessage] = useState('')
-  const [successMessage, setSuccessMessage] = useState('')
-
-  const selectedItem = useMemo(
-    () => PRODUCT_ITEMS.find((item) => item.id === formData.selectedItemId),
-    [formData.selectedItemId],
+  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>(
+    PRODUCT_ITEMS.reduce((acc, item) => {
+      if (item.requiresSize) acc[item.id] = 'M'
+      return acc
+    }, {} as Record<string, string>),
   )
 
   const scrollToSection = (sectionId: string) => {
@@ -95,45 +70,9 @@ export default function LosevCallisterPage() {
   }
 
   const handleSelectItem = (itemId: string) => {
-    setFormData((prev) => ({ ...prev, selectedItemId: itemId }))
-    setSuccessMessage('')
-    setErrorMessage('')
-    scrollToSection('on-kayit-formu')
-  }
-
-  const validateForm = () => {
-    if (!formData.fullName.trim()) return 'Ad Soyad zorunludur.'
-    if (!formData.email.trim()) return 'E-posta zorunludur.'
-    if (!formData.phone.trim()) return 'Telefon zorunludur.'
-    if (!formData.selectedItemId) return 'Ürün/Bilet seçimi zorunludur.'
-    if (formData.quantity < 1) return 'Adet en az 1 olmalıdır.'
-    return ''
-  }
-
-  const handleSubmit = (event: FormEvent) => {
-    event.preventDefault()
-    const validationError = validateForm()
-    if (validationError) {
-      setErrorMessage(validationError)
-      setSuccessMessage('')
-      return
-    }
-
-    const nextOrder: OrderRecord = {
-      ...formData,
-      createdAt: new Date().toISOString(),
-    }
-
-    setOrders((prev) => [nextOrder, ...prev])
-    console.log('Ön kayıt/sipariş alındı:', nextOrder)
-
-    // TODO: Sipariş bilgileri API route'a gönderilecek.
-    // TODO: Siparişler veritabanına kaydedilecek.
-    // TODO: Admin panelden sipariş takibi yapılacak.
-
-    setFormData(initialFormState)
-    setErrorMessage('')
-    setSuccessMessage('Ön kaydınız alınmıştır. Ödeme ve teslimat detayları daha sonra paylaşılacaktır.')
+    const selectedSize = selectedSizes[itemId]
+    console.log('Ürün seçildi:', { itemId, size: selectedSize || 'Beden gerekmiyor' })
+    scrollToSection('odeme-yontemi')
   }
 
   return (
@@ -185,7 +124,7 @@ export default function LosevCallisterPage() {
             <h2 className="text-2xl sm:text-3xl font-bold text-white">Ürün ve Bilet Seçenekleri</h2>
             <p className="text-white/80 mt-2">Fiyatlar örnek olarak tanımlanmıştır. TODO: Gerçek fiyatlar güncellenecek.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-5">
             {PRODUCT_ITEMS.map((item) => (
               <article key={item.id} className="card p-5 flex flex-col">
                 <h3 className="text-xl font-semibold mb-2 text-white">{item.name}</h3>
@@ -194,7 +133,25 @@ export default function LosevCallisterPage() {
                   Tahmini Fiyat: {item.price.toLocaleString('tr-TR')} TL
                 </p>
                 {item.requiresSize ? (
-                  <p className="text-sm text-white/80 mb-4">Beden seçenekleri: {SIZE_OPTIONS.join(', ')}</p>
+                  <div className="mb-4">
+                    <p className="text-sm text-white/80 mb-2">Beden seçimi:</p>
+                    <select
+                      value={selectedSizes[item.id]}
+                      onChange={(e) =>
+                        setSelectedSizes((prev) => ({
+                          ...prev,
+                          [item.id]: e.target.value,
+                        }))
+                      }
+                      className="w-full rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
+                    >
+                      {SIZE_OPTIONS.map((size) => (
+                        <option key={size} value={size} className="text-black">
+                          {size}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
                 ) : (
                   <p className="text-sm text-white/80 mb-4">Beden seçimi gerektirmez.</p>
                 )}
@@ -210,136 +167,37 @@ export default function LosevCallisterPage() {
         </div>
       </section>
 
-      <section id="on-kayit-formu" className="py-10">
+      <section id="odeme-yontemi" className="py-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-white">Website İçi Ön Kayıt / Sipariş Formu</h2>
-
-            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <label className="flex flex-col gap-2">
-                <span className="text-sm font-medium">Ad Soyad *</span>
-                <input
-                  value={formData.fullName}
-                  onChange={(e) => setFormData((prev) => ({ ...prev, fullName: e.target.value }))}
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                />
-              </label>
-
-              <label className="flex flex-col gap-2">
-                <span className="text-sm font-medium">E-posta *</span>
-                <input
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => setFormData((prev) => ({ ...prev, email: e.target.value }))}
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                />
-              </label>
-
-              <label className="flex flex-col gap-2">
-                <span className="text-sm font-medium">Telefon *</span>
-                <input
-                  value={formData.phone}
-                  onChange={(e) => setFormData((prev) => ({ ...prev, phone: e.target.value }))}
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                />
-              </label>
-
-              <label className="flex flex-col gap-2">
-                <span className="text-sm font-medium">Ürün/Bilet seçimi *</span>
-                <select
-                  value={formData.selectedItemId}
-                  onChange={(e) => setFormData((prev) => ({ ...prev, selectedItemId: e.target.value }))}
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                >
-                  <option value="">Seçiniz</option>
-                  {PRODUCT_ITEMS.map((item) => (
-                    <option key={item.id} value={item.id} className="text-black">
-                      {item.name}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="flex flex-col gap-2">
-                <span className="text-sm font-medium">Beden</span>
-                <select
-                  value={formData.size}
-                  onChange={(e) => setFormData((prev) => ({ ...prev, size: e.target.value }))}
-                  disabled={!selectedItem?.requiresSize}
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none disabled:opacity-50"
-                >
-                  {SIZE_OPTIONS.map((size) => (
-                    <option key={size} value={size} className="text-black">
-                      {size}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="flex flex-col gap-2">
-                <span className="text-sm font-medium">Adet *</span>
-                <input
-                  type="number"
-                  min={1}
-                  value={formData.quantity}
-                  onChange={(e) =>
-                    setFormData((prev) => ({ ...prev, quantity: Number(e.target.value) || 0 }))
-                  }
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                />
-              </label>
-
-              <label className="flex flex-col gap-2 md:col-span-2">
-                <span className="text-sm font-medium">Teslimat tercihi</span>
-                <select
-                  value={formData.deliveryPreference}
-                  onChange={(e) =>
-                    setFormData((prev) => ({
-                      ...prev,
-                      deliveryPreference: e.target.value as DeliveryOption,
-                    }))
-                  }
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                >
-                  {DELIVERY_OPTIONS.map((option) => (
-                    <option key={option} value={option} className="text-black">
-                      {option}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="flex flex-col gap-2 md:col-span-2">
-                <span className="text-sm font-medium">Not</span>
-                <textarea
-                  value={formData.note}
-                  onChange={(e) => setFormData((prev) => ({ ...prev, note: e.target.value }))}
-                  rows={4}
-                  className="rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none resize-none"
-                />
-              </label>
-
-              {errorMessage && (
-                <p className="md:col-span-2 rounded-lg bg-red-500/20 border border-red-300/40 p-3 text-red-100">
-                  {errorMessage}
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Ödeme Yöntemi Nasıl Yapabiliriz?</h2>
+            <p className="text-white/90 leading-relaxed mb-6">
+              Firma olmadığınız için bireysel ve pratik ilerleyebileceğiniz yöntemleri aşağıda sıraladık.
+              Şu an bu sayfada ödeme altyapısı yok; yöntem seçimi ve duyurusu etkinlik sürecinde yapılabilir.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="rounded-xl border border-white/20 bg-white/5 p-4">
+                <h3 className="font-semibold text-white mb-2">Bireysel IBAN</h3>
+                <p className="text-sm text-white/80">
+                  Açıklama alanına ad-soyad + ürün adı yazdırarak manuel takip yapılabilir.
                 </p>
-              )}
-              {successMessage && (
-                <p className="md:col-span-2 rounded-lg bg-green-500/20 border border-green-300/40 p-3 text-green-100">
-                  {successMessage}
-                </p>
-              )}
-
-              <div className="md:col-span-2">
-                <button type="submit" className="btn-primary px-6 py-3">
-                  Ön Kaydı Tamamla
-                </button>
               </div>
-            </form>
-
-            {orders.length > 0 && (
-              <p className="mt-4 text-sm text-white/80">Alınan ön kayıt sayısı: {orders.length}</p>
-            )}
+              <div className="rounded-xl border border-white/20 bg-white/5 p-4">
+                <h3 className="font-semibold text-white mb-2">Shopier / Link ile Tahsilat</h3>
+                <p className="text-sm text-white/80">
+                  Bireysel satıcı linki ile ürün bazlı ödeme alınabilir, ardından sipariş listesiyle eşleştirilir.
+                </p>
+              </div>
+              <div className="rounded-xl border border-white/20 bg-white/5 p-4">
+                <h3 className="font-semibold text-white mb-2">Etkinlik Günü Teslimde Ödeme</h3>
+                <p className="text-sm text-white/80">
+                  Ürünü teslim ederken ödeme alma yöntemi; kontrol ve teslimat aynı anda ilerler.
+                </p>
+              </div>
+            </div>
+            <p className="text-sm text-white/75 mt-5">
+              TODO: Seçilecek ödeme yöntemi netleşince bu alana resmi etkinlik akışı eklenecek.
+            </p>
           </div>
         </div>
       </section>
