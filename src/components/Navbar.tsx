@@ -7,7 +7,7 @@ import { Menu, X } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import LanguageSwitcher from './LanguageSwitcher'
 
-type NavLink = { nameKey: string; href: string; external?: boolean }
+type NavLink = { nameKey?: string; label?: string; href: string; external?: boolean }
 
 const navLinks: NavLink[] = [
   { nameKey: 'nav.home', href: '/' },
@@ -19,6 +19,7 @@ const navLinks: NavLink[] = [
   { nameKey: 'nav.sponsors', href: '/sponsors' },
   { nameKey: 'nav.contact', href: '/contact' },
   { nameKey: 'nav.foundedTeams', href: '/founded-teams' },
+  { label: 'LÖSEV Bağış Gecesi', href: '/losev-callister' },
 ]
 
 export default function Navbar() {
@@ -109,14 +110,14 @@ export default function Navbar() {
                     rel="noopener noreferrer"
                     className="text-base lg:text-lg font-medium text-white px-2 py-1 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
                   >
-                    {t(link.nameKey)}
+                    {link.nameKey ? t(link.nameKey) : link.label}
                   </a>
                 ) : (
                   <Link
                     href={link.href}
                     className="text-base lg:text-lg font-medium text-white px-2 py-1 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
                   >
-                    {t(link.nameKey)}
+                    {link.nameKey ? t(link.nameKey) : link.label}
                   </Link>
                 )}
               </li>
@@ -155,7 +156,7 @@ export default function Navbar() {
                       onClick={closeMobileMenu}
                       className="text-2xl font-medium text-white px-4 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10"
                     >
-                      {t(link.nameKey)}
+                      {link.nameKey ? t(link.nameKey) : link.label}
                     </a>
                   ) : (
                     <Link
@@ -163,7 +164,7 @@ export default function Navbar() {
                       onClick={closeMobileMenu}
                       className="text-2xl font-medium text-white px-4 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10"
                     >
-                      {t(link.nameKey)}
+                      {link.nameKey ? t(link.nameKey) : link.label}
                     </Link>
                   )}
                 </li>

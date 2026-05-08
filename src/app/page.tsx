@@ -13,6 +13,36 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Hero />
+      <section className="py-8 sm:py-10 bg-gradient-to-br from-primary via-dark to-accent">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative overflow-hidden rounded-2xl border border-white/30 bg-white/10 backdrop-blur-sm p-6 sm:p-8 shadow-2xl">
+            <div className="absolute -top-16 -right-16 w-44 h-44 bg-pink-400/25 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute -bottom-20 -left-10 w-56 h-56 bg-purple-400/20 rounded-full blur-3xl pointer-events-none" />
+            <div className="relative flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+              <div>
+                <p className="inline-flex mb-3 px-3 py-1 text-sm rounded-full border border-white/35 bg-white/15 text-white/90">
+                  Yeni Etkinlik Sayfası
+                </p>
+                <h2 className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-2">
+                  LÖSEV Bağış Gecesi Ön Kayıtları Açıldı
+                </h2>
+                <p className="text-sm sm:text-base text-[#F5F5F5]/90 max-w-2xl">
+                  Bilet ve ürün seçeneklerini inceleyin, site içinden ön kaydınızı oluşturun. Ödeme ve teslimat detayları
+                  etkinlik sürecinde ayrıca paylaşılacaktır.
+                </p>
+              </div>
+              <div>
+                <Link
+                  href="/losev-callister"
+                  className="btn-primary inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-3.5 text-base"
+                >
+                  Ön Kayıta Git
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* About FRC Section */}
       <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary via-dark to-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
