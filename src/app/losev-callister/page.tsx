@@ -167,41 +167,6 @@ export default function LosevCallisterPage() {
         </div>
       </section>
 
-      <section id="odeme-yontemi" className="py-10">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="card p-6 sm:p-8">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Ödeme Yöntemi Nasıl Yapabiliriz?</h2>
-            <p className="text-white/90 leading-relaxed mb-6">
-              Firma olmadığınız için bireysel ve pratik ilerleyebileceğiniz yöntemleri aşağıda sıraladık.
-              Şu an bu sayfada ödeme altyapısı yok; yöntem seçimi ve duyurusu etkinlik sürecinde yapılabilir.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="rounded-xl border border-white/20 bg-white/5 p-4">
-                <h3 className="font-semibold text-white mb-2">Bireysel IBAN</h3>
-                <p className="text-sm text-white/80">
-                  Açıklama alanına ad-soyad + ürün adı yazdırarak manuel takip yapılabilir.
-                </p>
-              </div>
-              <div className="rounded-xl border border-white/20 bg-white/5 p-4">
-                <h3 className="font-semibold text-white mb-2">Shopier / Link ile Tahsilat</h3>
-                <p className="text-sm text-white/80">
-                  Bireysel satıcı linki ile ürün bazlı ödeme alınabilir, ardından sipariş listesiyle eşleştirilir.
-                </p>
-              </div>
-              <div className="rounded-xl border border-white/20 bg-white/5 p-4">
-                <h3 className="font-semibold text-white mb-2">Etkinlik Günü Teslimde Ödeme</h3>
-                <p className="text-sm text-white/80">
-                  Ürünü teslim ederken ödeme alma yöntemi; kontrol ve teslimat aynı anda ilerler.
-                </p>
-              </div>
-            </div>
-            <p className="text-sm text-white/75 mt-5">
-              TODO: Seçilecek ödeme yöntemi netleşince bu alana resmi etkinlik akışı eklenecek.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">Şeffaflık Taahhüdü</h2>
