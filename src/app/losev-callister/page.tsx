@@ -49,6 +49,13 @@ const PRODUCT_ITEMS: ProductItem[] = [
 ]
 
 const SIZE_OPTIONS = ['XS', 'S', 'M', 'L', 'XL']
+const SHOPIER_LINKS: Record<string, string> = {
+  bilet: 'https://www.shopier.com/',
+  'callister-sweat': 'https://www.shopier.com/',
+  'archers-sweat': 'https://www.shopier.com/',
+  'callister-tshirt': 'https://www.shopier.com/',
+  'archers-tshirt': 'https://www.shopier.com/',
+}
 
 const targetAmount = 50000
 const currentAmount = 0
@@ -67,12 +74,6 @@ export default function LosevCallisterPage() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
-  }
-
-  const handleSelectItem = (itemId: string) => {
-    const selectedSize = selectedSizes[itemId]
-    console.log('Ürün seçildi:', { itemId, size: selectedSize || 'Beden gerekmiyor' })
-    scrollToSection('odeme-yontemi')
   }
 
   return (
@@ -122,16 +123,13 @@ export default function LosevCallisterPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">Ürün ve Bilet Seçenekleri</h2>
-            <p className="text-white/80 mt-2">Fiyatlar örnek olarak tanımlanmıştır. TODO: Gerçek fiyatlar güncellenecek.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-5">
             {PRODUCT_ITEMS.map((item) => (
               <article key={item.id} className="card p-5 flex flex-col">
                 <h3 className="text-xl font-semibold mb-2 text-white">{item.name}</h3>
                 <p className="text-white/85 text-sm leading-relaxed mb-4">{item.description}</p>
-                <p className="text-lg font-bold mb-2 text-white">
-                  Tahmini Fiyat: {item.price.toLocaleString('tr-TR')} TL
-                </p>
+                <p className="text-lg font-bold mb-2 text-white">{item.price.toLocaleString('tr-TR')} TL</p>
                 {item.requiresSize ? (
                   <div className="mb-4">
                     <p className="text-sm text-white/80 mb-2">Beden seçimi:</p>
@@ -155,15 +153,20 @@ export default function LosevCallisterPage() {
                 ) : (
                   <p className="text-sm text-white/80 mb-4">Beden seçimi gerektirmez.</p>
                 )}
-                <button
-                  onClick={() => handleSelectItem(item.id)}
-                  className="mt-auto btn-primary py-2.5"
+                <a
+                  href={SHOPIER_LINKS[item.id]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto btn-primary py-2.5 text-center"
                 >
                   Seç
-                </button>
+                </a>
               </article>
             ))}
           </div>
+          <p className="text-center text-white/85 mt-6">
+            Ödemeler güvenli şekilde Shopier üzerinden alınacaktır.
+          </p>
         </div>
       </section>
 
