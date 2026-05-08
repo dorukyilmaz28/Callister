@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Menu, X } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import LanguageSwitcher from './LanguageSwitcher'
@@ -31,6 +31,7 @@ export default function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isDesktopMenuOpen, setIsDesktopMenuOpen] = useState(false)
+  const desktopMenuRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -60,6 +61,24 @@ export default function Navbar() {
     }
   }, [isMobileMenuOpen])
 
+  // Masaüstü menü dışına tıklayınca kapat
+  useEffect(() => {
+    if (!isDesktopMenuOpen) return
+
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (
+        desktopMenuRef.current &&
+        event.target instanceof Node &&
+        !desktopMenuRef.current.contains(event.target)
+      ) {
+        setIsDesktopMenuOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleOutsideClick)
+    return () => document.removeEventListener('mousedown', handleOutsideClick)
+  }, [isDesktopMenuOpen])
+
   // HTML lang attribute'unu güncelle
   useEffect(() => {
     document.documentElement.lang = currentLanguage
@@ -85,7 +104,7 @@ export default function Navbar() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <Link href="/" className="flex items-center gap-2 sm:gap-3 select-none" onClick={closeMobileMenu}>
+        <Link href="/" className="flex items-center gap-2 sm:gap-3 select-none z-10" onClick={closeMobileMenu}>
           {/* Animated Logo Video */}
           <div className="relative">
             <video
@@ -105,7 +124,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden lg:flex items-center gap-4 relative">
+        <div className="hidden lg:flex items-center gap-4 absolute left-1/2 -translate-x-1/2">
           <ul className="flex gap-4 items-center">
             {desktopPrimaryLinks.map((link) => (
               <li key={link.href}>
@@ -130,12 +149,13 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <div className="relative">
+          <div className="relative" ref={desktopMenuRef}>
             <button
               onClick={() => setIsDesktopMenuOpen((prev) => !prev)}
-              className="text-base lg:text-lg font-medium text-white px-3 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
+              className="text-white px-3 py-2 rounded transition-all duration-200 hover:text-soft hover:bg-white/10 hover:backdrop-blur-sm"
+              aria-label="Masaüstü menüyü aç"
             >
-              Menü
+              <Menu size={20} />
             </button>
 
             {isDesktopMenuOpen && (
@@ -167,7 +187,10 @@ export default function Navbar() {
             )}
           </div>
           
-          {/* Language Switcher */}
+        </div>
+
+        {/* Desktop right controls */}
+        <div className="hidden lg:flex items-center ml-auto z-10">
           <LanguageSwitcher />
         </div>
 
