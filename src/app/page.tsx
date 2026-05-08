@@ -24,11 +24,10 @@ export default function Home() {
                   Yeni Etkinlik Sayfası
                 </p>
                 <h2 className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-2">
-                  LÖSEV Bağış Gecesi Ön Kayıtları Açıldı
+                  LÖSEV Bağış Gecesi Ürün ve Bilet Satışı
                 </h2>
                 <p className="text-sm sm:text-base text-[#F5F5F5]/90 max-w-2xl">
-                  Bilet ve ürün seçeneklerini inceleyin, site içinden ön kaydınızı oluşturun. Ödeme ve teslimat detayları
-                  etkinlik sürecinde ayrıca paylaşılacaktır.
+                  Bilet ve ürün seçeneklerini inceleyin. Ödemeler güvenli şekilde Shopier üzerinden alınacaktır.
                 </p>
               </div>
               <div>
@@ -36,7 +35,7 @@ export default function Home() {
                   href="/losev-callister"
                   className="btn-primary inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-3.5 text-base"
                 >
-                  Ön Kayıta Git
+                  Ürünleri İncele
                 </Link>
               </div>
             </div>
