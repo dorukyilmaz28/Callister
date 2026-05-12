@@ -84,7 +84,7 @@ export default function LosevCallisterPage() {
             Sosyal Sorumluluk Etkinliği
           </p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">
-            LÖSEV Bağış Gecesi
+            Lösemili Çocuklar İçin Bağış Gecesi
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-white/90 mb-10">
             Callister #9024 ve Archers iş birliğiyle sosyal sorumluluk odaklı etkinlik.
@@ -112,7 +112,7 @@ export default function LosevCallisterPage() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Etkinlik Açıklaması</h2>
             <p className="text-white/90 leading-relaxed">
               Bu etkinlik kapsamında bilet ve özel tasarım ürün satışlarından elde edilen gelir, etkinlik sonunda
-              LÖSEV’e bağışlanacaktır. Etkinlik sonrası bağış süreci ve dekont bilgileri toplulukla şeffaf şekilde
+              lösemili çocuklar için bağışlanacaktır. Etkinlik sonrası bağış süreci ve dekont bilgileri toplulukla şeffaf şekilde
               paylaşılacaktır.
             </p>
           </div>
@@ -151,7 +151,7 @@ export default function LosevCallisterPage() {
                     </select>
                   </div>
                 ) : (
-                  <p className="text-sm text-white/80 mb-4">Beden seçimi gerektirmez.</p>
+                  <div className="mb-4" />
                 )}
                 <a
                   href={SHOPIER_LINKS[item.id]}
@@ -175,10 +175,10 @@ export default function LosevCallisterPage() {
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">Şeffaflık Taahhüdü</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              'Gelir etkinlik sonunda LÖSEV’e bağışlanacaktır.',
+              'Gelir etkinlik sonunda lösemili çocuklar için bağışlanacaktır.',
               'Bağış dekontu etkinlik sonrası paylaşılacaktır.',
               'Süreç danışman öğretmen/mentor kontrolünde yürütülecektir.',
-              'Bu sayfa şu an ön kayıt ve talep toplama amacıyla hazırlanmıştır.',
+              'Bu sayfa ürün ve bilet bilgilendirmesi amacıyla hazırlanmıştır.',
             ].map((item) => (
               <div key={item} className="card p-5 text-white/90">
                 {item}
@@ -201,9 +201,6 @@ export default function LosevCallisterPage() {
                 style={{ width: `${progressPercentage}%` }}
               />
             </div>
-            <p className="text-sm text-white/75 mt-3">
-              TODO: Toplanan tutar daha sonra gerçek verilerle güncellenecek.
-            </p>
           </div>
         </div>
       </section>
