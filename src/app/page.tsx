@@ -24,10 +24,10 @@ export default function Home() {
                   Yeni Etkinlik Sayfası
                 </p>
                 <h2 className="text-2xl sm:text-3xl font-bold text-[#F5F5F5] mb-2">
-                  LÖSEV Bağış Gecesi Ürün ve Bilet Satışı
+                  Lösemili Çocuklar Bağış Gecesi Ürün Satışı
                 </h2>
                 <p className="text-sm sm:text-base text-[#F5F5F5]/90 max-w-2xl">
-                  Bilet ve ürün seçeneklerini inceleyin. Ödemeler güvenli şekilde Shopier üzerinden alınacaktır.
+                  Ürün seçeneklerini inceleyin. Ödemeler güvenli şekilde Shopier üzerinden alınacaktır.
                 </p>
               </div>
               <div>

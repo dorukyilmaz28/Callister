@@ -1,56 +1,40 @@
 'use client'
 
-import { useState } from 'react'
-
 type ProductItem = {
   id: string
   name: string
   description: string
   price: number
-  requiresSize: boolean
 }
 
 const PRODUCT_ITEMS: ProductItem[] = [
-  {
-    id: 'bilet',
-    name: 'Bağış Gecesi Bileti',
-    description: 'Etkinliğe katılım bileti. Kontenjan durumuna göre önceliklendirme yapılır.',
-    price: 350,
-    requiresSize: false,
-  },
   {
     id: 'callister-sweat',
     name: 'Callister #9024 Sweatshirt',
     description: 'Callister #9024 temalı özel sweatshirt. Etkinlik gününe özel stok.',
     price: 900,
-    requiresSize: true,
   },
   {
     id: 'archers-sweat',
     name: 'Archers #9523 Sweatshirt',
     description: 'Archers #9523 temalı özel sweatshirt. Sınırlı üretim.',
     price: 900,
-    requiresSize: true,
   },
   {
     id: 'callister-tshirt',
     name: 'Callister #9024 Tişört',
     description: 'Callister #9024 günlük kullanım tişört.',
     price: 550,
-    requiresSize: true,
   },
   {
     id: 'archers-tshirt',
     name: 'Archers #9523 Tişört',
     description: 'Archers #9523 günlük kullanım tişört.',
     price: 550,
-    requiresSize: true,
   },
 ]
 
-const SIZE_OPTIONS = ['XS', 'S', 'M', 'L', 'XL']
 const SHOPIER_LINKS: Record<string, string> = {
-  bilet: 'https://www.shopier.com/',
   'callister-sweat': 'https://www.shopier.com/47142515',
   'archers-sweat': 'https://www.shopier.com/47142756',
   'callister-tshirt': 'https://www.shopier.com/47141940',
@@ -62,13 +46,6 @@ const currentAmount = 0
 const progressPercentage = Math.min((currentAmount / targetAmount) * 100, 100)
 
 export default function LosevCallisterPage() {
-  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>(
-    PRODUCT_ITEMS.reduce((acc, item) => {
-      if (item.requiresSize) acc[item.id] = 'M'
-      return acc
-    }, {} as Record<string, string>),
-  )
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
     if (element) {
@@ -91,16 +68,16 @@ export default function LosevCallisterPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
             <button
-              onClick={() => scrollToSection('urunler-biletler')}
+              onClick={() => scrollToSection('urunler')}
               className="btn-primary px-6 py-3 text-base"
             >
-              Biletleri İncele
+              Ürünleri İncele
             </button>
             <button
-              onClick={() => scrollToSection('urunler-biletler')}
+              onClick={() => scrollToSection('bagis-hedefi')}
               className="px-6 py-3 rounded-lg border border-white/30 bg-white/10 hover:bg-white/20 transition-colors"
             >
-              Ürünleri İncele
+              Bağış Hedefi
             </button>
           </div>
         </div>
@@ -111,7 +88,7 @@ export default function LosevCallisterPage() {
           <div className="card p-6 sm:p-8">
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Etkinlik Açıklaması</h2>
             <p className="text-white/90 leading-relaxed">
-              Bu etkinlik kapsamında bilet ve özel tasarım ürün satışlarından elde edilen gelir, etkinlik sonunda
+              Bu etkinlik kapsamında özel tasarım ürün satışlarından elde edilen gelir, etkinlik sonunda
               lösemili çocuklar için bağışlanacaktır. Etkinlik sonrası bağış süreci ve dekont bilgileri toplulukla şeffaf şekilde
               paylaşılacaktır.
             </p>
@@ -119,40 +96,17 @@ export default function LosevCallisterPage() {
         </div>
       </section>
 
-      <section id="urunler-biletler" className="py-10">
+      <section id="urunler" className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">Ürün ve Bilet Seçenekleri</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Ürün Seçenekleri</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
             {PRODUCT_ITEMS.map((item) => (
               <article key={item.id} className="card p-5 flex flex-col">
                 <h3 className="text-xl font-semibold mb-2 text-white">{item.name}</h3>
                 <p className="text-white/85 text-sm leading-relaxed mb-4">{item.description}</p>
-                <p className="text-lg font-bold mb-2 text-white">{item.price.toLocaleString('tr-TR')} TL</p>
-                {item.requiresSize ? (
-                  <div className="mb-4">
-                    <p className="text-sm text-white/80 mb-2">Beden seçimi:</p>
-                    <select
-                      value={selectedSizes[item.id]}
-                      onChange={(e) =>
-                        setSelectedSizes((prev) => ({
-                          ...prev,
-                          [item.id]: e.target.value,
-                        }))
-                      }
-                      className="w-full rounded-lg px-3 py-2 bg-white/10 border border-white/25 outline-none"
-                    >
-                      {SIZE_OPTIONS.map((size) => (
-                        <option key={size} value={size} className="text-black">
-                          {size}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                ) : (
-                  <div className="mb-4" />
-                )}
+                <p className="text-lg font-bold mb-4 text-white">{item.price.toLocaleString('tr-TR')} TL</p>
                 <a
                   href={SHOPIER_LINKS[item.id]}
                   target="_blank"
@@ -178,7 +132,7 @@ export default function LosevCallisterPage() {
               'Gelir etkinlik sonunda lösemili çocuklar için bağışlanacaktır.',
               'Bağış dekontu etkinlik sonrası paylaşılacaktır.',
               'Süreç danışman öğretmen/mentor kontrolünde yürütülecektir.',
-              'Bu sayfa ürün ve bilet bilgilendirmesi amacıyla hazırlanmıştır.',
+              'Bu sayfa ürün bilgilendirmesi amacıyla hazırlanmıştır.',
             ].map((item) => (
               <div key={item} className="card p-5 text-white/90">
                 {item}
@@ -188,7 +142,7 @@ export default function LosevCallisterPage() {
         </div>
       </section>
 
-      <section className="py-10 pb-16">
+      <section id="bagis-hedefi" className="py-10 pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-6 sm:p-8">
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Bağış Hedefi</h2>
