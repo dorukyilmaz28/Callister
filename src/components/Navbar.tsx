@@ -19,10 +19,10 @@ const navLinks: NavLink[] = [
   { nameKey: 'nav.sponsors', href: '/sponsors' },
   { nameKey: 'nav.contact', href: '/contact' },
   { nameKey: 'nav.foundedTeams', href: '/founded-teams' },
-  { label: 'Lösemili Çocuklar Bağış Gecesi', href: '/losev-callister' },
+  { label: 'Lösemili Çocuklar Bağış Gecesi', href: '/bagis-callister' },
 ]
 
-const desktopPrimaryHrefs = ['/', '/about', '/team', '/projects', '/losev-callister']
+const desktopPrimaryHrefs = ['/', '/about', '/team', '/projects', '/bagis-callister']
 
 export default function Navbar() {
   const { t, currentLanguage } = useLanguage()

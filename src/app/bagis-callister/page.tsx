@@ -45,7 +45,7 @@ const targetAmount = 50000
 const currentAmount = 0
 const progressPercentage = Math.min((currentAmount / targetAmount) * 100, 100)
 
-export default function LosevCallisterPage() {
+export default function BagisCallisterPage() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
     if (element) {
@@ -161,4 +161,3 @@ export default function LosevCallisterPage() {
     </div>
   )
 }
-

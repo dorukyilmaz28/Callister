@@ -32,7 +32,7 @@ export default function Home() {
               </div>
               <div>
                 <Link
-                  href="/losev-callister"
+                  href="/bagis-callister"
                   className="btn-primary inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-3.5 text-base"
                 >
                   Ürünleri İncele
