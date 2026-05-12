@@ -20,30 +20,30 @@ const PRODUCT_ITEMS: ProductItem[] = [
   },
   {
     id: 'callister-sweat',
-    name: 'Callister Sweat',
-    description: 'Callister temalı özel sweatshirt. Etkinlik gününe özel stok.',
+    name: 'Callister #9024 Sweatshirt',
+    description: 'Callister #9024 temalı özel sweatshirt. Etkinlik gününe özel stok.',
     price: 900,
     requiresSize: true,
   },
   {
     id: 'archers-sweat',
-    name: 'Archers Sweat',
-    description: 'Archers temalı özel sweatshirt. Sınırlı üretim.',
+    name: 'Archers #9523 Sweatshirt',
+    description: 'Archers #9523 temalı özel sweatshirt. Sınırlı üretim.',
     price: 900,
     requiresSize: true,
   },
   {
     id: 'callister-tshirt',
-    name: 'Callister T-Shirt',
-    description: 'Callister günlük kullanım t-shirt ürünü.',
-    price: 500,
+    name: 'Callister #9024 Tişört',
+    description: 'Callister #9024 günlük kullanım tişört.',
+    price: 550,
     requiresSize: true,
   },
   {
     id: 'archers-tshirt',
-    name: 'Archers T-Shirt',
-    description: 'Archers günlük kullanım t-shirt ürünü.',
-    price: 500,
+    name: 'Archers #9523 Tişört',
+    description: 'Archers #9523 günlük kullanım tişört.',
+    price: 550,
     requiresSize: true,
   },
 ]
@@ -51,10 +51,10 @@ const PRODUCT_ITEMS: ProductItem[] = [
 const SIZE_OPTIONS = ['XS', 'S', 'M', 'L', 'XL']
 const SHOPIER_LINKS: Record<string, string> = {
   bilet: 'https://www.shopier.com/',
-  'callister-sweat': 'https://www.shopier.com/',
-  'archers-sweat': 'https://www.shopier.com/',
-  'callister-tshirt': 'https://www.shopier.com/',
-  'archers-tshirt': 'https://www.shopier.com/',
+  'callister-sweat': 'https://www.shopier.com/47142515',
+  'archers-sweat': 'https://www.shopier.com/47142756',
+  'callister-tshirt': 'https://www.shopier.com/47141940',
+  'archers-tshirt': 'https://www.shopier.com/47142347',
 }
 
 const targetAmount = 50000
